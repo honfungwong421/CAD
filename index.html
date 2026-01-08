@@ -337,6 +337,89 @@
                 this.loadState();
                 this.navigate('dashboard');
                 this.quickEditState = null;
+                // Sync from GitHub on startup
+                this.importFromGithub();
+            }
+
+            async importFromGithub() {
+                const repoOwner = 'honfungwong421';
+                const repoName = 'CAD';
+                const path = 'bank';
+                const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${path}`;
+
+                console.log("Syncing from GitHub...");
+
+                try {
+                    const response = await fetch(apiUrl);
+                    if (!response.ok) {
+                        console.warn("GitHub sync failed", response.status);
+                        return;
+                    }
+                    const files = await response.json();
+                    
+                    let importedCount = 0;
+                    for (const file of files) {
+                        if (file.name.endsWith('.json')) {
+                            try {
+                                const rawRes = await fetch(file.download_url);
+                                const bankData = await rawRes.json();
+                                const banks = this.processImportedData(bankData, file.name);
+                                
+                                banks.forEach(b => {
+                                    const existingIdx = this.state.banks.findIndex(ex => ex.name === b.name);
+                                    if (existingIdx !== -1) {
+                                        // Update existing bank
+                                        const oldBank = this.state.banks[existingIdx];
+                                        b.id = oldBank.id; // Preserve ID
+                                        if (oldBank.savedSession) b.savedSession = oldBank.savedSession;
+                                        this.state.banks[existingIdx] = b;
+                                    } else {
+                                        this.state.banks.push(b);
+                                    }
+                                    importedCount++;
+                                });
+                            } catch (e) {
+                                console.error("Error importing file", file.name, e);
+                            }
+                        }
+                    }
+                    
+                    if (importedCount > 0) {
+                        this.saveState();
+                        // Only refresh if we are on dashboard to show new items
+                        if (!this.state.editingBank && !this.state.quizSession) {
+                            this.initDashboard();
+                        }
+                        console.log(`Synced ${importedCount} banks from GitHub`);
+                    }
+                } catch (e) {
+                    console.error("GitHub Sync Error", e);
+                }
+            }
+
+            processImportedData(data, filename) {
+                let result = [];
+                // Case A: Single Standard Bank
+                if (data.questions && Array.isArray(data.questions) && data.questions.length > 0 && data.questions[0].choices) {
+                    if (!data.id) data.id = Utils.generateId();
+                    if (!data.name) data.name = filename.replace('.json', '');
+                    result.push(data);
+                } 
+                // Case B: Array of Standard Banks
+                else if (Array.isArray(data) && data.length > 0 && data[0].questions) {
+                    data.forEach(b => {
+                        if (!b.id) b.id = Utils.generateId();
+                        result.push(b);
+                    });
+                }
+                // Case C: Non-standard / External Format
+                else {
+                    const normalized = this.normalizeImportData(data, filename);
+                    if (normalized) {
+                        result.push(normalized);
+                    }
+                }
+                return result;
             }
 
             loadState() {
@@ -392,16 +475,17 @@
                 
                 empty.classList.add('hidden');
 
-                this.state.banks.forEach(bank => {
+                this.state.banks.forEach((bank, index) => {
                     const card = document.createElement('div');
                     card.className = "bg-white p-6 rounded-lg shadow hover:shadow-md transition border border-gray-100 flex flex-col";
+                    // Using array index access for handlers avoids issues with special characters (quotes) in IDs
                     card.innerHTML = `
                         <div class="flex justify-between items-start mb-4">
-                            <h3 class="text-lg font-bold text-gray-800 truncate pr-2 flex-1 cursor-pointer hover:text-blue-600 transition" onclick="app.editBank('${bank.id}')" title="Edit Questions">${bank.name}</h3>
+                            <h3 class="text-lg font-bold text-gray-800 truncate pr-2 flex-1 cursor-pointer hover:text-blue-600 transition" onclick="app.editBank(app.state.banks[${index}].id)" title="Edit Questions">${bank.name}</h3>
                             <div class="flex gap-1">
-                                <button onclick="app.exportBank('${bank.id}')" class="p-2 text-gray-400 hover:text-blue-600 transition" title="Export JSON"><i class="fas fa-file-export"></i></button>
-                                <button onclick="app.editBank('${bank.id}')" class="p-2 text-gray-400 hover:text-green-600 transition" title="Edit Questions"><i class="fas fa-edit"></i></button>
-                                <button onclick="app.deleteBank('${bank.id}')" class="p-2 text-gray-400 hover:text-red-600 transition" title="Delete Bank"><i class="fas fa-trash"></i></button>
+                                <button onclick="app.exportBank(app.state.banks[${index}].id)" class="p-2 text-gray-400 hover:text-blue-600 transition" title="Export JSON"><i class="fas fa-file-export"></i></button>
+                                <button onclick="app.editBank(app.state.banks[${index}].id)" class="p-2 text-gray-400 hover:text-green-600 transition" title="Edit Questions"><i class="fas fa-edit"></i></button>
+                                <button onclick="app.deleteBank(app.state.banks[${index}].id)" class="p-2 text-gray-400 hover:text-red-600 transition" title="Delete Bank"><i class="fas fa-trash"></i></button>
                             </div>
                         </div>
                         <div class="text-sm text-gray-500 mb-4">
@@ -410,11 +494,11 @@
                         ${bank.savedSession ? `
                         <div class="bg-yellow-50 text-yellow-800 text-xs p-2 rounded mb-4 flex justify-between items-center">
                             <span><i class="fas fa-save mr-1"></i> Saved Progress</span>
-                            <button onclick="app.resumeQuiz('${bank.id}')" class="underline font-bold hover:text-yellow-900">Resume</button>
+                            <button onclick="app.resumeQuiz(app.state.banks[${index}].id)" class="underline font-bold hover:text-yellow-900">Resume</button>
                         </div>
                         ` : ''}
                         <div class="mt-auto">
-                            <button onclick="app.setupQuiz('${bank.id}')" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition font-bold shadow-sm">Practice Now</button>
+                            <button onclick="app.setupQuiz(app.state.banks[${index}].id)" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition font-bold shadow-sm">Practice Now</button>
                         </div>
                     `;
                     list.appendChild(card);
@@ -526,84 +610,6 @@
                 } finally {
                     const loader = document.getElementById('loading-indicator');
                     if(loader) loader.classList.add('hidden');
-                    input.value = '';
-                }
-            }
-
-            async handleDocxUpload(input) {
-                if (!input.files || !input.files[0]) return;
-                const file = input.files[0];
-                document.getElementById('loading-indicator').classList.remove('hidden');
-                document.getElementById('loading-text').textContent = "Processing Word file...";
-
-                try {
-                    const arrayBuffer = await file.arrayBuffer();
-                    const result = await mammoth.convertToHtml({ arrayBuffer: arrayBuffer });
-                    let html = result.value;
-                    
-                    // Mark bold text with *
-                    html = html.replace(/<strong[^>]*>(.*?)<\/strong>/gi, '*$1*');
-                    html = html.replace(/<b[^>]*>(.*?)<\/b>/gi, '*$1*');
-
-                    // DOM Processing for Lists
-                    const temp = document.createElement('div');
-                    temp.innerHTML = html;
-
-                    // 1. Nested lists (Choices -> a, b, c)
-                    temp.querySelectorAll('li > ol, li > ul').forEach(list => {
-                        Array.from(list.children).forEach((li, i) => {
-                            if(li.tagName === 'LI') li.prepend(document.createTextNode(String.fromCharCode(97 + i) + ') '));
-                        });
-                    });
-                    
-                    // 2. Lists following Paragraphs (Choices -> a, b, c)
-                    temp.querySelectorAll('p + ol, p + ul').forEach(list => {
-                        Array.from(list.children).forEach((li, i) => {
-                            if(li.tagName === 'LI') li.prepend(document.createTextNode(String.fromCharCode(97 + i) + ') '));
-                        });
-                    });
-
-                    // 3. Other lists (Questions -> 1, 2, 3)
-                    temp.querySelectorAll('ol, ul').forEach(list => {
-                        const firstLi = list.querySelector('li');
-                        // Apply only if not already labeled
-                        if (firstLi && !firstLi.innerText.match(/^[a-z]\)/)) {
-                             Array.from(list.children).forEach((li, i) => {
-                                if(li.tagName === 'LI') li.prepend(document.createTextNode((i + 1) + '. '));
-                            });
-                        }
-                    });
-                    
-                    // Cleanup for text parsing
-                    let newHtml = temp.innerHTML;
-                    newHtml = newHtml.replace(/<\/p>/gi, '\n');
-                    newHtml = newHtml.replace(/<\/li>/gi, '\n');
-                    newHtml = newHtml.replace(/<br\s*\/?>/gi, '\n');
-                    
-                    temp.innerHTML = newHtml;
-                    const text = temp.textContent || temp.innerText;
-                    
-                    document.getElementById('loading-text').textContent = "Parsing questions...";
-                    const questions = this.parseQuestionsFromText(text);
-                    
-                    if (questions.length === 0) {
-                        alert("No questions found. Check format.");
-                    } else {
-                         const newBank = {
-                            id: Utils.generateId(),
-                            name: file.name.replace('.docx', ''),
-                            questions: questions,
-                            created: Date.now()
-                        };
-                        this.state.banks.push(newBank);
-                        this.saveState();
-                        this.editBank(newBank.id);
-                    }
-                } catch (e) {
-                    console.error(e);
-                    alert("Error: " + e.message);
-                } finally {
-                    document.getElementById('loading-indicator').classList.add('hidden');
                     input.value = '';
                 }
             }
@@ -770,39 +776,26 @@
                 reader.onload = (e) => {
                     try {
                         const data = JSON.parse(e.target.result);
-                        let banksToAdd = [];
-
-                        // Case A: Single Standard Bank
-                        if (data.questions && Array.isArray(data.questions) && data.questions.length > 0 && data.questions[0].choices) {
-                            data.id = Utils.generateId();
-                            banksToAdd.push(data);
-                        } 
-                        // Case B: Array of Standard Banks
-                        else if (Array.isArray(data) && data.length > 0 && data[0].questions) {
-                            data.forEach(b => {
-                                b.id = Utils.generateId();
-                                banksToAdd.push(b);
-                            });
-                        }
-                        // Case C: Non-standard / External Format
-                        else {
-                            const normalized = this.normalizeImportData(data, file.name);
-                            if (normalized) {
-                                banksToAdd.push(normalized);
-                            } else {
-                                throw new Error("Could not recognize question format.");
-                            }
+                        const banks = this.processImportedData(data, file.name);
+                        
+                        if (banks.length === 0) {
+                             alert("Could not recognize question format.");
+                             return;
                         }
 
-                        this.state.banks.push(...banksToAdd);
+                        banks.forEach(b => {
+                            b.id = Utils.generateId(); // Force new ID for manual import
+                            this.state.banks.push(b);
+                        });
+
                         this.saveState();
-                        if (banksToAdd.length === 1) {
-                            this.editBank(banksToAdd[0].id);
+                        
+                        if (banks.length === 1) {
+                            this.editBank(banks[0].id);
                         } else {
                             this.navigate('dashboard');
-                            alert(`Successfully imported ${banksToAdd.length} question bank(s).`);
+                            alert(`Successfully imported ${banks.length} question bank(s).`);
                         }
-
                     } catch (err) {
                         console.error(err);
                         alert("Failed to import JSON: " + err.message);
@@ -906,9 +899,18 @@
             }
 
             exportBank(id) {
-                const bank = this.state.banks.find(b => b.id === id);
-                if (bank) {
-                    Utils.downloadJson(bank, `${bank.name}_export.json`);
+                try {
+                    const bank = this.state.banks.find(b => b.id === id);
+                    if (bank) {
+                        const nameStr = bank.name ? String(bank.name) : 'question_bank';
+                        const safeName = nameStr.replace(/[^a-z0-9\s\-_]/gi, '').trim() || 'question_bank';
+                        Utils.downloadJson(bank, `${safeName}_export.json`);
+                    } else {
+                        alert("Error: Question bank not found. Please refresh the page.");
+                    }
+                } catch (e) {
+                    console.error("Export failed:", e);
+                    alert("Export failed: " + e.message);
                 }
             }
 
@@ -1302,7 +1304,7 @@
                 const answers = Object.values(session.answers);
                 const correct = answers.filter(a => a.isCorrect).length;
                 const wrong = answers.filter(a => !a.isCorrect).length;
-                const score = Math.round((correct / session.questions.length) * 100);
+                const score = session.questions.length > 0 ? Math.round((correct / session.questions.length) * 100) : 0;
 
                 document.getElementById('result-score').textContent = score + '%';
                 document.getElementById('result-correct').textContent = correct;
