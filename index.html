@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Practice Webapp</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    </script>
+    <style>
+        .fade-in { animation: fadeIn 0.3s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .hidden { display: none; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white shadow-md p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold cursor-pointer" onclick="app.navigate('dashboard')"><i class="fas fa-graduation-cap mr-2"></i>MCQ Master</h1>
+            <nav>
+                <button onclick="app.navigate('dashboard')" class="hover:bg-blue-700 px-3 py-1 rounded transition">Dashboard</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="app-container" class="container mx-auto p-4 flex-grow">
+        <!-- Dynamic Content will be injected here -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 text-center p-4 mt-auto flex justify-center items-center gap-4">
+        <p>&copy; 2024 MCQ Practice Webapp.</p>
+        <button onclick="if(confirm('Clear all data?')) { localStorage.clear(); location.reload(); }" class="text-xs bg-gray-700 hover:bg-red-900 px-2 py-1 rounded transition">Reset App</button>
+    </footer>
+
+    <!-- Templates (Hidden) -->
+    
+    <!-- Dashboard Template -->
+    <template id="tpl-dashboard">
+        <div class="space-y-8 fade-in">
+            <div class="text-center space-y-2">
+                <h2 class="text-3xl font-bold text-gray-800">Your Question Banks</h2>
+                <p class="text-gray-500">Manage, edit, and practice your quizzes.</p>
+            </div>
+
+            <!-- Consolidated Import Box -->
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center max-w-3xl mx-auto">
+                <h3 class="text-gray-700 font-bold mb-4">Import New Questions</h3>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <label class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg cursor-pointer shadow hover:shadow-lg transition flex items-center gap-2 transform hover:-translate-y-1">
+                        <i class="fas fa-file-pdf text-xl"></i> 
+                        <span class="font-medium">Import PDF</span>
+                        <input type="file" id="pdf-upload" accept=".pdf" class="hidden" onchange="app.handlePdfUpload(this)">
+                    </label>
+
+                    <label class="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg cursor-pointer shadow hover:shadow-lg transition flex items-center gap-2 transform hover:-translate-y-1">
+                        <i class="fas fa-file-import text-xl"></i> 
+                        <span class="font-medium">Import JSON</span>
+                        <input type="file" id="json-upload" accept=".json" class="hidden" onchange="app.handleJsonUpload(this)">
+                    </label>
+                </div>
+                <p class="text-xs text-gray-400 mt-4">
+                    Supports <span class="font-semibold">PDF</span> with answers marked by <strong>*</strong> or <strong>bold</strong>.
+                </p>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loading-indicator" class="hidden p-4 bg-blue-50 text-blue-700 rounded border border-blue-200 flex items-center justify-center">
+                <i class="fas fa-spinner fa-spin mr-3"></i> <span id="loading-text">Processing...</span>
+            </div>
+
+            <div id="bank-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Banks will be rendered here -->
+            </div>
+            
+            <div id="empty-state" class="hidden text-center py-12">
+                <i class="fas fa-arrow-up text-gray-300 text-4xl mb-4 animate-bounce"></i>
+                <p class="text-gray-500 font-medium">No question banks yet.</p>
+                <p class="text-gray-400 text-sm">Use the buttons above to get started.</p>
+            </div>
+        </div>
+    </template>
+
+    <!-- Editor Template -->
+    <template id="tpl-editor">
+        <div class="space-y-6 fade-in h-full flex flex-col">
+            <div class="flex justify-between items-center bg-white p-4 rounded shadow sticky top-0 z-10">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-800" id="editor-title">Editing Bank</h2>
+                    <p class="text-xs text-gray-500" id="editor-subtitle">0 questions</p>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="app.addQuestion()" class="bg-blue-100 text-blue-700 hover:bg-blue-200 px-3 py-1 rounded transition"><i class="fas fa-plus"></i> Add Question</button>
+                    <button onclick="app.saveEditorChanges()" class="bg-green-600 text-white hover:bg-green-700 px-4 py-2 rounded transition shadow">Save Changes</button>
+                    <button onclick="if(confirm('Discard unsaved changes?')) app.navigate('dashboard')" class="bg-gray-200 text-gray-700 hover:bg-gray-300 px-4 py-2 rounded transition">Close</button>
+                </div>
+            </div>
+
+            <div id="editor-questions-list" class="space-y-4 pb-20">
+                <!-- Questions injected here -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Quiz Setup Template -->
+    <template id="tpl-quiz-setup">
+        <div class="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-8 fade-in mt-10">
+            <h2 class="text-2xl font-bold mb-6 text-gray-800 border-b pb-2">Quiz Setup</h2>
+            
+            <div class="space-y-6">
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Question Bank</label>
+                    <div class="text-lg font-semibold text-blue-600" id="setup-bank-name">Bank Name</div>
+                    <div class="text-sm text-gray-500" id="setup-total-questions">Total questions available: 0</div>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2">Number of Questions</label>
+                    <input type="number" id="setup-count" class="w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 p-2 border" min="1">
+                </div>
+
+                <div class="flex items-center">
+                    <input type="checkbox" id="setup-shuffle" class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                    <label for="setup-shuffle" class="ml-2 block text-gray-700">Shuffle Questions</label>
+                </div>
+
+                <div class="flex items-center">
+                    <input type="checkbox" id="setup-real-dope" class="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded">
+                    <label for="setup-real-dope" class="ml-2 block text-gray-700 font-bold text-purple-700">Real dope shit mode <span class="text-xs font-normal text-gray-500">(No immediate feedback)</span></label>
+                </div>
+
+                <div class="pt-4 flex gap-4">
+                    <button onclick="app.startQuiz()" class="flex-1 bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 font-bold shadow transition">Start Practice</button>
+                    <button onclick="app.navigate('dashboard')" class="px-6 py-3 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-700 font-medium transition">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Quiz Mode Template -->
+    <template id="tpl-quiz">
+        <div class="max-w-4xl mx-auto h-full flex flex-col fade-in">
+            <!-- Quiz Header -->
+            <div class="bg-white p-4 rounded-b shadow-sm mb-4 flex justify-between items-center sticky top-0 z-20">
+                <div>
+                    <span class="text-xs font-bold text-gray-500 uppercase tracking-wide">Progress</span>
+                    <div class="text-xl font-bold text-blue-600">
+                        <span id="quiz-current">1</span> / <span id="quiz-total">10</span>
+                    </div>
+                </div>
+                <div class="flex gap-4 text-center" id="quiz-stats-display">
+                    <div>
+                        <div class="text-xs text-green-600 font-bold">Correct</div>
+                        <div class="font-mono text-lg" id="quiz-score-correct">0</div>
+                    </div>
+                    <div>
+                        <div class="text-xs text-red-500 font-bold">Wrong</div>
+                        <div class="font-mono text-lg" id="quiz-score-wrong">0</div>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    <button onclick="app.openQuickEdit()" class="text-sm bg-blue-100 hover:bg-blue-200 text-blue-700 px-3 py-1 rounded transition" title="Edit current question">
+                        <i class="fas fa-edit mr-1"></i> Edit
+                    </button>
+                    <button onclick="app.saveAndQuitQuiz()" class="text-sm bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-1 rounded transition">
+                        <i class="fas fa-save mr-1"></i> Save & Quit
+                    </button>
+                </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex-grow overflow-y-auto mb-4" id="quiz-card">
+                <div class="mb-6">
+                    <h3 class="text-xl md:text-2xl font-medium text-gray-800 leading-relaxed whitespace-pre-wrap" id="quiz-question-text">
+                        Question text goes here...
+                    </h3>
+                    <div id="quiz-image-container" class="hidden mt-4 mb-4 flex justify-center">
+                        <img id="quiz-question-image" src="" alt="Question Image" class="max-w-full max-h-96 rounded shadow-sm">
+                    </div>
+                </div>
+
+                <div class="space-y-3" id="quiz-choices">
+                    <!-- Choices injected here -->
+                </div>
+                
+                <div id="quiz-feedback" class="hidden mt-6 p-4 rounded-lg border">
+                    <!-- Feedback injected here -->
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <div class="flex justify-between items-center p-4 bg-gray-50 rounded-t-lg">
+                <button id="btn-prev" onclick="app.prevQuestion()" class="px-4 py-2 bg-white border border-gray-300 rounded shadow-sm text-gray-600 hover:bg-gray-50 disabled:opacity-50">
+                    <i class="fas fa-chevron-left mr-1"></i> Previous
+                </button>
+                <button id="btn-next" onclick="app.nextQuestion()" class="px-6 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 font-medium">
+                    Next <i class="fas fa-chevron-right ml-1"></i>
+                </button>
+                <button id="btn-finish" onclick="app.finishQuiz()" class="hidden px-6 py-2 bg-green-600 text-white rounded shadow hover:bg-green-700 font-medium">
+                    Finish <i class="fas fa-flag-checkered ml-1"></i>
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Results Template -->
+    <template id="tpl-results">
+        <div class="max-w-4xl mx-auto fade-in pb-20">
+            <div class="bg-white rounded-lg shadow-lg p-8 text-center mb-8 mt-8">
+                <div class="inline-block p-4 rounded-full bg-blue-100 text-blue-600 text-4xl mb-4">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-800 mb-2">Practice Completed!</h2>
+                <div class="flex justify-center gap-8 mt-6">
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-gray-800" id="result-score">80%</div>
+                        <div class="text-gray-500 uppercase text-xs tracking-wide">Score</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-green-600" id="result-correct">8</div>
+                        <div class="text-gray-500 uppercase text-xs tracking-wide">Correct</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-4xl font-bold text-red-500" id="result-wrong">2</div>
+                        <div class="text-gray-500 uppercase text-xs tracking-wide">Wrong</div>
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-center gap-4">
+                    <button onclick="app.navigate('dashboard')" class="bg-gray-600 text-white px-6 py-2 rounded hover:bg-gray-700 transition">Back to Dashboard</button>
+                    <button onclick="app.retryWrong()" id="btn-retry-wrong" class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition">Retry Wrong Answers</button>
+                </div>
+            </div>
+
+            <div id="review-section" class="hidden">
+                <h3 class="text-xl font-bold text-gray-700 mb-4 px-2">Review Incorrect Answers</h3>
+                <div id="review-list" class="space-y-6">
+                    <!-- Incorrect questions review injected here -->
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- Quick Edit Modal -->
+    <div id="modal-quick-edit" class="fixed inset-0 bg-black bg-opacity-50 hidden z-50 flex justify-center items-center p-4">
+        <div class="bg-white rounded-lg shadow-xl w-full max-w-2xl max-h-[90vh] flex flex-col fade-in">
+            <div class="p-4 border-b flex justify-between items-center bg-gray-50 rounded-t-lg">
+                <h3 class="font-bold text-lg">Edit Question</h3>
+                <button onclick="document.getElementById('modal-quick-edit').classList.add('hidden')" class="text-gray-500 hover:text-gray-700"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="p-4 overflow-y-auto flex-1 space-y-4" id="quick-edit-content">
+                <!-- Content injected by JS -->
+            </div>
+            <div class="p-4 border-t bg-gray-50 rounded-b-lg flex justify-end gap-2">
+                <button onclick="document.getElementById('modal-quick-edit').classList.add('hidden')" class="px-4 py-2 border rounded hover:bg-gray-100">Cancel</button>
+                <button onclick="app.saveQuickEdit()" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 shadow">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- App Logic ---
+
+        const Utils = {
+            generateId: () => Math.random().toString(36).substr(2, 9),
+            shuffle: (array) => {
+                let currentIndex = array.length, randomIndex;
+                while (currentIndex != 0) {
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex--;
+                    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+                }
+                return array;
+            },
+            downloadJson: (data, filename) => {
+                const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            },
+            compressImage: (file) => {
+                return new Promise((resolve, reject) => {
+                    const reader = new FileReader();
+                    reader.readAsDataURL(file);
+                    reader.onload = (event) => {
+                        const img = new Image();
+                        img.src = event.target.result;
+                        img.onload = () => {
+                            const canvas = document.createElement('canvas');
+                            let width = img.width;
+                            let height = img.height;
+                            const MAX_WIDTH = 800;
+                            const MAX_HEIGHT = 800;
+                            if (width > height) {
+                                if (width > MAX_WIDTH) {
+                                    height *= MAX_WIDTH / width;
+                                    width = MAX_WIDTH;
+                                }
+                            } else {
+                                if (height > MAX_HEIGHT) {
+                                    width *= MAX_HEIGHT / height;
+                                    height = MAX_HEIGHT;
+                                }
+                            }
+                            canvas.width = width;
+                            canvas.height = height;
+                            const ctx = canvas.getContext('2d');
+                            ctx.drawImage(img, 0, 0, width, height);
+                            resolve(canvas.toDataURL('image/jpeg', 0.7));
+                        };
+                        img.onerror = reject;
+                    };
+                    reader.onerror = reject;
+                });
+            }
+        };
+
+        class App {
+            constructor() {
+                this.container = document.getElementById('app-container');
+                this.state = {
+                    banks: [],
+                    currentBankId: null,
+                    quizSession: null,
+                    editingBank: null
+                };
+                this.loadState();
+                this.navigate('dashboard');
+                this.quickEditState = null;
+            }
+
+            loadState() {
+                const saved = localStorage.getItem('mcq-app-data');
+                if (saved) {
+                    try {
+                        const parsed = JSON.parse(saved);
+                        this.state.banks = parsed.banks || [];
+                    } catch (e) {
+                        console.error("Failed to load state", e);
+                        this.state.banks = [];
+                    }
+                }
+            }
+
+            saveState() {
+                try {
+                    localStorage.setItem('mcq-app-data', JSON.stringify({
+                        banks: this.state.banks
+                    }));
+                } catch (e) {
+                    alert("Storage full! Please delete some banks or images.");
+                }
+            }
+
+            navigate(view, data = null) {
+                this.container.innerHTML = '';
+                const tpl = document.getElementById(`tpl-${view}`);
+                if (!tpl) return;
+                
+                const content = tpl.content.cloneNode(true);
+                this.container.appendChild(content);
+
+                if (view === 'dashboard') this.initDashboard();
+                if (view === 'editor') this.initEditor(data);
+                if (view === 'quiz-setup') this.initQuizSetup(data);
+                if (view === 'quiz') this.initQuiz();
+                if (view === 'results') this.initResults();
+            }
+
+            // --- Dashboard ---
+
+            initDashboard() {
+                const list = document.getElementById('bank-list');
+                const empty = document.getElementById('empty-state');
+                
+                list.innerHTML = '';
+
+                if (this.state.banks.length === 0) {
+                    empty.classList.remove('hidden');
+                    return;
+                }
+                
+                empty.classList.add('hidden');
+
+                this.state.banks.forEach(bank => {
+                    const card = document.createElement('div');
+                    card.className = "bg-white p-6 rounded-lg shadow hover:shadow-md transition border border-gray-100 flex flex-col";
+                    card.innerHTML = `
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-gray-800 truncate pr-2 flex-1 cursor-pointer hover:text-blue-600 transition" onclick="app.editBank('${bank.id}')" title="Edit Questions">${bank.name}</h3>
+                            <div class="flex gap-1">
+                                <button onclick="app.exportBank('${bank.id}')" class="p-2 text-gray-400 hover:text-blue-600 transition" title="Export JSON"><i class="fas fa-file-export"></i></button>
+                                <button onclick="app.editBank('${bank.id}')" class="p-2 text-gray-400 hover:text-green-600 transition" title="Edit Questions"><i class="fas fa-edit"></i></button>
+                                <button onclick="app.deleteBank('${bank.id}')" class="p-2 text-gray-400 hover:text-red-600 transition" title="Delete Bank"><i class="fas fa-trash"></i></button>
+                            </div>
+                        </div>
+                        <div class="text-sm text-gray-500 mb-4">
+                            <i class="fas fa-list-ul mr-1"></i> ${bank.questions.length} Questions
+                        </div>
+                        ${bank.savedSession ? `
+                        <div class="bg-yellow-50 text-yellow-800 text-xs p-2 rounded mb-4 flex justify-between items-center">
+                            <span><i class="fas fa-save mr-1"></i> Saved Progress</span>
+                            <button onclick="app.resumeQuiz('${bank.id}')" class="underline font-bold hover:text-yellow-900">Resume</button>
+                        </div>
+                        ` : ''}
+                        <div class="mt-auto">
+                            <button onclick="app.setupQuiz('${bank.id}')" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 transition font-bold shadow-sm">Practice Now</button>
+                        </div>
+                    `;
+                    list.appendChild(card);
+                });
+            }
+
+            async handlePdfUpload(input) {
+                if (!input.files || !input.files[0]) return;
+                const file = input.files[0];
+                
+                document.getElementById('loading-indicator').classList.remove('hidden');
+                document.getElementById('loading-text').textContent = `Reading ${file.name}...`;
+
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+                    
+                    let fullText = "";
+                    const totalPages = pdf.numPages;
+
+                    for (let i = 1; i <= totalPages; i++) {
+                        document.getElementById('loading-text').textContent = `Scanning page ${i} of ${totalPages}...`;
+                        const page = await pdf.getPage(i);
+                        const textContent = await page.getTextContent();
+                        const styles = textContent.styles;
+
+                        // Pass 1: Calc mode height to detect remarks (small text)
+                        const heights = {};
+                        textContent.items.forEach(item => {
+                            const h = Math.round(Math.abs(item.transform[3]) * 10) / 10;
+                            if (h > 0) heights[h] = (heights[h] || 0) + 1;
+                        });
+                        let modeHeight = 0;
+                        let maxCount = 0;
+                        for (const [h, count] of Object.entries(heights)) {
+                            if (count > maxCount) {
+                                maxCount = count;
+                                modeHeight = parseFloat(h);
+                            }
+                        }
+                        
+                        // Pass 2: Process items
+                        const items = textContent.items.map(item => {
+                            let str = item.str;
+                            
+                            // Bold detection
+                            if (item.fontName && styles[item.fontName]) {
+                                const fontData = styles[item.fontName];
+                                const isBold = (fontData.fontFamily || '').toLowerCase().includes('bold') || 
+                                               (fontData.name || '').toLowerCase().includes('bold') || 
+                                               item.fontName.toLowerCase().includes('bold');
+                                if (isBold) str = '*' + str + '*';
+                            }
+
+                            // Small text detection (Remark) - e.g. < 90% of body text size
+                            const h = Math.abs(item.transform[3]);
+                            if (modeHeight > 0 && h < modeHeight * 0.9) {
+                                str = '{{SMALL}}' + str;
+                            }
+                            
+                            return {
+                                str: str,
+                                x: item.transform[4],
+                                y: item.transform[5],
+                                hasEOL: item.hasEOL
+                            };
+                        });
+
+                        items.sort((a, b) => {
+                            if (Math.abs(a.y - b.y) > 5) return b.y - a.y; 
+                            return a.x - b.x; 
+                        });
+
+                        let pageText = "";
+                        let lastY = -1;
+                        items.forEach(item => {
+                            if (lastY !== -1 && Math.abs(item.y - lastY) > 5) {
+                                pageText += "\n";
+                            } else if (lastY !== -1) {
+                                pageText += " "; 
+                            }
+                            pageText += item.str;
+                            lastY = item.y;
+                        });
+
+                        fullText += pageText + "\n";
+                    }
+
+                    document.getElementById('loading-text').textContent = "Parsing questions...";
+                    const questions = this.parseQuestionsFromText(fullText);
+
+                    if (questions.length === 0) {
+                        alert("Could not find any questions in the PDF. Please ensure the format matches standard numbering.");
+                    } else {
+                        const newBank = {
+                            id: Utils.generateId(),
+                            name: file.name.replace('.pdf', ''),
+                            questions: questions,
+                            created: Date.now()
+                        };
+                        this.state.banks.push(newBank);
+                        this.saveState();
+                        this.editBank(newBank.id);
+                    }
+
+                } catch (error) {
+                    console.error(error);
+                    alert("Error processing PDF: " + error.message);
+                } finally {
+                    const loader = document.getElementById('loading-indicator');
+                    if(loader) loader.classList.add('hidden');
+                    input.value = '';
+                }
+            }
+
+            async handleDocxUpload(input) {
+                if (!input.files || !input.files[0]) return;
+                const file = input.files[0];
+                document.getElementById('loading-indicator').classList.remove('hidden');
+                document.getElementById('loading-text').textContent = "Processing Word file...";
+
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    const result = await mammoth.convertToHtml({ arrayBuffer: arrayBuffer });
+                    let html = result.value;
+                    
+                    // Mark bold text with *
+                    html = html.replace(/<strong[^>]*>(.*?)<\/strong>/gi, '*$1*');
+                    html = html.replace(/<b[^>]*>(.*?)<\/b>/gi, '*$1*');
+
+                    // DOM Processing for Lists
+                    const temp = document.createElement('div');
+                    temp.innerHTML = html;
+
+                    // 1. Nested lists (Choices -> a, b, c)
+                    temp.querySelectorAll('li > ol, li > ul').forEach(list => {
+                        Array.from(list.children).forEach((li, i) => {
+                            if(li.tagName === 'LI') li.prepend(document.createTextNode(String.fromCharCode(97 + i) + ') '));
+                        });
+                    });
+                    
+                    // 2. Lists following Paragraphs (Choices -> a, b, c)
+                    temp.querySelectorAll('p + ol, p + ul').forEach(list => {
+                        Array.from(list.children).forEach((li, i) => {
+                            if(li.tagName === 'LI') li.prepend(document.createTextNode(String.fromCharCode(97 + i) + ') '));
+                        });
+                    });
+
+                    // 3. Other lists (Questions -> 1, 2, 3)
+                    temp.querySelectorAll('ol, ul').forEach(list => {
+                        const firstLi = list.querySelector('li');
+                        // Apply only if not already labeled
+                        if (firstLi && !firstLi.innerText.match(/^[a-z]\)/)) {
+                             Array.from(list.children).forEach((li, i) => {
+                                if(li.tagName === 'LI') li.prepend(document.createTextNode((i + 1) + '. '));
+                            });
+                        }
+                    });
+                    
+                    // Cleanup for text parsing
+                    let newHtml = temp.innerHTML;
+                    newHtml = newHtml.replace(/<\/p>/gi, '\n');
+                    newHtml = newHtml.replace(/<\/li>/gi, '\n');
+                    newHtml = newHtml.replace(/<br\s*\/?>/gi, '\n');
+                    
+                    temp.innerHTML = newHtml;
+                    const text = temp.textContent || temp.innerText;
+                    
+                    document.getElementById('loading-text').textContent = "Parsing questions...";
+                    const questions = this.parseQuestionsFromText(text);
+                    
+                    if (questions.length === 0) {
+                        alert("No questions found. Check format.");
+                    } else {
+                         const newBank = {
+                            id: Utils.generateId(),
+                            name: file.name.replace('.docx', ''),
+                            questions: questions,
+                            created: Date.now()
+                        };
+                        this.state.banks.push(newBank);
+                        this.saveState();
+                        this.editBank(newBank.id);
+                    }
+                } catch (e) {
+                    console.error(e);
+                    alert("Error: " + e.message);
+                } finally {
+                    document.getElementById('loading-indicator').classList.add('hidden');
+                    input.value = '';
+                }
+            }
+
+            parseQuestionsFromText(text) {
+                const rawLines = text.split('\n');
+                const questions = [];
+                let currentQ = null;
+                let pendingText = [];
+                
+                const qStartRegex = /^[\*\(]*(\d+)[\.\)]\s+(.*)/; 
+                const choiceRegex = /^[\*\(]*([a-zA-Z])[\.\)]\s+(.*)/;
+
+                const flushPending = (targetQ, targetChoiceIdx = -1) => {
+                    if (pendingText.length === 0) return;
+                    
+                    if (targetChoiceIdx !== -1) {
+                        const choiceLines = [];
+                        const remarkLines = [];
+                        
+                        pendingText.forEach(l => {
+                            if (remarkLines.length > 0) {
+                                remarkLines.push(l);
+                            } else {
+                                // Logic: Remark if Small Text OR Uppercase Start (and not Roman numeral)
+                                const isSmall = l.includes('{{SMALL}}');
+                                const startsWithCap = /^[A-Z\[\(]/.test(l);
+                                const looksLikeRoman = /^[ivx]+\)/.test(l.toLowerCase());
+                                
+                                if (isSmall || (startsWithCap && !looksLikeRoman)) {
+                                    remarkLines.push(l);
+                                } else {
+                                    choiceLines.push(l);
+                                }
+                            }
+                        });
+
+                        if (choiceLines.length > 0 && targetQ && targetQ.choices[targetChoiceIdx]) {
+                            let combined = choiceLines.join(' '); 
+                            combined = combined.replace(/{{SMALL}}/g, '');
+                            const lastC = targetQ.choices[targetChoiceIdx];
+                            if (combined.includes('*')) {
+                                lastC.isCorrect = true;
+                                combined = combined.replace(/\*/g, '');
+                            }
+                            lastC.text += " " + combined;
+                        }
+
+                        return remarkLines; 
+                    } else {
+                        if (targetQ) {
+                           let appended = pendingText.join('\n');
+                           appended = appended.replace(/{{SMALL}}/g, ''); 
+                           targetQ.text += (targetQ.text ? "\n" : "") + appended;
+                        }
+                        return [];
+                    }
+                };
+
+                rawLines.forEach(rawLine => {
+                    const line = rawLine.trim();
+                    if (!line) return; 
+                    
+                    const qMatch = line.match(qStartRegex);
+                    const cMatch = line.match(choiceRegex);
+                    
+                    if (qMatch) {
+                        if (currentQ) {
+                            flushPending(currentQ, currentQ.choices.length - 1);
+                            questions.push(currentQ);
+                        }
+                        let qText = qMatch[2].replace(/\*/g, '');
+                        qText = qText.replace(/{{SMALL}}/g, '');
+                        currentQ = {
+                            id: Utils.generateId(),
+                            text: qText,
+                            choices: [],
+                            originalNum: qMatch[1],
+                            image: null
+                        };
+                        pendingText = [];
+                        
+                    } else if (cMatch) {
+                        const label = cMatch[1].toLowerCase();
+                        let isIgnored = ['i', 'v', 'x'].includes(label);
+                        
+                        if (isIgnored) {
+                             pendingText.push(line);
+                        } else {
+                            let isCorrect = line.includes('*') || line.includes('bold'); 
+                            let choiceText = cMatch[2];
+                            if (choiceText.includes('*')) {
+                                isCorrect = true;
+                                choiceText = choiceText.replace(/\*/g, '').trim();
+                            }
+                            choiceText = choiceText.replace(/{{SMALL}}/g, '');
+
+                            if (label === 'a') {
+                                if (currentQ && currentQ.choices.length > 0) {
+                                    const remarks = flushPending(currentQ, currentQ.choices.length - 1);
+                                    questions.push(currentQ);
+                                    let newText = remarks.length > 0 ? remarks.join('\n') : "Question";
+                                    newText = newText.replace(/{{SMALL}}/g, '');
+                                    currentQ = {
+                                        id: Utils.generateId(),
+                                        text: newText,
+                                        choices: [],
+                                        originalNum: questions.length + 1,
+                                        image: null
+                                    };
+                                    pendingText = [];
+                                } else if (currentQ) {
+                                    flushPending(currentQ); 
+                                    pendingText = [];
+                                } else {
+                                    const newText = pendingText.length > 0 ? pendingText.join('\n').replace(/{{SMALL}}/g, '') : "Question 1";
+                                    currentQ = {
+                                        id: Utils.generateId(),
+                                        text: newText,
+                                        choices: [],
+                                        originalNum: 1,
+                                        image: null
+                                    };
+                                    pendingText = [];
+                                }
+                                currentQ.choices.push({
+                                    id: Utils.generateId(),
+                                    label: label,
+                                    text: choiceText,
+                                    isCorrect: isCorrect
+                                });
+                            } else {
+                                if (currentQ && currentQ.choices.length > 0) {
+                                    flushPending(currentQ, currentQ.choices.length - 1);
+                                    pendingText = []; 
+                                    currentQ.choices.push({
+                                        id: Utils.generateId(),
+                                        label: label,
+                                        text: choiceText,
+                                        isCorrect: isCorrect
+                                    });
+                                } else {
+                                    pendingText.push(line);
+                                }
+                            }
+                        }
+                    } else {
+                        pendingText.push(line);
+                    }
+                });
+
+                if (currentQ) {
+                    flushPending(currentQ, currentQ.choices.length - 1);
+                    questions.push(currentQ);
+                }
+                
+                return questions.filter(q => q.choices.length > 1);
+            }
+
+            handleJsonUpload(input) {
+                if (!input.files || !input.files[0]) return;
+                const file = input.files[0];
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const data = JSON.parse(e.target.result);
+                        let banksToAdd = [];
+
+                        // Case A: Single Standard Bank
+                        if (data.questions && Array.isArray(data.questions) && data.questions.length > 0 && data.questions[0].choices) {
+                            data.id = Utils.generateId();
+                            banksToAdd.push(data);
+                        } 
+                        // Case B: Array of Standard Banks
+                        else if (Array.isArray(data) && data.length > 0 && data[0].questions) {
+                            data.forEach(b => {
+                                b.id = Utils.generateId();
+                                banksToAdd.push(b);
+                            });
+                        }
+                        // Case C: Non-standard / External Format
+                        else {
+                            const normalized = this.normalizeImportData(data, file.name);
+                            if (normalized) {
+                                banksToAdd.push(normalized);
+                            } else {
+                                throw new Error("Could not recognize question format.");
+                            }
+                        }
+
+                        this.state.banks.push(...banksToAdd);
+                        this.saveState();
+                        if (banksToAdd.length === 1) {
+                            this.editBank(banksToAdd[0].id);
+                        } else {
+                            this.navigate('dashboard');
+                            alert(`Successfully imported ${banksToAdd.length} question bank(s).`);
+                        }
+
+                    } catch (err) {
+                        console.error(err);
+                        alert("Failed to import JSON: " + err.message);
+                    }
+                };
+                reader.readAsText(file);
+                input.value = '';
+            }
+
+            normalizeImportData(data, filename) {
+                let rawQuestions = [];
+                let bankName = filename.replace('.json', '');
+                
+                // Extract array from various common structures
+                if (Array.isArray(data)) {
+                    rawQuestions = data;
+                } else if (typeof data === 'object' && data !== null) {
+                    if (Array.isArray(data.questions)) rawQuestions = data.questions;
+                    else if (Array.isArray(data.results)) rawQuestions = data.results; // OpenTriviaDB
+                    else if (Array.isArray(data.data)) rawQuestions = data.data;
+                    else if (data.question || data.text) rawQuestions = [data]; // Single object
+                    
+                    if (data.name || data.title) bankName = data.name || data.title;
+                }
+
+                if (!rawQuestions.length) return null;
+
+                const questions = rawQuestions.map(raw => {
+                    // Map Text
+                    const text = raw.text || raw.question || raw.title || raw.description || raw.q || "";
+                    if (!text) return null;
+
+                    // Map Choices
+                    let rawChoices = raw.choices || raw.options || raw.answers || raw.alternatives || [];
+                    
+                    // Handle OpenTriviaDB (split correct/incorrect)
+                    if (raw.correct_answer && raw.incorrect_answers) {
+                        rawChoices = [...raw.incorrect_answers, raw.correct_answer];
+                    }
+
+                    if (!Array.isArray(rawChoices)) return null;
+
+                    // Determine Correct Answer
+                    let correctIndicator = raw.answer || raw.correct || raw.correctAnswer || raw.correct_answer || raw.solution;
+
+                    const choices = rawChoices.map((c, idx) => {
+                        let cText = "";
+                        let isCorrect = false;
+
+                        if (typeof c === 'string') {
+                            cText = c;
+                            if (correctIndicator === c) isCorrect = true;
+                        } else if (typeof c === 'object') {
+                            cText = c.text || c.label || c.value || c.answer || "";
+                            if (c.isCorrect === true || c.correct === true) isCorrect = true;
+                        }
+
+                        return {
+                            id: Utils.generateId(),
+                            label: String.fromCharCode(97 + idx),
+                            text: String(cText),
+                            isCorrect: isCorrect
+                        };
+                    });
+
+                    // Post-process correctness if not identified in loop
+                    if (!choices.some(c => c.isCorrect) && correctIndicator !== undefined) {
+                        // Check Index
+                        if (typeof correctIndicator === 'number' && choices[correctIndicator]) {
+                            choices[correctIndicator].isCorrect = true;
+                        }
+                        // Check Label (A, B, C...)
+                        else if (typeof correctIndicator === 'string' && correctIndicator.length === 1) {
+                            const charCode = correctIndicator.toLowerCase().charCodeAt(0);
+                            const idx = charCode - 97; 
+                            if (choices[idx]) choices[idx].isCorrect = true;
+                        }
+                        // Check exact text match
+                        else if (typeof correctIndicator === 'string') {
+                             const match = choices.find(c => c.text.trim() === correctIndicator.trim());
+                             if (match) match.isCorrect = true;
+                        }
+                    }
+
+                    return {
+                        id: Utils.generateId(),
+                        text: text,
+                        choices: choices,
+                        image: raw.image || raw.img || null
+                    };
+                }).filter(q => q && q.choices.length > 0);
+
+                if (questions.length === 0) return null;
+
+                return {
+                    id: Utils.generateId(),
+                    name: bankName,
+                    questions: questions,
+                    created: Date.now()
+                };
+            }
+
+            exportBank(id) {
+                const bank = this.state.banks.find(b => b.id === id);
+                if (bank) {
+                    Utils.downloadJson(bank, `${bank.name}_export.json`);
+                }
+            }
+
+            deleteBank(id) {
+                if (confirm("Are you sure you want to delete this question bank?")) {
+                    this.state.banks = this.state.banks.filter(b => b.id !== id);
+                    this.saveState();
+                    this.initDashboard();
+                }
+            }
+
+            // --- Editor ---
+
+            editBank(id) {
+                const bank = JSON.parse(JSON.stringify(this.state.banks.find(b => b.id === id)));
+                if (!bank) return;
+                this.state.editingBank = bank;
+                this.navigate('editor', bank);
+            }
+
+            initEditor(bank) {
+                document.getElementById('editor-title').textContent = bank.name;
+                document.getElementById('editor-subtitle').textContent = `${bank.questions.length} questions`;
+                this.renderEditorQuestions();
+            }
+
+            renderEditorQuestions() {
+                const list = document.getElementById('editor-questions-list');
+                list.innerHTML = '';
+                const bank = this.state.editingBank;
+
+                bank.questions.forEach((q, qIdx) => {
+                    const item = document.createElement('div');
+                    item.className = "bg-white p-4 rounded shadow border border-gray-200 relative group";
+                    
+                    let choicesHtml = '';
+                    q.choices.forEach((c, cIdx) => {
+                        choicesHtml += `
+                            <div class="flex items-center gap-2 mb-2">
+                                <input type="radio" name="q-${q.id}-correct" ${c.isCorrect ? 'checked' : ''} onchange="app.setCorrectChoice('${q.id}', ${cIdx})" class="text-blue-600">
+                                <span class="font-mono text-gray-500 w-6">${String.fromCharCode(97 + cIdx)})</span>
+                                <input type="text" value="${c.text.replace(/"/g, '&quot;')}" onchange="app.updateChoiceText('${q.id}', ${cIdx}, this.value)" class="flex-1 border-gray-300 rounded text-sm p-1 border focus:border-blue-500 outline-none">
+                                <button onclick="app.removeChoice('${q.id}', ${cIdx})" class="text-red-400 hover:text-red-600 px-2"><i class="fas fa-times"></i></button>
+                            </div>
+                        `;
+                    });
+
+                    item.innerHTML = `
+                        <div class="absolute top-2 right-2 opacity-50 group-hover:opacity-100 transition">
+                             <button onclick="app.removeQuestion('${q.id}')" class="text-red-500 hover:bg-red-50 p-1 rounded"><i class="fas fa-trash"></i></button>
+                        </div>
+                        <div class="mb-3 pr-8">
+                            <label class="block text-xs font-bold text-gray-500 mb-1">Question ${qIdx + 1}</label>
+                            <textarea onchange="app.updateQuestionText('${q.id}', this.value)" class="w-full border-gray-300 rounded p-2 text-gray-800 border focus:border-blue-500 outline-none" rows="2">${q.text}</textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label class="block text-xs font-bold text-gray-500 mb-1">Image (Optional)</label>
+                            ${q.image ? `
+                                <div class="mb-2 relative inline-block">
+                                    <img src="${q.image}" class="h-24 rounded border object-contain bg-gray-50">
+                                    <button onclick="app.removeQuestionImage('${q.id}')" class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-xs shadow hover:bg-red-600"><i class="fas fa-times"></i></button>
+                                </div>
+                            ` : ''}
+                            <input type="file" accept="image/*" onchange="app.updateQuestionImage('${q.id}', this)" class="block w-full text-xs text-gray-500 file:mr-2 file:py-1 file:px-2 file:rounded file:border-0 file:text-xs file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100">
+                        </div>
+                        <div class="pl-4 border-l-2 border-gray-100">
+                            ${choicesHtml}
+                            <button onclick="app.addChoice('${q.id}')" class="text-xs text-blue-600 hover:underline mt-1">+ Add Choice</button>
+                        </div>
+                    `;
+                    list.appendChild(item);
+                });
+            }
+
+            updateQuestionText(qId, val) {
+                const q = this.state.editingBank.questions.find(x => x.id === qId);
+                if(q) q.text = val;
+            }
+
+            async updateQuestionImage(qId, input) {
+                if (input.files && input.files[0]) {
+                    try {
+                        const base64 = await Utils.compressImage(input.files[0]);
+                        const q = this.state.editingBank.questions.find(x => x.id === qId);
+                        if(q) {
+                            q.image = base64;
+                            this.renderEditorQuestions();
+                        }
+                    } catch (e) {
+                        alert("Error processing image");
+                    }
+                }
+            }
+
+            removeQuestionImage(qId) {
+                 const q = this.state.editingBank.questions.find(x => x.id === qId);
+                 if(q) {
+                     q.image = null;
+                     this.renderEditorQuestions();
+                 }
+            }
+
+            updateChoiceText(qId, cIdx, val) {
+                const q = this.state.editingBank.questions.find(x => x.id === qId);
+                if(q && q.choices[cIdx]) q.choices[cIdx].text = val;
+            }
+
+            setCorrectChoice(qId, cIdx) {
+                const q = this.state.editingBank.questions.find(x => x.id === qId);
+                if(q) {
+                    q.choices.forEach((c, idx) => c.isCorrect = (idx === cIdx));
+                }
+            }
+
+            addChoice(qId) {
+                const q = this.state.editingBank.questions.find(x => x.id === qId);
+                if(q) {
+                    q.choices.push({ id: Utils.generateId(), label: '?', text: 'New Option', isCorrect: false });
+                    this.renderEditorQuestions();
+                }
+            }
+
+            removeChoice(qId, cIdx) {
+                const q = this.state.editingBank.questions.find(x => x.id === qId);
+                if(q && q.choices.length > 2) {
+                    q.choices.splice(cIdx, 1);
+                    this.renderEditorQuestions();
+                } else {
+                    alert("A question must have at least 2 choices.");
+                }
+            }
+
+            addQuestion() {
+                this.state.editingBank.questions.push({
+                    id: Utils.generateId(),
+                    text: "New Question",
+                    image: null,
+                    choices: [
+                        { id: Utils.generateId(), label: 'a', text: "Option A", isCorrect: true },
+                        { id: Utils.generateId(), label: 'b', text: "Option B", isCorrect: false }
+                    ]
+                });
+                this.renderEditorQuestions();
+                setTimeout(() => window.scrollTo(0, document.body.scrollHeight), 100);
+            }
+
+            removeQuestion(qId) {
+                if(confirm("Delete this question?")) {
+                    this.state.editingBank.questions = this.state.editingBank.questions.filter(q => q.id !== qId);
+                    this.renderEditorQuestions();
+                }
+            }
+
+            saveEditorChanges() {
+                if(confirm("Save changes to this question bank?")) {
+                    const idx = this.state.banks.findIndex(b => b.id === this.state.editingBank.id);
+                    if (idx !== -1) {
+                        this.state.banks[idx] = this.state.editingBank;
+                        this.saveState();
+                        this.navigate('dashboard');
+                    }
+                }
+            }
+
+            // --- Quiz Setup ---
+
+            setupQuiz(bankId) {
+                const bank = this.state.banks.find(b => b.id === bankId);
+                this.currentBankId = bankId;
+                this.navigate('quiz-setup', bank);
+            }
+
+            initQuizSetup(bank) {
+                document.getElementById('setup-bank-name').textContent = bank.name;
+                document.getElementById('setup-total-questions').textContent = `Total questions available: ${bank.questions.length}`;
+                const countInput = document.getElementById('setup-count');
+                countInput.value = bank.questions.length;
+                countInput.max = bank.questions.length;
+            }
+
+            resumeQuiz(bankId) {
+                const bank = this.state.banks.find(b => b.id === bankId);
+                if (bank && bank.savedSession) {
+                    this.state.quizSession = bank.savedSession;
+                    if (this.state.quizSession.realDopeMode === undefined) {
+                        this.state.quizSession.realDopeMode = false;
+                    }
+                    this.navigate('quiz');
+                } else {
+                    alert("No saved session found.");
+                    this.setupQuiz(bankId);
+                }
+            }
+
+            startQuiz() {
+                const count = parseInt(document.getElementById('setup-count').value);
+                const shuffle = document.getElementById('setup-shuffle').checked;
+                const realDopeMode = document.getElementById('setup-real-dope').checked;
+                const bank = this.state.banks.find(b => b.id === this.currentBankId);
+                
+                let questionsToUse = [...bank.questions];
+                if (shuffle) {
+                    questionsToUse = Utils.shuffle(questionsToUse);
+                }
+                questionsToUse = questionsToUse.slice(0, count);
+
+                this.state.quizSession = {
+                    bankId: bank.id,
+                    questions: questionsToUse,
+                    answers: {}, 
+                    currentIndex: 0,
+                    startTime: Date.now(),
+                    realDopeMode: realDopeMode
+                };
+
+                bank.savedSession = null;
+                this.saveState();
+
+                this.navigate('quiz');
+            }
+
+            // --- Quiz Execution ---
+
+            initQuiz() {
+                this.renderQuizQuestion();
+                this.updateQuizStats();
+            }
+
+            renderQuizQuestion() {
+                const session = this.state.quizSession;
+                const q = session.questions[session.currentIndex];
+                const isRealDopeMode = session.realDopeMode;
+                
+                document.getElementById('quiz-question-text').textContent = q.text;
+                document.getElementById('quiz-current').textContent = session.currentIndex + 1;
+                document.getElementById('quiz-total').textContent = session.questions.length;
+
+                // Image
+                const imgContainer = document.getElementById('quiz-image-container');
+                const imgEl = document.getElementById('quiz-question-image');
+                if (q.image) {
+                    imgEl.src = q.image;
+                    imgContainer.classList.remove('hidden');
+                } else {
+                    imgContainer.classList.add('hidden');
+                }
+
+                if (isRealDopeMode) {
+                    document.getElementById('quiz-stats-display').classList.add('invisible');
+                } else {
+                    document.getElementById('quiz-stats-display').classList.remove('invisible');
+                }
+
+                const choicesContainer = document.getElementById('quiz-choices');
+                choicesContainer.innerHTML = '';
+
+                const answer = session.answers[q.id];
+                const isAnswered = !!answer;
+
+                q.choices.forEach((c, idx) => {
+                    const btn = document.createElement('button');
+                    let classes = "w-full text-left p-4 rounded-lg border-2 transition relative ";
+                    
+                    if (isAnswered) {
+                        if (isRealDopeMode) {
+                            if (answer.choiceId === c.id) {
+                                classes += "border-purple-500 bg-purple-50 text-purple-900 font-medium";
+                                btn.innerHTML = `<i class="fas fa-check-circle absolute right-4 top-4 text-purple-600"></i>`;
+                            } else {
+                                classes += "border-gray-200 opacity-60";
+                            }
+                            btn.disabled = true; 
+
+                        } else {
+                            btn.disabled = true;
+                            if (c.isCorrect) {
+                                classes += "border-green-500 bg-green-50 text-green-900";
+                                btn.innerHTML = `<i class="fas fa-check-circle absolute right-4 top-4 text-green-600"></i>`;
+                            } else if (answer.choiceId === c.id && !c.isCorrect) {
+                                classes += "border-red-500 bg-red-50 text-red-900";
+                                btn.innerHTML = `<i class="fas fa-times-circle absolute right-4 top-4 text-red-600"></i>`;
+                            } else {
+                                classes += "border-gray-200 opacity-60";
+                            }
+                        }
+                    } else {
+                        classes += "border-gray-200 hover:border-blue-400 hover:bg-blue-50";
+                        btn.onclick = () => app.submitAnswer(q.id, c.id, c.isCorrect);
+                    }
+
+                    btn.className = classes;
+                    
+                    const labelSpan = document.createElement('span');
+                    labelSpan.className = "font-bold mr-3 inline-block w-6 uppercase";
+                    labelSpan.textContent = String.fromCharCode(97 + idx) + ")";
+                    
+                    const textSpan = document.createElement('span');
+                    textSpan.textContent = c.text;
+                    
+                    btn.prepend(textSpan);
+                    btn.prepend(labelSpan);
+                    
+                    choicesContainer.appendChild(btn);
+                });
+
+                document.getElementById('btn-prev').disabled = session.currentIndex === 0;
+                if (session.currentIndex === session.questions.length - 1) {
+                    document.getElementById('btn-next').classList.add('hidden');
+                    document.getElementById('btn-finish').classList.remove('hidden');
+                } else {
+                    document.getElementById('btn-next').classList.remove('hidden');
+                    document.getElementById('btn-finish').classList.add('hidden');
+                }
+
+                const feedback = document.getElementById('quiz-feedback');
+                if (isAnswered && !isRealDopeMode) {
+                    feedback.classList.remove('hidden');
+                    if (answer.isCorrect) {
+                        feedback.className = "mt-6 p-4 rounded-lg border bg-green-100 border-green-200 text-green-800";
+                        feedback.innerHTML = `<strong><i class="fas fa-check"></i> Correct!</strong>`;
+                    } else {
+                        feedback.className = "mt-6 p-4 rounded-lg border bg-red-100 border-red-200 text-red-800";
+                        const correctChoice = q.choices.find(c => c.isCorrect);
+                        feedback.innerHTML = `<strong><i class="fas fa-times"></i> Incorrect.</strong> The correct answer is: ${correctChoice ? correctChoice.text : 'Unknown'}`;
+                    }
+                } else {
+                    feedback.classList.add('hidden');
+                }
+            }
+
+            submitAnswer(qId, cId, isCorrect) {
+                this.state.quizSession.answers[qId] = {
+                    choiceId: cId,
+                    isCorrect: isCorrect
+                };
+                this.renderQuizQuestion();
+                this.updateQuizStats();
+            }
+
+            updateQuizStats() {
+                const answers = Object.values(this.state.quizSession.answers);
+                const correct = answers.filter(a => a.isCorrect).length;
+                const wrong = answers.filter(a => !a.isCorrect).length;
+                
+                document.getElementById('quiz-score-correct').textContent = correct;
+                document.getElementById('quiz-score-wrong').textContent = wrong;
+            }
+
+            nextQuestion() {
+                if (this.state.quizSession.currentIndex < this.state.quizSession.questions.length - 1) {
+                    this.state.quizSession.currentIndex++;
+                    this.renderQuizQuestion();
+                }
+            }
+
+            prevQuestion() {
+                if (this.state.quizSession.currentIndex > 0) {
+                    this.state.quizSession.currentIndex--;
+                    this.renderQuizQuestion();
+                }
+            }
+
+            saveAndQuitQuiz() {
+                const bank = this.state.banks.find(b => b.id === this.state.quizSession.bankId);
+                if (bank) {
+                    bank.savedSession = this.state.quizSession;
+                    this.saveState();
+                    this.navigate('dashboard');
+                }
+            }
+
+            finishQuiz() {
+                if (confirm("Finish the practice session?")) {
+                    const session = this.state.quizSession;
+                    
+                    const bank = this.state.banks.find(b => b.id === session.bankId);
+                    if (bank) {
+                        if (!bank.progress) bank.progress = { answered: 0, total: bank.questions.length };
+                        bank.savedSession = null; 
+                        this.saveState();
+                    }
+
+                    this.navigate('results');
+                }
+            }
+
+            // --- Results ---
+
+            initResults() {
+                const session = this.state.quizSession;
+                const answers = Object.values(session.answers);
+                const correct = answers.filter(a => a.isCorrect).length;
+                const wrong = answers.filter(a => !a.isCorrect).length;
+                const score = Math.round((correct / session.questions.length) * 100);
+
+                document.getElementById('result-score').textContent = score + '%';
+                document.getElementById('result-correct').textContent = correct;
+                document.getElementById('result-wrong').textContent = wrong;
+
+                if (wrong > 0) {
+                    const reviewSection = document.getElementById('review-section');
+                    const reviewList = document.getElementById('review-list');
+                    reviewSection.classList.remove('hidden');
+                    reviewList.innerHTML = '';
+
+                    session.questions.forEach((q, idx) => {
+                        const ans = session.answers[q.id];
+                        if (ans && !ans.isCorrect) {
+                            const correctChoice = q.choices.find(c => c.isCorrect);
+                            const userChoice = q.choices.find(c => c.id === ans.choiceId);
+
+                            const div = document.createElement('div');
+                            div.className = "bg-red-50 p-4 rounded border border-red-100";
+                            div.innerHTML = `
+                                <div class="font-bold text-gray-800 mb-2">Q${idx+1}: ${q.text}</div>
+                                ${q.image ? `<img src="${q.image}" class="h-20 mb-2 rounded border">` : ''}
+                                <div class="text-sm text-red-700 mb-1"><i class="fas fa-times-circle"></i> You answered: ${userChoice ? userChoice.text : 'Skipped'}</div>
+                                <div class="text-sm text-green-700 font-bold"><i class="fas fa-check-circle"></i> Correct Answer: ${correctChoice ? correctChoice.text : 'Unknown'}</div>
+                            `;
+                            reviewList.appendChild(div);
+                        }
+                    });
+                    
+                    document.getElementById('btn-retry-wrong').onclick = () => this.retryWrong(session);
+                } else {
+                    document.getElementById('btn-retry-wrong').classList.add('hidden');
+                }
+            }
+
+            retryWrong(oldSession) {
+                const wrongQIds = Object.keys(oldSession.answers).filter(qid => !oldSession.answers[qid].isCorrect);
+                const wrongQuestions = oldSession.questions.filter(q => wrongQIds.includes(q.id));
+                
+                if (wrongQuestions.length === 0) return;
+
+                this.state.quizSession = {
+                    bankId: oldSession.bankId,
+                    questions: wrongQuestions,
+                    answers: {},
+                    currentIndex: 0,
+                    startTime: Date.now(),
+                    realDopeMode: false 
+                };
+                this.navigate('quiz');
+            }
+
+            // --- Quick Edit Logic ---
+
+            openQuickEdit() {
+                const session = this.state.quizSession;
+                if (!session) return;
+                
+                const q = session.questions[session.currentIndex];
+                this.quickEditState = JSON.parse(JSON.stringify(q));
+
+                this.renderQuickEdit();
+                document.getElementById('modal-quick-edit').classList.remove('hidden');
+            }
+
+            renderQuickEdit() {
+                const q = this.quickEditState;
+                const content = document.getElementById('quick-edit-content');
+                content.innerHTML = '';
+
+                const qDiv = document.createElement('div');
+                qDiv.innerHTML = `
+                    <label class="block text-sm font-bold text-gray-700 mb-1">Question Text</label>
+                    <textarea id="qe-text" class="w-full border p-2 rounded focus:ring-2 ring-blue-500 outline-none" rows="3">${q.text}</textarea>
+                    
+                    <label class="block text-sm font-bold text-gray-700 mt-2 mb-1">Image</label>
+                    ${q.image ? `
+                        <div class="mb-2 relative inline-block">
+                            <img src="${q.image}" class="h-20 rounded border object-contain">
+                            <button id="qe-remove-img" class="absolute -top-2 -right-2 bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs shadow"><i class="fas fa-times"></i></button>
+                        </div>
+                    ` : ''}
+                    <input type="file" accept="image/*" id="qe-file" class="block w-full text-xs text-gray-500">
+                `;
+                content.appendChild(qDiv);
+
+                qDiv.querySelector('#qe-text').onchange = (e) => q.text = e.target.value;
+                if (q.image) {
+                     qDiv.querySelector('#qe-remove-img').onclick = () => { q.image = null; this.renderQuickEdit(); };
+                }
+                qDiv.querySelector('#qe-file').onchange = async (e) => {
+                    if (e.target.files[0]) {
+                        q.image = await Utils.compressImage(e.target.files[0]);
+                        this.renderQuickEdit();
+                    }
+                };
+
+                const cLabel = document.createElement('div');
+                cLabel.className = "text-sm font-bold text-gray-700 mt-4 mb-2 flex justify-between";
+                cLabel.innerHTML = `<span>Choices</span> <button onclick="app.quickEditAddChoice()" class="text-blue-600 text-xs hover:underline">+ Add Choice</button>`;
+                content.appendChild(cLabel);
+
+                q.choices.forEach((c, idx) => {
+                    const row = document.createElement('div');
+                    row.className = "flex items-center gap-2 mb-2";
+                    row.innerHTML = `
+                        <input type="radio" name="qe-correct" ${c.isCorrect ? 'checked' : ''} class="cursor-pointer">
+                        <span class="text-gray-500 font-mono w-6 text-center">${String.fromCharCode(97 + idx)})</span>
+                        <input type="text" class="flex-1 border p-1 rounded text-sm" value="${c.text.replace(/"/g, '&quot;')}">
+                        <button class="text-red-400 hover:text-red-600 px-2"><i class="fas fa-times"></i></button>
+                    `;
+
+                    const radio = row.querySelector('input[type="radio"]');
+                    radio.onchange = () => {
+                        q.choices.forEach((ch, i) => ch.isCorrect = (i === idx));
+                        this.renderQuickEdit(); 
+                    };
+
+                    const textInput = row.querySelector('input[type="text"]');
+                    textInput.onchange = (e) => c.text = e.target.value;
+
+                    const delBtn = row.querySelector('button');
+                    delBtn.onclick = () => {
+                        if (q.choices.length <= 2) {
+                            alert("Min 2 choices required");
+                            return;
+                        }
+                        q.choices.splice(idx, 1);
+                        this.renderQuickEdit();
+                    };
+
+                    content.appendChild(row);
+                });
+            }
+
+            quickEditAddChoice() {
+                this.quickEditState.choices.push({
+                    id: Utils.generateId(),
+                    label: '?',
+                    text: 'New Option',
+                    isCorrect: false
+                });
+                this.renderQuickEdit();
+            }
+
+            saveQuickEdit() {
+                const session = this.state.quizSession;
+                const currentQ = session.questions[session.currentIndex];
+                
+                currentQ.text = this.quickEditState.text;
+                currentQ.choices = this.quickEditState.choices;
+                currentQ.image = this.quickEditState.image;
+
+                this.saveState();
+
+                document.getElementById('modal-quick-edit').classList.add('hidden');
+                
+                this.renderQuizQuestion();
+            }
+        }
+
+        // Initialize
+        const app = new App();
+
+    </script>
+</body>
+</html>
