@@ -1,1855 +1,1104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MCQ Practice Webapp</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style>
-    body {
-      background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
-    }
-    .scrollbar-thin::-webkit-scrollbar {
-      width: 6px;
-    }
-    .scrollbar-thin::-webkit-scrollbar-track {
-      background: transparent;
-    }
-    .scrollbar-thin::-webkit-scrollbar-thumb {
-      background: rgba(148, 163, 184, 0.4);
-      border-radius: 9999px;
-    }
-    .scrollbar-thin {
-      scrollbar-width: thin;
-      scrollbar-color: rgba(148, 163, 184, 0.4) transparent;
-    }
-    .fade-enter {
-      opacity: 0;
-      transform: translateY(4px);
-    }
-    .fade-enter-active {
-      opacity: 1;
-      transform: translateY(0);
-      transition: opacity 150ms ease-out, transform 150ms ease-out;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Master</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    </script>
+    <style>
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </head>
-<body class="min-h-screen text-slate-50">
-  <div class="min-h-screen flex flex-col">
-    <header class="border-b border-slate-800/80 bg-slate-950/70 backdrop-blur">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-        <div class="flex items-center gap-3">
-          <div class="h-9 w-9 rounded-xl bg-indigo-500/20 border border-indigo-400/60 flex items-center justify-center text-indigo-200 font-semibold text-lg">
-            Q
-          </div>
-          <div>
-            <h1 class="text-lg font-semibold tracking-tight">MCQ Practice Studio</h1>
-            <p class="text-xs text-slate-400">PDF → editable question banks → smart practice (with Real dope shit mode)</p>
-          </div>
+<body class="bg-gray-100 min-h-screen font-sans text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold"><i class="fas fa-graduation-cap mr-2"></i>MCQ Master</h1>
+            <div class="space-x-4">
+                <button onclick="app.navigate('home')" class="hover:text-blue-200 transition">Banks</button>
+                <button onclick="app.navigate('import')" class="hover:text-blue-200 transition">Import</button>
+                <button onclick="app.navigate('debug')" class="text-xs bg-red-500 px-2 py-1 rounded hover:bg-red-600 transition">Helper</button>
+            </div>
         </div>
-        <div class="flex items-center gap-3 text-xs text-slate-400">
-          <span id="header-mode-pill" class="hidden px-3 py-1 rounded-full border border-emerald-400/60 bg-emerald-500/10 text-emerald-200 font-medium">
-            Real dope shit mode
-          </span>
-          <span class="hidden sm:inline">All data is stored locally in your browser.</span>
-        </div>
-      </div>
-    </header>
+    </nav>
 
-    <main class="flex-1 max-w-7xl mx-auto w-full px-4 py-4 flex flex-col gap-4">
-      <div class="flex-1 flex gap-4 overflow-hidden">
-        <!-- Sidebar: Question banks & imports -->
-        <aside class="w-80 max-w-xs flex-shrink-0 bg-slate-950/60 border border-slate-800 rounded-2xl p-3 flex flex-col gap-4">
-          <div>
-            <h2 class="text-sm font-semibold text-slate-100 tracking-tight flex items-center justify-between">
-              Question banks
-              <span id="bank-count-badge" class="text-[11px] px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">0</span>
-            </h2>
-            <p class="text-[11px] text-slate-400 mt-1 leading-snug">Import once, then edit, export and reuse on any device.</p>
-          </div>
-
-          <div class="space-y-2">
-            <button id="importPdfBtn" type="button" class="w-full inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-indigo-500 hover:bg-indigo-400 text-xs font-medium shadow-sm shadow-indigo-500/30 focus:outline-none focus:ring-2 focus:ring-indigo-400">
-              <span class="i-import-pdf h-3.5 w-3.5 rounded-md bg-slate-900/40 flex items-center justify-center text-[10px] font-semibold">PDF</span>
-              <span>Import PDF question bank</span>
-            </button>
-            <input id="pdfInput" type="file" accept="application/pdf" class="hidden" />
-
-            <button id="importJsonBankBtn" type="button" class="w-full inline-flex items-center justify-center gap-2 px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-xs font-medium border border-slate-700/80 focus:outline-none focus:ring-2 focus:ring-slate-500/60">
-              <span class="i-import-json h-3.5 w-3.5 rounded-md bg-slate-800/90 flex items-center justify-center text-[10px] font-semibold">JS</span>
-              <span>Import bank (JSON)</span>
-            </button>
-            <input id="jsonBankInput" type="file" accept="application/json" class="hidden" />
-          </div>
-
-          <div class="mt-2 border-t border-slate-800 pt-2 flex-1 flex flex-col min-h-0">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="text-[11px] font-medium text-slate-300 uppercase tracking-[0.14em]">Your banks</span>
-            </div>
-            <div id="bankList" class="flex-1 min-h-0 overflow-y-auto scrollbar-thin space-y-1 text-xs"></div>
-          </div>
-        </aside>
-
-        <!-- Main area with tabs -->
-        <section class="flex-1 flex flex-col min-w-0">
-          <div class="bg-slate-950/60 border border-slate-800 rounded-2xl px-3 py-2 flex items-center justify-between">
-            <div class="flex items-center gap-1.5 text-xs">
-              <button data-tab-target="manage" class="tab-btn px-3 py-1 rounded-full border border-transparent bg-slate-800 text-slate-100 font-medium">Bank editor</button>
-              <button data-tab-target="practice" class="tab-btn px-3 py-1 rounded-full border border-transparent text-slate-300 hover:text-white">Practice</button>
-              <button data-tab-target="sessions" class="tab-btn px-3 py-1 rounded-full border border-transparent text-slate-300 hover:text-white">Saved progress</button>
-            </div>
-            <div id="edit-status" class="text-[11px] text-amber-300/90 hidden">You have unsaved edits.</div>
-          </div>
-
-          <div class="mt-3 flex-1 min-h-0 bg-slate-950/60 border border-slate-800 rounded-2xl p-3 overflow-hidden">
-            <!-- Manage / editor tab -->
-            <div id="manageTab" class="h-full overflow-hidden flex flex-col">
-              <div id="manage-empty" class="flex-1 flex flex-col items-center justify-center text-center text-sm text-slate-400">
-                <p class="mb-1 font-medium text-slate-200">No question bank selected.</p>
-                <p class="max-w-sm text-xs text-slate-400 mb-3">Import a PDF or JSON question bank on the left, then select it here to edit questions, choices, correct answers and images.</p>
-              </div>
-              <div id="manage-main" class="hidden h-full flex flex-col">
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
-                  <div>
-                    <div class="flex items-center gap-2 text-xs text-slate-300">
-                      <span class="uppercase tracking-[0.16em] text-[11px] text-slate-400">Active bank</span>
-                      <span id="active-bank-name" class="font-medium text-slate-100"></span>
-                    </div>
-                    <div class="text-[11px] text-slate-500 mt-0.5" id="active-bank-meta"></div>
-                  </div>
-                  <div class="flex flex-wrap gap-2 text-xs">
-                    <button id="toggleEditModeBtn" type="button" class="px-2.5 py-1 rounded-full border border-slate-700 bg-slate-900 hover:bg-slate-800 text-slate-100 font-medium">Enter edit mode</button>
-                    <button id="exportBankBtn" type="button" class="px-2.5 py-1 rounded-full border border-slate-700/80 bg-slate-900 hover:bg-slate-800 text-slate-200">Export bank (JSON)</button>
-                    <button id="deleteBankBtn" type="button" class="px-2.5 py-1 rounded-full border border-red-600/70 bg-red-950/40 hover:bg-red-900/60 text-red-200">Delete bank</button>
-                  </div>
-                </div>
-
-                <div id="edit-helper" class="hidden text-[11px] text-slate-300 bg-slate-900/80 border border-slate-700 rounded-xl px-3 py-2 mb-2">
-                  <p class="font-medium mb-1">Editing tips</p>
-                  <ul class="list-disc list-inside space-y-0.5 text-[11px] text-slate-400">
-                    <li>Edit question text, choices and correct answers directly below.</li>
-                    <li>Add images per question; they are stored with this bank.</li>
-                    <li>You can add/remove questions &amp; choices. Always click <span class="font-semibold text-slate-200">Save edits</span> when finished.</li>
-                  </ul>
-                </div>
-
-                <div class="flex items-center justify-between gap-2 mb-2 text-xs">
-                  <div class="flex items-center gap-2">
-                    <span id="question-count-label" class="text-slate-300"></span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <button id="addQuestionBtn" type="button" class="hidden px-2.5 py-1 rounded-full border border-slate-700 bg-slate-900 hover:bg-slate-800 text-slate-100">+ Add question</button>
-                    <button id="saveEditsBtn" type="button" class="hidden px-3 py-1 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold shadow-sm shadow-emerald-500/40">Save edits</button>
-                  </div>
-                </div>
-
-                <div id="questionsContainer" class="flex-1 min-h-0 overflow-y-auto scrollbar-thin rounded-xl border border-slate-800/80 bg-slate-950/75 p-3 space-y-3 text-xs"></div>
-              </div>
-            </div>
-
-            <!-- Practice tab -->
-            <div id="practiceTab" class="hidden h-full overflow-hidden flex flex-col">
-              <div id="practice-setup" class="flex flex-col gap-3 text-xs">
-                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                  <div>
-                    <h2 class="text-sm font-semibold text-slate-100">Start a practice session</h2>
-                    <p class="text-[11px] text-slate-400">Choose a bank, shuffle questions, set how many to answer, and pick your mode.</p>
-                  </div>
-                </div>
-
-                <div class="grid sm:grid-cols-3 gap-3">
-                  <div class="space-y-1">
-                    <label class="text-[11px] font-medium text-slate-300">Question bank</label>
-                    <select id="practiceBankSelect" class="w-full rounded-lg border border-slate-700 bg-slate-950/80 px-2 py-1.5 text-xs text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    </select>
-                  </div>
-                  <div class="space-y-1">
-                    <label class="text-[11px] font-medium text-slate-300">Number of questions</label>
-                    <input id="numQuestionsInput" type="number" min="1" class="w-full rounded-lg border border-slate-700 bg-slate-950/80 px-2 py-1.5 text-xs text-slate-100 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-                    <p class="text-[10px] text-slate-500" id="numQuestionsHint"></p>
-                  </div>
-                  <div class="space-y-1">
-                    <label class="text-[11px] font-medium text-slate-300">Options</label>
-                    <div class="flex flex-col gap-1.5 text-[11px] text-slate-300">
-                      <label class="inline-flex items-center gap-1">
-                        <input id="shuffleCheckbox" type="checkbox" class="rounded border-slate-600 bg-slate-900 text-indigo-500 focus:ring-indigo-500" checked />
-                        <span>Shuffle question order</span>
-                      </label>
-                      <div>
-                        <span class="block mb-0.5">Mode:</span>
-                        <label class="inline-flex items-center gap-1 mr-3">
-                          <input type="radio" name="practiceMode" value="normal" class="rounded border-slate-600 bg-slate-900 text-indigo-500 focus:ring-indigo-500" checked />
-                          <span>Normal (show feedback)</span>
-                        </label>
-                        <label class="inline-flex items-center gap-1 text-emerald-300">
-                          <input type="radio" name="practiceMode" value="real" class="rounded border-slate-600 bg-slate-900 text-emerald-500 focus:ring-emerald-500" />
-                          <span>Real dope shit mode (no feedback until the end)</span>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flex items-center justify-between gap-2 mt-1">
-                  <button id="startPracticeBtn" type="button" class="inline-flex items-center justify-center gap-2 px-3 py-1.5 rounded-full bg-indigo-500 hover:bg-indigo-400 text-xs font-semibold text-slate-950 shadow-sm shadow-indigo-500/40">
-                    <span>Start practice</span>
-                  </button>
-                  <p class="text-[11px] text-slate-400">Or resume from <button type="button" data-tab-jump="sessions" class="underline offset-1 underline-offset-2 decoration-slate-500 hover:text-slate-100">Saved progress</button>.</p>
-                </div>
-              </div>
-
-              <div id="practice-main" class="hidden flex-1 min-h-0 flex flex-col gap-2 mt-1">
-                <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
-                  <div class="flex items-center gap-2">
-                    <span id="practice-bank-label" class="font-medium text-slate-100"></span>
-                    <span id="practice-mode-label" class="px-2 py-0.5 rounded-full border border-slate-700 text-[11px] text-slate-300"></span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <div id="scoreSummary" class="text-[11px] text-slate-300"></div>
-                    <button id="saveSessionBtn" type="button" class="px-2.5 py-1 rounded-full bg-slate-900 border border-slate-700 text-slate-100 hover:bg-slate-800">Save progress</button>
-                    <button id="endPracticeBtn" type="button" class="px-2.5 py-1 rounded-full bg-red-600/90 hover:bg-red-500 text-slate-950 font-semibold">Finish</button>
-                  </div>
-                </div>
-
-                <div id="practiceQuestionContainer" class="flex-1 min-h-0 overflow-y-auto scrollbar-thin rounded-xl border border-slate-800 bg-slate-950/80 p-3 text-xs"></div>
-
-                <div class="flex items-center justify-between gap-2 text-xs mt-1">
-                  <div class="flex items-center gap-2">
-                    <button id="prevQuestionBtn" type="button" class="px-2.5 py-1 rounded-full border border-slate-700 bg-slate-900 text-slate-100 hover:bg-slate-800">Previous</button>
-                    <button id="nextQuestionBtn" type="button" class="px-2.5 py-1 rounded-full border border-slate-700 bg-slate-900 text-slate-100 hover:bg-slate-800">Next</button>
-                  </div>
-                  <button id="submitAnswerBtn" type="button" class="px-3 py-1.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold shadow-sm shadow-emerald-500/40">Submit answer</button>
-                </div>
-
-                <div id="practiceFeedback" class="mt-1 text-[11px]"></div>
-              </div>
-
-              <div id="practice-results" class="hidden flex-1 min-h-0 flex flex-col mt-2">
-                <div class="flex items-center justify-between gap-2 text-xs mb-2">
-                  <div>
-                    <h3 class="text-sm font-semibold text-slate-100">Session results</h3>
-                    <p id="resultsSummary" class="text-[11px] text-slate-400 mt-0.5"></p>
-                  </div>
-                  <button id="backToSetupBtn" type="button" class="px-2.5 py-1 rounded-full border border-slate-700 bg-slate-900 text-slate-100 hover:bg-slate-800 text-xs">Back to setup</button>
-                </div>
-                <div id="wrongAnswersList" class="flex-1 min-h-0 overflow-y-auto scrollbar-thin rounded-xl border border-slate-800 bg-slate-950/80 p-3 text-xs"></div>
-              </div>
-            </div>
-
-            <!-- Sessions tab -->
-            <div id="sessionsTab" class="hidden h-full overflow-hidden flex flex-col text-xs">
-              <div class="flex items-center justify-between gap-2 mb-2">
-                <div>
-                  <h2 class="text-sm font-semibold text-slate-100">Saved practice progress</h2>
-                  <p class="text-[11px] text-slate-400">Resume unfinished sessions from here on the same device.</p>
-                </div>
-              </div>
-              <div id="sessionsList" class="flex-1 min-h-0 overflow-y-auto scrollbar-thin rounded-xl border border-slate-800 bg-slate-950/80 p-3 space-y-2"></div>
-            </div>
-          </div>
-        </section>
-      </div>
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-6" id="app-container">
+        <!-- Views will be injected here -->
     </main>
-  </div>
 
-  <!-- Hidden input for question images -->
-  <input id="imageUploadInput" type="file" accept="image/*" multiple class="hidden" />
-
-  <!-- Toast notification -->
-  <div id="toast" class="fixed bottom-4 right-4 max-w-xs px-3 py-2 rounded-xl bg-slate-900/95 border border-slate-700 text-xs text-slate-100 shadow-lg shadow-slate-900/80 opacity-0 pointer-events-none transition-opacity duration-150 flex items-start gap-2">
-    <span id="toast-icon" class="mt-0.5 text-[13px]">✔</span>
-    <span id="toast-message"></span>
-  </div>
-
-  <!-- pdf.js for client-side PDF text extraction -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
-  <script>
-    if (window['pdfjsLib']) {
-      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.worker.min.js';
-    }
-  </script>
-
-  <script>
-    (function () {
-      'use strict';
-
-      const STORAGE_VERSION = 'v1.0';
-      const BANKS_KEY = 'mcqPractice_banks_' + STORAGE_VERSION;
-      const SESSIONS_KEY = 'mcqPractice_sessions_' + STORAGE_VERSION;
-
-      const state = {
-        banks: [],
-        sessions: [],
-        selectedBankId: null,
-        editMode: false,
-        unsavedEdits: false,
-        editBackupJSON: null,
-        currentPractice: null,
-        imageUploadTargetQuestionId: null
-      };
-
-      const els = {};
-
-      document.addEventListener('DOMContentLoaded', init);
-
-      function init() {
-        cacheDom();
-        bindStaticHandlers();
-        loadFromStorage();
-        syncSelectedBankFromExisting();
-        renderAll();
-      }
-
-      function cacheDom() {
-        els.bankList = document.getElementById('bankList');
-        els.bankCountBadge = document.getElementById('bank-count-badge');
-        els.importPdfBtn = document.getElementById('importPdfBtn');
-        els.pdfInput = document.getElementById('pdfInput');
-        els.importJsonBankBtn = document.getElementById('importJsonBankBtn');
-        els.jsonBankInput = document.getElementById('jsonBankInput');
-
-        els.tabButtons = document.querySelectorAll('.tab-btn');
-        els.manageTab = document.getElementById('manageTab');
-        els.practiceTab = document.getElementById('practiceTab');
-        els.sessionsTab = document.getElementById('sessionsTab');
-        els.manageEmpty = document.getElementById('manage-empty');
-        els.manageMain = document.getElementById('manage-main');
-        els.activeBankName = document.getElementById('active-bank-name');
-        els.activeBankMeta = document.getElementById('active-bank-meta');
-        els.toggleEditModeBtn = document.getElementById('toggleEditModeBtn');
-        els.exportBankBtn = document.getElementById('exportBankBtn');
-        els.deleteBankBtn = document.getElementById('deleteBankBtn');
-        els.editHelper = document.getElementById('edit-helper');
-        els.editStatus = document.getElementById('edit-status');
-        els.addQuestionBtn = document.getElementById('addQuestionBtn');
-        els.saveEditsBtn = document.getElementById('saveEditsBtn');
-        els.questionCountLabel = document.getElementById('question-count-label');
-        els.questionsContainer = document.getElementById('questionsContainer');
-
-        els.practiceSetup = document.getElementById('practice-setup');
-        els.practiceMain = document.getElementById('practice-main');
-        els.practiceResults = document.getElementById('practice-results');
-        els.practiceBankSelect = document.getElementById('practiceBankSelect');
-        els.numQuestionsInput = document.getElementById('numQuestionsInput');
-        els.numQuestionsHint = document.getElementById('numQuestionsHint');
-        els.shuffleCheckbox = document.getElementById('shuffleCheckbox');
-        els.startPracticeBtn = document.getElementById('startPracticeBtn');
-        els.practiceBankLabel = document.getElementById('practice-bank-label');
-        els.practiceModeLabel = document.getElementById('practice-mode-label');
-        els.scoreSummary = document.getElementById('scoreSummary');
-        els.saveSessionBtn = document.getElementById('saveSessionBtn');
-        els.endPracticeBtn = document.getElementById('endPracticeBtn');
-        els.practiceQuestionContainer = document.getElementById('practiceQuestionContainer');
-        els.prevQuestionBtn = document.getElementById('prevQuestionBtn');
-        els.nextQuestionBtn = document.getElementById('nextQuestionBtn');
-        els.submitAnswerBtn = document.getElementById('submitAnswerBtn');
-        els.practiceFeedback = document.getElementById('practiceFeedback');
-        els.resultsSummary = document.getElementById('resultsSummary');
-        els.wrongAnswersList = document.getElementById('wrongAnswersList');
-        els.backToSetupBtn = document.getElementById('backToSetupBtn');
-        els.sessionsList = document.getElementById('sessionsList');
-        els.headerModePill = document.getElementById('header-mode-pill');
-
-        els.imageUploadInput = document.getElementById('imageUploadInput');
-
-        els.toast = document.getElementById('toast');
-        els.toastIcon = document.getElementById('toast-icon');
-        els.toastMessage = document.getElementById('toast-message');
-      }
-
-      function bindStaticHandlers() {
-        els.importPdfBtn.addEventListener('click', () => els.pdfInput.click());
-        els.pdfInput.addEventListener('change', onPdfFileSelected);
-
-        els.importJsonBankBtn.addEventListener('click', () => els.jsonBankInput.click());
-        els.jsonBankInput.addEventListener('change', onJsonBankFileSelected);
-
-        els.tabButtons.forEach(btn => {
-          btn.addEventListener('click', () => switchTab(btn.dataset.tabTarget));
-        });
-
-        document.querySelectorAll('[data-tab-jump]').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const target = btn.getAttribute('data-tab-jump');
-            switchTab(target);
-          });
-        });
-
-        els.toggleEditModeBtn.addEventListener('click', () => {
-          if (!state.editMode) {
-            enterEditMode();
-          } else {
-            exitEditMode();
-          }
-        });
-
-        els.exportBankBtn.addEventListener('click', () => {
-          const bank = getSelectedBank();
-          if (!bank) {
-            alert('No question bank selected to export.');
-            return;
-          }
-          exportBankAsJson(bank);
-        });
-
-        els.deleteBankBtn.addEventListener('click', () => {
-          const bank = getSelectedBank();
-          if (!bank) {
-            alert('No question bank selected to delete.');
-            return;
-          }
-          deleteBank(bank.id);
-        });
-
-        els.addQuestionBtn.addEventListener('click', () => {
-          const bank = getSelectedBank();
-          if (!bank) return;
-          const q = createEmptyQuestion(bank.questions.length + 1);
-          bank.questions.push(q);
-          markUnsaved();
-          renderQuestions();
-        });
-
-        els.saveEditsBtn.addEventListener('click', () => {
-          saveEdits();
-        });
-
-        els.questionsContainer.addEventListener('input', onQuestionsContainerInput);
-        els.questionsContainer.addEventListener('change', onQuestionsContainerChange);
-        els.questionsContainer.addEventListener('click', onQuestionsContainerClick);
-
-        els.imageUploadInput.addEventListener('change', onImageFilesSelectedForQuestion);
-
-        els.startPracticeBtn.addEventListener('click', startPracticeFromSetup);
-        els.prevQuestionBtn.addEventListener('click', () => navigatePractice(-1));
-        els.nextQuestionBtn.addEventListener('click', () => navigatePractice(1));
-        els.submitAnswerBtn.addEventListener('click', submitCurrentAnswer);
-        els.endPracticeBtn.addEventListener('click', finishPractice);
-        els.backToSetupBtn.addEventListener('click', () => {
-          state.currentPractice = null;
-          hideElement(els.practiceMain);
-          hideElement(els.practiceResults);
-          showElement(els.practiceSetup);
-          updateHeaderModePill();
-        });
-        els.saveSessionBtn.addEventListener('click', () => {
-          if (!state.currentPractice) {
-            alert('No active practice session to save.');
-            return;
-          }
-          saveCurrentPracticeAsSession();
-        });
-
-        els.sessionsList.addEventListener('click', onSessionsListClick);
-
-        window.addEventListener('beforeunload', (e) => {
-          if (state.unsavedEdits) {
-            e.preventDefault();
-            e.returnValue = '';
-          }
-        });
-      }
-
-      function switchTab(tabName) {
-        const tabs = {
-          manage: els.manageTab,
-          practice: els.practiceTab,
-          sessions: els.sessionsTab
-        };
-        Object.keys(tabs).forEach(name => {
-          if (name === tabName) {
-            showElement(tabs[name]);
-          } else {
-            hideElement(tabs[name]);
-          }
-        });
-        els.tabButtons.forEach(btn => {
-          const active = btn.dataset.tabTarget === tabName;
-          btn.classList.toggle('bg-slate-800', active);
-          btn.classList.toggle('text-slate-100', active);
-        });
-        if (tabName === 'sessions') {
-          renderSessions();
-        }
-      }
-
-      function loadFromStorage() {
-        try {
-          const rawBanks = localStorage.getItem(BANKS_KEY);
-          if (rawBanks) {
-            const parsed = JSON.parse(rawBanks);
-            if (Array.isArray(parsed)) {
-              state.banks = parsed;
-            }
-          }
-        } catch (e) {
-          console.warn('Failed to load banks from storage', e);
-        }
-        try {
-          const rawSessions = localStorage.getItem(SESSIONS_KEY);
-          if (rawSessions) {
-            const parsed = JSON.parse(rawSessions);
-            if (Array.isArray(parsed)) {
-              state.sessions = parsed;
-            }
-          }
-        } catch (e) {
-          console.warn('Failed to load sessions from storage', e);
-        }
-      }
-
-      function syncSelectedBankFromExisting() {
-        if (state.banks.length && !state.selectedBankId) {
-          state.selectedBankId = state.banks[0].id;
-        }
-      }
-
-      function saveBanksToStorage() {
-        try {
-          localStorage.setItem(BANKS_KEY, JSON.stringify(state.banks));
-        } catch (e) {
-          console.warn('Failed to save banks', e);
-        }
-      }
-
-      function saveSessionsToStorage() {
-        try {
-          localStorage.setItem(SESSIONS_KEY, JSON.stringify(state.sessions));
-        } catch (e) {
-          console.warn('Failed to save sessions', e);
-        }
-      }
-
-      function renderAll() {
-        renderBankList();
-        renderManageTab();
-        renderPracticeTabSetup();
-        renderSessions();
-      }
-
-      function getSelectedBank() {
-        return state.banks.find(b => b.id === state.selectedBankId) || null;
-      }
-
-      function renderBankList() {
-        const banks = state.banks;
-        els.bankCountBadge.textContent = String(banks.length);
-        if (!banks.length) {
-          els.bankList.innerHTML = '<p class="text-slate-500 text-[11px]">No banks yet. Import a PDF or JSON to get started.</p>';
-          return;
-        }
-        let html = '';
-        banks.forEach(bank => {
-          const selected = bank.id === state.selectedBankId;
-          html += `
-            <div class="group rounded-xl border ${selected ? 'border-indigo-500 bg-indigo-500/10' : 'border-slate-700 bg-slate-900/60 hover:bg-slate-900'} px-2 py-1.5 flex items-center justify-between gap-2 cursor-pointer" data-role="bank-item" data-bank-id="${bank.id}">
-              <div class="min-w-0">
-                <div class="flex items-center gap-1.5">
-                  <span class="truncate font-medium ${selected ? 'text-slate-50' : 'text-slate-100'}">${escapeHtml(bank.name || 'Untitled bank')}</span>
+    <!-- Templates -->
+    <template id="view-home">
+        <div class="space-y-6">
+            <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-bold text-gray-700">Question Banks</h2>
+                <div class="space-x-2">
+                    <button onclick="app.navigate('import')" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded shadow">
+                        <i class="fas fa-plus mr-2"></i>New Bank
+                    </button>
                 </div>
-                <div class="text-[10px] text-slate-400 flex items-center gap-2 mt-0.5">
-                  <span>${bank.questions ? bank.questions.length : 0} questions</span>
-                  <span class="h-1 w-1 rounded-full bg-slate-600"></span>
-                  <span>${escapeHtml(bank.sourceType || 'unknown')} source</span>
-                </div>
-              </div>
-              <div class="flex items-center gap-1 opacity-70 group-hover:opacity-100">
-                <button type="button" class="px-1 py-0.5 rounded-md text-[11px] border border-slate-700 text-slate-300 hover:bg-slate-800" data-role="export-bank" data-bank-id="${bank.id}">Exp</button>
-                <button type="button" class="px-1 py-0.5 rounded-md text-[11px] border border-red-700 text-red-300 hover:bg-red-900/70" data-role="delete-bank" data-bank-id="${bank.id}">Del</button>
-              </div>
-            </div>`;
-        });
-        els.bankList.innerHTML = html;
-
-        els.bankList.querySelectorAll('[data-role="bank-item"]').forEach(el => {
-          el.addEventListener('click', (ev) => {
-            if (ev.target.closest('button')) return; // handled by specific buttons
-            const bankId = el.getAttribute('data-bank-id');
-            onSelectBank(bankId);
-          });
-        });
-
-        els.bankList.querySelectorAll('[data-role="export-bank"]').forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const bankId = btn.getAttribute('data-bank-id');
-            const bank = state.banks.find(b => b.id === bankId);
-            if (bank) exportBankAsJson(bank);
-          });
-        });
-
-        els.bankList.querySelectorAll('[data-role="delete-bank"]').forEach(btn => {
-          btn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            const bankId = btn.getAttribute('data-bank-id');
-            deleteBank(bankId);
-          });
-        });
-      }
-
-      function onSelectBank(bankId) {
-        if (state.editMode && state.unsavedEdits && state.selectedBankId !== bankId) {
-          confirmSaveOrDiscard(() => {
-            state.selectedBankId = bankId;
-            state.editMode = false;
-            state.unsavedEdits = false;
-            state.editBackupJSON = null;
-            updateEditModeUi();
-            renderAll();
-          });
-        } else {
-          state.selectedBankId = bankId;
-          renderAll();
-        }
-      }
-
-      function renderManageTab() {
-        const bank = getSelectedBank();
-        if (!bank) {
-          showElement(els.manageEmpty);
-          hideElement(els.manageMain);
-          return;
-        }
-        hideElement(els.manageEmpty);
-        showElement(els.manageMain);
-
-        els.activeBankName.textContent = bank.name || 'Untitled bank';
-        const created = bank.createdAt ? new Date(bank.createdAt) : null;
-        const updated = bank.updatedAt ? new Date(bank.updatedAt) : null;
-        let meta = '';
-        if (bank.sourceType) {
-          meta += 'Source: ' + bank.sourceType.toUpperCase();
-        }
-        if (created) {
-          meta += (meta ? ' · ' : '') + 'Created ' + created.toLocaleString();
-        }
-        if (updated) {
-          meta += (meta ? ' · ' : '') + 'Last updated ' + updated.toLocaleString();
-        }
-        els.activeBankMeta.textContent = meta;
-        els.questionCountLabel.textContent = `${bank.questions ? bank.questions.length : 0} questions in this bank`;
-
-        updateEditModeUi();
-        renderQuestions();
-      }
-
-      function updateEditModeUi() {
-        if (state.editMode) {
-          els.toggleEditModeBtn.textContent = 'Exit edit mode';
-          showElement(els.editHelper);
-          showElement(els.addQuestionBtn);
-          showElement(els.saveEditsBtn);
-        } else {
-          els.toggleEditModeBtn.textContent = 'Enter edit mode';
-          hideElement(els.editHelper);
-          hideElement(els.addQuestionBtn);
-          hideElement(els.saveEditsBtn);
-          state.unsavedEdits = false;
-        }
-        if (state.unsavedEdits) {
-          showElement(els.editStatus);
-        } else {
-          hideElement(els.editStatus);
-        }
-      }
-
-      function renderQuestions() {
-        const bank = getSelectedBank();
-        if (!bank) return;
-        const questions = bank.questions || [];
-        if (!questions.length) {
-          els.questionsContainer.innerHTML = '<p class="text-[11px] text-slate-400">This bank has no questions yet. Enter edit mode and add questions.</p>';
-          return;
-        }
-        let html = '';
-        questions.forEach((q, index) => {
-          const qNum = index + 1;
-          const hasImages = Array.isArray(q.images) && q.images.length > 0;
-          const choices = Array.isArray(q.choices) ? q.choices : [];
-          if (!state.editMode) {
-            html += `
-              <div id="q-${q.id}" class="rounded-xl border border-slate-800 bg-slate-950/90 px-3 py-2">
-                <div class="flex items-start justify-between gap-2 mb-1">
-                  <div class="flex-1 min-w-0">
-                    <div class="text-[11px] text-slate-500 mb-0.5">Question ${qNum}</div>
-                    <div class="text-xs text-slate-100 whitespace-pre-wrap">${escapeHtml(q.text || '')}</div>
-                  </div>
-                  <button type="button" class="ml-2 px-2 py-0.5 rounded-full border border-slate-700 text-[11px] text-slate-200 hover:bg-slate-800" data-role="jump-edit-question" data-question-id="${q.id}">Edit</button>
-                </div>
-                ${hasImages ? renderQuestionImagesReadonly(q) : ''}
-                <div class="mt-1.5 space-y-1">
-                  ${choices.map((c, ci) => {
-                    const label = c.label || String.fromCharCode(97 + ci) + ')';
-                    const correctMark = c.isCorrect ? '<span class="ml-1 text-[10px] text-emerald-300">(correct)</span>' : '';
-                    return `<div class="flex items-start gap-1.5"><span class="text-slate-400 font-medium">${escapeHtml(label)}</span><span class="text-slate-200">${escapeHtml(c.text || '')}</span>${correctMark}</div>`;
-                  }).join('')}
-                </div>
-                ${q.remarks ? `<div class="mt-1.5 text-[11px] text-slate-500 border-t border-slate-800 pt-1">${escapeHtml(q.remarks)}</div>` : ''}
-              </div>`;
-          } else {
-            html += `
-              <div id="q-${q.id}" class="rounded-xl border border-slate-800 bg-slate-950/95 px-3 py-2 space-y-1.5" data-question-id="${q.id}">
-                <div class="flex items-start gap-2">
-                  <div class="shrink-0 mt-0.5 text-[11px] text-slate-400 font-medium">Q${qNum}</div>
-                  <div class="flex-1 min-w-0 space-y-1">
-                    <textarea data-role="question-text" data-question-id="${q.id}" class="w-full text-xs rounded-lg border border-slate-700 bg-slate-900/80 px-2 py-1 text-slate-100 resize-vertical" rows="2" placeholder="Question text">${escapeHtml(q.text || '')}</textarea>
-                    <div class="flex flex-wrap items-center justify-between gap-1">
-                      <div class="flex items-center gap-2 text-[11px] text-slate-400">
-                        <button type="button" class="px-1.5 py-0.5 rounded-full border border-slate-700 bg-slate-900 text-slate-200 hover:bg-slate-800" data-role="add-image" data-question-id="${q.id}">+ Image</button>
-                        <span>${hasImages ? q.images.length + ' image(s)' : 'No images'}</span>
-                      </div>
-                      <button type="button" class="px-1.5 py-0.5 rounded-full border border-red-700 bg-red-950/60 text-red-200 hover:bg-red-900/80 text-[11px]" data-role="delete-question" data-question-id="${q.id}">Delete question</button>
-                    </div>
-                  </div>
-                </div>
-                ${hasImages ? renderQuestionImagesEditable(q) : ''}
-                <div class="mt-1.5 space-y-1.5">
-                  ${choices.map((c, ci) => {
-                    const label = c.label || String.fromCharCode(97 + ci) + ')';
-                    return `
-                      <div class="flex items-start gap-1.5" data-choice-id="${c.id}">
-                        <input type="text" value="${escapeAttribute(label)}" data-role="choice-label" data-question-id="${q.id}" data-choice-id="${c.id}" class="w-10 text-xs rounded-md border border-slate-700 bg-slate-900/80 px-1 py-0.5 text-slate-100" />
-                        <input type="text" value="${escapeAttribute(c.text || '')}" data-role="choice-text" data-question-id="${q.id}" data-choice-id="${c.id}" class="flex-1 text-xs rounded-md border border-slate-700 bg-slate-900/80 px-2 py-0.5 text-slate-100" />
-                        <label class="inline-flex items-center gap-1 text-[11px] text-slate-300 mr-1">
-                          <input type="checkbox" data-role="choice-correct" data-question-id="${q.id}" data-choice-id="${c.id}" class="rounded border-slate-600 bg-slate-900 text-emerald-500 focus:ring-emerald-500" ${c.isCorrect ? 'checked' : ''} />
-                          <span>Correct</span>
-                        </label>
-                        <button type="button" class="px-1.5 py-0.5 rounded-md border border-slate-700 bg-slate-900 text-slate-200 hover:bg-slate-800 text-[11px]" data-role="delete-choice" data-question-id="${q.id}" data-choice-id="${c.id}">Delete</button>
-                      </div>`;
-                  }).join('')}
-                  <button type="button" class="mt-0.5 px-2 py-0.5 rounded-full border border-slate-700 bg-slate-900 text-slate-100 hover:bg-slate-800 text-[11px]" data-role="add-choice" data-question-id="${q.id}">+ Add choice</button>
-                </div>
-                <div class="mt-1">
-                  <textarea data-role="question-remarks" data-question-id="${q.id}" class="w-full text-[11px] rounded-lg border border-slate-800 bg-slate-950/70 px-2 py-1 text-slate-300 resize-vertical" rows="1" placeholder="Optional remarks / explanations (not part of the choices)">${escapeHtml(q.remarks || '')}</textarea>
-                </div>
-              </div>`;
-          }
-        });
-        els.questionsContainer.innerHTML = html;
-      }
-
-      function renderQuestionImagesReadonly(q) {
-        if (!q.images || !q.images.length) return '';
-        return `
-          <div class="mt-1 flex flex-wrap gap-1.5">
-            ${q.images.map((img, idx) => `
-              <figure class="border border-slate-800 rounded-lg overflow-hidden bg-black/60 max-w-[140px]">
-                <img src="${img.dataUrl}" alt="Question image ${idx + 1}" class="w-full h-auto object-contain max-h-32" />
-              </figure>`).join('')}
-          </div>`;
-      }
-
-      function renderQuestionImagesEditable(q) {
-        if (!q.images || !q.images.length) return '';
-        return `
-          <div class="mt-1 flex flex-wrap gap-1.5">
-            ${q.images.map((img, idx) => `
-              <figure class="border border-slate-800 rounded-lg overflow-hidden bg-black/60 max-w-[140px] relative" data-image-index="${idx}">
-                <img src="${img.dataUrl}" alt="Question image ${idx + 1}" class="w-full h-auto object-contain max-h-32" />
-                <button type="button" class="absolute top-1 right-1 px-1 py-0 rounded-md bg-red-900/80 text-[10px] text-red-100" data-role="remove-image" data-question-id="${q.id}" data-image-index="${idx}">✕</button>
-              </figure>`).join('')}
-          </div>`;
-      }
-
-      function enterEditMode() {
-        if (!getSelectedBank()) {
-          alert('Select a question bank first.');
-          return;
-        }
-        if (!state.editMode) {
-          state.editBackupJSON = JSON.stringify(state.banks);
-        }
-        state.editMode = true;
-        state.unsavedEdits = false;
-        updateEditModeUi();
-        renderQuestions();
-      }
-
-      function exitEditMode() {
-        if (state.unsavedEdits) {
-          confirmSaveOrDiscard(() => {
-            state.editMode = false;
-            state.editBackupJSON = null;
-            state.unsavedEdits = false;
-            updateEditModeUi();
-            renderQuestions();
-          });
-        } else {
-          state.editMode = false;
-          state.editBackupJSON = null;
-          updateEditModeUi();
-          renderQuestions();
-        }
-      }
-
-      function markUnsaved() {
-        state.unsavedEdits = true;
-        showElement(els.editStatus);
-      }
-
-      function saveEdits() {
-        const bank = getSelectedBank();
-        if (!bank) return;
-        bank.updatedAt = new Date().toISOString();
-        saveBanksToStorage();
-        state.unsavedEdits = false;
-        state.editBackupJSON = JSON.stringify(state.banks);
-        updateEditModeUi();
-        showToast('Edits saved.');
-      }
-
-      function confirmSaveOrDiscard(onContinue) {
-        const save = confirm('You have unsaved edits. Click OK to save them, or Cancel to choose whether to discard.');
-        if (save) {
-          saveEdits();
-          onContinue();
-        } else {
-          const discard = confirm('Discard all unsaved edits? This cannot be undone.');
-          if (discard) {
-            if (state.editBackupJSON) {
-              try {
-                state.banks = JSON.parse(state.editBackupJSON);
-              } catch (e) {
-                console.warn('Failed to restore backup', e);
-              }
-            }
-            state.unsavedEdits = false;
-            saveBanksToStorage();
-            renderAll();
-            onContinue();
-          }
-        }
-      }
-
-      function onQuestionsContainerInput(e) {
-        if (!state.editMode) return;
-        const target = e.target;
-        const role = target.getAttribute('data-role');
-        const qId = target.getAttribute('data-question-id');
-        const bank = getSelectedBank();
-        if (!bank) return;
-        const question = bank.questions.find(q => q.id === qId);
-        if (!question) return;
-        if (role === 'question-text') {
-          question.text = target.value;
-          markUnsaved();
-        } else if (role === 'choice-text') {
-          const cId = target.getAttribute('data-choice-id');
-          const choice = (question.choices || []).find(c => c.id === cId);
-          if (choice) {
-            choice.text = target.value;
-            markUnsaved();
-          }
-        } else if (role === 'choice-label') {
-          const cId = target.getAttribute('data-choice-id');
-          const choice = (question.choices || []).find(c => c.id === cId);
-          if (choice) {
-            choice.label = target.value;
-            markUnsaved();
-          }
-        } else if (role === 'question-remarks') {
-          question.remarks = target.value;
-          markUnsaved();
-        }
-      }
-
-      function onQuestionsContainerChange(e) {
-        if (!state.editMode) return;
-        const target = e.target;
-        const role = target.getAttribute('data-role');
-        if (role === 'choice-correct') {
-          const qId = target.getAttribute('data-question-id');
-          const cId = target.getAttribute('data-choice-id');
-          const bank = getSelectedBank();
-          if (!bank) return;
-          const question = bank.questions.find(q => q.id === qId);
-          if (!question || !question.choices) return;
-          const choice = question.choices.find(c => c.id === cId);
-          if (!choice) return;
-          choice.isCorrect = target.checked;
-          markUnsaved();
-        }
-      }
-
-      function onQuestionsContainerClick(e) {
-        const btn = e.target.closest('button');
-        if (!btn) return;
-        const role = btn.getAttribute('data-role');
-        if (!role) return;
-        const bank = getSelectedBank();
-        if (!bank) return;
-
-        if (role === 'delete-question') {
-          if (!state.editMode) return;
-          const qId = btn.getAttribute('data-question-id');
-          const idx = bank.questions.findIndex(q => q.id === qId);
-          if (idx !== -1) {
-            const confirmDelete = confirm('Delete this question?');
-            if (!confirmDelete) return;
-            bank.questions.splice(idx, 1);
-            markUnsaved();
-            renderManageTab();
-          }
-        } else if (role === 'add-choice') {
-          if (!state.editMode) return;
-          const qId = btn.getAttribute('data-question-id');
-          const question = bank.questions.find(q => q.id === qId);
-          if (!question) return;
-          if (!Array.isArray(question.choices)) question.choices = [];
-          const nextIndex = question.choices.length;
-          const label = String.fromCharCode(97 + nextIndex) + ')';
-          question.choices.push({
-            id: generateId('choice'),
-            label,
-            text: '',
-            isCorrect: false
-          });
-          markUnsaved();
-          renderQuestions();
-        } else if (role === 'delete-choice') {
-          if (!state.editMode) return;
-          const qId = btn.getAttribute('data-question-id');
-          const cId = btn.getAttribute('data-choice-id');
-          const question = bank.questions.find(q => q.id === qId);
-          if (!question || !Array.isArray(question.choices)) return;
-          if (question.choices.length <= 1) {
-            alert('A question must have at least one choice.');
-            return;
-          }
-          const idx = question.choices.findIndex(c => c.id === cId);
-          if (idx !== -1) {
-            question.choices.splice(idx, 1);
-            markUnsaved();
-            renderQuestions();
-          }
-        } else if (role === 'add-image') {
-          if (!state.editMode) return;
-          const qId = btn.getAttribute('data-question-id');
-          state.imageUploadTargetQuestionId = qId;
-          els.imageUploadInput.value = '';
-          els.imageUploadInput.click();
-        } else if (role === 'remove-image') {
-          if (!state.editMode) return;
-          const qId = btn.getAttribute('data-question-id');
-          const idxStr = btn.getAttribute('data-image-index');
-          const idx = parseInt(idxStr, 10);
-          const question = bank.questions.find(q => q.id === qId);
-          if (!question || !Array.isArray(question.images)) return;
-          if (idx >= 0 && idx < question.images.length) {
-            question.images.splice(idx, 1);
-            markUnsaved();
-            renderQuestions();
-          }
-        } else if (role === 'jump-edit-question') {
-          const qId = btn.getAttribute('data-question-id');
-          if (!state.editMode) {
-            enterEditMode();
-          }
-          setTimeout(() => {
-            const el = document.getElementById('q-' + qId);
-            if (el) {
-              el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            }
-          }, 50);
-        }
-      }
-
-      function onImageFilesSelectedForQuestion(e) {
-        const files = Array.from(e.target.files || []);
-        if (!files.length || !state.imageUploadTargetQuestionId) return;
-        const bank = getSelectedBank();
-        if (!bank) return;
-        const question = bank.questions.find(q => q.id === state.imageUploadTargetQuestionId);
-        if (!question) return;
-        if (!Array.isArray(question.images)) question.images = [];
-
-        let remaining = files.length;
-        files.forEach(file => {
-          const reader = new FileReader();
-          reader.onload = (ev) => {
-            question.images.push({
-              id: generateId('img'),
-              name: file.name,
-              dataUrl: ev.target.result
-            });
-            remaining -= 1;
-            if (remaining === 0) {
-              markUnsaved();
-              renderQuestions();
-            }
-          };
-          reader.readAsDataURL(file);
-        });
-      }
-
-      function deleteBank(bankId) {
-        const bank = state.banks.find(b => b.id === bankId);
-        if (!bank) return;
-        const confirmed = confirm('Delete the question bank "' + (bank.name || 'Untitled') + '"? This will also remove any saved sessions that use it.');
-        if (!confirmed) return;
-        state.banks = state.banks.filter(b => b.id !== bankId);
-        state.sessions = state.sessions.filter(s => s.bankId !== bankId);
-        if (state.selectedBankId === bankId) {
-          state.selectedBankId = state.banks[0] ? state.banks[0].id : null;
-        }
-        saveBanksToStorage();
-        saveSessionsToStorage();
-        state.editMode = false;
-        state.unsavedEdits = false;
-        state.editBackupJSON = null;
-        updateEditModeUi();
-        renderAll();
-        showToast('Question bank deleted.', 'warn');
-      }
-
-      function onPdfFileSelected(e) {
-        const file = e.target.files && e.target.files[0];
-        if (!file) return;
-        if (!window.pdfjsLib) {
-          alert('PDF.js failed to load. PDF import is not available.');
-          return;
-        }
-        const reader = new FileReader();
-        reader.onload = async (ev) => {
-          try {
-            showToast('Parsing PDF… this may take a moment.');
-            const arrayBuffer = ev.target.result;
-            const { bank } = await parsePdfToBank(arrayBuffer, file.name);
-            state.banks.push(bank);
-            state.selectedBankId = bank.id;
-            saveBanksToStorage();
-            state.editMode = false;
-            state.unsavedEdits = false;
-            state.editBackupJSON = null;
-            renderAll();
-            switchTab('manage');
-            showToast('PDF imported with ' + bank.questions.length + ' detected questions. Please review and edit if needed.');
-          } catch (err) {
-            console.error('Failed to parse PDF', err);
-            alert('Failed to parse PDF. The file may be scanned or use an unsupported layout.');
-          }
-        };
-        reader.readAsArrayBuffer(file);
-      }
-
-      function onJsonBankFileSelected(e) {
-        const file = e.target.files && e.target.files[0];
-        if (!file) return;
-        const reader = new FileReader();
-        reader.onload = (ev) => {
-          try {
-            const text = ev.target.result;
-            const data = JSON.parse(text);
-            importBankJson(data, file.name);
-          } catch (err) {
-            console.error('Failed to import JSON bank', err);
-            alert('Invalid JSON bank file.');
-          }
-        };
-        reader.readAsText(file);
-      }
-
-      function importBankJson(data, fileName) {
-        let bank = null;
-        if (data && data.schema === 'mcq-practice-bank' && data.bank) {
-          bank = data.bank;
-        } else if (data && Array.isArray(data.questions)) {
-          bank = data;
-        } else if (data && data.banks && Array.isArray(data.banks) && data.banks.length === 1) {
-          bank = data.banks[0];
-        }
-        if (!bank) {
-          alert('JSON file does not look like a question bank export.');
-          return;
-        }
-        bank.id = generateId('bank');
-        bank.name = bank.name || (fileName ? fileName.replace(/\.json$/i, '') : 'Imported bank');
-        bank.sourceType = bank.sourceType || 'json';
-        bank.createdAt = bank.createdAt || new Date().toISOString();
-        bank.updatedAt = new Date().toISOString();
-        if (!Array.isArray(bank.questions)) bank.questions = [];
-        bank.questions.forEach(q => {
-          q.id = q.id || generateId('q');
-          if (!Array.isArray(q.choices)) q.choices = [];
-          q.choices.forEach(c => {
-            c.id = c.id || generateId('choice');
-            c.isCorrect = !!c.isCorrect;
-          });
-          if (!Array.isArray(q.images)) q.images = [];
-        });
-        state.banks.push(bank);
-        state.selectedBankId = bank.id;
-        saveBanksToStorage();
-        renderAll();
-        switchTab('manage');
-        showToast('Bank imported from JSON.');
-      }
-
-      async function parsePdfToBank(arrayBuffer, fileName) {
-        const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-        const lines = [];
-        for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
-          const page = await pdf.getPage(pageNum);
-          const textContent = await page.getTextContent();
-          let currentLine = { text: '', segments: [], page: pageNum, fontSize: 0 };
-          textContent.items.forEach(item => {
-            let str = (item.str || '').replace(/\s+/g, ' ');
-            if (!str) return;
-            const style = textContent.styles && textContent.styles[item.fontName];
-            const isBoldSeg = isFontBold(style);
-            const tf = item.transform || [1, 0, 0, 1, 0, 0];
-            const fontSize = Math.sqrt(tf[0] * tf[0] + tf[3] * tf[3]);
-            if (!currentLine.fontSize || fontSize > currentLine.fontSize) currentLine.fontSize = fontSize;
-
-            if (currentLine.text) currentLine.text += ' ';
-            currentLine.text += str;
-            currentLine.segments.push({ text: str, isBold: isBoldSeg });
-            if (item.hasEOL) {
-              if (currentLine.text.trim()) {
-                currentLine.text = currentLine.text.trim();
-                lines.push(currentLine);
-              }
-              currentLine = { text: '', segments: [], page: pageNum, fontSize: 0 };
-            }
-          });
-          if (currentLine.text && currentLine.text.trim()) {
-            currentLine.text = currentLine.text.trim();
-            lines.push(currentLine);
-          }
-        }
-        const questions = parseLinesToQuestions(lines);
-        const bank = {
-          id: generateId('bank'),
-          name: fileName ? fileName.replace(/\.pdf$/i, '') : 'Imported PDF bank',
-          sourceType: 'pdf',
-          createdAt: new Date().toISOString(),
-          updatedAt: new Date().toISOString(),
-          questions
-        };
-        return { bank };
-      }
-
-      function isFontBold(style) {
-        if (!style) return false;
-        const w = String(style.fontWeight || '').toLowerCase();
-        const f = String(style.fontFamily || '').toLowerCase();
-        return w.includes('bold') || /bold|semibold|black/.test(f);
-      }
-
-      function parseLinesToQuestions(lines) {
-        const questions = [];
-        let current = null;
-        let lastNonEmptyLineIndex = -1;
-
-        function startNewQuestionFromLine(line, index) {
-          const text = sanitizeQuestionText(stripQuestionNumber(line.text));
-          if (!text) return null;
-          const q = {
-            id: generateId('q'),
-            text,
-            choices: [],
-            images: [],
-            remarks: '',
-            sourceMeta: { page: line.page, lineIndex: index },
-            baseFontSize: line.fontSize || 0
-          };
-          return q;
-        }
-
-        function finalizeCurrent() {
-          if (current && Array.isArray(current.choices) && current.choices.length) {
-            questions.push(current);
-          }
-          current = null;
-        }
-
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i];
-          let text = (line.text || '').trim();
-          if (!text) continue;
-
-          const looksQ = looksLikeQuestionStart(text);
-          const looksChoice = looksLikeChoiceStart(text);
-          const looksSub = looksLikeSubStatement(text);
-
-          if (looksQ) {
-            if (current && current.choices && current.choices.length) {
-              finalizeCurrent();
-            }
-            current = startNewQuestionFromLine(line, i) || current;
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          if (looksChoice) {
-            if (!current) {
-              let prevIdx = i - 1;
-              while (prevIdx >= 0 && !(lines[prevIdx].text || '').trim()) prevIdx--;
-              if (prevIdx >= 0) {
-                current = startNewQuestionFromLine(lines[prevIdx], prevIdx);
-              }
-              if (!current) {
-                current = {
-                  id: generateId('q'),
-                  text: 'Untitled question',
-                  choices: [],
-                  images: [],
-                  remarks: '',
-                  sourceMeta: { page: line.page, lineIndex: i },
-                  baseFontSize: line.fontSize || 0
-                };
-              }
-            }
-            if (!Array.isArray(current.choices)) current.choices = [];
-            const choice = parseChoiceLine(line, current.choices.length);
-            current.choices.push(choice);
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          if (looksSub) {
-            if (!current) {
-              current = startNewQuestionFromLine(line, i);
-            } else if (!current.choices || !current.choices.length) {
-              current.text += '\n' + sanitizeQuestionText(text);
-            } else {
-              current.text += '\n' + sanitizeQuestionText(text);
-            }
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          const remarkCandidate = isRemarkLine(text, line, current);
-          if (remarkCandidate && current) {
-            current.remarks = (current.remarks ? current.remarks + '\n' : '') + text;
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          if (current && (!current.choices || !current.choices.length)) {
-            current.text += '\n' + sanitizeQuestionText(text);
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          if (current && current.choices && current.choices.length) {
-            const lastChoice = current.choices[current.choices.length - 1];
-            lastChoice.text = (lastChoice.text ? lastChoice.text + ' ' : '') + text.replace(/\*/g, '').trim();
-            lastNonEmptyLineIndex = i;
-            continue;
-          }
-
-          lastNonEmptyLineIndex = i;
-        }
-
-        finalizeCurrent();
-        return questions;
-      }
-
-      function looksLikeQuestionStart(text) {
-        const trimmed = text.trim();
-        if (/^\d+[\.\)]\s+/.test(trimmed)) return true;
-        if (/^Q\s*\d+[\.\)]?\s+/i.test(trimmed)) return true;
-        if (/^\(\d+\)\s+/.test(trimmed)) return true;
-        if (/^(Which|What|When|Where|Why|How|Who)\b/i.test(trimmed) && !looksLikeChoiceStart(trimmed)) return true;
-        return false;
-      }
-
-      function looksLikeChoiceStart(text) {
-        const trimmed = text.trim();
-        if (/^\(?[A-Ha-h][\)\.]/.test(trimmed)) {
-          if (/^\(?i{1,3}\)/i.test(trimmed)) return false;
-          return true;
-        }
-        if (/^\(?[A-Ha-h]\)\s+/.test(trimmed)) return true;
-        return false;
-      }
-
-      function looksLikeSubStatement(text) {
-        const trimmed = text.trim();
-        if (/^i{1,3}\)\s+/i.test(trimmed)) return true;
-        if (/^\(i{1,3}\)\s+/i.test(trimmed)) return true;
-        return false;
-      }
-
-      function isRemarkLine(text, line, current) {
-        if (!current) return false;
-        const trimmed = text.trim();
-        if (!trimmed) return false;
-        if (/^[A-Za-z]\s*[\.\)]\s+/.test(trimmed)) return false;
-        if (/^\d+[\.\)]\s+/.test(trimmed)) return false;
-        if (!current.choices || current.choices.length < 3) return false;
-        if (line.fontSize && current.baseFontSize && line.fontSize < current.baseFontSize * 0.9) return true;
-        if (/^(Note|Explanation|Answer:)/i.test(trimmed)) return true;
-        return false;
-      }
-
-      function stripQuestionNumber(text) {
-        return text.replace(/^\s*(?:Q\s*)?\d+[\.\)]\s+/, '').replace(/^\((\d+)\)\s+/, '');
-      }
-
-      function sanitizeQuestionText(text) {
-        return text.replace(/\*/g, '').trim();
-      }
-
-      function parseChoiceLine(line, currentIndex) {
-        const raw = line.text || '';
-        let label = '';
-        let rest = raw.trim();
-        const m1 = /^\s*\(?([A-Za-z])\s*[\)\. ]\s*(.*)$/.exec(rest);
-        if (m1) {
-          label = m1[1].toLowerCase() + ')';
-          rest = m1[2] || '';
-        }
-        let text = rest.replace(/\*/g, '').trim();
-        let isCorrect = /\*/.test(rest);
-        if (Array.isArray(line.segments) && line.segments.length) {
-          const hasBold = line.segments.some(seg => seg.isBold && seg.text && seg.text.trim());
-          if (hasBold) isCorrect = true;
-        }
-        if (!label) label = String.fromCharCode(97 + currentIndex) + ')';
-        return {
-          id: generateId('choice'),
-          label,
-          text,
-          isCorrect
-        };
-      }
-
-      function renderPracticeTabSetup() {
-        const bank = getSelectedBank();
-        const banks = state.banks;
-        let optionsHtml = '';
-        if (!banks.length) {
-          optionsHtml = '<option value="" disabled selected>No banks available</option>';
-        } else {
-          banks.forEach(b => {
-            const selected = bank && bank.id === b.id;
-            optionsHtml += `<option value="${b.id}" ${selected ? 'selected' : ''}>${escapeHtml(b.name || 'Untitled bank')}</option>`;
-          });
-        }
-        els.practiceBankSelect.innerHTML = optionsHtml;
-        const effectiveBank = bank || banks[0] || null;
-        if (effectiveBank && Array.isArray(effectiveBank.questions)) {
-          els.numQuestionsHint.textContent = `This bank has ${effectiveBank.questions.length} questions.`;
-          els.numQuestionsInput.value = effectiveBank.questions.length;
-        } else {
-          els.numQuestionsHint.textContent = 'Import a question bank first.';
-          els.numQuestionsInput.value = '';
-        }
-      }
-
-      function startPracticeFromSetup() {
-        const bankId = els.practiceBankSelect.value || state.selectedBankId;
-        const bank = state.banks.find(b => b.id === bankId);
-        if (!bank) {
-          alert('Select a question bank to practice.');
-          return;
-        }
-        if (!Array.isArray(bank.questions) || !bank.questions.length) {
-          alert('This bank has no questions. Please add some questions first.');
-          return;
-        }
-        let n = parseInt(els.numQuestionsInput.value, 10);
-        if (!n || n <= 0) n = bank.questions.length;
-        if (n > bank.questions.length) n = bank.questions.length;
-        const shuffle = !!els.shuffleCheckbox.checked;
-        const mode = (document.querySelector('input[name="practiceMode"]:checked') || {}).value || 'normal';
-
-        const ids = bank.questions.map(q => q.id);
-        let ordered = ids.slice();
-        if (shuffle) {
-          for (let i = ordered.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [ordered[i], ordered[j]] = [ordered[j], ordered[i]];
-          }
-        }
-        const questionIds = ordered.slice(0, n);
-
-        state.currentPractice = {
-          id: generateId('practice'),
-          bankId: bank.id,
-          questionIds,
-          answers: {},
-          currentIndex: 0,
-          mode,
-          shuffle,
-          finished: false,
-          sessionId: null
-        };
-
-        els.practiceBankLabel.textContent = bank.name || 'Untitled bank';
-        els.practiceModeLabel.textContent = mode === 'real' ? 'Real dope shit mode – feedback only at the end' : 'Normal mode – shows correctness after each question';
-        els.practiceFeedback.textContent = '';
-
-        updateHeaderModePill();
-
-        hideElement(els.practiceSetup);
-        hideElement(els.practiceResults);
-        showElement(els.practiceMain);
-
-        renderPracticeQuestion();
-        updateScoreSummary();
-      }
-
-      function updateHeaderModePill() {
-        const mode = state.currentPractice ? state.currentPractice.mode : null;
-        if (mode === 'real') {
-          showElement(els.headerModePill);
-        } else {
-          hideElement(els.headerModePill);
-        }
-      }
-
-      function getCurrentPracticeQuestion() {
-        if (!state.currentPractice) return null;
-        const bank = state.banks.find(b => b.id === state.currentPractice.bankId);
-        if (!bank) return null;
-        const qId = state.currentPractice.questionIds[state.currentPractice.currentIndex];
-        return bank.questions.find(q => q.id === qId) || null;
-      }
-
-      function renderPracticeQuestion() {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const bank = state.banks.find(b => b.id === practice.bankId);
-        if (!bank) {
-          els.practiceQuestionContainer.innerHTML = '<p class="text-[11px] text-red-300">The question bank for this session is no longer available.</p>';
-          return;
-        }
-        const total = practice.questionIds.length;
-        const idx = practice.currentIndex;
-        const qId = practice.questionIds[idx];
-        const question = bank.questions.find(q => q.id === qId);
-        if (!question) {
-          els.practiceQuestionContainer.innerHTML = '<p class="text-[11px] text-red-300">Question not found in bank.</p>';
-          return;
-        }
-        const selected = practice.answers[qId] || [];
-        const selectedSet = Array.isArray(selected) ? new Set(selected) : new Set();
-        const choices = Array.isArray(question.choices) ? question.choices : [];
-
-        let html = '';
-        html += `<div class="fade-enter rounded-xl border border-slate-800 bg-slate-950/95 px-3 py-2">
-          <div class="flex items-start justify-between gap-2 mb-1">
-            <div class="flex-1 min-w-0">
-              <div class="text-[11px] text-slate-500 mb-0.5">Question ${idx + 1} of ${total}</div>
-              <div class="text-xs text-slate-100 whitespace-pre-wrap">${escapeHtml(question.text || '')}</div>
             </div>
-            <button type="button" class="ml-2 px-2 py-0.5 rounded-full border border-slate-700 text-[11px] text-slate-200 hover:bg-slate-800" data-role="practice-jump-edit" data-question-id="${question.id}">Edit</button>
-          </div>`;
-        if (question.images && question.images.length) {
-          html += '<div class="mt-1.5 flex flex-wrap gap-1.5">' + question.images.map((img, idxImg) => `
-            <figure class="border border-slate-800 rounded-lg overflow-hidden bg-black/60 max-w-[160px]">
-              <img src="${img.dataUrl}" alt="Question image ${idxImg + 1}" class="w-full h-auto object-contain max-h-40" />
-            </figure>`).join('') + '</div>';
-        }
-        html += '<div class="mt-2 space-y-1.5">';
-        choices.forEach((c, i) => {
-          const label = c.label || String.fromCharCode(97 + i) + ')';
-          const checked = selectedSet.has(c.id) ? 'checked' : '';
-          html += `
-            <label class="flex items-start gap-2 rounded-lg px-2 py-1 bg-slate-900/70 border border-slate-800 hover:border-slate-600 cursor-pointer">
-              <input type="checkbox" name="practice-choice" value="${c.id}" class="mt-0.5 rounded border-slate-600 bg-slate-950 text-indigo-500 focus:ring-indigo-500" ${checked} />
-              <span class="flex-1 min-w-0">
-                <span class="font-medium text-slate-200 mr-1">${escapeHtml(label)}</span>
-                <span class="text-slate-100">${escapeHtml(c.text || '')}</span>
-              </span>
-            </label>`;
-        });
-        html += '</div>';
-        if (question.remarks) {
-          html += `<div class="mt-2 text-[11px] text-slate-500 border-t border-slate-900 pt-1">${escapeHtml(question.remarks)}</div>`;
-        }
-        html += '</div>';
-        els.practiceQuestionContainer.innerHTML = html;
+            
+            <div id="bank-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Banks injected here -->
+            </div>
+            
+            <div id="empty-state" class="hidden text-center py-12 bg-white rounded-lg shadow">
+                <i class="fas fa-folder-open text-gray-300 text-5xl mb-4"></i>
+                <p class="text-gray-500">No question banks found. Import a PDF to get started!</p>
+            </div>
+        </div>
+    </template>
 
-        const panel = els.practiceQuestionContainer.firstElementChild;
-        if (panel) {
-          requestAnimationFrame(() => {
-            panel.classList.add('fade-enter-active');
-          });
-        }
-
-        els.practiceQuestionContainer.querySelector('[data-role="practice-jump-edit"]').addEventListener('click', () => {
-          switchTab('manage');
-          if (!state.editMode) enterEditMode();
-          setTimeout(() => {
-            const el = document.getElementById('q-' + question.id);
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 100);
-        });
-      }
-
-      function submitCurrentAnswer() {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const bank = state.banks.find(b => b.id === practice.bankId);
-        if (!bank) return;
-        const qId = practice.questionIds[practice.currentIndex];
-        const question = bank.questions.find(q => q.id === qId);
-        if (!question) return;
-
-        const inputs = els.practiceQuestionContainer.querySelectorAll('input[name="practice-choice"]');
-        const selectedIds = [];
-        inputs.forEach(input => {
-          if (input.checked) selectedIds.push(input.value);
-        });
-        practice.answers[qId] = selectedIds;
-
-        if (practice.mode === 'real') {
-          els.practiceFeedback.innerHTML = '<span class="text-[11px] text-emerald-300">Answer recorded. Real dope shit mode: you will see correctness at the end.</span>';
-        } else {
-          const isCorrect = isAnswerCorrect(question, selectedIds);
-          if (isCorrect) {
-            els.practiceFeedback.innerHTML = '<span class="text-[11px] text-emerald-300">Correct ✔</span>';
-          } else {
-            els.practiceFeedback.innerHTML = '<span class="text-[11px] text-red-300">Incorrect ✘</span>';
-          }
-          highlightChoicesAfterSubmit(question, selectedIds);
-        }
-        updateScoreSummary();
-      }
-
-      function highlightChoicesAfterSubmit(question, selectedIds) {
-        const correctIds = (question.choices || []).filter(c => c.isCorrect).map(c => c.id);
-        const correctSet = new Set(correctIds);
-        const selectedSet = new Set(selectedIds || []);
-        const choiceEls = els.practiceQuestionContainer.querySelectorAll('label');
-        choiceEls.forEach(labelEl => {
-          const input = labelEl.querySelector('input[name="practice-choice"]');
-          if (!input) return;
-          const id = input.value;
-          labelEl.classList.remove('border-slate-800', 'border-slate-600', 'border-emerald-500', 'border-red-500', 'bg-emerald-900/40', 'bg-red-900/40');
-          labelEl.classList.add('border-slate-800');
-          if (correctSet.has(id)) {
-            labelEl.classList.add('border-emerald-500', 'bg-emerald-900/40');
-          } else if (selectedSet.has(id)) {
-            labelEl.classList.add('border-red-500', 'bg-red-900/40');
-          }
-        });
-      }
-
-      function isAnswerCorrect(question, selectedIds) {
-        const correctIds = (question.choices || []).filter(c => c.isCorrect).map(c => c.id);
-        if (!correctIds.length) return false;
-        const a = Array.from(new Set(selectedIds || [])).sort();
-        const b = Array.from(new Set(correctIds)).sort();
-        if (a.length !== b.length) return false;
-        for (let i = 0; i < a.length; i++) {
-          if (a[i] !== b[i]) return false;
-        }
-        return true;
-      }
-
-      function updateScoreSummary() {
-        const practice = state.currentPractice;
-        if (!practice) {
-          els.scoreSummary.textContent = '';
-          return;
-        }
-        const bank = state.banks.find(b => b.id === practice.bankId);
-        const total = practice.questionIds.length;
-        const answeredIds = Object.keys(practice.answers || {});
-        let correctCount = 0;
-        if (bank) {
-          answeredIds.forEach(qId => {
-            const q = bank.questions.find(qq => qq.id === qId);
-            if (!q) return;
-            if (isAnswerCorrect(q, practice.answers[qId])) correctCount++;
-          });
-        }
-        if (practice.mode === 'real') {
-          els.scoreSummary.textContent = `Answered ${answeredIds.length} / ${total} (score hidden in Real dope shit mode)`;
-        } else {
-          els.scoreSummary.textContent = `Correct ${correctCount} / ${total} · Answered ${answeredIds.length} / ${total}`;
-        }
-      }
-
-      function navigatePractice(direction) {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const total = practice.questionIds.length;
-        let idx = practice.currentIndex + direction;
-        if (idx < 0) idx = 0;
-        if (idx >= total) idx = total - 1;
-        if (idx === practice.currentIndex) return;
-        practice.currentIndex = idx;
-        els.practiceFeedback.textContent = '';
-        renderPracticeQuestion();
-        updateScoreSummary();
-      }
-
-      function finishPractice() {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const unanswered = practice.questionIds.filter(id => !practice.answers[id] || !practice.answers[id].length).length;
-        if (unanswered > 0) {
-          const proceed = confirm(`You have ${unanswered} unanswered question(s). Finish anyway?`);
-          if (!proceed) return;
-        }
-        practice.finished = true;
-        renderPracticeResults();
-        if (practice.sessionId) {
-          const sess = state.sessions.find(s => s.id === practice.sessionId);
-          if (sess) {
-            sess.practiceState = practice;
-            sess.updatedAt = new Date().toISOString();
-            saveSessionsToStorage();
-          }
-        }
-      }
-
-      function renderPracticeResults() {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const bank = state.banks.find(b => b.id === practice.bankId);
-        if (!bank) {
-          els.resultsSummary.textContent = 'Bank not available.';
-          els.wrongAnswersList.innerHTML = '';
-          return;
-        }
-        const total = practice.questionIds.length;
-        let correctCount = 0;
-        const wrongItems = [];
-        practice.questionIds.forEach((qId, index) => {
-          const q = bank.questions.find(qq => qq.id === qId);
-          if (!q) return;
-          const selected = practice.answers[qId] || [];
-          const isCorrect = isAnswerCorrect(q, selected);
-          if (isCorrect) {
-            correctCount++;
-          } else {
-            wrongItems.push({ index, question: q, selected });
-          }
-        });
-        const wrongCount = total - correctCount;
-        els.resultsSummary.textContent = `You answered ${correctCount} / ${total} correctly. ${wrongCount} question(s) were incorrect.`;
-        if (!wrongItems.length) {
-          els.wrongAnswersList.innerHTML = '<p class="text-[11px] text-emerald-300">Awesome! All answers were correct.</p>';
-        } else {
-          let html = '';
-          wrongItems.forEach(item => {
-            const q = item.question;
-            const selected = item.selected || [];
-            const selectedSet = new Set(selected);
-            const correctChoices = (q.choices || []).filter(c => c.isCorrect);
-            const correctSet = new Set(correctChoices.map(c => c.id));
-            const choices = q.choices || [];
-            html += `<div class="mb-2 rounded-xl border border-slate-800 bg-slate-950/95 px-3 py-2">
-              <div class="text-[11px] text-red-300 mb-0.5">Question ${item.index + 1} – incorrect</div>
-              <div class="text-xs text-slate-100 whitespace-pre-wrap mb-1">${escapeHtml(q.text || '')}</div>`;
-            if (q.images && q.images.length) {
-              html += '<div class="mb-1.5 flex flex-wrap gap-1.5">' + q.images.map((img, idxImg) => `
-                <figure class="border border-slate-800 rounded-lg overflow-hidden bg-black/60 max-w-[150px]">
-                  <img src="${img.dataUrl}" alt="Question image ${idxImg + 1}" class="w-full h-auto object-contain max-h-32" />
-                </figure>`).join('') + '</div>';
-            }
-            html += '<div class="space-y-1">';
-            choices.forEach((c, ci) => {
-              const label = c.label || String.fromCharCode(97 + ci) + ')';
-              const isSelected = selectedSet.has(c.id);
-              const isCorrect = correctSet.has(c.id);
-              let badge = '';
-              if (isCorrect && isSelected) badge = '<span class="ml-1 text-[10px] text-emerald-300">(your answer, correct)</span>';
-              else if (isCorrect) badge = '<span class="ml-1 text-[10px] text-emerald-300">(correct answer)</span>';
-              else if (isSelected) badge = '<span class="ml-1 text-[10px] text-red-300">(your answer)</span>';
-              html += `<div class="flex items-start gap-1.5"><span class="font-medium text-slate-300">${escapeHtml(label)}</span><span class="text-slate-100">${escapeHtml(c.text || '')}</span>${badge}</div>`;
-            });
-            html += '</div>';
-            if (q.remarks) {
-              html += `<div class="mt-1 text-[11px] text-slate-500 border-t border-slate-900 pt-1">${escapeHtml(q.remarks)}</div>`;
-            }
-            html += '</div>';
-          });
-          els.wrongAnswersList.innerHTML = html;
-        }
-        hideElement(els.practiceMain);
-        hideElement(els.practiceSetup);
-        showElement(els.practiceResults);
-      }
-
-      function saveCurrentPracticeAsSession() {
-        const practice = state.currentPractice;
-        if (!practice) return;
-        const bank = state.banks.find(b => b.id === practice.bankId);
-        if (!bank) {
-          alert('Cannot save session because the bank no longer exists.');
-          return;
-        }
-        let session;
-        if (practice.sessionId) {
-          session = state.sessions.find(s => s.id === practice.sessionId);
-        }
-        if (!session) {
-          session = {
-            id: generateId('session'),
-            bankId: bank.id,
-            bankName: bank.name || 'Untitled bank',
-            createdAt: new Date().toISOString(),
-            updatedAt: new Date().toISOString(),
-            practiceState: JSON.parse(JSON.stringify(practice))
-          };
-          state.sessions.push(session);
-          practice.sessionId = session.id;
-        } else {
-          session.practiceState = JSON.parse(JSON.stringify(practice));
-          session.bankName = bank.name || session.bankName;
-          session.updatedAt = new Date().toISOString();
-        }
-        saveSessionsToStorage();
-        renderSessions();
-        showToast('Practice progress saved.');
-      }
-
-      function renderSessions() {
-        const sessions = state.sessions.slice().sort((a, b) => {
-          return new Date(b.updatedAt || b.createdAt || 0) - new Date(a.updatedAt || a.createdAt || 0);
-        });
-        if (!sessions.length) {
-          els.sessionsList.innerHTML = '<p class="text-[11px] text-slate-400">No saved sessions yet. Start a practice and click "Save progress" to store it here.</p>';
-          return;
-        }
-        let html = '';
-        sessions.forEach(sess => {
-          const st = sess.practiceState || {};
-          const total = st.questionIds ? st.questionIds.length : 0;
-          const answered = st.answers ? Object.keys(st.answers).length : 0;
-          const mode = st.mode === 'real' ? 'Real dope shit' : 'Normal';
-          const updated = sess.updatedAt ? new Date(sess.updatedAt) : (sess.createdAt ? new Date(sess.createdAt) : null);
-          const updatedStr = updated ? updated.toLocaleString() : '';
-          html += `
-            <div class="rounded-xl border border-slate-800 bg-slate-950/95 px-3 py-2 flex items-center justify-between gap-2" data-session-id="${sess.id}">
-              <div class="min-w-0">
-                <div class="text-xs text-slate-100 truncate">${escapeHtml(sess.bankName || 'Untitled bank')}</div>
-                <div class="text-[11px] text-slate-400 flex flex-wrap gap-x-2 gap-y-0.5 mt-0.5">
-                  <span>${total} questions · answered ${answered}</span>
-                  <span class="h-1 w-1 rounded-full bg-slate-600"></span>
-                  <span>Mode: ${escapeHtml(mode)}</span>
-                  ${updatedStr ? `<span class="h-1 w-1 rounded-full bg-slate-600"></span><span>Updated ${escapeHtml(updatedStr)}</span>` : ''}
+    <template id="view-import">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-6 text-gray-700">Import Questions</h2>
+            
+            <div class="space-y-6">
+                <!-- PDF Import -->
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-blue-500 transition cursor-pointer" onclick="document.getElementById('pdf-upload').click()">
+                    <i class="fas fa-file-pdf text-red-500 text-4xl mb-3"></i>
+                    <h3 class="font-semibold text-lg">Upload PDF</h3>
+                    <p class="text-gray-500 text-sm">Extract questions automatically</p>
+                    <input type="file" id="pdf-upload" class="hidden" accept="application/pdf" onchange="app.handlePdfUpload(this)">
                 </div>
-              </div>
-              <div class="flex items-center gap-1 text-[11px]">
-                <button type="button" class="px-2 py-0.5 rounded-full border border-slate-700 bg-slate-900 text-slate-100 hover:bg-slate-800" data-role="resume-session" data-session-id="${sess.id}">Resume</button>
-                <button type="button" class="px-2 py-0.5 rounded-full border border-red-700 bg-red-950/70 text-red-200 hover:bg-red-900/80" data-role="delete-session" data-session-id="${sess.id}">Delete</button>
-              </div>
-            </div>`;
+
+                <!-- JSON Import -->
+                <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-green-500 transition cursor-pointer" onclick="document.getElementById('json-upload').click()">
+                    <i class="fas fa-file-code text-green-500 text-4xl mb-3"></i>
+                    <h3 class="font-semibold text-lg">Upload JSON</h3>
+                    <p class="text-gray-500 text-sm">Import exported question bank</p>
+                    <input type="file" id="json-upload" class="hidden" accept=".json" onchange="app.handleJsonUpload(this)">
+                </div>
+            </div>
+
+            <div id="import-status" class="mt-6 hidden">
+                <div class="flex items-center justify-center space-x-3 text-blue-600">
+                    <div class="loader"></div>
+                    <span>Processing file...</span>
+                </div>
+            </div>
+            
+            <div id="import-error" class="mt-6 hidden bg-red-50 border-l-4 border-red-500 p-4">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <i class="fas fa-exclamation-circle text-red-500"></i>
+                    </div>
+                    <div class="ml-3">
+                        <h3 class="text-sm font-medium text-red-800">Something went wrong</h3>
+                        <div class="mt-2 text-sm text-red-700" id="error-message"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="view-edit">
+        <div class="space-y-4">
+            <div class="flex justify-between items-center bg-white p-4 rounded-lg shadow">
+                <div>
+                    <h2 class="text-xl font-bold text-gray-700" id="edit-bank-title">Editing Bank</h2>
+                    <span class="text-sm text-gray-500" id="edit-question-count">0 questions</span>
+                </div>
+                <div class="space-x-2">
+                    <button onclick="app.saveBankEdit()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+                        <i class="fas fa-save mr-2"></i>Save & Exit
+                    </button>
+                </div>
+            </div>
+
+            <div id="questions-editor" class="space-y-6">
+                <!-- Questions injected here -->
+            </div>
+            
+            <button onclick="app.addEmptyQuestion()" class="w-full py-3 border-2 border-dashed border-gray-300 text-gray-500 font-semibold rounded-lg hover:bg-gray-50 hover:border-gray-400 transition">
+                <i class="fas fa-plus mr-2"></i>Add New Question
+            </button>
+        </div>
+    </template>
+
+    <template id="view-practice-setup">
+        <div class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-md mt-10">
+            <h2 class="text-2xl font-bold mb-6 text-gray-700 text-center">Practice Setup</h2>
+            
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-gray-700 font-bold mb-2">Mode</label>
+                    <div class="flex space-x-2">
+                        <button id="mode-std" onclick="app.setPracticeMode('standard')" class="flex-1 py-2 px-4 rounded border-2 border-blue-500 bg-blue-500 text-white">Standard</button>
+                        <button id="mode-rds" onclick="app.setPracticeMode('rds')" class="flex-1 py-2 px-4 rounded border-2 border-gray-300 text-gray-600 hover:border-purple-500">Real Dope Shit</button>
+                    </div>
+                    <p id="mode-desc" class="text-xs text-gray-500 mt-1">Immediate feedback after every question.</p>
+                </div>
+
+                <div>
+                    <label class="block text-gray-700 font-bold mb-2">Number of Questions</label>
+                    <input type="number" id="practice-count" class="w-full border rounded px-3 py-2" min="1">
+                </div>
+
+                <div class="flex items-center">
+                    <input type="checkbox" id="practice-shuffle" class="mr-2 h-5 w-5 text-blue-600">
+                    <label for="practice-shuffle" class="text-gray-700">Shuffle Questions</label>
+                </div>
+
+                <button onclick="app.startPractice()" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 rounded mt-4">
+                    Start Practice
+                </button>
+                
+                 <div id="resume-container" class="hidden border-t pt-4 mt-4">
+                     <button onclick="app.resumePractice()" class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-3 rounded">
+                        Resume Saved Session
+                    </button>
+                 </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="view-practice">
+        <div class="max-w-3xl mx-auto space-y-6">
+            <!-- Header -->
+            <div class="bg-white p-4 rounded-lg shadow flex justify-between items-center sticky top-0 z-10">
+                <div class="text-lg font-bold">
+                    Question <span id="p-current">1</span>/<span id="p-total">10</span>
+                </div>
+                <div class="text-lg font-bold" id="score-display">
+                    Score: <span id="p-score" class="text-green-600">0</span>
+                </div>
+                <button onclick="app.saveAndQuit()" class="text-gray-500 hover:text-gray-700">
+                    <i class="fas fa-save mr-1"></i> Save & Quit
+                </button>
+            </div>
+
+            <!-- Question Card -->
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <div id="p-question-text" class="text-lg font-medium mb-4 text-gray-800 leading-relaxed"></div>
+                <div id="p-question-image" class="mb-4 hidden">
+                    <img src="" class="max-w-full h-auto rounded border">
+                </div>
+                
+                <div id="p-choices" class="space-y-3">
+                    <!-- Choices -->
+                </div>
+
+                <div id="p-feedback" class="mt-6 hidden p-4 rounded-lg"></div>
+            </div>
+
+            <!-- Controls -->
+            <div class="flex justify-between">
+                <button onclick="app.prevQuestion()" class="bg-gray-300 text-gray-700 px-6 py-2 rounded hover:bg-gray-400">Previous</button>
+                <button id="btn-next" onclick="app.nextQuestion()" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Next</button>
+                <button id="btn-submit-exam" onclick="app.submitExam()" class="hidden bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700">Submit Exam</button>
+            </div>
+        </div>
+    </template>
+    
+    <template id="view-result">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md mt-10">
+            <div class="text-center border-b pb-6 mb-6">
+                <h2 class="text-3xl font-bold mb-2 text-gray-800">Practice Complete!</h2>
+                <div class="text-6xl font-bold text-blue-600 my-6" id="result-score">80%</div>
+                <p class="text-gray-600 mb-6" id="result-detail">You got 8 out of 10 correct.</p>
+                <button onclick="app.navigate('home')" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Back to Home</button>
+            </div>
+            
+            <div id="wrong-answers-section">
+                <h3 class="text-xl font-bold text-gray-700 mb-4">Review Incorrect Answers</h3>
+                <div id="result-wrong-list" class="space-y-4">
+                    <!-- Wrong answers injected here -->
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <template id="view-debug">
+        <div class="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4 text-gray-700"><i class="fas fa-bug mr-2 text-red-500"></i>Helper / Debugger</h2>
+            <p class="mb-6 text-gray-600">If your PDF isn't importing correctly, upload it here. We'll examine it and tell you exactly what the computer sees.</p>
+            
+            <div class="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-red-500 transition cursor-pointer mb-6" onclick="document.getElementById('debug-upload').click()">
+                <i class="fas fa-microscope text-red-500 text-4xl mb-3"></i>
+                <h3 class="font-semibold text-lg">Inspect PDF</h3>
+                <input type="file" id="debug-upload" class="hidden" accept="application/pdf" onchange="app.runDebug(this)">
+            </div>
+
+            <div id="debug-output" class="hidden space-y-6">
+                <div class="bg-blue-50 p-4 rounded border-l-4 border-blue-500">
+                    <h3 class="font-bold text-blue-700">Analysis Report</h3>
+                    <ul class="list-disc list-inside mt-2 text-sm text-blue-800 space-y-1" id="debug-report-list">
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold text-gray-700 mb-2">Raw Text Lines Detected:</h3>
+                    <div class="bg-gray-800 text-green-400 p-4 rounded font-mono text-xs h-64 overflow-y-auto" id="debug-log">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        // Main Application Logic
+        const app = {
+            data: {
+                banks: [],
+                currentBankIndex: null,
+                tempBank: null, // For editing
+                practiceSession: null
+            },
+            
+            init() {
+                this.loadBanks();
+                this.navigate('home');
+                
+                // Check for saved session
+                const savedSession = localStorage.getItem('mcq_practice_session');
+                if(savedSession) {
+                    // Logic to show resume button handled in view setup
+                }
+            },
+
+            loadBanks() {
+                const saved = localStorage.getItem('mcq_banks');
+                if (saved) {
+                    this.data.banks = JSON.parse(saved);
+                }
+            },
+
+            saveBanks() {
+                localStorage.setItem('mcq_banks', JSON.stringify(this.data.banks));
+            },
+
+            navigate(view) {
+                const container = document.getElementById('app-container');
+                const template = document.getElementById(`view-${view}`);
+                container.innerHTML = '';
+                container.appendChild(template.content.cloneNode(true));
+
+                if (view === 'home') this.renderHome();
+                if (view === 'edit') this.renderEdit();
+                if (view === 'practice-setup') this.renderPracticeSetup();
+                if (view === 'practice') this.renderPractice();
+                if (view === 'debug') this.renderDebug();
+            },
+            
+            renderDebug() {
+                // Just resets
+            },
+
+            async runDebug(input) {
+                const file = input.files[0];
+                if (!file) return;
+                
+                const output = document.getElementById('debug-output');
+                const log = document.getElementById('debug-log');
+                const reportList = document.getElementById('debug-report-list');
+                
+                output.classList.remove('hidden');
+                log.innerHTML = "Reading file...";
+                reportList.innerHTML = "";
+                
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+                    
+                    log.innerHTML = `PDF Loaded. Pages: ${pdf.numPages}\n------------------\n`;
+                    
+                    // We reuse the logic but instrument it
+                    let totalLines = 0;
+                    let potentialQuestions = 0;
+                    let potentialChoices = 0;
+                    let markersFound = 0;
+                    let boldLines = 0;
+                    
+                    for (let i = 1; i <= pdf.numPages; i++) {
+                        const page = await pdf.getPage(i);
+                        const content = await page.getTextContent();
+                        
+                        const lines = {};
+                        content.items.forEach(item => {
+                            const y = Math.round(item.transform[5]);
+                            if (!lines[y]) lines[y] = [];
+                            lines[y].push({
+                                text: item.str,
+                                x: item.transform[4],
+                                hasMark: item.str.includes('*'),
+                                isBold: item.fontName.toLowerCase().includes('bold')
+                            });
+                        });
+                        
+                        const sortedY = Object.keys(lines).sort((a, b) => b - a);
+                        
+                        sortedY.forEach(y => {
+                            lines[y].sort((a, b) => a.x - b.x);
+                            const lineText = lines[y].map(item => item.text).join(' ').trim();
+                            const hasMark = lines[y].some(item => item.hasMark);
+                            const boldCount = lines[y].filter(i => i.isBold).length;
+                            const isLineBold = lines[y].length > 0 && (boldCount / lines[y].length) > 0.5;
+                            
+                            if (lineText) {
+                                totalLines++;
+                                let note = "";
+                                if (/^(\d+)[\.\)](.+)/.test(lineText)) { potentialQuestions++; note += " [Possible Question]"; }
+                                if (/^(\(?[a-zA-Z]\)|[a-zA-Z]\.)(.+)/.test(lineText)) { potentialChoices++; note += " [Possible Choice]"; }
+                                if (hasMark) { markersFound++; note += " [Marker Found *]"; }
+                                if (isLineBold) { boldLines++; note += " [BOLD]"; }
+                                
+                                log.innerHTML += `Line ${totalLines}: ${lineText} ${note}\n`;
+                            }
+                        });
+                    }
+                    
+                    // Generate Report
+                    const addReport = (msg, isBad = false) => {
+                        const li = document.createElement('li');
+                        li.innerText = msg;
+                        if(isBad) li.className = "text-red-600 font-bold";
+                        reportList.appendChild(li);
+                    };
+                    
+                    addReport(`Total text lines found: ${totalLines}`);
+                    addReport(`Lines starting with numbers (Possible Questions): ${potentialQuestions}`);
+                    addReport(`Lines looking like choices (a., b., etc.): ${potentialChoices}`);
+                    
+                    if (totalLines === 0) {
+                        addReport("CRITICAL: No text found. This file is likely an image (scanned) or encrypted. We cannot read it.", true);
+                    } else if (potentialQuestions === 0) {
+                        addReport("CRITICAL: We found text, but no lines started with '1.' or '2)'. Please number your questions.", true);
+                    } else if (potentialChoices === 0) {
+                         addReport("WARNING: We found questions but no choices like 'a.' or '(b)'.", true);
+                    } else {
+                        addReport("GOOD: The file structure looks readable.");
+                        if (markersFound === 0 && boldLines === 0) {
+                            addReport("TIP: We didn't see any '*' markers or bold text. You might need to set correct answers manually.", true);
+                        } else {
+                            addReport(`We found ${markersFound} '*' markers and ${boldLines} bold lines to identify correct answers.`);
+                        }
+                    }
+                    
+                } catch (e) {
+                    log.innerHTML += `\nERROR: ${e.message}`;
+                    reportList.innerHTML = `<li class="text-red-600 font-bold">Fatal Error: ${e.message}</li>`;
+                }
+            },
+
+            // --- Home View ---
+            renderHome() {
+                const list = document.getElementById('bank-list');
+                const empty = document.getElementById('empty-state');
+                
+                if (this.data.banks.length === 0) {
+                    empty.classList.remove('hidden');
+                    return;
+                }
+
+                this.data.banks.forEach((bank, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-white p-6 rounded-lg shadow hover:shadow-md transition relative group';
+                    card.innerHTML = `
+                        <h3 class="font-bold text-lg mb-2 truncate">${bank.name}</h3>
+                        <p class="text-gray-500 text-sm mb-4">${bank.questions.length} Questions</p>
+                        <div class="flex flex-col space-y-2">
+                            <button onclick="app.setupPractice(${index})" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700 font-bold">Start Practice</button>
+                            <div class="flex space-x-2">
+                                <button onclick="app.editBank(${index})" class="flex-1 bg-gray-100 text-gray-700 py-2 rounded hover:bg-gray-200 text-xs flex items-center justify-center"><i class="fas fa-edit mr-1"></i> Edit</button>
+                                <button onclick="app.exportBank(${index})" class="flex-1 bg-green-100 text-green-700 py-2 rounded hover:bg-green-200 text-xs flex items-center justify-center"><i class="fas fa-file-export mr-1"></i> Export JSON</button>
+                                <button onclick="app.copyBankToClipboard(${index})" class="flex-1 bg-blue-100 text-blue-700 py-2 rounded hover:bg-blue-200 text-xs flex items-center justify-center"><i class="fas fa-copy mr-1"></i> Copy JSON</button>
+                                <button onclick="app.deleteBank(${index})" class="flex-1 bg-red-100 text-red-700 py-2 rounded hover:bg-red-200 text-xs flex items-center justify-center"><i class="fas fa-trash mr-1"></i> Delete</button>
+                            </div>
+                        </div>
+                    `;
+                    list.appendChild(card);
+                });
+            },
+
+            // --- Import/Export ---
+            async handlePdfUpload(input) {
+                const file = input.files[0];
+                if (!file) return;
+
+                document.getElementById('import-status').classList.remove('hidden');
+                document.getElementById('import-error').classList.add('hidden');
+
+                try {
+                    const arrayBuffer = await file.arrayBuffer();
+                    const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
+                    
+                    const questions = await this.parsePdf(pdf);
+                    
+                    if (questions.length === 0) {
+                        throw new Error("We couldn't find any questions. Make sure questions start with numbers (like '1.') and the file isn't just pictures.");
+                    }
+
+                    const newBank = {
+                        name: file.name.replace('.pdf', ''),
+                        date: new Date().toISOString(),
+                        questions: questions
+                    };
+
+                    this.data.banks.push(newBank);
+                    this.saveBanks();
+                    this.navigate('home');
+                    
+                } catch (e) {
+                    this.showImportError(e);
+                } finally {
+                    document.getElementById('import-status').classList.add('hidden');
+                    input.value = ''; // Reset
+                }
+            },
+
+            async handleJsonUpload(input) {
+                const file = input.files[0];
+                if (!file) return;
+                
+                try {
+                    const text = await file.text();
+                    const bank = JSON.parse(text);
+                    if (!bank.questions || !Array.isArray(bank.questions)) throw new Error("Invalid JSON format");
+                    
+                    this.data.banks.push(bank);
+                    this.saveBanks();
+                    this.navigate('home');
+                } catch (e) {
+                     alert("That file doesn't look like a valid question bank. " + e.message);
+                }
+            },
+            
+
+            deleteBank(index) {
+                if(confirm("Are you sure you want to delete this question bank?")) {
+                    this.data.banks.splice(index, 1);
+                    this.saveBanks();
+                    this.renderHome(); // Re-render
+                    // Refresh page to clear list cleanly
+                    this.navigate('home');
+                }
+            },
+
+            exportBank(index) {
+                const bank = this.data.banks[index];
+                if (!bank) return alert("Bank data not found");
+                alert("Preparing export for: " + bank.name);
+
+                try {
+                    const dataStr = JSON.stringify(bank, null, 2);
+                    const blob = new Blob([dataStr], { type: "application/json" });
+                    const url = window.URL.createObjectURL(blob);
+                    
+                    const link = document.createElement('a');
+                    link.href = url;
+                    link.download = (bank.name || 'bank').replace(/[^a-z0-9]/gi, '_').toLowerCase() + ".json";
+                    
+                    document.body.appendChild(link);
+                    link.click();
+                    
+                    setTimeout(() => {
+                        document.body.removeChild(link);
+                        window.URL.revokeObjectURL(url);
+                    }, 500);
+                } catch (err) {
+                    alert("Export failed: " + err.message);
+                    console.error("Export error:", err);
+                }
+            },
+
+            copyBankToClipboard(index) {
+                const bank = this.data.banks[index];
+                if (!bank) return;
+                
+                try {
+                    const dataStr = JSON.stringify(bank, null, 2);
+                    navigator.clipboard.writeText(dataStr).then(() => {
+                        alert("Question bank data copied to clipboard! You can paste it into a text file.");
+                    }).catch(err => {
+                        // Fallback for older browsers
+                        const el = document.createElement('textarea');
+                        el.value = dataStr;
+                        document.body.appendChild(el);
+                        el.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(el);
+                        alert("Question bank data copied to clipboard!");
+                    });
+                } catch (err) {
+                    alert("Copy failed: " + err.message);
+                }
+            },
+
+            showImportError(e) {
+                const errDiv = document.getElementById('import-error');
+                const msgDiv = document.getElementById('error-message');
+                errDiv.classList.remove('hidden');
+                
+                // "5 year old idiot" friendly messages
+                let friendlyMsg = e.message;
+                if (e.message.includes('password')) friendlyMsg = "This PDF is locked with a password. Please unlock it first.";
+                if (e.message.includes('Invalid PDF structure')) friendlyMsg = "This file is broken or not a real PDF.";
+                
+                msgDiv.innerHTML = `
+                    <p class="font-bold">Computer says no:</p>
+                    <p>${friendlyMsg}</p>
+                    <p class="mt-2 text-xs">Technical details: ${e.message}</p>
+                `;
+            },
+
+            // --- PDF Parsing Logic ---
+            async parsePdf(pdf) {
+                const questions = [];
+                let currentQuestion = null;
+                let buffer = [];
+                let textLines = [];
+
+                // 1. Extract and sort text (keep existing logic)
+                for (let i = 1; i <= pdf.numPages; i++) {
+                    const page = await pdf.getPage(i);
+                    const content = await page.getTextContent();
+                    const lines = {}; 
+                    content.items.forEach(item => {
+                        const y = Math.round(item.transform[5]); 
+                        if (!lines[y]) lines[y] = [];
+                        lines[y].push({
+                            text: item.str,
+                            x: item.transform[4],
+                            hasMark: item.str.includes('*'), 
+                            isBold: item.fontName.toLowerCase().includes('bold')
+                        });
+                    });
+                    const sortedY = Object.keys(lines).sort((a, b) => b - a);
+                    sortedY.forEach(y => {
+                        lines[y].sort((a, b) => a.x - b.x);
+                        const lineText = lines[y].map(item => item.text).join(' ').trim();
+                        const hasMark = lines[y].some(item => item.hasMark);
+                        const boldCount = lines[y].filter(i => i.isBold).length;
+                        const isLineBold = lines[y].length > 0 && (boldCount / lines[y].length) > 0.5;
+                        if (lineText) textLines.push({ text: lineText, hasMark: hasMark, isBold: isLineBold });
+                    });
+                }
+
+                // 2. Parse Logic
+                const saveCurrent = () => {
+                    if (currentQuestion && currentQuestion.choices.length > 0) {
+                        if (currentQuestion.correctIndex === -1) currentQuestion.correctIndex = 0;
+                        questions.push(currentQuestion);
+                    }
+                };
+
+                // Regex definitions
+                const reQuestionNum = /^((?:Q|Question\s*)?\d+)[\.\)](.+)/i;
+                const reChoice = /^(\(?[a-zA-Z]\)|[a-zA-Z]\.|^\(?[ivxIVX]+\))(.+)/;
+                // Helper to check if a choice is "sequential" roughly (a -> b) or "start" (a)
+                const isStartChoice = (str) => /^(a|i)[\.\)]/i.test(str) || /^\((a|i)\)/i.test(str);
+
+                for(let i=0; i<textLines.length; i++) {
+                    let lineObj = textLines[i];
+                    let text = lineObj.text.trim();
+                    let isCorrect = lineObj.hasMark || lineObj.isBold;
+                    if (lineObj.hasMark) text = text.replace(/\*/g, '').trim();
+
+                    if (!text) continue;
+
+                    const matchNum = text.match(reQuestionNum);
+                    const matchChoice = text.match(reChoice);
+                    const isLowerStart = /^[a-z]/.test(text) && !matchChoice;
+
+                    // CASE 1: EXPLICIT NEW QUESTION (Starts with "1.")
+                    if (matchNum) {
+                        saveCurrent();
+                        currentQuestion = {
+                            id: Date.now() + Math.random(),
+                            text: matchNum[2].trim(),
+                            choices: [],
+                            correctIndex: -1
+                        };
+                        buffer = [];
+                        continue;
+                    }
+
+                    // CASE 2: CHOICE
+                    if (matchChoice) {
+                        const choiceVal = matchChoice[2].trim();
+                        
+                        // Check if this triggers a NEW Implicit Question
+                        // Trigger if:
+                        // 1. We have no current question yet.
+                        // 2. We have a current question, but this choice looks like 'a' or 'i' AND we already have choices in current question.
+                        //    (e.g. we had a,b,c,d now seeing 'a' again -> new question)
+                        let isRestart = false;
+                        if (currentQuestion && currentQuestion.choices.length > 0) {
+                            if (isStartChoice(matchChoice[0])) isRestart = true;
+                        } else if (!currentQuestion) {
+                            isRestart = true;
+                        }
+
+                        if (isRestart) {
+                            // Create question from Buffer
+                            saveCurrent();
+                            // Filter buffer: remove clearly ignorable lowercase lines unless they look like math/continuation
+                            // Rule: "sentence above choice 'a' is the question"
+                            // We take the whole buffer. 
+                            let qText = buffer.join(' ').trim();
+                            if (!qText) qText = "Question Text Not Detected";
+
+                            currentQuestion = {
+                                id: Date.now() + Math.random(),
+                                text: qText,
+                                choices: [],
+                                correctIndex: -1
+                            };
+                            buffer = [];
+                        }
+
+                        // Add Choice
+                        if (currentQuestion) {
+                            currentQuestion.choices.push(choiceVal);
+                            if (isCorrect) currentQuestion.correctIndex = currentQuestion.choices.length - 1;
+                        }
+                        continue;
+                    }
+
+                    // CASE 3: REGULAR TEXT
+                    // Rule: "Remarks or references that appear in lowercase... should not be included"
+                    if (isLowerStart) {
+                        // Skip isolated lowercase lines (remarks)
+                        // UNLESS we are currently building a question text (no choices yet) and it seems like continuation?
+                        // The user was strict: "don't mixed up... don't put into choice or question"
+                        // Safer to skip.
+                        continue;
+                    }
+
+                    if (currentQuestion && currentQuestion.choices.length === 0) {
+                        // We are inside a question, appending to its text
+                        currentQuestion.text += " " + text;
+                    } else {
+                        // We are between questions (or before first question), append to buffer
+                        buffer.push(text);
+                    }
+                }
+
+                saveCurrent();
+                return questions;
+            },
+
+            // --- Editing Logic ---
+            editBank(index) {
+                this.data.currentBankIndex = index;
+                // Deep copy to avoid direct mutation until save
+                this.data.tempBank = JSON.parse(JSON.stringify(this.data.banks[index]));
+                this.navigate('edit');
+            },
+
+            renderEdit() {
+                const bank = this.data.tempBank;
+                document.getElementById('edit-bank-title').innerText = bank.name;
+                document.getElementById('edit-question-count').innerText = `${bank.questions.length} questions`;
+                
+                const container = document.getElementById('questions-editor');
+                container.innerHTML = '';
+                
+                bank.questions.forEach((q, qIndex) => {
+                    const el = document.createElement('div');
+                    el.className = 'bg-white p-4 rounded shadow border border-gray-200';
+                    el.innerHTML = `
+                        <div class="flex justify-between mb-2">
+                            <span class="font-bold text-gray-500">#${qIndex + 1}</span>
+                            <button onclick="app.removeQuestion(${qIndex})" class="text-red-500 text-sm hover:underline">Delete</button>
+                        </div>
+                        <div class="mb-3">
+                            <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Question</label>
+                            <textarea onchange="app.updateQuestionText(${qIndex}, this.value)" class="w-full border rounded p-2 text-sm" rows="2">${q.text}</textarea>
+                        </div>
+                        <div class="mb-3">
+                             <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Image</label>
+                             ${q.image ? `<img src="${q.image}" class="h-20 mb-2 border"> <button onclick="app.removeImage(${qIndex})" class="text-xs text-red-500">Remove Image</button>` : ''}
+                             <input type="file" accept="image/*" onchange="app.uploadImage(${qIndex}, this)" class="text-xs">
+                        </div>
+                        <div class="space-y-2">
+                            <label class="block text-xs font-bold uppercase text-gray-500">Choices (Check correct answer)</label>
+                            ${q.choices.map((c, cIndex) => `
+                                <div class="flex items-center space-x-2">
+                                    <input type="radio" name="q-${qIndex}-correct" ${cIndex === q.correctIndex ? 'checked' : ''} onchange="app.setCorrectIndex(${qIndex}, ${cIndex})">
+                                    <input type="text" value="${c}" onchange="app.updateChoice(${qIndex}, ${cIndex}, this.value)" class="flex-1 border rounded px-2 py-1 text-sm">
+                                    <button onclick="app.removeChoice(${qIndex}, ${cIndex})" class="text-gray-400 hover:text-red-500"><i class="fas fa-times"></i></button>
+                                </div>
+                            `).join('')}
+                            <button onclick="app.addChoice(${qIndex})" class="text-xs text-blue-500 hover:underline">+ Add Choice</button>
+                        </div>
+                    `;
+                    container.appendChild(el);
+                });
+            },
+
+            updateQuestionText(qIndex, val) { this.data.tempBank.questions[qIndex].text = val; },
+            updateChoice(qIndex, cIndex, val) { this.data.tempBank.questions[qIndex].choices[cIndex] = val; },
+            setCorrectIndex(qIndex, cIndex) { this.data.tempBank.questions[qIndex].correctIndex = cIndex; },
+            
+            addChoice(qIndex) { 
+                this.data.tempBank.questions[qIndex].choices.push("New Option"); 
+                this.renderEdit(); 
+            },
+            removeChoice(qIndex, cIndex) {
+                this.data.tempBank.questions[qIndex].choices.splice(cIndex, 1);
+                // Adjust correct index if needed
+                if(this.data.tempBank.questions[qIndex].correctIndex === cIndex) {
+                    this.data.tempBank.questions[qIndex].correctIndex = -1;
+                } else if (this.data.tempBank.questions[qIndex].correctIndex > cIndex) {
+                    this.data.tempBank.questions[qIndex].correctIndex--;
+                }
+                this.renderEdit();
+            },
+            addEmptyQuestion() {
+                this.data.tempBank.questions.push({ text: "New Question", choices: ["Option A", "Option B"], correctIndex: 0 });
+                this.renderEdit();
+                // Scroll to bottom
+                setTimeout(() => window.scrollTo(0, document.body.scrollHeight), 100);
+            },
+            removeQuestion(qIndex) {
+                if(confirm("Delete this question?")) {
+                    this.data.tempBank.questions.splice(qIndex, 1);
+                    this.renderEdit();
+                }
+            },
+            
+            uploadImage(qIndex, input) {
+                const file = input.files[0];
+                if(file) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        this.data.tempBank.questions[qIndex].image = e.target.result;
+                        this.renderEdit();
+                    };
+                    reader.readAsDataURL(file);
+                }
+            },
+            removeImage(qIndex) {
+                delete this.data.tempBank.questions[qIndex].image;
+                this.renderEdit();
+            },
+
+            saveBankEdit() {
+                this.data.banks[this.data.currentBankIndex] = this.data.tempBank;
+                this.saveBanks();
+                this.navigate('home');
+            },
+
+            // --- Practice Logic ---
+            setupPractice(index) {
+                this.data.currentBankIndex = index;
+                this.navigate('practice-setup');
+                
+                // Defaults
+                const bank = this.data.banks[index];
+                document.getElementById('practice-count').value = bank.questions.length;
+                document.getElementById('practice-count').max = bank.questions.length;
+                
+                // Resume check
+                const saved = localStorage.getItem('mcq_practice_session');
+                if (saved) {
+                    const session = JSON.parse(saved);
+                    // Only show resume if it matches current bank
+                    // Since we don't have IDs, we'll assume user knows what they're doing or we could add IDs later.
+                    // For now, simpler:
+                    document.getElementById('resume-container').classList.remove('hidden');
+                }
+            },
+
+            setPracticeMode(mode) {
+                const btnStd = document.getElementById('mode-std');
+                const btnRds = document.getElementById('mode-rds');
+                const desc = document.getElementById('mode-desc');
+                
+                if (mode === 'standard') {
+                    btnStd.classList.add('bg-blue-500', 'text-white', 'border-blue-500');
+                    btnStd.classList.remove('text-gray-600', 'border-gray-300');
+                    btnRds.classList.remove('bg-purple-600', 'text-white', 'border-purple-600');
+                    btnRds.classList.add('text-gray-600', 'border-gray-300');
+                    desc.innerText = "Immediate feedback after every question.";
+                } else {
+                    btnRds.classList.add('bg-purple-600', 'text-white', 'border-purple-600');
+                    btnRds.classList.remove('text-gray-600', 'border-gray-300');
+                    btnStd.classList.remove('bg-blue-500', 'text-white', 'border-blue-500');
+                    btnStd.classList.add('text-gray-600', 'border-gray-300');
+                    desc.innerText = "Real Dope Shit Mode: No feedback until the end. Exam style.";
+                }
+                btnStd.dataset.selected = mode === 'standard';
+            },
+
+            startPractice() {
+                const bank = this.data.banks[this.data.currentBankIndex];
+                const count = parseInt(document.getElementById('practice-count').value) || bank.questions.length;
+                const shuffle = document.getElementById('practice-shuffle').checked;
+                const isStd = document.getElementById('mode-std').dataset.selected !== 'false'; // Default true
+                
+                let questions = [...bank.questions];
+                if (shuffle) {
+                    questions = questions.sort(() => Math.random() - 0.5);
+                }
+                questions = questions.slice(0, count);
+
+                this.data.practiceSession = {
+                    questions: questions,
+                    currentIndex: 0,
+                    score: 0,
+                    mode: isStd ? 'standard' : 'rds',
+                    answers: {}, // Store user answers
+                    finished: false
+                };
+
+                this.saveSession();
+                this.navigate('practice');
+            },
+            
+            resumePractice() {
+                const saved = localStorage.getItem('mcq_practice_session');
+                if (saved) {
+                    this.data.practiceSession = JSON.parse(saved);
+                    this.navigate('practice');
+                }
+            },
+
+            saveSession() {
+                localStorage.setItem('mcq_practice_session', JSON.stringify(this.data.practiceSession));
+            },
+            
+            saveAndQuit() {
+                this.saveSession();
+                this.navigate('home');
+            },
+
+            renderPractice() {
+                const session = this.data.practiceSession;
+                if (!session) return;
+                
+                // Update header
+                document.getElementById('p-current').innerText = session.currentIndex + 1;
+                document.getElementById('p-total').innerText = session.questions.length;
+                document.getElementById('p-score').innerText = session.score;
+                
+                // Score visibility
+                if (session.mode === 'rds') {
+                    document.getElementById('score-display').classList.add('hidden');
+                } else {
+                    document.getElementById('score-display').classList.remove('hidden');
+                }
+
+                // Render Question
+                const q = session.questions[session.currentIndex];
+                document.getElementById('p-question-text').innerText = q.text;
+                
+                const imgDiv = document.getElementById('p-question-image');
+                if (q.image) {
+                    imgDiv.classList.remove('hidden');
+                    imgDiv.querySelector('img').src = q.image;
+                } else {
+                    imgDiv.classList.add('hidden');
+                }
+
+                // Render Choices
+                const choicesDiv = document.getElementById('p-choices');
+                choicesDiv.innerHTML = '';
+                const feedbackDiv = document.getElementById('p-feedback');
+                feedbackDiv.classList.add('hidden');
+                feedbackDiv.className = 'mt-6 hidden p-4 rounded-lg'; // reset classes
+
+                const userAnswer = session.answers[session.currentIndex];
+                const isAnswered = userAnswer !== undefined;
+
+                q.choices.forEach((c, idx) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'w-full text-left p-3 rounded border border-gray-200 hover:bg-gray-50 transition flex items-start';
+                    
+                    // Styling based on state
+                    if (isAnswered) {
+                         if (session.mode === 'standard') {
+                             if (idx === q.correctIndex) {
+                                 btn.classList.add('bg-green-100', 'border-green-500');
+                                 btn.innerHTML += '<i class="fas fa-check text-green-600 mt-1 mr-2"></i>';
+                             } else if (idx === userAnswer && idx !== q.correctIndex) {
+                                 btn.classList.add('bg-red-100', 'border-red-500');
+                                  btn.innerHTML += '<i class="fas fa-times text-red-600 mt-1 mr-2"></i>';
+                             } else {
+                                 btn.classList.add('opacity-50');
+                             }
+                         } else {
+                             // RDS Mode - just highlight selected
+                             if (idx === userAnswer) {
+                                 btn.classList.add('bg-blue-100', 'border-blue-500');
+                             }
+                         }
+                    } else {
+                        btn.onclick = () => app.handleAnswer(idx);
+                    }
+
+                    btn.innerHTML += `<span>${c}</span>`;
+                    choicesDiv.appendChild(btn);
+                });
+
+                // Feedback (Standard Mode only)
+                if (isAnswered && session.mode === 'standard') {
+                    feedbackDiv.classList.remove('hidden');
+                    if (userAnswer === q.correctIndex) {
+                        feedbackDiv.classList.add('bg-green-100', 'text-green-800');
+                        feedbackDiv.innerHTML = '<strong>Correct!</strong> Good job.';
+                    } else {
+                        feedbackDiv.classList.add('bg-red-100', 'text-red-800');
+                        feedbackDiv.innerHTML = `<strong>Incorrect.</strong> The correct answer is: ${q.choices[q.correctIndex]}`;
+                    }
+                }
+
+                // Navigation Button Logic
+                const btnNext = document.getElementById('btn-next');
+                const btnSubmit = document.getElementById('btn-submit-exam');
+                const isLast = session.currentIndex === session.questions.length - 1;
+                
+                // Use inline styles to guarantee visibility changes
+                if (isLast) {
+                    btnNext.style.display = 'none';
+                    btnSubmit.style.display = 'block';
+                    btnSubmit.classList.remove('hidden'); // Tailwind backup
+                    btnSubmit.innerText = session.mode === 'rds' ? 'Submit Exam' : 'Finish Practice';
+                    btnSubmit.onclick = () => app.submitExam();
+                } else {
+                    btnNext.style.display = 'block';
+                    btnNext.classList.remove('hidden'); // Tailwind backup
+                    btnSubmit.style.display = 'none';
+                    btnNext.innerText = 'Next';
+                }
+            },
+
+            handleAnswer(choiceIndex) {
+                const session = this.data.practiceSession;
+                session.answers[session.currentIndex] = choiceIndex;
+                
+                if (session.mode === 'standard') {
+                    if (choiceIndex === session.questions[session.currentIndex].correctIndex) {
+                        session.score++;
+                    }
+                }
+                
+                this.saveSession();
+                this.renderPractice();
+            },
+
+            nextQuestion() {
+                const session = this.data.practiceSession;
+                if (session.currentIndex < session.questions.length - 1) {
+                    session.currentIndex++;
+                    this.saveSession();
+                    this.renderPractice();
+                }
+            },
+
+            prevQuestion() {
+                 const session = this.data.practiceSession;
+                if (session.currentIndex > 0) {
+                    session.currentIndex--;
+                    this.saveSession();
+                    this.renderPractice();
+                }
+            },
+            
+            submitExam() {
+                const session = this.data.practiceSession;
+                // Calculate score
+                session.score = 0;
+                session.questions.forEach((q, idx) => {
+                    if (session.answers[idx] === q.correctIndex) {
+                        session.score++;
+                    }
+                });
+                
+                this.finishPractice();
+            },
+            
+            finishPractice() {
+                const session = this.data.practiceSession;
+                localStorage.removeItem('mcq_practice_session');
+                
+                const container = document.getElementById('app-container');
+                const template = document.getElementById('view-result');
+                
+                if (!template) return alert("Error: Template missing");
+                
+                container.innerHTML = '';
+                container.appendChild(template.content.cloneNode(true));
+                
+                // Score Header
+                const percentage = Math.round((session.score / session.questions.length) * 100) || 0;
+                const scoreEl = document.getElementById('result-score');
+                const detailEl = document.getElementById('result-detail');
+                
+                if(scoreEl) {
+                    scoreEl.innerText = `${percentage}%`;
+                    scoreEl.className = `text-6xl font-bold my-6 ${percentage < 50 ? 'text-red-600' : (percentage > 80 ? 'text-green-600' : 'text-blue-600')}`;
+                }
+                if(detailEl) detailEl.innerText = `You got ${session.score} out of ${session.questions.length} correct.`;
+                
+                // Wrong Answers
+                const list = document.getElementById('result-wrong-list');
+                const section = document.getElementById('wrong-answers-section');
+                
+                if (!list || !section) return; 
+                
+                let wrongCount = 0;
+                session.questions.forEach((q, idx) => {
+                    const userAnswer = session.answers[idx];
+                    // Strict comparison for wrong answer
+                    if (userAnswer !== q.correctIndex) {
+                        wrongCount++;
+                        const item = document.createElement('div');
+                        item.className = 'bg-white border-l-4 border-red-500 shadow-sm p-4 rounded mb-4';
+                        
+                        let userText = '<span class="text-gray-400 italic">No Answer</span>';
+                        if (userAnswer !== undefined && userAnswer !== null && q.choices[userAnswer]) {
+                            userText = q.choices[userAnswer];
+                        }
+                        
+                        const correctText = q.choices[q.correctIndex] || '<span class="text-gray-400 italic">Unknown</span>';
+                        
+                        item.innerHTML = `
+                            <div class="mb-2 font-medium text-gray-800"><span class="text-red-500 font-bold">Q${idx+1}.</span> ${q.text}</div>
+                            ${q.image ? `<img src="${q.image}" class="h-24 mb-2 object-contain border">` : ''}
+                            <div class="grid grid-cols-1 gap-2 text-sm">
+                                <div class="bg-red-50 p-2 rounded text-red-800"><i class="fas fa-times-circle mr-2"></i>You chose: <strong>${userText}</strong></div>
+                                <div class="bg-green-50 p-2 rounded text-green-800"><i class="fas fa-check-circle mr-2"></i>Correct answer: <strong>${correctText}</strong></div>
+                            </div>
+                        `;
+                        list.appendChild(item);
+                    }
+                });
+                
+                if (wrongCount === 0) {
+                    section.innerHTML = `
+                        <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative text-center" role="alert">
+                            <strong class="font-bold">Perfect!</strong>
+                            <span class="block sm:inline">You got everything right. Amazing!</span>
+                        </div>`;
+                }
+            }
+        };
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            app.init();
         });
-        els.sessionsList.innerHTML = html;
-      }
-
-      function onSessionsListClick(e) {
-        const btn = e.target.closest('button');
-        if (!btn) return;
-        const role = btn.getAttribute('data-role');
-        const sessionId = btn.getAttribute('data-session-id');
-        if (!role || !sessionId) return;
-        const sess = state.sessions.find(s => s.id === sessionId);
-        if (!sess) return;
-        if (role === 'delete-session') {
-          const confirmed = confirm('Delete this saved session?');
-          if (!confirmed) return;
-          state.sessions = state.sessions.filter(s => s.id !== sessionId);
-          saveSessionsToStorage();
-          renderSessions();
-          showToast('Session deleted.', 'warn');
-        } else if (role === 'resume-session') {
-          const bank = state.banks.find(b => b.id === sess.bankId);
-          if (!bank) {
-            alert('The bank for this session is not available. Please import it again.');
-            return;
-          }
-          state.currentPractice = JSON.parse(JSON.stringify(sess.practiceState || {}));
-          state.currentPractice.sessionId = sess.id;
-          els.practiceBankLabel.textContent = bank.name || sess.bankName || 'Untitled bank';
-          els.practiceModeLabel.textContent = state.currentPractice.mode === 'real'
-            ? 'Real dope shit mode – feedback only at the end'
-            : 'Normal mode – shows correctness after each question';
-          updateHeaderModePill();
-          hideElement(els.practiceSetup);
-          hideElement(els.practiceResults);
-          showElement(els.practiceMain);
-          renderPracticeQuestion();
-          updateScoreSummary();
-          switchTab('practice');
-        }
-      }
-
-      function exportBankAsJson(bank) {
-        const payload = {
-          schema: 'mcq-practice-bank',
-          version: 1,
-          exportedAt: new Date().toISOString(),
-          bank
-        };
-        const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = (bank.name || 'question-bank') + '.mcq.json';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-        showToast('Bank exported as JSON file.');
-      }
-
-      function createEmptyQuestion(num) {
-        return {
-          id: generateId('q'),
-          text: 'New question ' + num,
-          choices: [
-            { id: generateId('choice'), label: 'a)', text: '', isCorrect: false },
-            { id: generateId('choice'), label: 'b)', text: '', isCorrect: false },
-            { id: generateId('choice'), label: 'c)', text: '', isCorrect: false },
-            { id: generateId('choice'), label: 'd)', text: '', isCorrect: false }
-          ],
-          images: [],
-          remarks: ''
-        };
-      }
-
-      function generateId(prefix) {
-        return prefix + '_' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36);
-      }
-
-      function escapeHtml(str) {
-        if (str == null) return '';
-        return String(str)
-          .replace(/&/g, '&amp;')
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace(/"/g, '&quot;')
-          .replace(/'/g, '&#39;');
-      }
-
-      function escapeAttribute(str) {
-        return escapeHtml(str).replace(/`/g, '&#96;');
-      }
-
-      function showElement(el) {
-        if (!el) return;
-        el.classList.remove('hidden');
-      }
-
-      function hideElement(el) {
-        if (!el) return;
-        el.classList.add('hidden');
-      }
-
-      function showToast(message, kind) {
-        if (!els.toast) return;
-        els.toastMessage.textContent = message;
-        els.toastIcon.textContent = kind === 'warn' ? '!' : '✔';
-        els.toast.style.opacity = '1';
-        els.toast.style.pointerEvents = 'auto';
-        clearTimeout(els.toast._timeoutId);
-        els.toast._timeoutId = setTimeout(() => {
-          els.toast.style.opacity = '0';
-          els.toast.style.pointerEvents = 'none';
-        }, 2600);
-      }
-    })();
-  </script>
+    </script>
 </body>
 </html>
