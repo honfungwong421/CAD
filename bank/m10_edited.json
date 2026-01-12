@@ -1,0 +1,1093 @@
+{
+  "name": "M10 edited",
+  "date": "2026-01-12T15:12:54.938Z",
+  "questions": [
+    {
+      "id": 1768230774936.6255,
+      "text": "According to HKAR - 66, an unpressurized piston aircraft of maximum takeoff weight under 5700 kg with",
+      "choices": [
+        "aeroplane",
+        "simple light aeroplane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774936.1418,
+      "text": "Private aircraft should:",
+      "choices": [
+        "Carry log book at all time",
+        "Enter aircraft operator's name in the log book",
+        "-"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774936.5652,
+      "text": "Sign the pre flight and daily inspection signatures in the log book The purpose of an aircraft is restricted by: 3. Its design and operating limits as stated in the Operations Manual The certification of the aircraft of a specific purpose The period of validity of its Certificate of Airworthiness What limits the purpose of an aircraft? 4. The category it belongs to on the C of A What the aircraft is designed for AIRCRAFT   MAINTENANCE   LICENSES General The article on licensing of maintenance engineers is detailed in: 5.",
+      "choices": [
+        "No. 12 in Chapter Ill of AN(HK)O 1995.",
+        "No. 25 in Chapter V of AN(HK)O 1995."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.2666,
+      "text": "No. 7 in Chapter Ill of AN(HK)O 1995. Which of the following list out the responsibility of licensed engineer? 6.",
+      "choices": [
+        "AN 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.7861,
+      "text": "AN   3 details: For HKAR 66 type rating",
+      "choices": [
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.511,
+      "text": "On initial issue of a license, the recipient must sign his name in ink on it -   ANHKO Article 12 The Group Release to Service in Bl category is invalid whenever: 9.",
+      "choices": [
+        "The Final Release to Service for an aircraft is invalid.",
+        "One maintenance task card in   Bl   category has a signature omission."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774936.081,
+      "text": "One maintenance task card in B2 category is not certified. ANHKO Article 12 - AMLE can issue C of RS 10. ANHKO Article 12 - After any failure of a license examination, candidates will be required, before reapplication will be 11. An act or omission of a license holder contravene to AN{HK)O, however it is proved that the cause of it is 12. ANHKO Article 91 - Type   Approval What types of license could have type approval? 13.",
+      "choices": [
+        "A2, B1.1, B2",
+        "B1.1, B2, B3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774936.7175,
+      "text": "B2 category license is applicable to:",
+      "choices": [
+        "aeroplane only",
+        "both aeroplane and helicopter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774936.9807,
+      "text": "Category B1/B2 license requires: 15. 4 years of experience 3 years or 5 years of experience, depending on the period being a skilled worker Several experience options apply -HKAR 66.30(b)(2) P1-7 AML   & Type   Approval   Responsibilities The privilege of a licensed engineer includes: 16.",
+      "choices": [
+        "Sign release of aircraft after maintenance and inspection",
+        "Sign release of aircraft under A and B conditions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.9363,
+      "text": "A licensed engineer can issue:",
+      "choices": [
+        "C of   FF   under A, B condition",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.9678,
+      "text": "Replacement of an avionic LRU, which requires simple test after installation:",
+      "choices": [
+        "Is a B2 privilege only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.7158,
+      "text": "Is the privilege of Bl or B2, depending on the ATA specification of the system involved Is a case of overlapping   Bl   and   B2   applicability -HKAR 66.20 1-5 B2 category license can certify: 19. Avionic component maintenance in hangar Replacement of avionic LRU in the line maintenance Overhaul of electrical fuel pump B2 category license holder can sign CRS for: 20.",
+      "choices": [
+        "BM avionics job"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.5002,
+      "text": "Category A LAME can sign C of RS for: The replacement of radio equipment",
+      "choices": [
+        "Compass system adjustment",
+        "APU   installation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.8,
+      "text": "Category 'A' certifying staff can: 22.",
+      "choices": [
+        "Issue C of RS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.2437,
+      "text": "Privileges of an HKAR - 66 Category C license include: The issue of certificates of release to service following the completion of base maintenance on",
+      "choices": [
+        "- -",
+        "- -"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.8064,
+      "text": "LAME in category   \"Bl\"   is not allowed to issue a C of RS for overhaul -   Category C is for base maintenance (overhaul) -   -   - Which of the following is license without type rating staff privilege? 28. Sign C of RS in HKAR 145 company",
+      "choices": [
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774936.2942,
+      "text": "Which type of qualify person can maintenance the electrical power system? B1.1 license holder",
+      "choices": [
+        "B2 license holder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8428,
+      "text": "B1: \"including aircraft structure, powerplant and mechanical and electrical systems\" (M03 pg 78) - -   B2: \"avionic and electrical systems\" (M03 pg 79) Which of the following can release C of RS for   simple light aircraft? 37.",
+      "choices": [
+        "B2 license"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.9526,
+      "text": "The C of FF for   a series A/C can be signed by a licensed engineer or a person approved by the CAD for ANHKO Article 10 / AN 3 Paragraph 1.9(c) - HKAR 145 - Design organizations wishing to certify that aircraft equipment complies with Hong Kong airworthiness 44. Must be approved by the Director General",
+      "choices": [
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6772,
+      "text": "Modification Record for HKAR - 145 organization should be in a format: Acceptable by aircraft owner Acceptable by the Director General",
+      "choices": [
+        "-",
+        "MTWA exceeding 5700 kg only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.084,
+      "text": "Modification Record Book must be up - to - date:",
+      "choices": [
+        "At time of issue or renewal of C of A"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3538,
+      "text": "Maintenance Record for HKAR - 145 organization should be in a format:",
+      "choices": [
+        "Following the requirement of the JAA",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0747,
+      "text": "-",
+      "choices": [
+        "Can issue ARC for component",
+        "Entered and certified into a separated sheet and identify in log book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8232,
+      "text": "- Issue authorized release certificates for the overhaul of components.",
+      "choices": [
+        "Issue certification of release to service for aircraft greater than 5700kg.",
+        "Carry out scheduled maintenance on helicopters.",
+        "Design and manufacture of complete aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5183,
+      "text": "An organization working under the quality system of a HKAR - 145 approved maintenance organization:",
+      "choices": [
+        "May carry out BM work",
+        "Works are limited in HKAR - 145 approved organization work scope"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.0654,
+      "text": "A modification to a turbine engine is done after it had been removed from the aircraft. This work",
+      "choices": [
+        "Class rating A and C",
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.654,
+      "text": "- Must be certified by a person employed by an HKAR 145 approved organization. Must be certified by a person holding an HKAR 145 quality assurance authority.",
+      "choices": [
+        "Does not need to be carried out by an HKAR 145 approved organization.",
+        "May be done in accordance with a procedure detailed in an HKAR 145 approved exposition."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.7964,
+      "text": "Which organization can produce mandatory modification to an aircraft registered in HK? HKAR145 HKAR 147 - The scope of approval for an HKAR 147 organization may include the provision of: 59.",
+      "choices": [
+        "Practical hands - on training for persons wishing to exercise the privileges of an HKAR - 66 Category A",
+        "HKAR - 66   essay   examination",
+        "A certificate of release to service for limited maintenance on aircraft or aircraft components."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.4014,
+      "text": "AlRCRAFT   OPERATOR In the AOC Requirements Document, which part describes the arrangement for maintenance support? 60.",
+      "choices": [
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "All aircraft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.495,
+      "text": "-   Part 2 of CAD360 AOC is required for the operation of: 61. Aircraft in public transport category of all weight Aircraft in private category of all weight Airworthiness Notices General AN to LAME and to owners of civil a/care published by director of CAD 62. The nature of AN is administrative or technical 63. Airworthiness Notices colored yellow: 64.",
+      "choices": [
+        "Cover matters which have a direct effect on airworthiness."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0964,
+      "text": "Contain general information on administrative matters. Cover administrative and technical matters. New airworthiness notices which are deemed to be mandatory are identified by: 65.",
+      "choices": [
+        "Being issued as appendices to existing airworthiness notices.",
+        "Being printed on yellow or pink paper."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5107,
+      "text": "What is the definition of a prototype? Aircraft is one, which is to be investigated for the issue of a Certificate of Airworthiness",
+      "choices": [
+        "Aircraft is one, which embodies certain design features, which are required to be investigated for",
+        "One which is manufactures by the same company.",
+        "One which is similar in every essential design of an aircraft previously holding a Certificate of"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0298,
+      "text": "Is one, which is similar in every essential respect to the design of an aircraft for which the certificate Prototype: first aircraft of its type to be considered for a Hong Kong C of A -   eg. the new A350 will be a prototype aircraft - HKAR - 1.3.2   P.1 A 'series aircraft' is: 67. One which is similar in some design aspects to a previous type. Airworthiness and Type Certificate. Definition of a series aircraft: 68.",
+      "choices": [
+        "Is one, which is similar in every essential respect to the design of an aircraft for which the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8787,
+      "text": "- Certificate of registration.",
+      "choices": [
+        "Certificate of maintenance review."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.94,
+      "text": "Certificate of airworthiness. The issue of a Hong Kong Type Certificate is: 73. A pre requisite to the issue of a C of A in the Transport, Aerial Work, or Private Category for an",
+      "choices": [
+        "-",
+        "-",
+        "A pre - requisite to the issue of a C of A in the Private Category for an aircraft of less than 2730 kg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5427,
+      "text": "An A/C fly over HK shall be marked in a manner approved by the governor if it is not registered and fly -   reference AN(HK)O Schedule 2 \"B Conditions\" (4) The C of Registration contains the nationality and registration mark 77. -   reference AN(HK)O Article 4(7)(b) According to AN(HK)O, A Condition is for the purpose of: 78.",
+      "choices": [
+        "New registration of aircraft",
+        "Renewal of C of A",
+        "For getting CMR after overhaul",
+        "Transporting the aircraft to a place for test to prove airworthiness for C of A"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.5137,
+      "text": "Initial issuance of C of A 'A' Condition is for: 79. Aircraft prototype Aircraft carrying out test flight after modification proving airworthiness Demonstrating the aircraft with a view to the sale of that aircraft or other similar aircraft 'A' Condition flight for: 80. Demonstrating the aircraft for sale New issuance of C of A What is required for flight under 'A' Condition? 81.",
+      "choices": [
+        "C of FF",
+        "C   of   C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.342,
+      "text": "The period of validity of a Certificate of Fitness for Flight shall be stated but shall not exceed: 82.",
+      "choices": [
+        "7 days"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3794,
+      "text": "Fireproof name plate stamped with nationality mark, name, and address of the owner: Is required for all public transport aircraft only",
+      "choices": [
+        "Is required for all aircraft",
+        "Can be fixed anywhere in aircraft structure",
+        "On the upper part of the vertical fin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.308,
+      "text": "A/C can fly with nationality and registration mark and a fireproof metal plate in the cabin -   reference AN(HK)O Schedule 1 Part B NATIONALITY   AND REGISTRATION   MARKS Nationality mark on aircraft is specified in: 86. HKAR 2",
+      "choices": [
+        "-",
+        "AN(HK}O"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.4949,
+      "text": "The A/C nationality and registration mark locates on the left wing surface, middle spar area. - CERTIFICATE   OF AIRWORTHINESS   (C OF A) Procedures for C of A renewal is specified in: 90.",
+      "choices": [
+        "Application form DCA46D from HK CAD Airworthiness Office shall be completed and returned (issue)",
+        "Application form DCA282 from HK CAD Airworthiness Office shall be completed and returned (major"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8958,
+      "text": "A Certificate of Airworthiness issued in respect of an aircraft registered in Hong Kong may only be The requirements of Civil Aviation Department Airworthiness Notice No.18 have been satisfied. A satisfactory test flight has been accomplished by a person approved for the purpose. An approved organization has completed a detailed inspection of the aircraft and certified the Renewal of C of A should be   before renewal date: 92.",
+      "choices": [
+        "Application for the renewal of a C of A is made no earlier than 30 days and no later than 14 days",
+        "Application for the renewal of a C of A is made no earlier than 60 days and no later than 14 days prior"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.7073,
+      "text": "An aircraft can fly without a valid Certificate of Airworthiness: In accordance to Airworthiness Notice# 25 Never In accordance with AN{HK)O Schedule 2 The C of A must be in force for all A/C fly over HK 94. An a/c registered in the territory cannot operate (fly) without a valid C of A 95. EXCEPT for flights only in HK and according to A & B Conditions - - An a/c may fly without a C of A whose flight is beginning and ending in the colony without passing over 96. - The category of an A/C is stated in the C of A 97. - To validate a C of A issued by foreign country, the CAD will issue C of Validation 98. - C of A will become invalid if: 99.",
+      "choices": [
+        "Maintenance work is carried out in an unapproved manner",
+        "C of MR is expired"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.1194,
+      "text": "During the process of renewing the C of A, necessary document is a scheduled flight test report - reference HKAR-1 1.3-4 P.3 For the renewal of C of A of light a/c, maintenance schedule should be coincide with annual check (star 104. - Group 2 = MTWA less than 2730 kg = light aircraft \"A coincident annual inspection shall be carried out... \" 4   P.5 -reference HKAR-1 1.3- AC of FF issued under \"A\" conditions as specified in the AN(HK)O may be signed by: The holder of an 105. - -reference HKAR-1 1.3-8 P.2 By definition in the AN(HK)O the flight manual forms part of: 106. Certificate of Airworthiness",
+      "choices": [
+        "Certificate of Maintenance Review"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8086,
+      "text": "C of FF is issued after approved of mod. The a/c requires issue of a C of A (under \"A\" condition) -reference AN(HK)O Schedule 2 The purpose for which the aircraft may fly in the category of Aerial Work is: 109.",
+      "choices": [
+        "Aerial work only.",
+        "Any purpose, other than public transport of passenger.",
+        "The mechanic had signed for the inspection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6602,
+      "text": "If an aircraft is away from base where facilities are not available for a valid CRS to be issued:",
+      "choices": [
+        "The commander can decide to fly the aircraft to a destination where the C of RS can be issued",
+        "It must be approved by engineer, to allow the aircraft to fly to the nearest station where facilities are"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.4893,
+      "text": "The aircraft should fly back to the operator's base for C of RS issuance If a repair is carried out to an aircraft at a place where it is not reasonably practicable for a Certificate of 113. Release to service to be issued: The commander of the aircraft may, subject to certain condition, fly the aircraft to a place where a The aircraft may be flown back to the operator's base at the discretion of the person carrying out the A temporary clearance may be given by an engineer for the aircraft to proceed to the nearest base at A CRS shall be issued for installed equipment on an aircraft that is: 114. Removed, replaced, repaired Modified, overhauled, inspected C of RS not required for: 115. -reference: AN(HK)O Article 11 Paragraph (3) / HKAR-1 1.6-2 P.7 AC of RS may be issued by a person approved by the governor as being competent to issue such 116. -reference: AN(HK)O Article 11 Paragraph (6)c How long is a C of RS required to be preserved? 117. Two years after the A/C has been permanently withdrawn from use \"... a certificate of release to service shall be preserved by the operator of the aircraft to which it relates for the period of - in other words: must keep for the same amount of time as you keep the log book - The contents of a C of RS require signature, authorization number, firm and date 118. \"The signatory/signatories shall record licence/approval/authorisation reference number as appropriate, together with the -   reference HKAR   -   1 1.6   -   2 P.8 Maintenance work with several tasks: require separate C of RS signed for each task. 119. \"A Certificate of Release to Service shall only be issued for a   particular   overhaul.   .. \" -   -   - AC of A of an aircraft ceases to be in force if: 120.",
+      "choices": [
+        "The C of RS issued after a work on the A/C is incomplete"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.352,
+      "text": "The certificate printed on the same form as the C of RS in UK registered a/c, is the check certificate An aircraft logbook entry made after the flight crew reported a heavy landing, should include: 126. A record of the work carried out.",
+      "choices": [
+        "A record of the work carried out including a reference to the inspection schedule used."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6375,
+      "text": "A short statement acknowledging the flight crew's report. The removal and installation of passenger seat in an aircraft of private category under 2730 kg MTWA: 127. Requires a C of RS issued by the licensed pilot No C of RS is required, if the work is done by the pilot (licensed and type rated) NOC of RS is required CERTIFICATE   OF   MAINTENANCE   REVIEW   {CMR) Certificate of Maintenance Review shall not be issued unless the person concerned has first verified 128.",
+      "choices": [
+        "The air operator's certificate is up to date."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3604,
+      "text": "The Certificate of Maintenance Review is made out: Once only for the owner In duplicate for owner and aircraft In triplicate for owner, aircraft, and Board of Trade AN(HK)O Article 9 Paragraph (5) - For aircraft less than 2730 kg, C of MR should be: 131. Checked within 12 months Completed after scheduled annual inspection By person from AQ The expiration of a CMR is specified: 132.",
+      "choices": [
+        "Either as flying hour/cycle or as a specific date",
+        "As a specific date"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.1428,
+      "text": "CMR is not required for Light aircraft with MTWA less than 2730 kg",
+      "choices": [
+        "Private aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0198,
+      "text": "Both of the above The period of validity of CMR is found in the: 134.",
+      "choices": [
+        "Maintenance Manual",
+        "Maintenance Schedule"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.8296,
+      "text": "Type Certificate AN(HK)O Article 9 Paragraph (2) - There is ELT on life raft of aircraft. Does the ELT require CMR? 135.",
+      "choices": [
+        "CMR is required if the ELT is required",
+        "CMR is needed regardless"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.9517,
+      "text": "After an A/C park in hangar is finished the maintenance work, when begin to count the time of C of MR? What is the effect to the C of MR if the A/C is awaiting in the hangar for spare parts? No effect to the 144. The categories of signatures required in the C of MR is stated in: 145. Maintenance schedule",
+      "choices": [
+        "Tech log"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.1472,
+      "text": "As an approved engineer, how many categories do you require in addition to a LWTR (license without",
+      "choices": [
+        "-",
+        "AN(HK)O Schedule 6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.118,
+      "text": "Slide (or according to AN(HK)O Schedule 5, devices which will enable a passenger to reach the Public transport with doors higher than 1.83m Public transport that flies over water",
+      "choices": [
+        "All public transport aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.4417,
+      "text": "-   reference AN(HK)O Schedule 5 Scale A page 85 Life jackets solely for use by children under three years of age should be equipped with: 149.",
+      "choices": [
+        "Torch only",
+        "Torch and whistle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.914,
+      "text": "Whistle only - Megaphone place on aircraft in case of emergency: 150. Is approved equipment Does not have a part number for reference EMERGENCY   EXITS Emergency exit of public transport aircraft with MTWA above 5700 kg should be marked with a band 151.",
+      "choices": [
+        "On the exterior",
+        "Both exterior and interior"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8645,
+      "text": "A change of owner of aircraft, the radio station license becomes: Valid",
+      "choices": [
+        "Invalid",
+        "Remain valid until the renewal of the C of Airworthiness",
+        "Invalidates the radio license.",
+        "Involves the change of registered owner being noted on the radio installation document by Civil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.704,
+      "text": "A change of ownership of an aircraft: 156. Does not affect the validity of the radio license. Aviation Department. A Radio Test Flight Certificate: 157.",
+      "choices": [
+        "Shall be signed by a licensed maintenance engineer."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.937,
+      "text": "Is issued by the CAD. Shall be signed by the pilot. Radio flight test is certified by: 158.",
+      "choices": [
+        "AMEL",
+        "Person approved by CAD",
+        "CAD approved person",
+        "Pilot"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.194,
+      "text": "If the VHF antenna have to be relocated, it would have to be recorded on:",
+      "choices": [
+        "Radio station log book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.275,
+      "text": "Amendment of Flight Manual: Is subject to the conditions and limitations under approval of Director General/ Chief Executive",
+      "choices": [
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.1213,
+      "text": "Is incorporated subject to operator's discretion Can be done if it is approved by the aircraft owner Flight Manual is amended by which governing body? CAD 168. The flight manual can be amended by person authorized by the CAD 169. Where can you give the statement that any defect affecting safety reported in the termination of a 170. TECHNICAL   LOG Provision of an aircraft technical logbook is required for: 171.",
+      "choices": [
+        "Aircraft having a certificate of airworthiness in either the air transport or aerial work categories.",
+        "Only those aircraft having a certificate of airworthiness in the air transport categories."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8652,
+      "text": "For an aircraft flying for the purpose of public transport, a pilot would record a defect: In the Certificate of Airworthiness.",
+      "choices": [
+        "In the appropriate airframe or engine log book.",
+        "Within 7 days"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6282,
+      "text": "For aircraft of MTWA under 2730 kg, the tech log is:",
+      "choices": [
+        "Not required if the aircraft is operated by an AOC holder",
+        "-",
+        "Required but may be in an alternative form approved by Director General/ Chief Executive",
+        "-",
+        "14 days prior to C of MR expired",
+        "21 days prior to C of MR expired"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.696,
+      "text": "A defect is written down onto the defect column of the technical log by the pilot. After trouble shooting",
+      "choices": [
+        "Adding to the defect column containing that defect.",
+        "Onto the remarks column corresponding to that defect.",
+        "No C of RS is required"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3652,
+      "text": "The commander needs to enter:",
+      "choices": [
+        "All the defects he knows",
+        "All take - off and landing time",
+        "The fuel consumed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.0015,
+      "text": "In the technical log book, there is a page to record: The period of time where the aircraft is out of service",
+      "choices": [
+        "Times of take - off and landing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5044,
+      "text": "An entry in an A/C technical log for the replacement of a component will contain description of the During the routine maintenance checks, ground personnel may enter particulars of defects in: 191.",
+      "choices": [
+        "Defect and action taken column of tech log"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.2336,
+      "text": "Deferred defect list is recorded in the: Technical log book Log book Approved maintenance schedule Provision within an aircraft technical logbook for the recording of deferred defects: 197. May only be used if the aircraft is maintained by a contracted HKAR 145 organization. Must include a cross reference to the sector record that relates to when the defect occurred.",
+      "choices": [
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.2336,
+      "text": "Must include duplicate entries for each deferral. Each page in the Acceptable Deferred Defect (ADD) section of the technical log must provide for each 198. Entries in a Log Book: 199. May refer to other documents, which shall be clearly identified, and any other document so May refer to other documents, which shall be preserved for two years. Shall not refer to any other documents. LOG   BOOK When an aircraft is being operated in circumstances which require a Certificate of Maintenance Review 200.",
+      "choices": [
+        "The occurrence to which it relates.",
+        "In an appropriate worksheet with summary of the work done entered in engine log book"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.53,
+      "text": "The particulars of a modification relating to an engine must be entered in the engine log book - Defect in radio system is rectified. Details should be recorded in: 213.",
+      "choices": [
+        "Radio station log book"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.554,
+      "text": "After modification of antenna deviated to certain direction, particular of work done should be",
+      "choices": [
+        "Radio station log book",
+        "Operator until two years after the aircraft has been destroyed or permanently withdrawn from"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0537,
+      "text": "Radio license Log book WEIGHT SCHEDULE The weight schedule shall be preserved by the: 215. Operator until the expiration of period of 6 months following the next occasion on which the CAD keeps until the next weight - The weight schedule of an aircraft shall be preserved by the operator until: 216.",
+      "choices": [
+        "The expiration of a period of six months following the next occasion on which the aircraft is",
+        "The expiration of a period of two years following the next occasion on which the aircraft is weighted."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8074,
+      "text": "The Weight and CG Schedule shall be kept:",
+      "choices": [
+        "Until the next weight date",
+        "For 12 months from the next weighing date",
+        "Includes unusable fuel and oil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.2834,
+      "text": "Weight and Balance Report is for aircraft of MTWA: >   5700 kg",
+      "choices": [
+        "> 2300 kg",
+        "< 2730 kg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3987,
+      "text": "-M10 (Haeco notes) pg 106 / HKAR-1 1.7-10 P.1 An aircraft weight schedule is required: 219.",
+      "choices": [
+        "Only for those aircraft engaged in public air transport.",
+        "For all aircraft that have been issued with a certificate of airworthiness."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.8633,
+      "text": "The load sheet of a helicopter should be in duplicate; one copy carried in the A/C and one copy kept on -reference AN(HK)O Article 28 How many copies are made of the load sheet? 225.",
+      "choices": [
+        "One"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5278,
+      "text": "Log book is required for: All aircraft register in Hong Kong",
+      "choices": [
+        "All public transport aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0679,
+      "text": "Technical log book must be carried on board for: All aircraft register in Hong Kong Aircraft registered in Hong Kong for public transport and beginning and ending is not at the same",
+      "choices": [
+        "All aircraft flying over Hong Kong"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.7131,
+      "text": "The C of Registration may not necessary be carried on A/C when it does not fly for an international Al RCRAFT   PARTS After item/parts are drawn from store, what should be checked? 233.",
+      "choices": [
+        "Part number, GRN, receipt date",
+        "Serviceable, Unservicable label",
+        "Part number, GRN, serial number, and approval stamp"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.7495,
+      "text": "Where is the standard part listed in? 234. Standard parts such as fasteners can only be used when the supplier is listed in: HKAR 145 company exposition",
+      "choices": [
+        "-",
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8567,
+      "text": "Avionic LRU can be used when: The part is included in HKAR 145 exposition",
+      "choices": [
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.843,
+      "text": "The part is included in the MEL The supply of standard parts such as bolts can be considered fit to install on aircraft if: 236. It is together with an ARC It is together with shipping invoice and receipt The supplier is in the supply list of the HKAR 145 organization -   AN 17 Appendix 1 states that standard parts do not require ARC The life limitation for engine components is specified in: 237.",
+      "choices": [
+        "Overhaul manual"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6282,
+      "text": "Maintenance schedule Maintenance manual HKAR 1 1.6   2 -   -   - CERTIFICATION   OF AIRCRAFT COMPONENTS A component is attached with EASA Form 1. How to certify that it can be used on an aircraft? 238.",
+      "choices": [
+        "Component owner approval",
+        "If the owner is AOC operator registered in Hong Kong"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5999,
+      "text": "An approved person to certify that it is safe and that the condition is 'good' Used component to be installed in Hong Kong registered aircraft must have release certificate issued by: 239. HKAR 145 organization with B, C class rating",
+      "choices": [
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.3093,
+      "text": "Component supplier company who supply the component Any organization approved by the National Aviation Authority AN 17 (from Stan's notes) - After a test of aircraft related engine or parts, which of the following will be issued? 240.",
+      "choices": [
+        "CAD Form 1",
+        "C   of RS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.5151,
+      "text": "A component had been carried out on a test. It should be certified on: CAD Form 1",
+      "choices": [
+        "C of RS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8281,
+      "text": "A component is installed on an aircraft. It's ARC should: Be kept for 2 years from the day of installation Be kept as long as the log book Only be kept if the component is safe critical Requirements for the airworthiness certification of parts and products are found in: 243. HKAR 147.",
+      "choices": [
+        "-",
+        "EASA Part 21.",
+        "-"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230774937.8865,
+      "text": "HKAR 2. EASA Part 21 is acceptable to the HKCAD for the: 244. Type validation of aircraft engines. Maintenance of aircraft components. Maintenance of rotorcraft. Which of the following describe the certification of A/C parts? 245.",
+      "choices": [
+        "JAR   21",
+        "JAR   27"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6365,
+      "text": "JAR   25 JAR   29 -   HKAR   -   21 is the Certification of Aircraft and Related Products, and all the regulations have the same number for same topic Where can you find information and procedures for certifying materials and components? 246.",
+      "choices": [
+        "HKAR - 145",
+        "HKAR - 2",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8484,
+      "text": "JAR 21 The Authorized Release Certificate (JAR form 1) is an international certificate for release A/C part to 247. - -   AN 17 Appendix 1 When recording ARC in log book, what detail should be recorded? 248.",
+      "choices": [
+        "P/N and S/N of component, reference number of approval organization, number of staff",
+        "Reference number of ARC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.9846,
+      "text": "Manufacture discovered that a particular modification of aircraft can affect safety: Manufacturer issue SB Classify as major modification when evidence is enough",
+      "choices": [
+        "Classify the modification as mandatory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.4277,
+      "text": "When an engineer has completed a mandatory inspection. What certificate must be signed: C of RS The JAR means Joint Aviation Requirement 270. Requirements for all weather operation is specified in: 271. JAR 21",
+      "choices": [
+        "-",
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.4905,
+      "text": "- Valid type of engine Maintenance of aircraft components",
+      "choices": [
+        "Maintenance of engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.6143,
+      "text": "- Certification procedures for aircraft and related products and parts",
+      "choices": [
+        "Normal, Utility, Aerobatic, and Commuter Category Airplanes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.1501,
+      "text": "- Small   rotocraft",
+      "choices": [
+        "Large rotocraft",
+        "Small   rotorcraft."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.7832,
+      "text": "Which of the following is about large rotocraft exceeding 9072 kg? JAR 25",
+      "choices": [
+        "-",
+        "-",
+        "JAR - 29"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.629,
+      "text": "JAR 27 Large aeroplane: 278.",
+      "choices": [
+        "JAR - 25",
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.2048,
+      "text": "The AD for a French manufactured aircraft registered in Hong Kong can be found in: Foreign AD's volume I, II",
+      "choices": [
+        "Foreign AD's volume   Ill"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0654,
+      "text": "Foreign Airworthiness Directive is: Published by FAA as \"Summary of AD's\" Published by UK CAA",
+      "choices": [
+        "Published by CAAC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5862,
+      "text": "An 'alternative means of compliance' in respect to the accomplishment of an Airworthiness Directive: 285.",
+      "choices": [
+        "May only be approved by an HKAR - 145 organization.",
+        "Would generally require the support of the organization responsible for the original type design."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.909,
+      "text": "May be permitted if the airworthiness directive is not mandatory. Who can raise mandatory modification to Hong Kong registered aircraft? 286. Which one of the following sources would produce mandatory modifications for Hong Kong registered",
+      "choices": [
+        "ICAO",
+        "UK CAA",
+        "-",
+        "If the aircraft is not in Hong Kong, as soon as practicable when it returns",
+        "Within 96 hours of the event"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 1768230774937.7756,
+      "text": "Mandatory Occurrence Reporting apply for: Public transport category which MTWA   >   2300 kg",
+      "choices": [
+        "Public transport category which MTWA > 5700 kg",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.5796,
+      "text": "If an aircraft auxiliary power unit (APU) fails to start, this may be considered a reportable occurrence: The defect is repeated",
+      "choices": [
+        "Only if the APU was recently fitted on the aircraft",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.7002,
+      "text": "Mandatory reporting of reportable occurrence shall be made to: Airport Authority",
+      "choices": [
+        "CAD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.7473,
+      "text": "When an accident occurs on an a/c registered in HK, the person to be informed is the chief inspector in The maintenance process using the condition monitoring concept allows failure to occur 302. Which one is Reportable Occurrence during a routine servicing check for a report snag from Flight 303. Crew? Which one should ensure report occurrence? Operator 304. Which should issue MOR? Defect will affect safety. 305. OTHER The structure and times of license module examinations can be found in the publication: 306. HKAR 66",
+      "choices": [
+        "-",
+        "-",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.047,
+      "text": "HKAR 147 HKAR 2 AN 17 is: 307.",
+      "choices": [
+        "The acceptance of aircraft components",
+        "Approval of organisations for maintenance of aircraft and components",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.9521,
+      "text": "Personnel certification for non destructive testing of aircraft, engines, components, and materials ETOPS   is   applicable   to: 308.",
+      "choices": [
+        "Turbine and piston engine",
+        "Piston engine",
+        "AN 36"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230774937.0723,
+      "text": "The purpose of preamble of MMEL is: To explain the format and terminology visual To explain the scope, validity",
+      "choices": [
+        "To illustrate the use of book to make decision on component serviceability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.81,
+      "text": "- Procedures for the Approval of Documents and Manuals for operatiosn and Maintenance of Aircraft",
+      "choices": [
+        "Continued Airworthiness - Responsibilities of the Type Design Organization",
+        "Certification of Airworthiness and other Provisions for Legal Flight",
+        "According to the maintenance schedule",
+        "According to LAME stipulation of time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.8599,
+      "text": "A duplicate inspection of a control system: When A/C come out from hangar after duplicate inspection and need to be inspected, the pilot can -reference: HKAR-1 1.6-2 P.10 A duplicate inspection is required after the completion of work for: 315. A component change on an aircraft system A component change on an engine system",
+      "choices": [
+        "Minor adjustment on an engine control system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.148,
+      "text": "Adjustment of engine control is done on an outbase aircraft. The second part of the duplicate A duplicate inspection, which is required after an adjustment when the aircraft is away from base, may",
+      "choices": [
+        "a professional Pilot License for any type of aircraft."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774937.0142,
+      "text": "By the licensed pilot with the type rating of that aircraft When return to hangar Who can sign the second part of duplicate inspection for an aircraft out base? 317.",
+      "choices": [
+        "Pilot with any type",
+        "Any B1.1 licensed engineer with any type",
+        "HKAR - 145 QA authorized person"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.9326,
+      "text": "Carrying out a safety critical task on similar systems on ETOPS aircraft requires: One team of maintenance personnel only",
+      "choices": [
+        "Two independent teams of maintenance personnel",
+        "-",
+        "For the complete task as detailed in the maintenance manual."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.2473,
+      "text": "The number of spare fuses required to be carried on the aircraft as stated in the AN(HK)O is: 10% of the number of each rating or three of each rating, whichever is greater",
+      "choices": [
+        "The number as specified in the approved Maintenance Manual",
+        "One of each of the main generator circuits only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.2957,
+      "text": "- For an indefinite time As long as the operator remains contracted with the maintenance organization",
+      "choices": [
+        "For 2 years from the date the aircraft to which the work is related was released from the HKAR - 145"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.1638,
+      "text": "An amendment to an Approved Maintenance Schedule: Is made by the aircraft operator, provided that the Civil Aviation Department is subsequently Shall not be made without the written consent of the Civil Aviation Department. Shall only be incorporated by an authorized representative of the Civil Aviation Department. Inspection stamps must not be transferred from one inspector to another unless they have been 328. 6 months 12 months 18 months Unapproved repair on the aircraft: 329. Can be certified Cannot be certified until the approved repair is made Will not affect the C of A When an unapproved repair has been carried out to an aircraft: 330. A Certificate of Release to Service must be issued before its return to service. The Certificate of Airworthiness will be invalid until an authorized repair is carried out.",
+      "choices": [
+        "A Certificate of Maintenance Review must be issued prior to flight."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.761,
+      "text": "At the completion of a general visual inspection during a scheduled hangar \"C\" check maintenance visit: 331.",
+      "choices": [
+        "A certificate of release to service must be issued for the individual inspection.",
+        "-"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230774938.3257,
+      "text": "Condition monitoring maintenance process is:",
+      "choices": [
+        "A preventative action",
+        "A non - preventative action",
+        "None of the above",
+        "-"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
