@@ -1,0 +1,1677 @@
+{
+  "name": "M2 2015 edited",
+  "date": "2026-01-12T11:45:08.602Z",
+  "questions": [
+    {
+      "id": 1768218308602.7463,
+      "text": "Which is   incompressible?",
+      "choices": [
+        "Ice",
+        "Gold?",
+        "Steam"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.1323,
+      "text": "2. Which is compressible?",
+      "choices": [
+        "Ice",
+        "Oxygen",
+        "Steam"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.3643,
+      "text": "Compressibility   depends   on:",
+      "choices": [
+        "Mass",
+        "Volume",
+        "Density"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5044,
+      "text": "When   two   bodies   are   attracted   to   each   other   by   gravitation,   the   force   is   inversely   proportional   to:",
+      "choices": [
+        "The   product   of   the   masses",
+        "The   distance   of   separation",
+        "The   square   of   the   distance   of   separation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5752,
+      "text": "When   two   objects   are   attracted   only   by   gravitation,   the   force   is:",
+      "choices": [
+        "Increased   by   both   mass   products   and   square of   decreased   distance ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2666,
+      "text": "Chromatic   aberration:",
+      "choices": [
+        "Can   be   removed   by   geometrical   shaping   of   a   single   lens",
+        "Can   be   compensated   by using   a   gradient - index   lens",
+        "Can   be   compensated   using   compound   lens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.2148,
+      "text": "As the human eye sees an object, what is formed on the retina?",
+      "choices": [
+        "A   real,   upright   image",
+        "A   real,   inverted   image",
+        "A   virtual,   upright   image"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.477,
+      "text": "Plain mirror, the image is",
+      "choices": [
+        "Real   &   inverted",
+        "Real   &   upright",
+        "Virtual   &   upright   (erect)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5432,
+      "text": "What   lens   is magnifying   mirror?",
+      "choices": [
+        "Concave   lens",
+        "Convex lens",
+        "Plain   mirror"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.866,
+      "text": "A   convex   lens   put   on   letter   '4',   the   student   observe   on   top,   he   can   observe :",
+      "choices": [
+        "Enlarge'4'",
+        "Invert   '4'",
+        "No   image   can   observe,   because   it   was   too   close"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.963,
+      "text": "An   image   was   magnify   to   0.2   and   projected,   using   what   lens?",
+      "choices": [
+        "Concave   lens",
+        "Convex lens",
+        "Plain   mirror"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.8904,
+      "text": "The   rear   view   mirror   of   the   car   is:",
+      "choices": [
+        "Concave   lens",
+        "Convex   lens",
+        "Plain   mirror"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.5757,
+      "text": "Incident   light   parallel   to   axis   of   a   convex   lens",
+      "choices": [
+        "Passes   through   the   lens   in same   direction",
+        "Diverges   at   a   focal   point on   the   same   side   of   lens",
+        "Converges   at   a   focal point on   the   other   side"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.6921,
+      "text": "Refractive   index   is:",
+      "choices": [
+        "Is   1   for   water",
+        "Is   higher   for   diamond   than   acrylic",
+        "Is   lower   for   4C   water   than   for   0C   ice"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.0908,
+      "text": "Which   transmission   takes   place at   speed   of   light?",
+      "choices": [
+        "Continual   emission   of   radiant   energy   form   the   surface   of   all   bodies",
+        "Longitudinal   pressure   wave   in   air",
+        "Exhaust   of   gases   from   engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1987,
+      "text": "In   the   visible   spectrum",
+      "choices": [
+        "Wavelength   increase   from   violet   light   towards   red   light",
+        "Frequency   increase   from   violet   toward   red   light",
+        "All   wavelengths   are   shorter   than   radio   wave   and   x - rays"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9575,
+      "text": "Which   has   the   longest   wavelength:",
+      "choices": [
+        "Ultra - sonic",
+        "Visible   light",
+        "Radio   wave"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.9263,
+      "text": "Which   has   the highest   frequency:",
+      "choices": [
+        "Microwave",
+        "Radio   wave",
+        "X - ray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5671,
+      "text": "Ultraviolet   light   is   also   known   as:",
+      "choices": [
+        "Black   light",
+        "Violent   light",
+        "Mechanical   light"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4302,
+      "text": "Examples   of   Dopplers   effect   are:",
+      "choices": [
+        "Radar   waves   use detect   the   speed   of   moving   cars",
+        "Red - shift   of   sun   rays",
+        "Both   of   the   other   two   phenomena"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.0027,
+      "text": "Greenhouse   effect:",
+      "choices": [
+        "Warms   the   surface   of   the   earth",
+        "Is   producible   only   by   the   use   of   glass   roof   and   wall",
+        "Is   reduced   by   the   presence   of   CO2 in   the   atmosphere"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6677,
+      "text": "Plasma   are   found:",
+      "choices": [
+        "In   atmosphere   of   moon",
+        "Interstellar   space",
+        "In   ax - ray   tubes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.0737,
+      "text": "A   good heat   conductor",
+      "choices": [
+        "Is   cotton   wool",
+        "Must   have   a   shining   surface",
+        "Is   also   a   good   electrical   conductor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.0928,
+      "text": "In descending   order   of   thermal   conductivity,   the   substance   by   lC",
+      "choices": [
+        "Is   dependent   on   the   shape   and   surface   area   of   the   substance",
+        "Is   higher   for   water   and   lower   for   silver",
+        "Varies   from   very   cold   to   very   hot   temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.062,
+      "text": "Heat   transfer   ability   from   high   to   low",
+      "choices": [
+        "Asbestos,   cotton   wool,   water",
+        "Lead,   mercury,   aluminum",
+        "Silver,   glass,   brick"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.455,
+      "text": "Specific   heat of   water:",
+      "choices": [
+        "Is   a   pure   number   without   units   and   dimensions",
+        "Is   more   than   that   of   light   metals.",
+        "Is equal to oil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.3152,
+      "text": "Because   of   water   have   large   value   of   specific   heat   capacity,   where   will   apply   this   fluid?",
+      "choices": [
+        "Cooling   agent",
+        "Human   fluid   inside   a   body",
+        "Liquid - in - glass   thermometer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2263,
+      "text": "The   heat   capacity   depends   on:",
+      "choices": [
+        "The   shape   of   the   object",
+        "The   mass   of   the   object",
+        "The   material   of   the   object"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7368,
+      "text": "Question Text Not Detected",
+      "choices": [
+        "All   of   the   above",
+        "ii)   and   iii)",
+        "i)   and   iii)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.9172,
+      "text": "The   heat   of   an   object   is   3300 K,   the   temperature   is   74°   C,   the   heat   capacity   is: 1   1",
+      "choices": [
+        "33000   /   (74   ·c   -   273)   J   kg - K -",
+        "33000   /   74   ·c   J   kg - K·"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0894,
+      "text": "Which   one   is   correct   about   the   uniform   linear   motion:",
+      "choices": [
+        "The   velocity   is   constant",
+        "The   acceleration   is   constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0837,
+      "text": "Which   is   the   correct   statement   about   a   body   in   uniform   circular   motion?",
+      "choices": [
+        "The body   has   constant   acceleration",
+        "Its   acceleration   acts   along   the   tangent   direction",
+        "The   tighter   the   radius,   the   bigger   the   magnitude   of   acceleration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5552,
+      "text": "A   particle   is   moving   with   uniform   angular   velocity   in   a   vertical   circle,   in   this   scenario   the   particle:",
+      "choices": [
+        "Is   subject   only   the   gravitational   acceleration",
+        "Is   max   acceleration   in   clock   12'",
+        "Is   max   acceleration   in   clock   6'"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7666,
+      "text": "A   particle   is   moving   with   uniform   angular   motion,   at   which   position   does   it   has   the   largest   acceleration:",
+      "choices": [
+        "At   highest   point.",
+        "At   lowest   point."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.6792,
+      "text": "The   extensive   use   of   screw   thread   in aviation   industry   is   due   to:",
+      "choices": [
+        "the   principle   of   inclined   planes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.543,
+      "text": "Two   sound   waves   difference   in   pitch   and   quality   is   demonstrate   when:",
+      "choices": [
+        "Organ   pipe   is   in   resonance",
+        "Guitar   plays   a   middle   C   chord   and   first   octave",
+        "Male   and   female   says   the   same   word \"hello\""
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7385,
+      "text": "In one scenario flow parameters are measured for venturi pump before and after suction is",
+      "choices": [
+        "Continuity   equation   to   the   venturi   flow   before   and   after   suction   apply",
+        "Bernoulli   theorem   to   apply   at   inlet   before and   after   suction   application",
+        "Bernoulli   theorem   at   the   inlet   and   outlet   after   suction   application"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.6836,
+      "text": "In   the   following   situations,   which   is   the   one   we   cannot   apply   Bernoulli's   theorem?",
+      "choices": [
+        "Flowing   water   in   a   pipe",
+        "Air   flowing   in   subsonic   speed",
+        "Air   flowing   in   manifold"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5178,
+      "text": "Considered as a pump, the human heart force about 70ml of blood into the   1cm radius aorta   about 75",
+      "choices": [
+        "The   smaller   the   power   required.",
+        "The   faster   the   blood   circulation.",
+        "The   bigger   the   force   causing blood   to   flow."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.4734,
+      "text": "Flying   motion of   aircraft,   inertia:",
+      "choices": [
+        "Different   when   moment's   about   a   different   point",
+        "Distribution   of mass   and   same   about   3   axis",
+        "Same   mass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4077,
+      "text": "Not   correct   describe   about   second   law   of   thermodynamic:",
+      "choices": [
+        "Have   the   most   molecular",
+        "All   gas   heat   energy   can be   converted   to   useful   work",
+        "Heat   TR   from   hot   to   cold"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.414,
+      "text": "In   aircraft,   consider   the   thermodynamic   system,   which   of   the   following   statement   is   correct?",
+      "choices": [
+        "Energy gain   in   combustion,   energy   does   not   conserve",
+        "Energy   conservation   should   not   apply   at   aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9019,
+      "text": "Reverse   process   of   melting",
+      "choices": [
+        "Vaporization",
+        "Solidification",
+        "Sublimation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.441,
+      "text": "Which   of   the   following   can   change   from   solid   to   liquid:",
+      "choices": [
+        "Water   at   zero   degree",
+        "Dry ice at   - 50 degree C",
+        "Solider 60/40 at 105 degree"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.408,
+      "text": "Boiling   water   more   easily:",
+      "choices": [
+        "Stirring   water",
+        "Lower   pressure",
+        "Temperature   increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.253,
+      "text": "A   decrease   air   temperature   of   constant   pressure   will   cause",
+      "choices": [
+        "Increase   density",
+        "Decrease   density",
+        "No   effect   of   density"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1145,
+      "text": "In   a   closed   contained, the   pressure   increases   when:",
+      "choices": [
+        "The   temperature   increases",
+        "The   temperature   decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1223,
+      "text": "In   a   closed   container,   if   the   volume   is halved,   then   the   pressure   is:",
+      "choices": [
+        "Doubled",
+        "Half",
+        "Constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4414,
+      "text": "Hydrometer   is   based   on:",
+      "choices": [
+        "Pascal",
+        "Archemides",
+        "Bernoulli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.5256,
+      "text": "Slide   friction   between   two   surfaces   depends   on:",
+      "choices": [
+        "Normal   reaction   force,   relative   velocity   of   movement",
+        "Area   of   contact,   nature   of   surface",
+        "Normal   reaction   force,   surface   roughness"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.1838,
+      "text": "50s .   A   person   pushes   a   block   forward.   Before   the   block   starts   moving,   the   friction   force:",
+      "choices": [
+        "It   is   the   external   force   only",
+        "Has   the   constant   magnitude   μN",
+        "Just   balance   the   pushing   force"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.3735,
+      "text": "Gyroscope   run   about   'z'   axis   (anti - clock   wise),   pressing at   3'clock",
+      "choices": [
+        "Dip   3'clock",
+        "Dip   12'clock",
+        "Dip   6'clock"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7166,
+      "text": "Heaviest   of   molecule:",
+      "choices": [
+        "CO2",
+        "N2",
+        "CO"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9614,
+      "text": "Interference   pattern   surface   of   soap:",
+      "choices": [
+        "Light   wave   mode",
+        "Light   ray   mode",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7854,
+      "text": "Sound   signal   in   audible   range   of_   travels_   inhot   day   than   in   cold   day.",
+      "choices": [
+        "20~20000Hz,   faster."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6418,
+      "text": "Absorption   2000Hz",
+      "choices": [
+        "Honey   comb,   carpet",
+        "Wood   and   glass",
+        "Board   [dry   wall]"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.4167,
+      "text": "Frequency   of   sound   heard   by   an   observe   decrease:",
+      "choices": [
+        "Source   away   observer",
+        "Increase   frequency   of sound   sources",
+        "Increase   velocity   of   sound"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6543,
+      "text": "In   fluid   dynamic,   stress   is   different   from   pressure   because",
+      "choices": [
+        "Stress   is   force   and   pressure   is   force   per   unit   area",
+        "Stress   is   a   local   property   and   pressure   is   a   homogeneous   property",
+        "Stress   is   a   vector   quantity   and   pressure is   not"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.0996,
+      "text": "Strain   is   a   ratio   of:",
+      "choices": [
+        "Force   and   area",
+        "Extension   and   original   length",
+        "Extension   and   area"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.8071,
+      "text": "The   pressure   of   gas   is:",
+      "choices": [
+        "F/A",
+        "Normal   force   per   unit   area",
+        "Unit   area   divided   by   the   force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7173,
+      "text": "Moment   is:",
+      "choices": [
+        "Force   multiply   moment   arm",
+        "Force   divide   moment   arm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6064,
+      "text": "The   dynamic   pressure   P   is: 2",
+      "choices": [
+        "½   pv",
+        "½   mv",
+        "½   mp"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7998,
+      "text": "Which   one is   a   vector?",
+      "choices": [
+        "Speed",
+        "Momentum",
+        "Power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.6797,
+      "text": "The   pressure   of   gas   in   constant   volume   container   is   dependent   on:",
+      "choices": [
+        "The   average   speed   of   the   molecules   of   the   gas",
+        "The   number   of   molecules   in   the   container",
+        "Mass   of   molecules   of   the   gas",
+        "i   &ii",
+        "i,   ii   &iii"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1768218308602.4329,
+      "text": "Smoke   particle   in confined   cell   have   random   motion:",
+      "choices": [
+        "Convection",
+        "Conduction",
+        "Motion   of   molecules"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8203,
+      "text": "An   object   is   moving   under   the   water,   which   will   affect   its   movement?",
+      "choices": [
+        "Fluid   temperature",
+        "The   mass   of   that   thing.?",
+        "The   weight   of   that   thing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.2705,
+      "text": "When   the   fluid   flow   through   the>   nozzle,   the   pressure   measure   the   decrease,   total   pressure?",
+      "choices": [
+        "Remains   constant",
+        "Increase",
+        "Decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1118,
+      "text": "When   fluid   pressure   in   a   hose   is   decrease   due   to   the   hose   diameter,   total   pressure:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "No   change"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8298,
+      "text": "When   fluid   pass   through   a   converging   duct,   what   will   change?",
+      "choices": [
+        "Pressure   increase,   velocity   decrease",
+        "Pressure   decrease,   velocity   decrease",
+        "Pressure   decrease,   velocity   increase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.2554,
+      "text": "For   hear   protection,   noise   canceling   headphones:",
+      "choices": [
+        "Can't   reduce   the   noise   from   outside   completely",
+        "Are   designed   to   work   with   accessory   completely",
+        "Operate   by   destructive   interference   of   sound   waves"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7085,
+      "text": "Hydrogen   is:",
+      "choices": [
+        "Molecular   structure",
+        "Ionic   structure",
+        "Crystal   structure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0586,
+      "text": "Oxygen   is:",
+      "choices": [
+        "Molecular   structure",
+        "Ionic   structure",
+        "Crystal   structure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1912,
+      "text": "Linear   momentum   will   suddenly   impulse   when:",
+      "choices": [
+        "Aircraft   applies   air   brake   to   slow   the   speed   when   landing",
+        "Hammer falls   on   the   hangar   floor",
+        "Ball   rebounded   at   the   edge   of   the   rubber   side   of   the   snooker   table"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7747,
+      "text": "Ultrasonic   burglar   alarm   is   use:",
+      "choices": [
+        "The   sonar   effect   for   ship   navigation   and   fishery."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4685,
+      "text": "Why   the   ice   can   float   on   water?",
+      "choices": [
+        "Buoyant   force   of the   ice   is   bigger   than   its   weight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6245,
+      "text": "Ice   floating   in   4 ° C   water,   what   is   the   following   statement   is   correct?",
+      "choices": [
+        "Density   of   ice   less   than   water",
+        "Replace   area   =   Lift"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7256,
+      "text": "lcm at   0 ' C   of   ice   will   be   melted   if: 3",
+      "choices": [
+        "lcm at   DC   of   water   is   added.",
+        "More than   1cm at   DC   of   water is   added",
+        "Less   than   lcm at   OC   of   water   is   added"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5667,
+      "text": "1   m ice   melt   into water,   volume:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Unchanged"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.0598,
+      "text": "When   the   temperature   of   water   change   from   10   deg   C   to   1   deg   C, the   density   will:",
+      "choices": [
+        "First   increase   then   decrease",
+        "First   decrease   and   then   increase",
+        "Always   decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9626,
+      "text": "32   ° C   water   cools   to   1   ° C,   Density   will?",
+      "choices": [
+        "Increase   uniformly",
+        "Decrease   uniformly",
+        "Increase   and   then   decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6543,
+      "text": "In   a   boat,   Amy   and   peter,   if   Amy   throw   a   ball   to   peter,   when   the   ball   still   in   air:",
+      "choices": [
+        "The   boat   move   to   Amy",
+        "The   boat   remain   constant",
+        "The   boat   move   to   Peter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2002,
+      "text": "The   balloon is   pumped   with   helium   and   released   into   air,   then",
+      "choices": [
+        "The   balloon   will   expand",
+        "The   balloon   will   compress",
+        "No   change"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.5261,
+      "text": "The   gas   molecular   stay   at   the   minimum   energy",
+      "choices": [
+        "Energy   conversion",
+        "Thermal dynamic   first   law",
+        "Thermal   dynamic   second   law"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.0393,
+      "text": "Bullet   hits   a   wall   and   stops,   energy   is converted   from:",
+      "choices": [
+        "Kinetic   energy   to   sound   and   internal   energy",
+        "Kinetic   energy   to   sound   and   light",
+        "Potential   energy   to   sound   and   internal   energy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4792,
+      "text": "The   first   law   of   thermodynamics:",
+      "choices": [
+        "Doesn't   apply   to   the   shock   wave   phenomenon.",
+        "Applies   to   ideal   gases   only.",
+        "Is   an   extension   of   the   conservation   of   mechanical   energy."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8748,
+      "text": "For   optical   fibers,   the   refractive   index   of   the   cladding   compared   to   that   of   the   core:",
+      "choices": [
+        "Is   always   smaller.",
+        "Is   always   larger.",
+        "Can   be   either   bigger   or   smaller   depending   on   specification."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.895,
+      "text": "The ice detector in aircraft has a Simple Harmonic Oscillator, if   some ice attach to the oscillator, what will",
+      "choices": [
+        "The   resonant   frequency   of   vibration   decreases",
+        "Amplitude   of   vibration   increased,   but   same   frequency",
+        "Detection   is   possible   only   with   a   critical   mass   is   reached"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.8552,
+      "text": "Aviation   kerosene, Provide   a   SI   and   Imperial   value,   which   is   correct?",
+      "choices": [
+        "Different   unit   of   weight   but   same   value   of   mass",
+        "Specific   gravity   is   the   same",
+        "Density   value   is   different   but   same   value   of   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.2986,
+      "text": "The   Specific Gravity of fluid   A, B,   and Care 0.8,   1,   1.2   respectively.   If they have the   same volume, arrange",
+      "choices": [
+        "ABC",
+        "C   BA",
+        "They   all   have   the   same   weight#"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7998,
+      "text": "An   airplane   in   the   sun",
+      "choices": [
+        "Reflection",
+        "Refraction",
+        "Diffuse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8596,
+      "text": "Ideal   gas   at   absolute   zero   temperature",
+      "choices": [
+        "Minimum   volume",
+        "Become   liquid",
+        "Become   solid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9753,
+      "text": "Speed   of   sound   at   sea   level",
+      "choices": [
+        "240m/s",
+        "300m/s",
+        "340m/s"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.908,
+      "text": "The   speed   of   sound   is   affected   by:",
+      "choices": [
+        "Intensity   of   the   sound   source",
+        "Temperature",
+        "Related   to   the   speed   of   light"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.8513,
+      "text": "4 - stroke   piston   engine   deliver   energy   by:",
+      "choices": [
+        "Induced   stroke",
+        "Exhaust   stroke",
+        "Power   stroke"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.0842,
+      "text": "When   light   travelling   from   one   medium   to   another,   which   of   the   followings   will   change?",
+      "choices": [
+        "i.   Frequency",
+        "ii.   Wavelength",
+        "iii.   Speed",
+        "iv.   Amplitude"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1768218308602.0798,
+      "text": "Siphon   is   a   .........   In   which   condition   the   siphon   fails?",
+      "choices": [
+        "No   air",
+        "The   mouth   of   the   tube   is   under   water",
+        "No   gravity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.0173,
+      "text": "Siphon   under   which   of   the   following   condition   doesn't work   probably?",
+      "choices": [
+        "No   atmospheric   pressure   inside   the   tank",
+        "The   tube   is   connected   beneath   the   water",
+        "There   is   no   gravitational   force   and   atmospheric   pressure   exist"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.3196,
+      "text": "When will the CG of the plane move aft?",
+      "choices": [
+        "Removed   the   wing   engines",
+        "Landing   gear   retracted",
+        "Fuel   in   the   wing   tank"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8442,
+      "text": "When   tail   engine   have   been removed,   CG   moved   aft,   when:",
+      "choices": [
+        "Removes wing   engine",
+        "Installed   center   engine",
+        "Fuel   in   wing   center   fuel   tank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.62,
+      "text": "5000   lb of   liquid   is stored   in   a   container,   now   if   the same   mass   but   higher   density   of   this   liquid is",
+      "choices": [
+        "Lower",
+        "Higher",
+        "No   change"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.3384,
+      "text": "A   container   contains   fuel,   when   it   changes   a   smaller   container,   what   will   change?",
+      "choices": [
+        "Temperature   increase,   pressure   increase",
+        "Density   increase,   pressure   decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.6157,
+      "text": "Fuel tank   5000Ib,   if   mass   constant,   higher   density, how   the   volume   change?",
+      "choices": [
+        "Less",
+        "Larger",
+        "Same"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.8284,
+      "text": "1m of   fuel   is   in   the   tank,   100cm /s   fuel   consumption   rate,   how   long   before   the   tank   is   empty?",
+      "choices": [
+        "2.7hr",
+        "16.6hr",
+        "0.27hr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.3113,
+      "text": "Choose   the   correct   statement   for   couple:",
+      "choices": [
+        "The   magnitude   of   a   couple   depends   on   the   point   about   which   moment   is   taken",
+        "Couples   are   scalar   quantities   that   can   be   positive   or   negative",
+        "Couples   are   vectors   and   added   using   the triangle   law"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.722,
+      "text": "The   units   appropriate   to   measure   the   amount   of   liquid   are:",
+      "choices": [
+        "Liters,   gallons,   newtons",
+        "Pounds,   cubic   feet,   BTU",
+        "Gallons,   kilograms,   liters"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7043,
+      "text": "The   SI   unit   of   mass   is:",
+      "choices": [
+        "kg",
+        "mole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0337,
+      "text": "The   unit   of   the   pressure   is:",
+      "choices": [
+        "Pa",
+        "Newton",
+        "kg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.3528,
+      "text": "What   will   get   1   N? 1",
+      "choices": [
+        "kgms -",
+        "kg   m",
+        "kg   m   s -"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.3535,
+      "text": "A pressure (100 lb   per square inch) acts on two jacks of engine piston of hydraulic system. One is 2",
+      "choices": [
+        "200 lb,   400   lb",
+        "25   lb,   50   lb",
+        "Same   magnitude   of   force."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.933,
+      "text": "A   boy   whose   weight   is   400N   climbs   up   a   4m   ladder   in   5   seconds.   What   is   his   output   power?",
+      "choices": [
+        "400   /   (5   X   4)",
+        "(400 x   4)   /   5",
+        "(400   X   5)   /   4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.815,
+      "text": "A   200   kg   boy   goes   up   vertically   for   20m   in   8   seconds.   The   efficiency   is   50%.   The   power   required   is",
+      "choices": [
+        "5   kW",
+        "8   kW",
+        "10   kW"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.317,
+      "text": "The   rocket's   initial   thrust   F   = 240000Ib,   W   =   100000Ib.   Then,   the   initial   acceleration   is: 2",
+      "choices": [
+        "7/5   m/s",
+        "5/7   m/s",
+        "14   m/s"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.2322,
+      "text": "Input   gear   has 20   teeth,   the   output   gear has   120   teeth, when   the   input gear turns one cycle,   the",
+      "choices": [
+        "Turn   60°"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9626,
+      "text": "2m - P - 2m - boy - 1.6m - Q - 0.2m Find   the force   acting   on   P&Q",
+      "choices": [
+        "200,400",
+        "250,350",
+        "272.x   327.x"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2246,
+      "text": "For   the same   material,   refractive   index:",
+      "choices": [
+        "Determines   the   grazing   angle at   which   total   internal   reflection   occurs",
+        "Is   bigger   for   red   light   than   violet   light",
+        "Cause   the   interference   phenomenon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4243,
+      "text": "Which   of   the   following   conditions   must   be   satisfied   for   a   total   internal   reflection?",
+      "choices": [
+        "Light   travels   from   an   optically   denser   medium   to   an   optically   less   dense   medium",
+        "Critical   angle   must   be   larger   than   the   angle   of   incidence",
+        "Angle   of   incidence   must   approach   90   degree"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0623,
+      "text": "The   center   of   gravity   of   a   triangular   plate   is   the   intersection   of:",
+      "choices": [
+        "Angle   bisectors",
+        "Perpendicular",
+        "Normals   from   a   vertex   to   the   opposite   side"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.293,
+      "text": "For   the   normal   human   eye,   the   far   and   near   point   are   respectively   at:",
+      "choices": [
+        "Infinity   and   25cm",
+        "1000m   and   10cm",
+        "Infinity   and   1cm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0298,
+      "text": "Which   is   a   correct   statement   about   viscosity   of   fluids?",
+      "choices": [
+        "Viscosity   decreases   with   increasing   temperature",
+        "Dynamic   viscosity   is   measured   in   centistokes",
+        "Water   is   less viscous   than   methanol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2488,
+      "text": "A   chemical   compound   forms   when:",
+      "choices": [
+        "Lithium   is   exposed   in   an   all - neon   enclosure",
+        "Hydrogen   gas   is   heated   in   the   ambient   condition",
+        "Pure   aluminum   is   protected   by   a   surface   oxide   film"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.069,
+      "text": "A   bimetallic strip   is   made of   steel   on   one   side   and   aluminum on   the   other   side,   when",
+      "choices": [
+        "The   strip   remains   straight   and   becomes   longer",
+        "The   strip   bends with   the   steel   strip   on   the   outside   arc",
+        "The   strip   bends   with   the   aluminum   strip   on   the   outside   arc"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.4382,
+      "text": "Tuning   forks   can   be   used   to   calibrate   musical   instruments   because",
+      "choices": [
+        "They   produce   a   pure   notes",
+        "They   produce   a   beat   when   sounded   together   with   the   instruments",
+        "They   produce   both   of   the   other   affects   described"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0537,
+      "text": "When   an   open pipe   is   played   and a   note   is   heard",
+      "choices": [
+        "There   is   a   180Q   phase   change   at   the   open   end",
+        "Resonance   occurs   with   standing   waves   set   up   in   it?",
+        "The   lowest   frequency   of   the   note   is   called   second   harmonic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.4912,
+      "text": "Optical   fibers   in   communication:",
+      "choices": [
+        "Transmit   modulated   light   beams   by   successive   mirror   reflection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2837,
+      "text": "Efficiency   of a   machine   can   be   increased   by",
+      "choices": [
+        "Cooling,   eliminating   loss",
+        "Reducing   friction,   using   lighter   materials",
+        "Using   electrical   or   hydraulic   power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7144,
+      "text": "Efficiency   is:",
+      "choices": [
+        "(load   x   load   distance)/   (effort   x   effort   distance)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.011,
+      "text": "Mechanical   efficiency   is:",
+      "choices": [
+        "Effort/   load",
+        "Load/   effort",
+        "Input/   output"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.427,
+      "text": "How   to   get   best   M.A   (mechanical   advantage):",
+      "choices": [
+        "Minimum   the   friction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.8079,
+      "text": "The   MA   of   lever   is:",
+      "choices": [
+        "The   power   done by   the   effort   to   the   power   done by   the   load",
+        "The   power   done   by   the   load   to   the   power   done   by   the   effort",
+        "Input   power/   output   power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7102,
+      "text": "Av snip good   MA,   close   to   velocity   ratio,   the   reason:",
+      "choices": [
+        "Friction",
+        "No   design is   perfect",
+        "Is   belong   to   the   first   class   lever"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7883,
+      "text": "Which   of   the   following   statements   concerning   the   mechanical   system   is   correct?",
+      "choices": [
+        "Mechanical   Advantage   =   Effort/   Load",
+        "Velocity   Ratio   =   Distance   moved   by   load/   Distance   moved   by   effort",
+        "Efficiency=   Load   x   Distance   moved   by   load/   Load   x   Distance   moved   by   effort"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.1143,
+      "text": "Wheatstone   Bridge   is   used   to   measure",
+      "choices": [
+        "Precision   resistance",
+        "Inductance   and   capacitance",
+        "Precision   inductance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0144,
+      "text": "When viewed   as   the   eardrum   and   auditory   canal   assembly,   the   human   ear   is   closest   in   operation   to:",
+      "choices": [
+        "An   organ   pipe",
+        "A   drum",
+        "Mobile   phone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.1897,
+      "text": "For   small - angle   prism,   the   deviation   of   light   rays:",
+      "choices": [
+        "Depends   on   the   angle   of   incidence",
+        "Is   proportional   to   the   prism   angle?",
+        "Is   determined   by   refractive   index   only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.301,
+      "text": "The   passenger   lift   move   along   the   shaft   at   3   m/s,   the   total   mass   of   the   lift   cage   and   the   passengers",
+      "choices": [
+        "Cannot   be   determined   unless   the lifting   force   on   the lift cage   is   also   given.",
+        "Is   the   product   of   500kg   and   3m/s",
+        "Depends   on   the   start   and stop   acceleration   values"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.776,
+      "text": "A   lift   is   measured   40N,   the   body   inside   the   lift   is   300kg,   SO....",
+      "choices": [
+        "The   lift   is   descending   with   uniform   v",
+        "The   lift   is   descending   with   uniform   a",
+        "The   lift   is   ascending   with   uniform   v"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.336,
+      "text": "V - T   graph,   area   means",
+      "choices": [
+        "Velocity",
+        "Acceleration",
+        "Displacement"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.633,
+      "text": "2   forces,   2N   and   3N   ➔   possible   resultant   force   is:",
+      "choices": [
+        "2N",
+        "3N",
+        "4N"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.134,
+      "text": "Question Text Not Detected",
+      "choices": [
+        "1.   (i)   +   (iii)",
+        "2.   (ii)+   (iii)",
+        "3.   (i)   +   (ii)   +   (iii)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8552,
+      "text": "Stand   600m   away   from   the   wall,   send   a   sound,   echo   in   3s:",
+      "choices": [
+        "400m/s"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4275,
+      "text": "151. Take   g=lO, acceleration   is",
+      "choices": [
+        "2.4   m/sA2",
+        "24   m/sA2",
+        "14   m/s/ \\ 2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9832,
+      "text": "A   body   slide   a   slope,   what   factor   affect   acceleration? (1)   Angle   a (2)   Gravity   acceleration (3)   Mass   of   body",
+      "choices": [
+        "1",
+        "2,3",
+        "1,2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.2644,
+      "text": "Celsius   to   Farenheit:",
+      "choices": [
+        "C   =   F   x   5/9   +   32",
+        "C   =   F   x   5/9   -   32",
+        "C   =   (F   -   32)   X   5/9"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.5889,
+      "text": "Which   one   is   correct?   (Temp   scale) ·",
+      "choices": [
+        "0°   C   =   °F   x   1.8   +   32",
+        "0°   F   =   273   +   °C",
+        "373   K   =   273   +   100   °C"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8535,
+      "text": "Heat   is:",
+      "choices": [
+        "The   transfer   energy   that   is   the   result   of   changes   of   temperature   only",
+        "The   same   physical   quantity   as   work   and   can   be   demonstrated   via   experiments",
+        "Meaning   and   applicable   to   gaseous   substance   in   general   but   not   solids"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.5032,
+      "text": "The   range   for   core   diameter   for   optical   fibers:",
+      "choices": [
+        "50 - 100   microns",
+        "10 - 120",
+        "500"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2017,
+      "text": "An   aircraft   is   towed   up   a   ramp   gradient   incline",
+      "choices": [
+        "The   gain   in   potential   energy   is   equal   to   the   loss   of   kinetic   energy",
+        "The   presence   of friction   work   affects   energy   conservation",
+        "The   total   mechanical   energy   at   last   is   bigger"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.6113,
+      "text": "When   aircraft   take - off:",
+      "choices": [
+        "Not   equilibrium",
+        "Acceleration   by   newton   third's   law",
+        "Not   statically   stable   equilibrium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7407,
+      "text": "When   aircraft   is   taking   off,   the   use   of   principle   is:",
+      "choices": [
+        "Newton's   third   law.",
+        "Energy   conservation   law."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0596,
+      "text": "Ultrasound   are   produced",
+      "choices": [
+        "Infra - red   radiation",
+        "Electronic   medical   instruments",
+        "Piezoelectric   effect"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.294,
+      "text": "A   simple   zoom   lens",
+      "choices": [
+        "It   consists   of   a pair of   lens   of   positive   and   opposite   focal   length",
+        "Adjust   the   object   distance   and   the   focal   length   of   the   lens",
+        "A commercial   zoom   lens   (more   than   a   simple   combination   of   two   lens   e.g   lens)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7651,
+      "text": "Two   waves   of   same   amplitude   slightly   different   frequency   added to   produce   a   wave",
+      "choices": [
+        "The   wave   will   oscillates   with   a   beat   frequency",
+        "The   amplitude   will   double   than   the   two   waves",
+        "Destructive   interference   occurs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.2834,
+      "text": "Most   wave",
+      "choices": [
+        "Vibration   repeat   with   frequency",
+        "Disturbance   transfer   energy   one   point   to   another   point   without   imparting   motion",
+        "A   series   of   rarefaction   and   compression   propagation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7722,
+      "text": "Which   statement   is   correct   about   the   nature   of   light?",
+      "choices": [
+        "Longitudinal   wave",
+        "Wave   motion",
+        "The   speed   will   increase   when traveled   into   the   medium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.1516,
+      "text": "What   is   another   name   for   a   standing   wave?",
+      "choices": [
+        "Ultrasonic   wave",
+        "Transverse   wave"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.3225,
+      "text": "Ideal   gas   goes   through   isothermal   process:",
+      "choices": [
+        "Charles'   Law",
+        "Boyle's   Law",
+        "Bernoulli"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.217,
+      "text": "Spherical   aberrations",
+      "choices": [
+        "Incident   rays   farther   from   the   axis   intersect   slightly   closer   to   the   lens   to   produce   blurred   picture",
+        "The   bending   of   light   through   lens   intersect   at   the   same   point   ( Achrimatic   lens)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7764,
+      "text": "Snell   refraction   is   based   on   the   fact",
+      "choices": [
+        "Light   travels   from   a   material   to   another   material",
+        "Show   wave   characteristics",
+        "Both   of   the   above"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.8977,
+      "text": "The   period   of   simple   pendulum:",
+      "choices": [
+        "Independent   on   its   mass.",
+        "Is   longer   for   a   heavy   pendulum   bob",
+        "Is   longer   on   the   earth   than   on   the   moon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.5078,
+      "text": "A   pendulum   motor   has:",
+      "choices": [
+        "Constant   speed",
+        "Constant   velocity",
+        "Constant   frequency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.4277,
+      "text": "PE+KE   of   swing   is",
+      "choices": [
+        "0",
+        "Constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.7888,
+      "text": "The   substance   is   a   gas   if",
+      "choices": [
+        "Its   size   is   not   affected   by   its   container.",
+        "It   takes   the   shape   of its   container.",
+        "It   takes   the   whole   volume   of   its   container."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.7312,
+      "text": "Work   is   not   produced   when   a   body:",
+      "choices": [
+        "Has   uniform   linear   motion   against   a   resistance.",
+        "Moves   at   a   steady   acceleration.",
+        "Is   displaced   at   right   angle   to   the   net   resultant   force."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.536,
+      "text": "An   endoscope   used   for   internal   examination   consists   of   two   glass   filters,   one   filter:",
+      "choices": [
+        "Must   be   used to   locate   the   area   to   be   examined.",
+        "Must   send   modulated   light signals   to   the   area   to   be   examined.",
+        "Must   be   used   to   shoot   down   a   ray   of   light   beam."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768218308602.118,
+      "text": "Track   and   describe   motion,   Cartesian   coordinate   system:",
+      "choices": [
+        "Consists   of   a   reference   frame   and   two   coordinates   only.",
+        "Can   be   used   to   represent   a   displacement   in   any   direction."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768218308602.522,
+      "text": "Size   of   atom   is   on   the   order   of   amplitude   of:",
+      "choices": [
+        "Nanometer.",
+        "Pico   meter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0115,
+      "text": "Liquids   are   better sound   transmitters   than   gases   because   of:",
+      "choices": [
+        "Higher   densities.",
+        "Higher   elastic   module."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.9983,
+      "text": "The   pitch   of a   string   is   high   if:",
+      "choices": [
+        "The   string   is   short."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.0596,
+      "text": "Microwave   antenna   used:",
+      "choices": [
+        "Reflector."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.5332,
+      "text": "For   a   particle   undergoing   periodic   motion,   its   acceleration:",
+      "choices": [
+        "Varies   directly   as   the displacement   from   a   neutral   position."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768218308602.7117,
+      "text": "When   square   change   into   parallelogram, which   force   is   used:",
+      "choices": [
+        "Elongation   &   shear.",
+        "Torsion   &   shear.",
+        "Compression   &   shear."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
