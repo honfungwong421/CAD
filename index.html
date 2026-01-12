@@ -268,10 +268,56 @@
                 this.loadBanks();
                 this.navigate('home');
                 
+                // Auto-sync from user's GitHub repository
+                this.fetchExternalBanks();
+                
                 // Check for saved session
                 const savedSession = localStorage.getItem('mcq_practice_session');
                 if(savedSession) {
                     // Logic to show resume button handled in view setup
+                }
+            },
+
+            async fetchExternalBanks() {
+                const apiURL = "https://api.github.com/repos/honfungwong421/CAD/contents/bank";
+                try {
+                    const response = await fetch(apiURL);
+                    if (!response.ok) return;
+                    const files = await response.json();
+                    
+                    let newImports = false;
+                    for (const file of files) {
+                        if (file.name.endsWith('.json') && file.download_url) {
+                            const bankName = file.name.replace('.json', '');
+                            // Avoid duplicates by name
+                            if (this.data.banks.some(b => b.name === bankName)) continue;
+
+                            const contentResponse = await fetch(file.download_url);
+                            if (contentResponse.ok) {
+                                try {
+                                    const bank = await contentResponse.json();
+                                    if (bank.questions && Array.isArray(bank.questions)) {
+                                        if (!bank.name) bank.name = bankName;
+                                        this.data.banks.push(bank);
+                                        newImports = true;
+                                    }
+                                } catch (err) {
+                                    console.error("Invalid JSON content in " + file.name);
+                                }
+                            }
+                        }
+                    }
+                    
+                    if (newImports) {
+                        this.saveBanks();
+                        // Re-render if we are on the home screen
+                        const bankList = document.getElementById('bank-list');
+                        if (bankList) {
+                            this.navigate('home'); 
+                        }
+                    }
+                } catch (e) {
+                    console.error("Failed to sync from GitHub:", e);
                 }
             },
 
