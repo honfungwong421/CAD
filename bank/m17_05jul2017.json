@@ -1,0 +1,2162 @@
+{
+  "name": "M17-05Jul2017",
+  "date": "2026-01-12T15:08:09.557Z",
+  "questions": [
+    {
+      "id": 1768230489556.409,
+      "text": "C omponent used to retain the propeller on the engine shaft are   considered   to be",
+      "choices": [
+        "E ngine parts",
+        "P ropeller parts",
+        "S eparate parts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.909,
+      "text": "Hub belong to   which   part:",
+      "choices": [
+        "ENG.",
+        "Propeller.",
+        "Airframe."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.0503,
+      "text": "Relative wind is define d   by",
+      "choices": [
+        "F orward   speed   and   rotating direction",
+        "AOA   of blade   (and relative wind direction?) , rotating direction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.527,
+      "text": "The resultant airflow over   a propeller blade depends on",
+      "choices": [
+        "RPM",
+        "Forward speed",
+        "RPM and forward speed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.1338,
+      "text": "Angle of attack definition:",
+      "choices": [
+        "Between blade chord and relative wind flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.0466,
+      "text": "Blade angle definition:",
+      "choices": [
+        "T he   acute   angle between   blade   chord line and   rotation   plane."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.6858,
+      "text": "To keep the AOA constant, the blade angle must be twisted",
+      "choices": [
+        "P rogressively decrease from root to tip."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.2642,
+      "text": "The inherent twist of propeller blade is such that",
+      "choices": [
+        "T he largest blade angle at root",
+        "T he largest blade angle at tip",
+        "T he largest bla de angle at 2/3 length from root"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.1711,
+      "text": "The angle of attack on a propeller blade depends on",
+      "choices": [
+        "Blade angle and rotational speed",
+        "Forward speed and blade angle",
+        "Resultant airflow (?and blade angle?)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.7275,
+      "text": "With an increase in forward speed, the angle of attack on a fixed pitch propeller at a given RPM will:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Remain the same"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.2395,
+      "text": "An aircraft is equipped with a fixed pitch propeller. As airspeed increases:",
+      "choices": [
+        "The blade   angle increases.",
+        "The blade angle of attack decreases.",
+        "The blade angle of attack increases."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.1272,
+      "text": "Constant RPM, if forward speed increases, blade angle:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Remain the same"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.86,
+      "text": "At constant RPM, advance per revolution depends on",
+      "choices": [
+        "Blade angle",
+        "Forward speed and RPM",
+        "Engine power"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.2043,
+      "text": "Forward speed constant, if engine RPM increase",
+      "choices": [
+        "Increase of   angle of attack",
+        "Decre ase of   angle of attack",
+        "Unchanged   angle of attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.8474,
+      "text": "Effective pitch definition",
+      "choices": [
+        "Actual advance per   revolution ."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.2593,
+      "text": "G eometric pitch is the distance moved   +",
+      "choices": [
+        "I n one revolution without slip",
+        "I n one revolution when slip is maximum",
+        "O nly achieved at start up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.483,
+      "text": "A complet e of revolution of propeller, at 2/3 blade to calculated distance",
+      "choices": [
+        "geometric pitch",
+        "effective pitch",
+        "experimental mean pitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.146,
+      "text": "Propeller slip is the difference   between",
+      "choices": [
+        "Collective pitch and effective pitch",
+        "Fine pitch and coarse pitch",
+        "Geometric pitch and effec tive pitch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.1716,
+      "text": "The difference between geometrical pitch of a propeller and advance per revolution is known as   +",
+      "choices": [
+        "Lag",
+        "Efficiency",
+        "Slip"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.624,
+      "text": "When a propeller has a diameter D, turns at N rev/sec, advance at forward speed V, the propeller slip is:",
+      "choices": [
+        "T he percentage of   geometric slip or a linear dimension.",
+        "Is equal to “blade angle”.",
+        "Is the same as propeller slip function V/ND."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.1963,
+      "text": "Blade station is used for",
+      "choices": [
+        "Blade balance",
+        "For identify the marking and corrosion position",
+        "Convenient to check the blade   angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.1138,
+      "text": "Blade   station function",
+      "choices": [
+        "L ocal Special point   along the blade of a propeller",
+        "L ocal CG and CP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.2432,
+      "text": "Blade stations",
+      "choices": [
+        "Along blade chord",
+        "Along blade length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.521,
+      "text": "Blade station is:",
+      "choices": [
+        "Along the blade",
+        "Across the b lade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.7866,
+      "text": "H ow are blade stations desi gnated?",
+      "choices": [
+        "M easured in inches from the hub",
+        "M easured in inches from the tip",
+        "P ercentage of blade length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3936,
+      "text": "Blade stations on a propeller are measured from",
+      "choices": [
+        "Hub center to blade tip",
+        "Blade   tip to hub center",
+        "Shank to blade tip"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.718,
+      "text": "if RPM keeps constant on propeller aircraft equipped with variable pitch control, an increase of engine",
+      "choices": [
+        "AOA increase",
+        "AOA decrease",
+        "AOA const ant as rpm maintained constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3857,
+      "text": "RPM increase",
+      "choices": [
+        "Pitch, CTM, AOA   increase",
+        "AOA, ATM,   CTM increase",
+        "Solidity, CTM increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.7688,
+      "text": "Purpose of reverse pitch",
+      "choices": [
+        "Brake after landing",
+        "Descend in flight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.735,
+      "text": "Reversible pitch propeller function",
+      "choices": [
+        "Used during approachi ng",
+        "Emergency use",
+        "Aerodynamic braking on ground"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.2812,
+      "text": "Reverse thrust with negative blade angle",
+      "choices": [
+        "Torque rotated the propeller minimum",
+        "Reverse thrust produced increase s   with decrease of forward speed",
+        "Camber side of blades become the thrust side"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.6477,
+      "text": "If the angle of attack is α, blade angle is β, the slip at the radius   –   R of axis is:",
+      "choices": [
+        "2πR [t an β -   t an (β - α)]",
+        "2πR [t an (β - α) - t an α]",
+        "2πR [t an β -   t an α]"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.1694,
+      "text": "What is the effect of increasing a propeller blade aerofoil section camber?   +",
+      "choices": [
+        "The ability of the propeller to absorb power is increased",
+        "The ability of the propeller to absorb power is decreased",
+        "Increasing camber has no effect on power absorption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.193,
+      "text": "When the power lever is moved from ground idle to flight fine the fuel flow increases and the blade",
+      "choices": [
+        "Increases",
+        "Remains the same",
+        "Decreases"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.247,
+      "text": "During take - off, engine RPM   get to maximum, the RPM of governor - controlled propeller:",
+      "choices": [
+        "Is maximum",
+        "Remains constant as idle speed.",
+        "Is maximum then response of synchronizing follow second highest rotation speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3164,
+      "text": "If an aircraft with a consta nt speed propeller descends at a constant throttle setting what happens to the",
+      "choices": [
+        "Decreases",
+        "Remains the same",
+        "Increases"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.005,
+      "text": "A feathering and b raking propeller   has   a pitch range of approximately",
+      "choices": [
+        "80.",
+        "120.",
+        "180."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.1255,
+      "text": "Blade angle ranges of two - position propeller and variable pitch propeller with feathering and reverse 0   0",
+      "choices": [
+        "10 and 20 respectively",
+        "10 and 130 respectively",
+        "45 and 130 respec tively"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.6218,
+      "text": "When propeller blades move from reverse pitch to normal they move",
+      "choices": [
+        "Through coarse pitch",
+        "Through fine pitch",
+        "Through feathered pitch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.059,
+      "text": "Other answer:",
+      "choices": [
+        "through fine pitch only",
+        "through fine coarse on ly",
+        "Pitch to normal position to minimum pitch and the normal pitch will be resetted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.713,
+      "text": "When blades are selected to reverse pitch from normal:",
+      "choices": [
+        "Pass through fine pitch and return to normal pitch by passing through coarse position",
+        "Pass through fine pitch and   return to normal pitch by passing through fine position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.5037,
+      "text": "For a reversing propeller, from normal position the blade should go through _____ to feather position",
+      "choices": [
+        "F ine pi tch, coarse pitch",
+        "Coarse pitch, coarse pitch",
+        "Fine pitch, fine pitch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.2688,
+      "text": "If a propeller is in fine pitch and it is moved to feather it will pass through",
+      "choices": [
+        "Reverse",
+        "Flight fine",
+        "Coarse"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.1213,
+      "text": "With a two pitch pro peller the pilot selects",
+      "choices": [
+        "Fine pitch for take off   –   coarse pitch for cruise",
+        "Coarse pitch for take off   –   fine pitch for cruise",
+        "Coarse pitch for take off   – fine pitch for climb   –   coarse for cruise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3967,
+      "text": "Highest pitch at:",
+      "choices": [
+        "Minimum constant speed operation",
+        "Cruise",
+        "Take - off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.0754,
+      "text": "CTM",
+      "choices": [
+        "Opposes ATM",
+        "Assists ATM",
+        "Increases blade angle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3186,
+      "text": "Turn blade to fine position by:",
+      "choices": [
+        "CTM",
+        "ATM and CTM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.5266,
+      "text": "Centrifugal twisting moment tends to turn a propeller blade into",
+      "choices": [
+        "Coarse pitch",
+        "Fine pitch",
+        "Feathered position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.8572,
+      "text": "The tendency of CTM is",
+      "choices": [
+        "to turn th e propeller to low - pitch (fine pitch)",
+        "to turn the propeller to high - pitch",
+        "slow down the propeller and cause drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3394,
+      "text": "Aerodynamic turning moment tends to turn propeller blades into",
+      "choices": [
+        "Coarse pitch",
+        "Reverse pitch",
+        "Fine pitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.8303,
+      "text": "ATM",
+      "choices": [
+        "Decreases blade angle",
+        "Increases blad e angle",
+        "Does not change blade angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.2454,
+      "text": "Which statement is true",
+      "choices": [
+        "CTM turns the blade to coarse pitch",
+        "ATM turns the blade to coarse pitch",
+        "ATM turns the blade to fine pitch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.858,
+      "text": "When in reverse pitch, CTM will move the propeller blade towards a",
+      "choices": [
+        "Coarser pitch",
+        "Finer   pitch",
+        "In the same direction as ATM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.1218,
+      "text": "What type of drag produced by propeller blade tip?",
+      "choices": [
+        "F orm",
+        "I nduced",
+        "Parasite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.6526,
+      "text": "Propeller blade tip vortex is caused by",
+      "choices": [
+        "Parasite drag",
+        "Induced drag",
+        "Form drag"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.2466,
+      "text": "One of the function of a propeller is to conv ert",
+      "choices": [
+        "Engine power into torque",
+        "Engine power into thrust",
+        "Engine torque into power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.7058,
+      "text": "To turboprop, when meet with high AOA or climb,",
+      "choices": [
+        "Asymmetric force on each engine, causes aircraft to yaw",
+        "Asymmetric force between the propellers, causes aircraft to yaw",
+        "--",
+        "th e centrifugal of thrust act on the right of aircraft center",
+        "the yaw moment to right hand",
+        "asymmetry force cause of torque reaction"
+      ],
+      "correctIndex": 5
+    },
+    {
+      "id": 1768230489556.6638,
+      "text": "High altitude and high AoA   condition",
+      "choices": [
+        "D ifferent thrust on every propeller,   engine imbalance   causes yawing motion",
+        "…differen t wing engine imbalance cause yaw?",
+        "Maintain high altitude"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.0586,
+      "text": "Thrust produce by",
+      "choices": [
+        "Blade   chord , AoA, Forward speed",
+        "AoA, RPM, Blade   aerofoil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.5693,
+      "text": "Factors that contrib ute to thrust:",
+      "choices": [
+        "Chord, forward speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3362,
+      "text": "Thrust bending force on the blade.",
+      "choices": [
+        "At blade tips towards the direction of flight.",
+        "At blade tips opposite to the direction of flight."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.192,
+      "text": "Thrust bending moment i n the propeller blade",
+      "choices": [
+        "tends to bend the propeller blade backward at the tip",
+        "intensifies the centrifugal force to some degree",
+        "can be used to propeller design to reduce some operational stress"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.2454,
+      "text": "Under normal operation, the point of maximum strain on a prop eller blade is at the",
+      "choices": [
+        "Root",
+        "Tip",
+        "Master station"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3145,
+      "text": "Propeller feathered when",
+      "choices": [
+        "E ngine failed.",
+        "W indmilling.",
+        "P ropeller failed."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.555,
+      "text": "What is windmilling?",
+      "choices": [
+        "Airflow turns the blade and hence drag increases",
+        "The blades turn in reverse direction and hence drag increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.9858,
+      "text": "A feath ering propeller is essentially",
+      "choices": [
+        "two - position propeller",
+        "automatic pitch propeller",
+        "constant speed propeller"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.989,
+      "text": "Auto - feathering system of 2 engine aircraft, when feathering the left engine, then",
+      "choices": [
+        "T he indicating light in operation engine go out automatically",
+        "T igh t engine auto - feathering system will enabled",
+        "S ynchronizer and synchrophaser system stop work"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.9207,
+      "text": "Propeller auto feathering is initiated by",
+      "choices": [
+        "The pilot's control button",
+        "A low torque pressure signal",
+        "A pressure operated constant switch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.4973,
+      "text": "L ow torque sensing is used   to initiate",
+      "choices": [
+        "R elighting",
+        "F ine pitch selection",
+        "A uto - feathering"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.1946,
+      "text": "Auto - feathering senses",
+      "choices": [
+        "Synchronizing of the propeller",
+        "Power loss",
+        "Maximum RPM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489556.9353,
+      "text": "Auto   feathering   is controlled by",
+      "choices": [
+        "Torque indicating system to sense engine failure",
+        "E ngine oil pressure indicator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3943,
+      "text": "Propeller auto feathering is terminated by",
+      "choices": [
+        "The pilot's push button",
+        "A low torque pressure signal",
+        "A pressure operated cutout switch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.0205,
+      "text": "Feathering latches in pr opeller pitch   control m echanism   is used to:",
+      "choices": [
+        "R emain feathering when feathering   is selected",
+        "Continue feathering when engine stops on the ground",
+        "Prevent feathering when engine stops on the ground  ."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489556.9792,
+      "text": "Feather pump",
+      "choices": [
+        "To position the valve",
+        "Drive   to feather in/out position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489556.3958,
+      "text": "β range control is for:",
+      "choices": [
+        "S tarting, taxing and reversing.",
+        "Flight operation",
+        "Reverse only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2588,
+      "text": "Power lever location of beta range",
+      "choices": [
+        "A bove flight idle",
+        "B etween flight idle and ground idle",
+        "B elow ground idle and reverse max",
+        "Between m ax reverse and flight idle"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1768230489557.5955,
+      "text": "Beta control:",
+      "choices": [
+        "Throttle lever position,   manual control below flight idle to maximum reverse",
+        "Power control lever directly control",
+        "Fuel control lever indirectly control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.5374,
+      "text": "In the propeller control, ‘beta control’ in low speed operatio n means :",
+      "choices": [
+        "power turbine   [ governor ]   used to select the required pitch angle",
+        "power turbine governor used to maintain the constant speed",
+        "fuel control unit   and turbo generator to control"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.6333,
+      "text": "Oil pressure of governor   (unfeathering?) :",
+      "choices": [
+        "Accumulator",
+        "Boost   oil from the oil pump…"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.9304,
+      "text": "How does engine oil travel from the hub to the propeller?",
+      "choices": [
+        "Externally",
+        "By internally drilling holes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.6575,
+      "text": "CSU governor",
+      "choices": [
+        "Direct high pressure oil to propeller pitch control."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.9397,
+      "text": "How does the CSU work?",
+      "choices": [
+        "By capsule, it senses the engine fuel and RPM to direct engine oil to pitch change mechanism",
+        "It directs the high engine oil pressure in/out to change the pitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8445,
+      "text": "CSD   = constant speed drive",
+      "choices": [
+        "Either   hydraul ic   OR centrifugal",
+        "Both   hydraulic   AND centrifugal",
+        "Pneumatic & centrifugal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.735,
+      "text": "The devices used to the construction of a   constant spe ed propeller to mov e the propeller",
+      "choices": [
+        "CTM and governor oil pressure in variable force category",
+        "Spring force and CTM cause the propeller to coarse pitch",
+        "Spring, counterweight and air - nitrogen charge in fixed force category"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.7449,
+      "text": "What device can cause most sensitiv e change to engine RPM",
+      "choices": [
+        "Flyweight",
+        "Speeder spring",
+        "Pilot valve"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1182,
+      "text": "The use of counterweight",
+      "choices": [
+        "Increase pitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.5354,
+      "text": "Counterweight is used for:",
+      "choices": [
+        "Increase the blade angle."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.9626,
+      "text": "In a   typical constant speed, non - f eathering propeller, the spring in the cylinder is for:",
+      "choices": [
+        "Counteract aerodynamic twisting moment",
+        "Decrease blade angle",
+        "Increase blade angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.1948,
+      "text": "What is the use of the spring in a CSU?",
+      "choices": [
+        "Increase blade   angle",
+        "Decrease   blade angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.8762,
+      "text": "Constant speed unit",
+      "choices": [
+        "Maintains best AOA at all speeds",
+        "Maintains same AOA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.79,
+      "text": "O verspeed governor :",
+      "choices": [
+        "Cut off the fuel   to idle speed automatically when over   speed",
+        "Increase the blade angle when over   speed",
+        "Anticipate overspeed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.7026,
+      "text": "Over - speed governor is:",
+      "choices": [
+        "Hydromechanical mechanism to compensate oil density.",
+        "Automatic control fuel flow.",
+        "Independent system   as saf e guard ."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.5874,
+      "text": "What is the purpose of the auto coarsening system?",
+      "choices": [
+        "To reduce drag during power loss",
+        "To prevent overspeeding if the pitch goes below flight fine",
+        "To relieve the pilot of making minor power changes when changing attitude"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6804,
+      "text": "If the speeder spring is   overcoming the force applied by the centrifugal weights in the PCU, the propeller",
+      "choices": [
+        "Overspeeding",
+        "U nderspeeding",
+        "On speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.2432,
+      "text": "Compare to the two - p osition propeller, the pitch operating mechanism of constant - speed propeller has",
+      "choices": [
+        "More flywe ight",
+        "Speed governor and return spring",
+        "Four position selector valve and higher operating pressure."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4668,
+      "text": "I n constant speed control,   governor   sense control   lever position and",
+      "choices": [
+        "E ngine speed   (RPM)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.757,
+      "text": "Constant speed propeller, if open throttle what will happen?",
+      "choices": [
+        "… with no RPM change",
+        "Increase blade angle with no RPM change"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2021,
+      "text": "In a single acting propeller pitch change mechanism the blade angle is increased by",
+      "choices": [
+        "Oil pressu re",
+        "Centrifugal twisting moment",
+        "Aerodynamic twisting moment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.264,
+      "text": "What is the purpose of propeller   blade cuffs?",
+      "choices": [
+        "Protects blade root",
+        "Helps cool engine",
+        "Increases aerodynamic propeller efficiency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.667,
+      "text": "The primary use   of cuffs on propeller",
+      "choices": [
+        "Increase air flow to cool   the engine",
+        "Increase effective blade area",
+        "About deicing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2217,
+      "text": "Blade cuffs are fitted to the root of the blades",
+      "choices": [
+        "To increase thrust",
+        "To increase the strength of the blade",
+        "To increase flow of cooling air into the engine nacelle."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.7983,
+      "text": "Blade cuff made of:",
+      "choices": [
+        "Cast aluminum alloy",
+        "Thin metal sheet, plastic or composite material",
+        "Forged aluminum alloy same as the blade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.1807,
+      "text": "The cuff is installed in the airfoil blade’s:",
+      "choices": [
+        "Leading edge",
+        "Hub   mounti ng",
+        "Shank of blade"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.926,
+      "text": "Ice formed on the edges of propeller will:",
+      "choices": [
+        "Reduce the thrust and cause vibration.",
+        "Increase stalling speed, noise, and cause vibration",
+        "Decrease noise and cause vibration"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.342,
+      "text": "Deicing \" Ru nback\" means?",
+      "choices": [
+        "Refreezing behind the leading edge",
+        "Brush and slip ring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.935,
+      "text": "Two - element deicing system on two engine aircraft heating",
+      "choices": [
+        "O utboards element of all the engines, the inboards element of all the engines",
+        "A ll the elements for the equiva lent time in turn",
+        "O utboards, inboards in one engine, outboards, inboards in another engine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.5408,
+      "text": "E lectric deicing   is:",
+      "choices": [
+        "H eat the surf ace to a temperature to prevent ice formation",
+        "Intermittent   frequency to   heat the leading edge",
+        "C ontin uous   frequency   to heat leading edge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4187,
+      "text": "Electric heating used to deicing",
+      "choices": [
+        "O n whole wing",
+        "I ntermittent ON/OFF on the leading edge",
+        "C ontinuous ON/OFF on the lead ing edge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.8162,
+      "text": "One anti - icing overshoe element open circuit",
+      "choices": [
+        "R eplace the element.",
+        "Repair the element in suit",
+        "Renew the whole overshoe assembly."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.3528,
+      "text": "Which of the following switch is not used with a   de - icing system?",
+      "choices": [
+        "Rheostat",
+        "F ull de - ice mode",
+        "C ycle speed selector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.7336,
+      "text": "What is used to control anti - icing pump?",
+      "choices": [
+        "Rheostat",
+        "Cyclic timer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6309,
+      "text": "Anti - icing uses:",
+      "choices": [
+        "Same cyclic timer",
+        "Separate cyclic timer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.361,
+      "text": "Cyclic timer for propeller and de - icing",
+      "choices": [
+        "S eparate",
+        "T ogether"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.2393,
+      "text": "Electrical deicing",
+      "choices": [
+        "Brush   rotates   on propeller, slip ring   remains station ary   on plane",
+        "Slip ring   rotates   on propeller, brush   remains stationary   on plane",
+        "Cut off at fine pitch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.2275,
+      "text": "The power supplied for anti - icing & cyclic timer:",
+      "choices": [
+        "AC only.",
+        "DC only.",
+        "AC and DC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.947,
+      "text": "Operate the electr ic de - icing boost where checking stationing, it’s normal to",
+      "choices": [
+        "Limited testing time",
+        "Cool the boost to prevent   melting   the rubber",
+        "Wear the gloves to prevent burn the hands"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.418,
+      "text": "Proper operation of electric deicing boots on individual   propeller blades may best be determined by:",
+      "choices": [
+        "U se hand to feel heat",
+        "Us e hand to feel inflation",
+        "C heck air pressure of the boots   and current of heat"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.8186,
+      "text": "De - icing fluid used in propeller is:",
+      "choices": [
+        "Isopropyl alcohol.",
+        "…   and water"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1123,
+      "text": "The fluid de - icing system   with isopropyl alcohol",
+      "choices": [
+        "the fluid pump is controlled by rheostat located in control cockpit",
+        "the length of time the system can provide ice - protection is depend only on the amount of fluid",
+        "the fluid is transferred to slinger ring aligned with blade   trailing edge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.563,
+      "text": "Where does fluid   deicing system transmit deicing fluid to propeller",
+      "choices": [
+        "U - shape xxx sling er   ring   with delivery tube",
+        "?",
+        "… on the blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8699,
+      "text": "The pe rformance of a turbo - prop engine is measured in",
+      "choices": [
+        "Newton",
+        "Propeller shaft horsepower",
+        "Thrust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.9995,
+      "text": "Propeller efficiency varies from",
+      "choices": [
+        "Thrust horsepower over brake horsepower",
+        "Initial horsepower over thrust horsepower",
+        "Brake horsepower over thrust horsepower"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.615,
+      "text": "Torque   meter",
+      "choices": [
+        "Measure engine output."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.4663,
+      "text": "Torque meter measures",
+      "choices": [
+        "Thrust of engine",
+        "Shaft horsepower of engine",
+        "Velocity of engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.0234,
+      "text": "The most efficient   angle of attack of propeller blade",
+      "choices": [
+        "2°   -   4°",
+        "4°   -   8°",
+        "12°   -   15°"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2275,
+      "text": "The most efficient propeller from the theoretical   standpoin t   has what number of blades?",
+      "choices": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.4343,
+      "text": "To control ti p speed and propulsion efficiency , the high performance blade is",
+      "choices": [
+        "W ider and longer blade",
+        "I ncrease blade number conversion 2 -   or 3 -   blade",
+        "H igher speed and smaller diameter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4775,
+      "text": "If at a high forward speed the advance per revolution equals the geometric pitch, the propulsive",
+      "choices": [
+        "Maximum",
+        "Nil",
+        "In crease with forward speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.1377,
+      "text": "W hen being ground run at maximum power the propulsive efficiency will be",
+      "choices": [
+        "M aximum",
+        "N il",
+        "P roportion to rpm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.9258,
+      "text": "What is the condition during ground running   at max power?",
+      "choices": [
+        "Efficiency 100%, Slip 0 %",
+        "Slip 100%, Efficiency 0 %"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.616,
+      "text": "The propeller efficiency of a turbo - prop engine is higher than that of a pure jet at aircraft speed   in the",
+      "choices": [
+        "Below approximately 450 miles per hour",
+        "Above approximately 450 miles per hour",
+        "From 450 miles per hour to 650 miles per hour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.3823,
+      "text": "The maximum efficiency of propeller occurred at approximately",
+      "choices": [
+        "250 knots",
+        "350 knots (450 m ph )",
+        "450 knots"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.479,
+      "text": "Lower gear ratio gearbox is used for drive a propeller while keeping the same efficiency, the propeller",
+      "choices": [
+        "I ncrease blade cord",
+        "M ore blades",
+        "L ighter weight propeller with same diameter and   shape"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.6484,
+      "text": "Synchronisation is:",
+      "choices": [
+        "Preset the phase angle of propellers",
+        "Aligning engine speed to reduce vibration and noise",
+        "Reduce the pitch of the fastest running blade"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.3113,
+      "text": "Synchronizing:",
+      "choices": [
+        "The same pitch",
+        "Slave has the same rev/min with mas ter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.355,
+      "text": "Synchrophasing is used to achieve:",
+      "choices": [
+        "Same tip speed",
+        "Same phase angle",
+        "Same plane of rotation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.8684,
+      "text": "Synchrophasing reduces vibration by the use of",
+      "choices": [
+        "Pulse probes and a single synchrophase unit",
+        "Tac hometers and correction motors",
+        "Tachometers and differential m otors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.648,
+      "text": "Which flight stage will the synchr onizing function?",
+      "choices": [
+        "At cruising."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.3257,
+      "text": "Synchrophase is used during:",
+      "choices": [
+        "Cruise and take off",
+        "Cruise and climb",
+        "Cruise and descent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.862,
+      "text": "Synchronizer   master system   activator adjusts the :",
+      "choices": [
+        "M aster engine",
+        "S lave engine",
+        "E ngine control box"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.9626,
+      "text": "The synchronisation governor monitors:",
+      "choices": [
+        "Prop   blade   tip speeds",
+        "Thrust tip speeds",
+        "Engine speed ( RPM )"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.3745,
+      "text": "Synchronization:",
+      "choices": [
+        "Controls tip speed of propeller",
+        "Control engine RPM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6963,
+      "text": "With respect to type I sychrophase   system, the master engine is",
+      "choices": [
+        "T he right engine on twin - engine turboprop",
+        "T he no.2 engine is normal and no.3 engine is alternate on four engine",
+        "T he no.2 and no.3 engine for four engine aircraft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.671,
+      "text": "Twin engine propeller with type II synchrophasing system",
+      "choices": [
+        "Left g overnor master, right governor slave",
+        "Both two are master",
+        "Master governor to   left and right with independent   control box",
+        "Right governor master, left governor slave"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.57,
+      "text": "Blade tipping",
+      "choices": [
+        "P revent impact damage at leading edge & ti p."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1138,
+      "text": "How to check the crack of the leading   edge",
+      "choices": [
+        "M agnifying   glass",
+        "X - ray",
+        "Eddy current"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.969,
+      "text": "Which equipment is used to check blade bending",
+      "choices": [
+        "Protractor",
+        "DTI",
+        "Stra ight edge and feeler gauge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.208,
+      "text": "Aluminum blade checking:",
+      "choices": [
+        "Protractor",
+        "DTI",
+        "? Edge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.5527,
+      "text": "C leaning of Aluminum propeller before visual inspection",
+      "choices": [
+        "Di luted caustic solution and mineral water",
+        "Mild soap and water",
+        "12:1 caustic solution and water"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.522,
+      "text": "Most common damage to propeller",
+      "choices": [
+        "Nick and   erosion   on leading edge",
+        "Gouge on propeller face ( blade surface? )",
+        "root?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.7046,
+      "text": "If the propeller pitch control done not respond to propeller lever, possible cause maybe",
+      "choices": [
+        "A utomatic high pitch lock is in engaged position",
+        "Speeder spring is broken",
+        "Excessive clearance of pilot valve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.5203,
+      "text": "Cause(s) of propeller out - of - track vibration are:",
+      "choices": [
+        "Static imbalance",
+        "Blade stiffness is not exactly matched",
+        "Too high blade angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.2136,
+      "text": "Which mechanical   vibration is most destructive to the propeller?",
+      "choices": [
+        "Resonation vibration of the neighboring propeller",
+        "Vibration caused by   pulsating stroke of piston engine",
+        "A erodynamic and acoustic vibration in flight"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.2546,
+      "text": "A spline hub is found be loosed with retaining nut tight, the probable reason is:",
+      "choices": [
+        "Front core bottom against the front end of splines.",
+        "Torque loading too low of retaining nut.",
+        "Wear of spline is exce ssive."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2314,
+      "text": "T he primary   balance   check of the propeller:",
+      "choices": [
+        "Static and dynamic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8704,
+      "text": "Static balance refers to",
+      "choices": [
+        "Horizontal",
+        "Vertical",
+        "Horizontal and vertical"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.487,
+      "text": "How is the horizontal balance of an adjustable propeller obtained?",
+      "choices": [
+        "File heavy blade tips with a fine file",
+        "Add adjus ting washers to clamp ring bolt",
+        "Add lead wool to the concentric hole",
+        "Shift clamp ring until balance is obtained"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.1526,
+      "text": "The final balancing of metal propeller is obtained by",
+      "choices": [
+        "Grinding down the tip of the heavy blade with a fine emery wheel",
+        "Inserting lead wool in   the concentric holes",
+        "Paint red and yellow on the light blade, at tip"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6692,
+      "text": "How is a wooden propeller balanced?",
+      "choices": [
+        "By applying solder to the tipping",
+        "By cutting off a portion of the wood",
+        "Ream bolt hole to oversize on heavy side"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.4849,
+      "text": "A horizontal imbalance in a wood propeller may be corrected by",
+      "choices": [
+        "Solder on the boss",
+        "Solder on the tip",
+        "A plate on the boss"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.965,
+      "text": "The horizontal imbalance on wooden blade is rectified by:",
+      "choices": [
+        "Adding or removing solder from blade tips.",
+        "Adding metal plate on side of hub.",
+        "Install screw, bolt, washer on spinner back blade."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.5361,
+      "text": "A wood propeller is horizontally balance d by:",
+      "choices": [
+        "Removing wood from under the metal tip",
+        "Use of shims",
+        "The use of solder on the copper tips"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.6125,
+      "text": "For vertical balancing, weight is added to the hub in 90 degrees perpendicular with propeller ’ s",
+      "choices": [
+        "H orizontal axis",
+        "Vertical axis",
+        "Plane of rotation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.641,
+      "text": "Vertical imbalance, how to improve:",
+      "choices": [
+        "Adjust counterweight",
+        "Put the shim between shaft crane and…"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.7014,
+      "text": "Aerodynamic unbalance",
+      "choices": [
+        "Only repeated in flight",
+        "Is essentially caused by the improper mass distribution",
+        "Can be adjusted by chec king the blade contour and adjusting blade angle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.5984,
+      "text": "…ACF is usually:",
+      "choices": [
+        "At blade root",
+        "At hub and……..",
+        "At hub and same at all blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.175,
+      "text": "Dynamic   balance   tracking   of propelle r check s:",
+      "choices": [
+        "RPM   & phase angle",
+        "A mplitude & phase angle",
+        "P itch angle & amplitude   (wrong)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.5298,
+      "text": "Dynamic imbalance/vibration take place when",
+      "choices": [
+        "CG of propeller not coincide with a xis of rotation",
+        "CG of counterweight not in plane of rotation",
+        "Mass improper distribution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8713,
+      "text": "Dynami c balance of 3 blade   pro peller, check one blade:",
+      "choices": [
+        "6   o’clock",
+        "12 o ’ clock",
+        "3   or   9 o ’ clock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.081,
+      "text": "To confirm engine vibration is result of propeller vibration should check",
+      "choices": [
+        "movement of   propeller hub",
+        "tracking of propeller blade",
+        "engine vibration monitor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4917,
+      "text": "Track is procedure which checks",
+      "choices": [
+        "A ngle of blade in the hub",
+        "T rack of the centre line",
+        "T rack of blade tip"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.8977,
+      "text": "Out of track of one propeller",
+      "choices": [
+        "A ngle of incident and static balance different from   other propeller",
+        "AOA   and thrust different from other propeller",
+        "S tatic balance and thrust different from other propeller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4495,
+      "text": "Other answers:",
+      "choices": [
+        "thrust and static different to other blade",
+        "static and angle of attack different to other blade",
+        "angle of incid ence and thrust different to other blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.4568,
+      "text": "Apply propeller tracking by:",
+      "choices": [
+        "Strobescope method",
+        "Boroscope me thod",
+        "Flexscope method."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.064,
+      "text": "When carrying out a track check on a four bladed propeller, the difference in the track is measured",
+      "choices": [
+        "Adjacent blades",
+        "Opposite blades",
+        "Any two blades"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.002,
+      "text": "How do you   adjust   a wooden blade, if out of track?",
+      "choices": [
+        "Tighten the hub plate",
+        "Can not be repaired, reject it",
+        "Place shims to the rear of hub, between the hub plate and shaft boss"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.5845,
+      "text": "Adjust out of track correction   (dynamic imbalance):",
+      "choices": [
+        "Cold - bending",
+        "Add counterweights",
+        "Place shims between XX and XX"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.9114,
+      "text": "Compared to an aluminum blad e, composite blade is:",
+      "choices": [
+        "More lightweight and durable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8687,
+      "text": "Spar - shell composite propeller construction:",
+      "choices": [
+        "Two carbon fiber spars.",
+        "Fiberglass shell form airfoil.",
+        "Both of the two."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.86,
+      "text": "What structure of propeller is made of composite Kevlar?",
+      "choices": [
+        "C one",
+        "B arrel",
+        "S h e ll of pro p"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.201,
+      "text": "The class of compact propeller has the construction figures like",
+      "choices": [
+        "Two half hub shells and carrying pit ch changing mechanism and blade root internally",
+        "Made of aluminum forgings except hub",
+        "Configurations of least four blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1084,
+      "text": "M anufacturing the blade, the   final pitch",
+      "choices": [
+        "M achining",
+        "Drop forging",
+        "T wisting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1714,
+      "text": "Aluminum blade   manufactured/ shaped by",
+      "choices": [
+        "M achined and grinding",
+        "Forging",
+        "Cold working"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.864,
+      "text": "Aluminum blade:",
+      "choices": [
+        "Casting and g rinding",
+        "Forging and twisting",
+        "Grinding and twisting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.9795,
+      "text": "The adjustment of   ground adjustable   propeller blade angle is",
+      "choices": [
+        "D one in the propeller installation.",
+        "Done in the propeller table.",
+        "Adjusted in the shop."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.9753,
+      "text": "After repl acing a new propeller, what do you need to do?",
+      "choices": [
+        "Run for an hour   until full throttle speed   (RPM)   obtained",
+        "New reference   (RPM) established",
+        "Use previous reference speed (RPM)   if design is similar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.0862,
+      "text": "New component installed, run the governor a few times in order   to:",
+      "choices": [
+        "Release trapped air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2998,
+      "text": "What is used to assemble the spinner",
+      "choices": [
+        "Use torquing screw on the shaft bulkhead",
+        "Install stud onto the hub assembly",
+        "Install the flange - type connection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2385,
+      "text": "When installation of the propeller to the taper sha ft, check the fit of installation",
+      "choices": [
+        "F iller gauge",
+        "Prussians blue",
+        "E ngine oil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4758,
+      "text": "Leading edge metal sheath of wood   propeller   damage",
+      "choices": [
+        "C annot repair in - situ, send to overhaul shop",
+        "Shape a new metal sheath, using original screw hole",
+        "S hape a n ew metal sheath, using new screw hole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4478,
+      "text": "Nick on the leading edge of the blade +",
+      "choices": [
+        "Can only be blended in inner 1/3 of blade",
+        "Can allow for steeper blend than the face of the blade",
+        "Must be blended more in the chordwise than spanwise direction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.6377,
+      "text": "S mall dents or long itudinal cracks   on wood propeller",
+      "choices": [
+        "P lug with glue and sand dust mixture, sand smooth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.3313,
+      "text": "Wood propeller served s a l t water, method to remove salt is",
+      "choices": [
+        "Dewaterizing   solution   + ???oil",
+        "Wipe the propeller",
+        "Use   w ater to flush the propeller"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.6348,
+      "text": "After aluminium propeller repair,",
+      "choices": [
+        "A crack inspection carried out before apply protecti on paint."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2056,
+      "text": "Cold straightening",
+      "choices": [
+        "Carried out by rated propeller manufacturer",
+        "Can be carried out if the bending angle is less than 10 °   (within limits)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6018,
+      "text": "Insulation test to slip - ring on frequent interval due to:",
+      "choices": [
+        "A ccumulation of slip - ring and brush wear produce.",
+        "Oxidation on atmosphere condition.",
+        "Open circuit of the heating element."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.4866,
+      "text": "Fine indentations on the l eading edge of a light alloy propeller blade",
+      "choices": [
+        "May be blend out to the appropriate maintenance manual instructions",
+        "Cannot be remedied, the propeller is unserviceable",
+        "Can be filled with sea plane vanish"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.5962,
+      "text": "`Shock load test', check concentricity of the shaft on",
+      "choices": [
+        "Front and rear cones",
+        "Center of shaft",
+        "Face of shaft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.7898,
+      "text": "Which damage is not visible of composite blade",
+      "choices": [
+        "C rack and torsion",
+        "D elamination and overspeed",
+        "E rosion shield and distortion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.9272,
+      "text": "The pitch lock mechanism of propeller",
+      "choices": [
+        "it is high pitch stop",
+        "it is not low pitch stop",
+        "it   serves to prevent engine overspeed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.105,
+      "text": "If propeller over - speed:",
+      "choices": [
+        "The inspection and rectifi cation is   determined   by the degree of over - speed.",
+        "Remove the propeller and balancing check carried out.",
+        "Remove and carry out tracking check."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.638,
+      "text": "With respect to turboprop, the engine runaway",
+      "choices": [
+        "engine fail",
+        "only on engine overspeeding",
+        "can cause the loss of blade , even engine fire"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.0264,
+      "text": "Methods used to remove the hub from   a taper crank   shaft",
+      "choices": [
+        "A pply different temperature to hub and shaft",
+        "U se special puller recommended",
+        "J ust remove the retain nut and back off the propeller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.121,
+      "text": "how can you check the wear of spline propeller shaft",
+      "choices": [
+        "use mic rometer",
+        "take the go - gauge +0.002 in larger than the base of the diagram",
+        "take the one - key not - go - gauge +0.002 in larger than the base of the diagram"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.7888,
+      "text": "Usually setting or position of condition leve r   in",
+      "choices": [
+        "rich, lean and cutoff",
+        "cutoff, idle, and high idle",
+        "nor mal, beta - range and reverse range"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.7593,
+      "text": "What is the basic purpose of installing   rear   cone spacers?",
+      "choices": [
+        "To aid in bottoming of the front cone",
+        "To prevent bottoming of the front cone",
+        "To remove any end - play in the crankshaft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.4238,
+      "text": "The front cone bottoming caused by:",
+      "choices": [
+        "Before the front cone can reach the bottom it blocks rear …",
+        "T he front cone contacts the ends of the shaft splines, preventing the front and rear cones from",
+        "T he front cone is installed at angle so they can be tightened but not complete",
+        "T he front cone can   be installed but can ’ t be tightened",
+        "…………… at angle of the rear cone",
+        "On the front of   crankshaft   …………"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.7786,
+      "text": "T he propeller blade is preloaded",
+      "choices": [
+        "T o prevent aerodynamic imbalance",
+        "T o prevent blade flutter",
+        "T o relieve dynamic stresses"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.167,
+      "text": "Propeller blade bearings are preloaded to   prevent",
+      "choices": [
+        "Flutter during operation",
+        "Oil leakage from the blade root",
+        "Blade m is alignment   during assembly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1626,
+      "text": "Blade preload is used f or:   +",
+      "choices": [
+        "Push blades toward finer pitch",
+        "Improve bearings coast",
+        "Proof - load the screw"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.1074,
+      "text": "Why is the bearing preloaded?",
+      "choices": [
+        "All face from move towards fine pitch",
+        "Ensure all faces are contacted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1978,
+      "text": "I f a propeller exceeds its overspeed limits",
+      "choices": [
+        "A n in situ check is carried ou t",
+        "T he propeller is removed for inspection",
+        "N o action is necessary if the overspeed is of short duration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6956,
+      "text": "In an electronic propeller, the pitch change device",
+      "choices": [
+        "Use an electronic speed sensor instead of mechanical governor",
+        "Use to electric motors to control the control the blade angle",
+        "Use a electric motor and planetary gears to change blade angle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768230489557.7349,
+      "text": "What types of reduction gear is used on a turbo propeller engine?",
+      "choices": [
+        "Epicyclical gear",
+        "Dog tooth gear",
+        "Mesh gear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2031,
+      "text": "Epicyclic gear",
+      "choices": [
+        "Input shaft to sun gear, output shaft to ring g ear",
+        "Input shaft to ring gear, output shaft to sun gear",
+        "Input shaft to sun gear, output shaft to pinion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.8367,
+      "text": "Reduction gear",
+      "choices": [
+        "I nput is sun ,   output is ring",
+        "I nput is sun ,   output is pinion",
+        "I nput is ring ,   output is sun"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.2952,
+      "text": "In the design of a multi - engine, there is a critical range. What does   this   critical range prevent?",
+      "choices": [
+        "Severe vibration",
+        "Inefficient pitch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768230489557.1375,
+      "text": "Frequency of propeller vibration",
+      "choices": [
+        "Higher than that of turbine",
+        "Lower than that of turbine",
+        "Same   as that of turbine",
+        "Higher than that of accessory gear box"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.9583,
+      "text": "The hole in the tipping of a wood prope ller are for purpose of:",
+      "choices": [
+        "Balancing the propeller",
+        "Allowing moisture to drain out",
+        "Allowing moisture to enter propeller to prevent its drying out"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.6582,
+      "text": "Electronic d ynamic balancer   unit",
+      "choices": [
+        "Pound / inch",
+        "I nch/s",
+        "P ound/s"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768230489557.506,
+      "text": "When a wooden propeller is put in storage for any length of time it is placed?",
+      "choices": [
+        "The wooden propeller must place in horizontal position.",
+        "The wooden propeller must place in vertical position.",
+        "The wooden propeller must wr ap with oil paper to prevent rot."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
