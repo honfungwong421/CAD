@@ -1,0 +1,2321 @@
+{
+  "name": "M4-27Feb2017 (edited) 2",
+  "date": "2026-01-16T16:58:00.570Z",
+  "questions": [
+    {
+      "id": 1768582680569.4517,
+      "text": "Definition of negative",
+      "choices": [
+        "Add an el ectron",
+        "More electrons than neutrons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4373,
+      "text": "A semiconductor doped with an element having a valency of 5 will produce",
+      "choices": [
+        "An N type material."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.5166,
+      "text": "To increase the conductivity of a semiconductor:",
+      "choices": [
+        "Add impurities with 3 or 5 valence electrons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.1375,
+      "text": "Antimony add into Germanium",
+      "choices": [
+        "P - type Semiconductor",
+        "N - type Semiconductor",
+        "PN junction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.9775,
+      "text": "Heat germanium region, resistance will Germanium diode when temp increase, resistance:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Remain constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.6519,
+      "text": "Pure state Ge or Si is:",
+      "choices": [
+        "Insulating material"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.8745,
+      "text": "Forward bias of diode: Put the diode in forward bias:",
+      "choices": [
+        "No current flows",
+        "Current will flow",
+        "Current will flow only if the junction is reverse biased"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.859,
+      "text": "Th e depletion layer is widened when :",
+      "choices": [
+        "The diode is forward biased",
+        "The diode is reverse biased",
+        "When the holes in the P - region are attracted to the positive electrode of the bias voltage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.9312,
+      "text": "The depletion layer is narrowed or eliminated when:",
+      "choices": [
+        "The diode is in   forward bias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4106,
+      "text": "To turn a typical silicon diode,",
+      "choices": [
+        "A forward 0.7 V should be applied",
+        "A forward 0.3 V should be applied",
+        "A reverse 0.7 V should be applied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.0408,
+      "text": "To turn a typical Germenium diode,",
+      "choices": [
+        "apply 0.3V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4504,
+      "text": "What happens as the bias voltage overcomes the potential   barrier of a junction diode?",
+      "choices": [
+        "A large current begins to flow",
+        "A small current begins to flow",
+        "A very large increase in the bias voltage produces a very small increase in the current through the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.5742,
+      "text": "Diode is reverse biased with high current   flow is known as:",
+      "choices": [
+        "Breakdown",
+        "Saturation",
+        "Leakage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.326,
+      "text": "During the reverse bias characteristics of a junction diode, the reverse current is almost constant up to a",
+      "choices": [
+        "Breakdown voltage",
+        "Potential voltage",
+        "Drop voltage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.7344,
+      "text": "What is the volt dr op when two diodes connecting in parallel",
+      "choices": [
+        "0.6V",
+        "1.2V",
+        "0.3V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.8987,
+      "text": "If the maximum forward current is larger than the maximum rated current of the diode:",
+      "choices": [
+        "The diode should be connected in parallel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.977,
+      "text": "Two 100A diode connect in parallel, the resultant current is",
+      "choices": [
+        "50 A",
+        "100 A",
+        "200 A"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680569.4893,
+      "text": "If two silicon diodes connected together in series. What is the voltage? Two diode connect in series, what is the forward bias voltage",
+      "choices": [
+        "1.2V",
+        "0.6V",
+        "0.2V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.1726,
+      "text": "Arrow of diode means",
+      "choices": [
+        "Conventional current flow."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.6145,
+      "text": "For the arrowhead - bar symbol of a diode, which is true?",
+      "choices": [
+        "Positive voltage should be applied in forward bias",
+        "Current can be flow in either direction",
+        "The electron flow opposes the arrow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.8328,
+      "text": "Diode",
+      "choices": [
+        "Positive signal act in direction of Arrowhead",
+        "Electron is flow in anti - arrow direction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.6995,
+      "text": "The arrowhead   of diode is allowed what type of flow to go through?",
+      "choices": [
+        "Electron",
+        "Current",
+        "Leakage current"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4836,
+      "text": "D iode reverse",
+      "choices": [
+        "Positive terminals connect to P junction",
+        "Electron cannot move across the junction",
+        "Current can conduct"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.9841,
+      "text": "Temperature increase, (reverse?) leakage current of diode",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Stays constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.2427,
+      "text": "What factor affects the reverse leaking curren t of a diode?",
+      "choices": [
+        "Temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.6892,
+      "text": "What diode usually use",
+      "choices": [
+        "Ge",
+        "Si"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.6616,
+      "text": "To test a diode, Use AVO to test a diode in forward biases",
+      "choices": [
+        "Multimeter BLACK probe connected to Anode, and RED probe to Cathode, this gives a great",
+        "Red probe connect to anode, black pro be connect to cathode",
+        "Black probe to anode only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.833,
+      "text": "Use AVO to test a diode in reverse biases",
+      "choices": [
+        "Black probe connects to anode. Red probe connects to cathode",
+        "Red probe connects to anode. Black probe connects to cathode",
+        "No suitable method to test"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.1785,
+      "text": "Test of a   diode   -   AVO red probe connected to anode of diode",
+      "choices": [
+        "Forward flow no deflection",
+        "Reverse flow no deflection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.1978,
+      "text": "A probe from the ohmmeter is connected to the diode, then the connection is reversed. If it is testing a",
+      "choices": [
+        "The reading would be low va lue in one direction and high value in the other direction."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.066,
+      "text": "When high current is required,",
+      "choices": [
+        "Copper oxide is used."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4421,
+      "text": "What purpose of zinc oxide in a circuit?",
+      "choices": [
+        "Control AC power",
+        "Protect the circuit from current surge",
+        "Protect the voltage from voltage surge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680569.628,
+      "text": "Zener diodes are used for:",
+      "choices": [
+        "Voltage regulation or reference"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.34,
+      "text": "This is a diagram of:",
+      "choices": [
+        "Tunnel diode, rectifier diode, zener diode",
+        "Rectifier, tunnel, zener",
+        "Zener, tunnel, rectifier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.816,
+      "text": "Diagram",
+      "choices": [
+        "T, V, Z"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.199,
+      "text": "In an unbiased PN junction, any current flow is zero because:",
+      "choices": [
+        "Equal and opposite   current is crossing the junction",
+        "No charges are crossing the junction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.6384,
+      "text": "In an unbiased PN junction,",
+      "choices": [
+        "The junction barrier opposes the major carrier on each side"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4116,
+      "text": "In a typical PN junction:",
+      "choices": [
+        "The material is electrically neutral as a whole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4124,
+      "text": "A diode is in an   electrically neutral state when:",
+      "choices": [
+        "Electrons diffuse across junction to fill the holes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.9111,
+      "text": "A light emitted diode (LED) is operated in",
+      "choices": [
+        "Forward biases",
+        "Reverse biases",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.1284,
+      "text": "When a LED is reverse biased:",
+      "choices": [
+        "Only leakage current flows"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.9734,
+      "text": "LED   emits by:",
+      "choices": [
+        "Material",
+        "Plastic cover"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.3625,
+      "text": "The colour of the LED is due to:",
+      "choices": [
+        "The active material"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.4346,
+      "text": "The threshold voltage of an LED is related to:",
+      "choices": [
+        "The colour of the light emitted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.9263,
+      "text": "Which of the following diode works with forward bias",
+      "choices": [
+        "Light emitting diode (LED)",
+        "LCD",
+        "Transistor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.33,
+      "text": "LED with reverse biased current When a LED is reverse biased:",
+      "choices": [
+        "A large current will flow",
+        "LED will be emitted",
+        "Only leakage current flows"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680569.462,
+      "text": "When light shine on a LED,",
+      "choices": [
+        "It will make it conduct if light strong enough."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.721,
+      "text": "LED general voltage drop",
+      "choices": [
+        "0.2   V",
+        "2 V",
+        "6 V"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680569.9688,
+      "text": "The forward voltage of a yellow colour LED (Light Emitting Diode) is",
+      "choices": [
+        "1.0 V",
+        "1.5 V",
+        "2.0 V"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680569.7903,
+      "text": "A diode is connected across an LED to:",
+      "choices": [
+        "Protect the LED in an AC circuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.6145,
+      "text": "Protect LED from overcurrent by connecting:",
+      "choices": [
+        "Resistor in series",
+        "Resistor in   parallel",
+        "Varistor in series"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680569.2998,
+      "text": "Photodiode semi - conductor produce",
+      "choices": [
+        "AC voltage expose in light",
+        "DC voltage expose in light",
+        "Emitting light when DC pass in forward bias"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.5662,
+      "text": "Photo - diode operating principle: it would conduct current at",
+      "choices": [
+        "Forward bias",
+        "Reverse   bias"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.1787,
+      "text": "When will a photo diode illuminate?",
+      "choices": [
+        "Forward bias",
+        "Absorb any light when enough intensity",
+        "Expose to correct wavelength"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.3884,
+      "text": "Characteristic of a thyristor:",
+      "choices": [
+        "High current handling."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.39,
+      "text": "What material is used to make high current output for thyristor?",
+      "choices": [
+        "Selium iron",
+        "Selium oxide",
+        "Copper oxide"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7615,
+      "text": "When will the thyristor be off? How to switch of f a silicon controlled rectifier (SCR)?",
+      "choices": [
+        "Holding current is reduced",
+        "Holding current is increased",
+        "Triggering current is reduced"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3245,
+      "text": "Pulse input of the SCR",
+      "choices": [
+        "Anode",
+        "Gate",
+        "Cathode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.4922,
+      "text": "Thyristor",
+      "choices": [
+        "2 terminal for FIC",
+        "3 terminal for FIC",
+        "3 terminal for switching and FIC"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.335,
+      "text": "Silicon control rectifier",
+      "choices": [
+        "Two - terminal, control AC power",
+        "Three - terminal, rectifier AC power",
+        "Three - terminal, control AC power"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.2754,
+      "text": "Half wave rectifier",
+      "choices": [
+        "Connect the diode in series"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8442,
+      "text": "Half wave rectifier",
+      "choices": [
+        "Simple diode circuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.9954,
+      "text": "How many diode of half - wave rectifier: How to form a half wave rectifier",
+      "choices": [
+        "One diode",
+        "4 diodes in a bridge circuit",
+        "Two diodes in   parallel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8635,
+      "text": "The output waveform of a half - wave rectifier diode contains a D.C level which is approximately:",
+      "choices": [
+        "The same as the peak voltage",
+        "Two - thirds of the peak voltage",
+        "One - third of the peak voltage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.6106,
+      "text": "Rectifier used to invert positive and negative cycles of AC   to DC",
+      "choices": [
+        "Full wave rectifier",
+        "Half wave rectifier",
+        "Double wave rectifier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1765,
+      "text": "Rectified ripple DC voltage from 3 phase full wave rectifier",
+      "choices": [
+        "Same max. voltage as AC",
+        "Sum of 6 diode",
+        "DC power larger / smaller than AC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.2405,
+      "text": "Stacking rectifier element in series will",
+      "choices": [
+        "Increase current rating",
+        "Decrease current rating",
+        "Increase voltage rating"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.7478,
+      "text": "Stacking rectifier connected in series will improve",
+      "choices": [
+        "Voltage capacity",
+        "Current capacity",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8276,
+      "text": "Rectifier connected in series",
+      "choices": [
+        "Higher reverse voltage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6143,
+      "text": "A sawtooth wave passes through a single diode:",
+      "choices": [
+        "The negative parts of the sawtooth is clipped"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.889,
+      "text": "The thinnest layer in the transistor is",
+      "choices": [
+        "Base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.637,
+      "text": "A transistor is a",
+      "choices": [
+        "Timing device",
+        "S emi - conductor device",
+        "Amplifying device"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.2476,
+      "text": "Connection of bipolar junction transistor Bipolar transistor",
+      "choices": [
+        "Base, emitter, cathode",
+        "Base, emitter, collector",
+        "Cathode, anode, gate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.3547,
+      "text": "Transistor use",
+      "choices": [
+        "Germanium",
+        "Silicon",
+        "Mica"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.751,
+      "text": "The fig. symbol is transistor .",
+      "choices": [
+        "Transistor",
+        "Thyristor",
+        "SCR"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6172,
+      "text": "Diagram is:",
+      "choices": [
+        "Transistor PNP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1165,
+      "text": "Which statement is correct?",
+      "choices": [
+        "Vbe   is forward bias and Vce is reversed bias."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.9033,
+      "text": "In an NPN transistor:",
+      "choices": [
+        "Ic high, Ib low, Ie high",
+        "Ic high, Ib high, Ie low",
+        "Ic low, Ib low, Ie high"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3386,
+      "text": "Transistors in series",
+      "choices": [
+        "High voltage rating",
+        "Low voltage rating",
+        "Short circuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.84,
+      "text": "When transistor is put in series it   is used to match",
+      "choices": [
+        "Input resistance",
+        "Output resistance",
+        "Input and output resistance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.3818,
+      "text": "With respect to transistor, the choice of circuit is governed by",
+      "choices": [
+        "Output resistance",
+        "Input resistance",
+        "Input and output resistance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.8735,
+      "text": "Condition for a transistor conducting a current",
+      "choices": [
+        "B - C junction has a great heat."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7515,
+      "text": "If a transistor in a ctive region is in an amplifier:",
+      "choices": [
+        "The reverse - biased collector junction gives the greatest heat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.4114,
+      "text": "Current gain of an emitter follower",
+      "choices": [
+        "Ratio of emitter current to base current",
+        "Ratio of collector current to base current"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.9744,
+      "text": "Characteristic of an emitter follower transistor:",
+      "choices": [
+        "High current gain."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7805,
+      "text": "What kinds of junction exists in a PNP transistor? Transistor is formed by junction How many layer of PNP transistor",
+      "choices": [
+        "2 PN   junctions",
+        "1 NP junctions",
+        "1 PN junctions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.369,
+      "text": "For a PNP transistor, the emitter is",
+      "choices": [
+        "Positive with respect to both collector and base",
+        "Negative with respect to both collector and base",
+        "Positive with respect to collector and negative with respect to base"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1316,
+      "text": "NPN transistor",
+      "choices": [
+        "Two PN junctions with emitter negative",
+        "Two NP junctions with emitter negative",
+        "Two NP ju nctions with emitter positive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0413,
+      "text": "Conventional current flow of NPN transistor",
+      "choices": [
+        "Collector to Emitter",
+        "Base to Collector",
+        "Emitter to Collector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.473,
+      "text": "When an NPN transistor is correctly biased and amplifying",
+      "choices": [
+        "Conventional curr ent will flow from C to E",
+        "Conventional current will flow from E to C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6238,
+      "text": "NPN transistor, CB __ bias, BE __ bias",
+      "choices": [
+        "Forward, forward",
+        "Forward, reverse",
+        "Direction is not related"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6848,
+      "text": "How should a transistor be connected to allow current flow?",
+      "choices": [
+        "Emitter/base to forward bias, collector/base to reverse bias",
+        "Emitter/base to forward bias, collector/base to forward bias"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.308,
+      "text": "Transistor Operate",
+      "choices": [
+        "EB forward, CB forward",
+        "EB forward, C B reversed",
+        "No matter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.9731,
+      "text": "How a NPN transistor is bias?",
+      "choices": [
+        "BC forward bias, BE reverse bias",
+        "Base - Emitter forward bias, Base - Collector reverse bias.",
+        "Both of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.6997,
+      "text": "For a NPN common emitter :",
+      "choices": [
+        "BE forward biased",
+        "BC reversed biased",
+        "BE reversed biased"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3127,
+      "text": "Base/emitt er bias is",
+      "choices": [
+        "Forward",
+        "Unbias",
+        "Reverse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3203,
+      "text": "BC junction usually is",
+      "choices": [
+        "Forward bias",
+        "Reverse bias"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.958,
+      "text": "The arrow direction of NPN points towards:",
+      "choices": [
+        "Collector",
+        "Emitter",
+        "Base"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.589,
+      "text": "Transistor arrow is",
+      "choices": [
+        "Voltage flow",
+        "Electron flow",
+        "Conventional current flow"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.8547,
+      "text": "The flow of electron of   transistor",
+      "choices": [
+        "Reverse the direction of the arrow",
+        "Same direction as arrow",
+        "Both direction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3394,
+      "text": "N ormal current flow transistor",
+      "choices": [
+        "From base to collector",
+        "From collector to emitter",
+        "From emitter to collector"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.138,
+      "text": "Arrow of NPN transistor points:",
+      "choices": [
+        "Away from emitter",
+        "Away from base",
+        "Towards   base"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.4343,
+      "text": "When a transistor is in reverse biased",
+      "choices": [
+        "The positive side of the battery is connected to the p - junction of the transistor",
+        "There is no electron flow through the pn junction",
+        "The transistor can conduct current"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.7974,
+      "text": "The   most common configuration of transistor is:",
+      "choices": [
+        "Common base (CB)",
+        "Common Collector (CC)",
+        "Common emitter (CE)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.365,
+      "text": "Useful transistor amplifier",
+      "choices": [
+        "Common emitter",
+        "Common base",
+        "Common collector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7368,
+      "text": "Measure voltage the AC output of common base transistor In Common Base   configuration, the transistor AC voltage output is taken at:",
+      "choices": [
+        "emitter and base",
+        "collector and base",
+        "collector and emitter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.712,
+      "text": "For the Common base configuration, the power dissipation is:",
+      "choices": [
+        "Collector and emitte r",
+        "Base and emitter",
+        "Emitter and collector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0708,
+      "text": "How is the amplifier in the diagram shown wired.",
+      "choices": [
+        "C ommon emitter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8347,
+      "text": "CC transistor   –",
+      "choices": [
+        "high input impedance, low output impedance & no voltage gain."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.309,
+      "text": "Darlington is in what configuration?",
+      "choices": [
+        "Common Collector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.4756,
+      "text": "Characteristic curve of transistor:",
+      "choices": [
+        "Collector current is plotted against V",
+        "The area of the breakdown region is flat",
+        "Saturation and active region is vertical line in the curv e"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6204,
+      "text": "A transistor to perform linear as its characteristic",
+      "choices": [
+        "Meet the characteristic when different interval"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.414,
+      "text": "Common Emitter transistor: Current Gain formula Transistor c urrent gain",
+      "choices": [
+        "Collector current / Base current",
+        "Base current / Collector current"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.562,
+      "text": "Transistor gain on the order of",
+      "choices": [
+        "1000",
+        "10000",
+        "100000"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1836,
+      "text": "Transfer characteristics in transistor",
+      "choices": [
+        "Relates input with output quantities",
+        "Relates input voltage with input current",
+        "Relates output voltage with output current"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5923,
+      "text": "What will affect the char acteristic of transistor?",
+      "choices": [
+        "Input voltage and output current",
+        "Input voltage and output voltage",
+        "One input quality to output quality"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7373,
+      "text": "Transistor characteristic   …",
+      "choices": [
+        "Input current to output voltage",
+        "Output current to input voltage",
+        "Output quantity to input quantity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2754,
+      "text": "An amplifier, in general, is:",
+      "choices": [
+        "High input impedance and output impedance",
+        "Drift when ambient temperature …",
+        "High voltage gain when no feedback"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.972,
+      "text": "To decrease the voltage gain of a common emitter amplifier you would decrease the resistance   in the",
+      "choices": [
+        "Collector circuit."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.691,
+      "text": "Transistor amplifier load line show",
+      "choices": [
+        "The collector voltage at 10mA collector current at full load",
+        "The collector current at 50% collector voltage at no load",
+        "The effects of the different resistor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.7422,
+      "text": "In a transistor circuit, when a small voltage change at emitter, there is a large change of current flow",
+      "choices": [
+        "Di ode",
+        "Resistor",
+        "Amplifier"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.014,
+      "text": "A differential amplifier has:",
+      "choices": [
+        "A capacitor in the input path"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.735,
+      "text": "(Metal oxide semi - conductor) Field effect transistor (FET) has the characteristic of",
+      "choices": [
+        "High input impedance",
+        "High output impedance",
+        "Low input   impedance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6016,
+      "text": "Symbol of 'FET'",
+      "choices": [
+        "P   -   Channel   J   –   FET"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8252,
+      "text": "How many input and output in the Op - Amp?",
+      "choices": [
+        "2 input, 1 output"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7622,
+      "text": "OP amp",
+      "choices": [
+        "Digital, high gain",
+        "Analogue infinite current gain",
+        "Analogue, infinite voltage gain"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.9304,
+      "text": "Operational amplifier gain",
+      "choices": [
+        "Very high",
+        "Very low",
+        "Unity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6843,
+      "text": "Op - amp has",
+      "choices": [
+        "High gain in current",
+        "High gain value up to   100000",
+        "The output shouldn ’ t have saturation problem"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.828,
+      "text": "Op - amp   with non - inverting input +1 and inverse input   - 1,output is With +1V on the non - inverting terminal &   - 1V to the inverting terminal of an amplifier, output =",
+      "choices": [
+        "Max positive voltage",
+        "Max negative voltage",
+        "Zero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5286,
+      "text": "How is the input im pedance of the Op - amp?",
+      "choices": [
+        "Very high",
+        "Very low",
+        "Adjustable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.34,
+      "text": "How is the output impedance of the   Op - amp?",
+      "choices": [
+        "The same as input impedance",
+        "Very high",
+        "Very low"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.3909,
+      "text": "What is the characteristic of an operation amplifier ?",
+      "choices": [
+        "High output impedance",
+        "Low output impedance",
+        "Low input impedance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.8843,
+      "text": "A printed   circuit board is essentially",
+      "choices": [
+        "An insulator board 1/16\" thick",
+        "An insulator board completely covered with copper foil",
+        "An insulator board partially covered with copper foil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.775,
+      "text": "What is the PCB base material?",
+      "choices": [
+        "Insulator   (with low dielectric constant) (laminate?)",
+        "Conductor",
+        "Dielectric"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.058,
+      "text": "What is PRE PREG in PCB",
+      "choices": [
+        "Intermediate stage of   curing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.236,
+      "text": "On PCB, conductor   is",
+      "choices": [
+        "Silicon",
+        "Copper",
+        "Aluminium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.6929,
+      "text": "The overlay used in the production of PCB is",
+      "choices": [
+        "The master diagram and is used for the production of actual pr inting of the circuit."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.288,
+      "text": "For PCB, the etching process is",
+      "choices": [
+        "Erosion of copper from the PCB",
+        "Etching of copper from the PCB",
+        "D eposit of copper to the PCB"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.4773,
+      "text": "The conducting paths of the PCB (Printed circuit board) are formed by?",
+      "choices": [
+        "Soldering",
+        "Etching",
+        "Compressing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.722,
+      "text": "Material used for soldering PCB Aid to the soldering a component on PCB usually use",
+      "choices": [
+        "Steel",
+        "Copper",
+        "Aluminum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.3777,
+      "text": "For easy install to surface of PCB, the resistor or capacitor termin al wiring Protruding through insulator seals, the wire material is",
+      "choices": [
+        "Tin/zinc plated copper",
+        "Nickel iron with nickel/gold plate",
+        "Aluminium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0496,
+      "text": "What is the material of capacitors and resistors lead:",
+      "choices": [
+        "Tin - coated copper."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6274,
+      "text": "Circuit components on PCB, which are connect ed wires made of?",
+      "choices": [
+        "Aluminum/Copper coated with Nickel",
+        "Copper/Nickel coated with Aluminum",
+        "Aluminum/Nickel coated with Copper"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.485,
+      "text": "What is the function of microprocessor on PCB Microprocessor on PCB",
+      "choices": [
+        "Assume all damage prevented   by chip manufacture desire",
+        "Can be easily damaged by discharge when mishandling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.2412,
+      "text": "Conducting foil on different side PCB",
+      "choices": [
+        "Must be parallel",
+        "Can be crossed",
+        "Is not allowed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.1511,
+      "text": "What is PCB stripped strength?",
+      "choices": [
+        "Less delaminating."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.901,
+      "text": "PCB current carrying capacity is dete rmined by:",
+      "choices": [
+        "Copper foil weight/unit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.413,
+      "text": "Logic circuit is a integrated circuit, it is used for",
+      "choices": [
+        "Gates function such as NAND, OR, AND …",
+        "Mathematical functions such as integration or differentiation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.469,
+      "text": "What does diode logic consist of?",
+      "choices": [
+        "Diodes only",
+        "Dio de and transistor",
+        "Transistor only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.668,
+      "text": "LED can constitute:",
+      "choices": [
+        "AND gate, OR gate",
+        "NOT gate",
+        "AND gate, OR gate, NOT gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1406,
+      "text": "Diode   connect in the circuit can form",
+      "choices": [
+        "And gate, or gate",
+        "Not gate only",
+        "All type gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1409,
+      "text": "Diode",
+      "choices": [
+        "AND gate & OR gate",
+        "NOT gate",
+        "Bo th"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.601,
+      "text": "What gate do the following Boolean expressions represent   “ F=A.B.C ” / “ F=A+B+C ”",
+      "choices": [
+        "AND / OR"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3804,
+      "text": "AND gate",
+      "choices": [
+        "2 diode in parallel",
+        "2 diode in series",
+        "2 transistor in parallel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.4465,
+      "text": "2 transistor connect in parallel",
+      "choices": [
+        "OR Gate",
+        "AND Gate",
+        "NOR Gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2957,
+      "text": "NAND gate/ OR gate   to perform a NOT function",
+      "choices": [
+        "Invert the input",
+        "Invert the output",
+        "Sum up the input"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6313,
+      "text": "NAND & NOR gate   give result as NOT gate",
+      "choices": [
+        "Connect all input"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6772,
+      "text": "NAND provide result as   “0”   when: NAND gates produce   ‘0’   signal",
+      "choices": [
+        "Connect inputs together",
+        "All signals are   ‘1’"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.0093,
+      "text": "NAND gate is:",
+      "choices": [
+        "OR gate with NOT gate input",
+        "AND gate with NOT gate input",
+        "OR gate with inverse output"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.633,
+      "text": "Symbol of a NAND logic gate:",
+      "choices": [
+        "OR gate   +   inverse gate",
+        "AND + inverse gate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.828,
+      "text": "Output of X - OR gate is 1 when input (A,B) is:",
+      "choices": [
+        "A = B = 0",
+        "A = 1, B = 0",
+        "A = 0, B = 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5725,
+      "text": "2 input OR gate, output is 0, inputs:",
+      "choices": [
+        "Both inputs are 0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5818,
+      "text": "Why binary logic system is popular in electronic control?",
+      "choices": [
+        "Because the low and high 2 stage voltages can be easily obtained through many electronic circuit."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3962,
+      "text": "C MOS is: Characteristics of CMOS",
+      "choices": [
+        "Small in size, low power consumed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1519,
+      "text": "Characteristics of TTL integrated circuit What is the advantage of using Transistor - Transistor Logic (TTL) integrated circui t (over DTL)?",
+      "choices": [
+        "High speed",
+        "Less power consumption",
+        "Low voltage supply"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8918,
+      "text": "The power for TTL circuit is",
+      "choices": [
+        "0.5 V",
+        "5 V"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.743,
+      "text": "The purpose of the Pin Index Slot on an IC (integrate d circuit) is to:",
+      "choices": [
+        "Distinguish different designs",
+        "Dissipate heat faster",
+        "Allow correct mating of the pins to the external socket or receptacle."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.9001,
+      "text": "Servomechanism is",
+      "choices": [
+        "Open - loop system",
+        "Closed - loop system",
+        "Not a feedback signals system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0933,
+      "text": "In an open loop control device, a pressure switch supplies the signal to control, the pressure switch",
+      "choices": [
+        "As a follow up device",
+        "As an analog transducer",
+        "As a input device"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.5813,
+      "text": "In open loop, a px switch send a signal to be processing. It is",
+      "choices": [
+        "A/D converter",
+        "Analog transmitter",
+        "Analog input"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.2747,
+      "text": "In an open loop system, a temp sensor signal use for processing which is called",
+      "choices": [
+        "Input device"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8577,
+      "text": "Open loop, output   changed An open loop servomechanism, output changed:",
+      "choices": [
+        "Auto adjustment of input by output",
+        "Input will change",
+        "Input remain the same"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.5005,
+      "text": "Switch is a",
+      "choices": [
+        "Input device."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.304,
+      "text": "The device that produces the feedback signal is called the",
+      "choices": [
+        "Controlle r",
+        "Regulator",
+        "Transducer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.011,
+      "text": "What is a close loop manual (non auto) control system? In a non - auto close loop mechanism:",
+      "choices": [
+        "Operator must be able to observe the system output all the time",
+        "The error signal is sent to input and adjusts the input",
+        "Operator corrects   the error signal but the input is kept constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.087,
+      "text": "In an automatic close loop mechanism, the comparator (error detector) get signal from",
+      "choices": [
+        "The input transducer",
+        "The output transducer",
+        "Both the input and output transducer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.0505,
+      "text": "Error detector input from? The input to the error detector is a closed loop automatic   servomechanism come from:",
+      "choices": [
+        "Input and output transducer",
+        "Output transducer and amplifier",
+        "Input transducer and amplifier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.563,
+      "text": "For a close loop control system, input signal is sent to",
+      "choices": [
+        "Error detector",
+        "Error reducer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.324,
+      "text": "Time lag due to",
+      "choices": [
+        "Inertia of system",
+        "Amplifier   needs time to produce signal",
+        "Time for operator to change the instant load"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2783,
+      "text": "The difference between the feedback signal and input signal is referred to as the",
+      "choices": [
+        "Response",
+        "Error",
+        "Desired input"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.8984,
+      "text": "In a closed loop control system, t he followup signal is",
+      "choices": [
+        "Out of phase with the input"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3105,
+      "text": "Voltage regulation",
+      "choices": [
+        "Open loop",
+        "Close loop with position",
+        "Close loop with voltage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.0242,
+      "text": "Control position feedback:",
+      "choices": [
+        "Inversely proportional to control angle",
+        "Proportional to control angle",
+        "Constant no matter what   control angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.4558,
+      "text": "Voltage output of the rate feedback of synchro - generator in servomechanism",
+      "choices": [
+        "Directly proportional to rotational speed",
+        "Proportional to rotational speed",
+        "Inversely proportional to rotational speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.768,
+      "text": "The feedback of the   servo system ….",
+      "choices": [
+        "Proportional to speed",
+        "Proportional to square of speed",
+        "Inversely proportional to square of speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.615,
+      "text": "... the servomotor and feedback of the tachogenerator",
+      "choices": [
+        "Damp oscillation",
+        "Proportional to speed",
+        "Inversely proportional to movement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.1592,
+      "text": "Tach - generato r in close loop",
+      "choices": [
+        "Increase response time",
+        "Prevent overshoot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.4963,
+      "text": "The primary purpose of the feedback signal: Purpose of rate feedback of positional servo",
+      "choices": [
+        "?",
+        "Prevent excessive overshoot",
+        "Improve linearity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.6074,
+      "text": "Reducing velocity feedback from the optimal setting",
+      "choices": [
+        "Slower feed back",
+        "Lower servo gain",
+        "Instability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5007,
+      "text": "Refers to synchro, the velocity input will cause",
+      "choices": [
+        "Instable",
+        "Slow gain of servo",
+        "Slow response"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.7046,
+      "text": "Position of feedback",
+      "choices": [
+        "In - phase",
+        "Anti - phase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5593,
+      "text": "Friction in bearing of torque in syn will result in:",
+      "choices": [
+        "Hunting",
+        "Misalignment",
+        "Improve accuracy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1353,
+      "text": "Aircraft fuel tank transmitter use of",
+      "choices": [
+        "Resistance",
+        "Inductanc e",
+        "Capacitance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.5037,
+      "text": "Which synchro measures the level of fuel?",
+      "choices": [
+        "Inductance type",
+        "Capacitance type",
+        "Conductive type"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.8535,
+      "text": "What type of a differential transformer?",
+      "choices": [
+        "Inductance type."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.551,
+      "text": "LVDT",
+      "choices": [
+        "Inductance   type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8464,
+      "text": "Rotary variable differential transformer(RVDT)",
+      "choices": [
+        "Resistance type transmitter",
+        "Capacitance type transmitter",
+        "Inductive type transmitter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.3403,
+      "text": "An E and I analogue transducer, voltage apply to",
+      "choices": [
+        "Outer of E",
+        "Inner of E",
+        "I"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.9548,
+      "text": "E - I core differential transformer",
+      "choices": [
+        "I bar moves by attitude sensing element",
+        "E core is fixed and carry primary / secondary winding only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.4683,
+      "text": "Synchro systems are divided into 4 main categories:",
+      "choices": [
+        "Analogue, digital, synchrous, non - synchro",
+        "Torque, resolver, differential, control",
+        "Sine, cos, tan, secant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.5305,
+      "text": "Synchro Aircraft power supply",
+      "choices": [
+        "115V   60Hz",
+        "26V   50Hz",
+        "26V   400Hz"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.2986,
+      "text": "Synchro system measure the angular movement and",
+      "choices": [
+        "Reproduce the same angular movement at a remote position",
+        "Calculate the proportional movement (not sure)",
+        "Calculate the proportional voltage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.8708,
+      "text": "Function of the synchro system:",
+      "choices": [
+        "Duplicate angular movement i n another place",
+        "Display a voltage proportional to the angular movement",
+        "Display digitalized angular movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1013,
+      "text": "Synchro output",
+      "choices": [
+        "Input deflection …… output deflection.",
+        "Input deflection …   out is a variable voltage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2773,
+      "text": "Synchro function",
+      "choices": [
+        "Deflection on transmitter drive s deflection on transformer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2148,
+      "text": "Common synchro. Basic Synchro system consists of",
+      "choices": [
+        "2 rotor windings in series",
+        "3 stator windings in delta / star",
+        "2 stator windings in series"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.9834,
+      "text": "In the flap asymmetry system, which synchro is used?",
+      "choices": [
+        "Differential synchro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7612,
+      "text": "The power supply of a torque synchro is connected to",
+      "choices": [
+        "Transmitter rotor only",
+        "Receiver rotor and transmitt er only",
+        "All rotor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.6628,
+      "text": "The power supply of a torque synchro is connect to",
+      "choices": [
+        "The input rotor",
+        "The input rotor and stator",
+        "The input and output rotor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.696,
+      "text": "The power supply of a torque synchro is connected to",
+      "choices": [
+        "AC",
+        "DC.",
+        "AC or   DC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.819,
+      "text": "Power supply of control synchro:",
+      "choices": [
+        "stator of transmitter",
+        "both transmitter and receiver",
+        "rotor of receiver"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.1968,
+      "text": "The power supply of control synchro is connect to:",
+      "choices": [
+        "The transmitter rotor and the amplifier",
+        "The transmitter rotor and the 2 phase motor",
+        "Transmitter and transformer rotor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1887,
+      "text": "Output of contro l synchro:",
+      "choices": [
+        "Analogue signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2114,
+      "text": "About control synchro, when will the maximum output appear?",
+      "choices": [
+        "Rotor turn is a high speed",
+        "The transformer coil perpendicular to the transmitter coil",
+        "The transformer coil in the same direction as transmitter coil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.852,
+      "text": "The   ‘ null ’   point on a control synchro is when the two rotors are",
+      "choices": [
+        "at 90 deg to each"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.666,
+      "text": "Differential synchro",
+      "choices": [
+        "3 phase star connection",
+        "3 phase delta connection",
+        "Single phase connector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1545,
+      "text": "Differential synchro have how   many stator winding and rotor winding",
+      "choices": [
+        "Three, one",
+        "One, three",
+        "Three, three"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1768582680570.7346,
+      "text": "Differential synchro rotor has ___ windings?",
+      "choices": [
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.8232,
+      "text": "Rotor of the differential synchro",
+      "choices": [
+        "3 winding by 120 degrees apart",
+        "2 windings by 90 degrees apart",
+        "1 winding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3616,
+      "text": "Differential synchro (almost winding) Synchro resolver has winding wit h",
+      "choices": [
+        "120 displaced",
+        "180 displaced",
+        "90 displaced"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2417,
+      "text": "Rotor of control differential synchro is connected to",
+      "choices": [
+        "Rotors of transformer",
+        "Stators of transformer",
+        "Stators of transmitter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.3367,
+      "text": "The input to the transmitter & differential transformer of a differential synchro sys is 60 clockwise and 10 counter clockwise in respectiv ely.",
+      "choices": [
+        "Output rotor should turn 70 cw",
+        "Output rotor should turn 50 cw",
+        "Output rotor should turn 70 ccw"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1482,
+      "text": "Resolver synchro",
+      "choices": [
+        "Is to convert   pair information from Polar to Cartesian co - ordinate and vice versa",
+        "Transmits control signal",
+        "Convert sin to cos"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0347,
+      "text": "Which convert polar to Cartesian What type of synchro transfer signal from Cartesian coordinate to polar Coordinate:",
+      "choices": [
+        "Resolver synchro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.5566,
+      "text": "The   o utputs   of   synchro   resolver   are the",
+      "choices": [
+        "sin   & tan components of the input",
+        "sin   &   cos   components of the input",
+        "cos   & tan components of the input"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.6455,
+      "text": "if the revolver set at 90 degree , the cosine output will be :",
+      "choices": [
+        "0",
+        "Maximum",
+        "Minimum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.9602,
+      "text": "Resolver 90   deg",
+      "choices": [
+        "Zero",
+        "Cos X input",
+        "Max"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.0872,
+      "text": "resolver >>",
+      "choices": [
+        "Sine + tangent",
+        "45 phase shift",
+        "Cosine   +…"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3,
+      "text": "Resolver",
+      "choices": [
+        "2 stators + 4 rotors",
+        "4 stators + 4 rotors",
+        "4 stators + 2 rotors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.7156,
+      "text": "A resolver has",
+      "choices": [
+        "2 coils on the   rotor and 2 coils on the stator."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.543,
+      "text": "How do we use a servo - motor?",
+      "choices": [
+        "Change electrical signal to mechanical energy",
+        "Change voltage to mechanical energy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1006,
+      "text": "To test whether servo rotates load in constant speed, the required input is",
+      "choices": [
+        "Step",
+        "Rectangular wave in oscillation",
+        "Ramp"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3516,
+      "text": "(In PPC) servomechanism, the servo control system: The purpose of servomotor is:",
+      "choices": [
+        "Drives the load to a new position with output from amplifier",
+        "Accept the error signal and produce an error signal to correct the error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.846,
+      "text": "In a Remote Power Control (RPC) servo control system, the servomotor acts as:",
+      "choices": [
+        "Drive the   load to new position with output from amplifier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7925,
+      "text": "Typical servo motor is:",
+      "choices": [
+        "Split phase induction motor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.0747,
+      "text": "Which one of the following is correct in fibre optics?",
+      "choices": [
+        "Cladding reflect t he light."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.541,
+      "text": "Signal used in fibre optic:",
+      "choices": [
+        "Light."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.1067,
+      "text": "Which one of the display is passive type?",
+      "choices": [
+        "LCD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.811,
+      "text": "A color CRT has",
+      "choices": [
+        "3 guns & 1 shadow mask."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.9321,
+      "text": "Purpose of static discharger",
+      "choices": [
+        "Prevent or reduce interference on radio."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7146,
+      "text": "Shielding is essential on",
+      "choices": [
+        "High signal level."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.204,
+      "text": "EMI ( ElectroMagnetic Interference) is caused by",
+      "choices": [
+        "Both high & low level signal."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.3877,
+      "text": "A light dimming can be functioned by",
+      "choices": [
+        "TRIAC."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.7476,
+      "text": "Analogue signal  angular motion",
+      "choices": [
+        "Tachometer",
+        "Synchro motor",
+        "Synchro transmitter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.6765,
+      "text": "In circuit, a resistance - type bulb connect to bi - metal switch the magnitude of brightness can control by",
+      "choices": [
+        "Electrical resi stance",
+        "Metal deformation",
+        "Switch position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.3794,
+      "text": "Transformer carry inductive load, the regulation (output %) is",
+      "choices": [
+        "High in percentage",
+        "Low in percentage",
+        "Full load"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1768582680570.686,
+      "text": "Thermocouple",
+      "choices": [
+        "Input analogue",
+        "Output digital",
+        "Output analogue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1768582680570.2227,
+      "text": "During lighting strike on aircraft, the damage due to the magnetic field is:",
+      "choices": [
+        "Indirect effect related to electromagnetic field",
+        "Occur   at metal with high density current"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
