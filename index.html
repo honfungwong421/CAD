@@ -280,17 +280,24 @@
 
             async fetchExternalBanks() {
                 const apiURL = "https://api.github.com/repos/honfungwong421/CAD/contents/bank";
+                // Get manifest from localStorage to track already synced versions
+                let manifest = JSON.parse(localStorage.getItem('mcq_sync_manifest') || '{}');
+                
                 try {
                     const response = await fetch(apiURL);
                     if (!response.ok) return;
                     const files = await response.json();
                     
-                    let newImports = false;
+                    let changesMade = false;
                     for (const file of files) {
                         if (file.name.endsWith('.json') && file.download_url) {
                             const bankName = file.name.replace('.json', '');
-                            // Avoid duplicates by name
-                            if (this.data.banks.some(b => b.name === bankName)) continue;
+                            const remoteSha = file.sha; // Unique ID for file version
+                            
+                            // Check if we already have this exact version
+                            if (manifest[bankName] === remoteSha) {
+                                continue;
+                            }
 
                             const contentResponse = await fetch(file.download_url);
                             if (contentResponse.ok) {
@@ -298,8 +305,18 @@
                                     const bank = await contentResponse.json();
                                     if (bank.questions && Array.isArray(bank.questions)) {
                                         if (!bank.name) bank.name = bankName;
-                                        this.data.banks.push(bank);
-                                        newImports = true;
+                                        
+                                        // Update if exists, or Add if new
+                                        const existingIndex = this.data.banks.findIndex(b => b.name === bankName);
+                                        if (existingIndex > -1) {
+                                            this.data.banks[existingIndex] = bank;
+                                        } else {
+                                            this.data.banks.push(bank);
+                                        }
+                                        
+                                        // Update manifest with new version ID
+                                        manifest[bankName] = remoteSha;
+                                        changesMade = true;
                                     }
                                 } catch (err) {
                                     console.error("Invalid JSON content in " + file.name);
@@ -308,11 +325,11 @@
                         }
                     }
                     
-                    if (newImports) {
+                    if (changesMade) {
                         this.saveBanks();
-                        // Re-render if we are on the home screen
-                        const bankList = document.getElementById('bank-list');
-                        if (bankList) {
+                        localStorage.setItem('mcq_sync_manifest', JSON.stringify(manifest));
+                        // Re-render if viewing the banks list
+                        if (document.getElementById('bank-list')) {
                             this.navigate('home'); 
                         }
                     }
