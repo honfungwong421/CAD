@@ -181,9 +181,14 @@
                 <div class="text-lg font-bold" id="score-display">
                     Score: <span id="p-score" class="text-green-600">0</span>
                 </div>
-                <button onclick="app.saveAndQuit()" class="text-gray-500 hover:text-gray-700">
-                    <i class="fas fa-save mr-1"></i> Save & Quit
-                </button>
+                <div class="flex space-x-4">
+                    <button onclick="app.editQuestionFromPractice()" class="text-blue-600 hover:text-blue-800 font-medium">
+                        <i class="fas fa-edit mr-1"></i> Edit Bank
+                    </button>
+                    <button onclick="app.saveAndQuit()" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-save mr-1"></i> Save & Quit
+                    </button>
+                </div>
             </div>
 
             <!-- Question Card -->
@@ -268,10 +273,73 @@
                 this.loadBanks();
                 this.navigate('home');
                 
+                // Auto-sync from user's GitHub repository
+                this.fetchExternalBanks();
+                
                 // Check for saved session
                 const savedSession = localStorage.getItem('mcq_practice_session');
                 if(savedSession) {
                     // Logic to show resume button handled in view setup
+                }
+            },
+
+            async fetchExternalBanks() {
+                const apiURL = "https://api.github.com/repos/honfungwong421/CAD/contents/bank";
+                // Get manifest from localStorage to track already synced versions
+                let manifest = JSON.parse(localStorage.getItem('mcq_sync_manifest') || '{}');
+                
+                try {
+                    const response = await fetch(apiURL);
+                    if (!response.ok) return;
+                    const files = await response.json();
+                    
+                    let changesMade = false;
+                    for (const file of files) {
+                        if (file.name.endsWith('.json') && file.download_url) {
+                            const bankName = file.name.replace('.json', '');
+                            const remoteSha = file.sha; // Unique ID for file version
+                            
+                            // Check if we already have this exact version
+                            if (manifest[bankName] === remoteSha) {
+                                continue;
+                            }
+
+                            const contentResponse = await fetch(file.download_url);
+                            if (contentResponse.ok) {
+                                try {
+                                    const bank = await contentResponse.json();
+                                    if (bank.questions && Array.isArray(bank.questions)) {
+                                        if (!bank.name) bank.name = bankName;
+                                        
+                                        // Update if exists, or Add if new
+                                        const existingIndex = this.data.banks.findIndex(b => b.name === bankName);
+                                        if (existingIndex > -1) {
+                                            this.data.banks[existingIndex] = bank;
+                                        } else {
+                                            this.data.banks.push(bank);
+                                        }
+                                        
+                                        // Update manifest with new version ID
+                                        manifest[bankName] = remoteSha;
+                                        changesMade = true;
+                                    }
+                                } catch (err) {
+                                    console.error("Invalid JSON content in " + file.name);
+                                }
+                            }
+                        }
+                    }
+                    
+                    if (changesMade) {
+                        this.saveBanks();
+                        localStorage.setItem('mcq_sync_manifest', JSON.stringify(manifest));
+                        // Re-render if viewing the banks list
+                        if (document.getElementById('bank-list')) {
+                            this.navigate('home'); 
+                        }
+                    }
+                } catch (e) {
+                    console.error("Failed to sync from GitHub:", e);
                 }
             },
 
@@ -287,6 +355,15 @@
             },
 
             navigate(view) {
+                if (this.data.currentView === 'edit' && view !== 'edit' && this.data.tempBank) {
+                    if (!confirm("You have unsaved changes. Do you want to leave without saving?")) {
+                        return;
+                    }
+                    this.data.tempBank = null;
+                    this.data.returnToPractice = false;
+                }
+
+                this.data.currentView = view;
                 const container = document.getElementById('app-container');
                 const template = document.getElementById(`view-${view}`);
                 container.innerHTML = '';
@@ -702,6 +779,10 @@
                 this.data.currentBankIndex = index;
                 // Deep copy to avoid direct mutation until save
                 this.data.tempBank = JSON.parse(JSON.stringify(this.data.banks[index]));
+                // Ensure IDs for sync
+                this.data.tempBank.questions.forEach(q => {
+                    if (!q.id) q.id = Date.now() + Math.random();
+                });
                 this.navigate('edit');
             },
 
@@ -796,7 +877,28 @@
             saveBankEdit() {
                 this.data.banks[this.data.currentBankIndex] = this.data.tempBank;
                 this.saveBanks();
-                this.navigate('home');
+                
+                if (this.data.returnToPractice) {
+                    delete this.data.returnToPractice;
+                    // Update the practice session questions with the edited data
+                    if (this.data.practiceSession) {
+                        this.data.practiceSession.questions = this.data.practiceSession.questions.map(sq => {
+                            const updated = this.data.tempBank.questions.find(bq => bq.id === sq.id);
+                            return updated ? JSON.parse(JSON.stringify(updated)) : sq;
+                        });
+                        this.saveSession();
+                        this.navigate('practice');
+                    } else {
+                        this.navigate('home');
+                    }
+                } else {
+                    this.navigate('home');
+                }
+            },
+
+            editQuestionFromPractice() {
+                this.data.returnToPractice = true;
+                this.editBank(this.data.currentBankIndex);
             },
 
             // --- Practice Logic ---
