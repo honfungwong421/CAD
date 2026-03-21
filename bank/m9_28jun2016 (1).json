@@ -1,0 +1,1500 @@
+{
+  "name": "M9-28Jun2016",
+  "date": "2026-03-21T21:25:50.614Z",
+  "questions": [
+    {
+      "id": 1774128350613.1145,
+      "text": "Human factors concern the study of",
+      "choices": [
+        "Aircraft design, human psychology and accident prevention",
+        "Maintenance knowledge, fine motor skills and leadership quality",
+        "Human capabilities and limitation in the aviation workplace"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.0862,
+      "text": "Aviation risks are due to",
+      "choices": [
+        "Human error",
+        "Mechanical failure",
+        "Human error & mechanical failure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.4236,
+      "text": "Human factors is equal to",
+      "choices": [
+        "Ergonomics",
+        "Human errors",
+        "SHEL model"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.4548,
+      "text": "The \"error chain\" theory refers to",
+      "choices": [
+        "A company is only as good as its weakest employee or emp loyees, and removal of that/those",
+        "Errors are caused by a chain of linked events, and the breaking of one link in the chain will prevent",
+        "A chain of errors within an organizations can be investigated,   and similar errors prevented by"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.011,
+      "text": "How to prevent the errors from happening? Most effective way to prevent error:",
+      "choices": [
+        "Strengthen the error chain",
+        "Break one link of the error chain",
+        "Identify the links of the error chain"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.4226,
+      "text": "\"SHEL\" model",
+      "choices": [
+        "Software, hardware, environment, liveware"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.557,
+      "text": "Human factors are the interaction between",
+      "choices": [
+        "People and machines, people and people, people and procedures, people and environment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.873,
+      "text": "In \"SHEL\" model, “Software” and “Hardware” represent:",
+      "choices": [
+        "?",
+        "Maintenance equipment and maintenance information",
+        "Tool and human"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.573,
+      "text": "The design and system problem is on which part of the SHEL model?",
+      "choices": [
+        "Software",
+        "Hardware",
+        "Environment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.356,
+      "text": "In the SHEL model,   poor design of the access to change component is:",
+      "choices": [
+        "Hardware",
+        "Software",
+        "Environment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.0432,
+      "text": "Poor design for engineer to be inspection in the aircraft",
+      "choices": [
+        "Environment",
+        "Software",
+        "Hardware"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.9292,
+      "text": "The idea of ”error making will   not happen to him” … If an engineer believes an error will never to him, he has a",
+      "choices": [
+        "Big ego",
+        "Complacency attitude",
+        "?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.1128,
+      "text": "Human beings towards c omplacency can help overcome by",
+      "choices": [
+        "Maslow ’s hierarchy of needs.",
+        "Murphy’s Law.",
+        "De -motivation."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.3777,
+      "text": "Murthy’s Law can be described   as:",
+      "choices": [
+        "If something can go wrong at some time, it will .",
+        "Errors must happen no matter how much effort you put it avoiding it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.9607,
+      "text": "Murphy ’ s proof design: Apply Murphy’s law into design, the design should be:",
+      "choices": [
+        "Eliminate the error during installation",
+        "When a procedure was wrong, it will   … which reduces further failure",
+        "When a procedure was wrong, it will minimize the damage to the aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.1423,
+      "text": "The light enter the eyes through:",
+      "choices": [
+        "Iris",
+        "Retina",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.191,
+      "text": "Visual Acuity is the ability",
+      "choices": [
+        "To differentiate between different colors",
+        "To detect objects in the peripheral vision",
+        "Ability of the eye to discriminate sharp detail at v arying distances"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.972,
+      "text": "Eyesight",
+      "choices": [
+        "Short slight - myopia/long sight - hypermetropia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.764,
+      "text": "Eyes defect due to aging is most commonly corrected by:",
+      "choices": [
+        "Contact lens and glasses",
+        "Laser surgery and medicine",
+        "Contact lens and eye drops"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.9968,
+      "text": "If an engineer is tired and his lens cannot function to its best,",
+      "choices": [
+        "Images would be less sharp",
+        "Images would have less color",
+        "Has a blood - shot eye"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.619,
+      "text": "Fatigue will decrease the visual acuity due to",
+      "choices": [
+        "Amount of light reduced.",
+        "Lens accommodation capability decrease.",
+        "Can detect black, white and grey only."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.407,
+      "text": "Maintenance task need Engineers require:",
+      "choices": [
+        "Distance vision",
+        "Near vision",
+        "Distant and near vision"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.4688,
+      "text": "The reason of regular eyes check…",
+      "choices": [
+        "Check colour blind so that to correct",
+        "Check deterioration of eyes so that to correct",
+        "Check deterio ration of eyes so that to prevent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.2754,
+      "text": "Eyesight relates aircraft engineer",
+      "choices": [
+        "Cannot wear glass",
+        "No discrimination of colour is a must for all trade",
+        "Organization should set up an eyesight test program"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.2852,
+      "text": "Visual scanning cycle between rest is ______ , the outside world objects is sensed during __. The jerked  Cycle between rests is ____; the outside world object is second during ____.",
+      "choices": [
+        "1/3 second, rest",
+        "1 second, movement",
+        "1 second, both rest and movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.592,
+      "text": "The following statements refers to human eyes - \nI) Cornea controls the amount of light that is allowed to enter the eye  \nII)To focus on a distant point, the lens is flattened  \nIII) They are good at distinguishing fine detail   (wh at is meant by “they”?)",
+      "choices": [
+        "One of the above statements is correct",
+        "Two of the above statement is correct",
+        "All of the above statement is correct"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.0583,
+      "text": "Sound waves are transmitted by: Ear receives signal by:",
+      "choices": [
+        "Vibration in the air",
+        "EM wave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.1577,
+      "text": "Hearing relates engineer",
+      "choices": [
+        "Should hear an average conversational voice in a quiet room",
+        "Cannot use the hearing aid",
+        "An audiogram must be set to provide an assessment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.658,
+      "text": "Old people usually lose the sensibility of sound in",
+      "choices": [
+        "High frequency",
+        "Low freque ncy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.441,
+      "text": "___ exposure to the noise, the loss of hearing will occur as aging on___",
+      "choices": [
+        "as with, low tone",
+        "as with, high tone",
+        "alike, low tone"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.5757,
+      "text": "Which situation will cause a temporary loss of hearing?",
+      "choices": [
+        "90db for 8 hours",
+        "120db for 1 min",
+        "90db for 8 hours or 120db for 1 min"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.4243,
+      "text": "Noise Induced Hearing Loss (NIHL) due to damaged cochlea hair like cells at the level of sound",
+      "choices": [
+        "80dB for 8hrs.",
+        "85dB for 4 hrs.",
+        "85db for 8hrs."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.2097,
+      "text": "Perception is mainly concern on",
+      "choices": [
+        "Stimuli from sensory nerve",
+        "Experience and memory",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.22,
+      "text": "Perception",
+      "choices": [
+        "Sensory",
+        "Experience and expectation",
+        "Mainly sensory but also experience   and expectation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.291,
+      "text": "Three basic elements of processing information are",
+      "choices": [
+        "Sensing, perception, decision making, action response"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.3606,
+      "text": "Stimuli remains ____in visual   nerve and ____ in auditory nerve",
+      "choices": [
+        "1 s,   8   s",
+        "8   s, 1   s",
+        "1   min,   8   mins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.7383,
+      "text": "If we read the text ,   what element will be involved?",
+      "choices": [
+        "Sensing & perception",
+        "Decision making and Action response",
+        "Sensing & perception, Decision making and Action response"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.9868,
+      "text": "Some people will consider B as 13, this is due to:",
+      "choices": [
+        "filter base….filter info",
+        "contex tual base……the process of info depends on the context, the context determine how u",
+        "illusion base………"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.848,
+      "text": "For date: 12/11/02, American: 11 Dec 02, British: 12 Nov 2002, what type of the behaviour is this ?",
+      "choices": [
+        "Sensing and perception",
+        "Decision making"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.2053,
+      "text": "How long can be a short term memory (working memory) is retention for 5 to 9 items",
+      "choices": [
+        "10 - 50 sec.",
+        "10 - 20 sec.",
+        "5 - 20 sec."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.1514,
+      "text": "Which kind of memory heavily influenced by expectation?",
+      "choices": [
+        "Short term memory.",
+        "Semantic memory.",
+        "Episodic memory."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.4998,
+      "text": "A required skills and action perform often enough then become automatic and stored in long term",
+      "choices": [
+        "Perception.",
+        "Motor programmed.",
+        "Situation awareness."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.8877,
+      "text": "The main disadvantage of group is",
+      "choices": [
+        "Cross - checking and challenging others.",
+        "Overlook the importance of working together.",
+        "Diffusion of responsibility (assume someone else will do it)."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350613.7468,
+      "text": "Diffusion of responsibility means",
+      "choices": [
+        "Everyone shares the responsibility",
+        "Group to make decisions that are more extreme or risker",
+        "The tendency for some one to work less hard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.7244,
+      "text": "Effective   teamwork",
+      "choices": [
+        "Communication, mutual support, co - operation, co-ordination",
+        "Communication, independent, self - esteem …",
+        "Mutual support,"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.8447,
+      "text": "Mutual support is the heart of",
+      "choices": [
+        "Management.",
+        "Team working.",
+        "Leadership."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.1226,
+      "text": "Leadership Styles may be classify as Autocratic and Democratic :",
+      "choices": [
+        "Autocratic suitable for teamwork, democratic for emergency event.",
+        "Autocratic suitable for emergency event, Democratic for teamwork.",
+        "Democratic suitable for bo th teamwork and emergency event"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350613.3445,
+      "text": "In organizing a team, self - management means",
+      "choices": [
+        "It mean equal participation to each member",
+        "Team take the ownership of activity",
+        "Team need outside support and reinforcement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350613.0205,
+      "text": "Teamwork",
+      "choices": [
+        "Better than individual work",
+        "?",
+        "A verage opinion …"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.914,
+      "text": "Team work",
+      "choices": [
+        "Team decision will be better than individual ",
+        "Will always be inferior to individual",
+        "Team sth is better than individual sth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.9287,
+      "text": "Group solving better than",
+      "choices": [
+        "A verage comment of individual in group"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3008,
+      "text": "Someone proposed one dangerous sol ution for maintenance to teammate, the teammate rejected it. Then,",
+      "choices": [
+        "Is slightly likely to accept the second.",
+        "Is slightly likely to reject the second.",
+        "Is very much likely to reject the second."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.4026,
+      "text": "An engineer has proposed a dangerous solution but his colleagues rejected it; then he proposed a less",
+      "choices": [
+        "More likely to accept",
+        "Slight likely to reject",
+        "Much more likely to reject"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3901,
+      "text": "Engineer - in - charge,   non urgent problem in a team",
+      "choices": [
+        "E xpress  self -opinions  and not ask others opinions",
+        "Ask opinions before express   self - opinions   and make final decision and explain it",
+        "Ask opinions before express   self - opinions   without make final decision"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.1145,
+      "text": "Human motivation reflects",
+      "choices": [
+        "Whether the management is suitable",
+        "What human can do and will do",
+        "If the human is able to do complex tasks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.079,
+      "text": "Maslow Hierarchy of needs is about",
+      "choices": [
+        "Must not be complacent",
+        "Human motivation",
+        "Teach the necessary of aircraft safety"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.6787,
+      "text": "Which level of Maslow ’ s hierarchical nature of needs must satisfy?",
+      "choices": [
+        "Primitive level.",
+        "High level.",
+        "All level."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.2327,
+      "text": "Indifference to the job, poor record of attendance and   lack of   co - operation are the signs of de - motivation",
+      "choices": [
+        "Signs of motivation.",
+        "Signs of fatigue.",
+        "Signs of stress."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.907,
+      "text": "What is the best environment in the error management?",
+      "choices": [
+        "Penalties if errors occur",
+        "B onuses are paid if errors are not occurred for a period of time",
+        "E ngineers own up to their errors and learn from errors"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.079,
+      "text": "The relationship between direct goal and personal goal",
+      "choices": [
+        "Positive direct goal, positive personal goal",
+        "Positive direct goal, negative personal goal",
+        "Negative direct goal, positive personal goal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.99,
+      "text": "An ideal   aircraft engineer ,   should be Engineer need:",
+      "choices": [
+        "Person directed and goal directed (P+, G+ )",
+        "Not person directed but goal directed (P - , G+ )",
+        "Person directed but not goal directed   (P+, G - )"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.8286,
+      "text": "In context of poor conformity: - Women tends to conform more than man. (T) - People with high self - esteem conform more. (F) - Persons who less knows about the subject matter conforms more. (T) How m any statements are correct?",
+      "choices": [
+        "One of the above statements is correct",
+        "Two of the above statement is correct",
+        "All of the above statement is correct"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.438,
+      "text": "What is a norm?",
+      "choices": [
+        "An unwritten rule dedicated and followed by majori ty of the group",
+        "A written rule dedicated and followed by majority of the group"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5774,
+      "text": "If not follow a norm of group, it  will  lead to:",
+      "choices": [
+        "Disapproval from peer press ure of team"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3267,
+      "text": "What affect fitness health of well - being,",
+      "choices": [
+        "Diet, exercise, eat tobacco",
+        "Emotion xx fatigue",
+        "Noise , hotness and alcohol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6157,
+      "text": "Body Mass Index (BMI) is equal to   KG/M ²",
+      "choices": [
+        "Weight / Height",
+        "Weight / Height^2",
+        "Height / Weight ^2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.841,
+      "text": "High blood pressure will increase the probability   of:",
+      "choices": [
+        "Ulcers and liver disease",
+        "H eart disease and stroke",
+        "?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.2861,
+      "text": "Physiologic reaction of human at stressful situation",
+      "choices": [
+        "Blood flow increase, heart rate increase",
+        "Blood flow decrease, heart rate increase",
+        "Muscle relax, heart rate increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.189,
+      "text": "Un der stressful situation, the body will secrete Adrenaline and it will make the body",
+      "choices": [
+        "Blood flow to muscle increase, breathing rate increase",
+        "Blood flow to muscle decrease, breathing rate increase",
+        "Digestive rate increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.0823,
+      "text": "When people is under the stress ,   what effect would occur?",
+      "choices": [
+        "Sweating + increasing the rate of heart beat",
+        "Decrease of blood pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.0454,
+      "text": "Which one of the following can cause stress?",
+      "choices": [
+        "xx",
+        "Pressure",
+        "The job has alcohol line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.7227,
+      "text": "Heat stress limitation for human being is correct",
+      "choices": [
+        "Initial decrement will effect more significantly",
+        "Heat decrement is still unknown by human",
+        "The human heat bear limit is nearly uniform"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.252,
+      "text": "Under extreme difficult situation, what kind of person will make effective decision",
+      "choices": [
+        "High pressure, high arousal",
+        "Low pres sure, high arousal",
+        "Low pressure, low arousal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.342,
+      "text": "When an engineer dispatch an aircraft with MEL, arousal level should be in:",
+      "choices": [
+        "Low",
+        "Very low",
+        "High"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.2073,
+      "text": "Complex tasks s hould be given to people with When stressed, the complex work should give to / people performs better when:",
+      "choices": [
+        "Low arousal",
+        "High arousal",
+        "Extreme arousal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.9678,
+      "text": "How to ensure workers no fatigue",
+      "choices": [
+        "Ensure the workers have enough rest and good quality of sleep",
+        "Shorter working hours and more holiday entitlement",
+        "More coffee provided during rest time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6707,
+      "text": "Heavy physical task s:",
+      "choices": [
+        "Can be given to a mentally fatigued person but not a physically fatigued person",
+        "Should not be given to a person under fatigue, including both mental and physical fatigue",
+        "Can be given to person who is stimulated by medicine if they are fatigued"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3208,
+      "text": "Complex task should not be given to people who are:",
+      "choices": [
+        "Physically fatigued",
+        "Mental fatigued",
+        "Both physic and mentally fatigued"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.2686,
+      "text": "At a low circadian body, we advise   to ______ nap at day time and to _______ extraneous exercise before",
+      "choices": [
+        "Avoid/avoid",
+        "Take/avoid",
+        "Avoid/take"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6233,
+      "text": "When a person during “Free running” …. period …. Without a watch, people would feel ________ in a day. Human Circadian rhythms cycle on a",
+      "choices": [
+        "20 hrs",
+        "24 hrs",
+        "25 hrs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.3909,
+      "text": "For circadian rhythms, the lower point is",
+      "choices": [
+        "03:00 hour generally",
+        "23:00 hour for morning person",
+        "07:00 hour for evening person"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.448,
+      "text": "When does the lowest body (core) temperature occur in the circadian   rhythm? T he lowest human tem perature in the rhythm cycle occurs",
+      "choices": [
+        "Fatigue",
+        "Shortly before dawn",
+        "When excited and aroused",
+        "When excited and exhausted",
+        "At 2:20 AM",
+        "H igh stress"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.5896,
+      "text": "Question Text Not Detected",
+      "choices": [
+        "2:20am"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5537,
+      "text": "In a circadian cycle, when does the lowest body temp erature occur",
+      "choices": [
+        "Midday",
+        "Pre - dawn",
+        "Wake up"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.71,
+      "text": "When the temperature of body is lowest: Which situation will the body temperature be lowest?",
+      "choices": [
+        "Depression or aroused",
+        "Excited or exhausted",
+        "xxxx - cycle   / Pre - dawn"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.1262,
+      "text": "In theory,   how much awake time for 1 day",
+      "choices": [
+        "16 hours   (that means 8 hours sleep)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.7415,
+      "text": "Too many day time sleep(nap) will cause",
+      "choices": [
+        "Frequently awake during night time sleep",
+        "Long REM sleep than normal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.8208,
+      "text": "Sleep deficit is defined as",
+      "choices": [
+        "Status in a night shift after high workload",
+        "Inadequate amount of sleep in consecutive days"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.1243,
+      "text": "If a person does not get  enough  sleep for 2 or 3 days co nsecutively:",
+      "choices": [
+        "Performance will increase then decrease rapidly",
+        "?",
+        "No huge difference in performance at first but sleep deficit will build up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.0222,
+      "text": "If a person has a temporary sleeping deficit, he should:",
+      "choices": [
+        "Make up the deficit b efore   it   affect s   his performance",
+        "Canno t perform……."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5938,
+      "text": "Snoring during sleep is caused by",
+      "choices": [
+        "REM",
+        "dream affect quality of sleep",
+        "sudden abrupt of sleep"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3486,
+      "text": "Human B iological Rhythms has a natural cycle ____ than 24 hours, so it is easier to adapt when fly to _____ than to _____.",
+      "choices": [
+        "Longer, western, eastern",
+        "Longer, eastern, western.",
+        "Shorter, western, eastern."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6768,
+      "text": "Drinking how ______ pints of beer (alcohol) in a week will be harmful to personal health?",
+      "choices": [
+        "7",
+        "15",
+        "21"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.5989,
+      "text": "Alcohol’s effect to sleep",
+      "choices": [
+        "Stage 2",
+        "Stage 4",
+        "REM stage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.2905,
+      "text": "The side effect of taking an anti - histamine drug will",
+      "choices": [
+        "Drowsy",
+        "Decrease vis ual acuity",
+        "Increase the sensitive ability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.662,
+      "text": "Fumes are considered a problem to engineers because: Which type of contact with toxic fumes causes the most serious problem?",
+      "choices": [
+        "Contact with eyes",
+        "Contact with skin",
+        "Inhaled"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.0347,
+      "text": "Common method to detect the fume of cleaning agent",
+      "choices": [
+        "Smell",
+        "Colour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.218,
+      "text": "Working environment with noxious fumes, the most practical act of the organization should be:",
+      "choices": [
+        "Provide breathing apparatus",
+        "Install detector?",
+        "Ventilate the area"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.5776,
+      "text": "Vibratory - induced w hite finger syndrome (VWF) for hand caused by vibrations in the range:",
+      "choices": [
+        "50   -   150 Hz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.2935,
+      "text": "Which of the following is a physical hazard ?",
+      "choices": [
+        "Something about teammate and night shift",
+        "Very bright light from welding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.8567,
+      "text": "Carbon monoxide is concerned dan gerous to human because",
+      "choices": [
+        "Affix to oxygen",
+        "Affix to red blood cells",
+        "Affix to hemoglobin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.9487,
+      "text": "The mechanism of CO poisons people",
+      "choices": [
+        "oxygen is easier to combine with blood cell",
+        "carbon monoxide is easier to combine with blood cell"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.4163,
+      "text": "Temperature increase to 30 degrees , heart rate ______ and breathing rate _______",
+      "choices": [
+        "Decrease, decrease",
+        "Decrease, increase",
+        "Increase , increase"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.461,
+      "text": "Communication means Communication such as information, signal is in form of:",
+      "choices": [
+        "Electronic signal",
+        "Verbal",
+        "The t ransmission of a message or signal from o ne place to other place"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.699,
+      "text": "Necessary for accuracy communication between two people…",
+      "choices": [
+        "Same language code / Common of standard coding",
+        "Same individual intelligence",
+        "Same level of education"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5903,
+      "text": "Aircraft engineer regularly communicates",
+      "choices": [
+        "Information, ideas, feelings, attitudes and beliefs."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.949,
+      "text": "Good written communication",
+      "choices": [
+        "Avoid personal opinion",
+        "Suitable decoding   of communication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5115,
+      "text": "The requirement of good written communication",
+      "choices": [
+        "Avoid emotional & hidden message",
+        "Complete message including hidden message",
+        "Express personal opinion",
+        "---",
+        "free from any environmental and hidden message",
+        "free from any environmental but with hi dden message",
+        "without emotion and hidden information"
+      ],
+      "correctIndex": 6
+    },
+    {
+      "id": 1774128350614.656,
+      "text": "In communication, sender receive the message from recipient … call Response of the sender from receivers is:",
+      "choices": [
+        "Thanks",
+        "Feedback",
+        "Relay"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.1948,
+      "text": "A feedback is sent by r eceiver to acknowledge the sender about",
+      "choices": [
+        "Receipt and understanding",
+        "Confirm task carried out"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.279,
+      "text": "Visual inspection should be taken",
+      "choices": [
+        "Under suitable lighting but without glare",
+        "Age is not required bu t experience is required and since experience comes with age, you require an",
+        "Judgement and experience is both required so you require an aged technician"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5872,
+      "text": "If we carry out the visu al inspection ,   the eye ball should keep moving ____ around the area, and the scan",
+      "choices": [
+        "Slow, slow",
+        "Slow, fast",
+        "Fast, fast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6614,
+      "text": "Visual inspection to gain more chance to detect a crack by ____ eye duration ____eye movement For visual scanning, th e eye movement should be ________ cycle, as ______ as possible?",
+      "choices": [
+        "min   , few",
+        "max , few",
+        "min , many"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.9976,
+      "text": "Visual inspection is affected most significantly by",
+      "choices": [
+        "Motion and vibration",
+        "Illumination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.8098,
+      "text": "Problem of Repetitive Task",
+      "choices": [
+        "Boredom and complacency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3398,
+      "text": "Before testing or working on an aircraft system, the engineer should carry the actions such as: - C learance checks - De activation procedures - Notification on the de activations",
+      "choices": [
+        "One of the above statements is correct",
+        "Two of the above   statements are correct",
+        "All of the above statements are correct"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.8462,
+      "text": "Professor James Reason defines \"slip\" error as",
+      "choices": [
+        "Misordering step",
+        "Missing actions and omissions",
+        "Specific type of error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.4785,
+      "text": "T hree   behaviour categories: Engineers require:",
+      "choices": [
+        "Skill , kn owledge , r ule",
+        "Knowledge, skill, routine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.092,
+      "text": "Latent   failures:",
+      "choices": [
+        "No effect for long time until combine current action to break the defense",
+        "---",
+        "May be present long time ago but laydormant until an error event trigger the failure",
+        "May be present right before failure",
+        "Problems ari sing from communication issues"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.2275,
+      "text": "Which of the following can cause violation",
+      "choices": [
+        "Complacent, pressure",
+        "Lack of knowledge and skill",
+        "Poor supervisor/worker ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.858,
+      "text": "Type of error   in the context of visual inspection",
+      "choices": [
+        "Type 1 and type 2 errors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.374,
+      "text": "Type 2 error",
+      "choices": [
+        "Failure to detect a fault",
+        "Wrongly determine a good thing as a fault"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.97,
+      "text": "E rror management system  s to",
+      "choices": [
+        "Find out the casual factor of the errors",
+        "Eliminate and reduce the bad effects of error",
+        "Report to CAD"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.1978,
+      "text": "Human error with performing an additional action is",
+      "choices": [
+        "Extraneous error",
+        "Error of commission",
+        "Error of omi ssion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.1672,
+      "text": "During an emergency ,   what is the first thing you should do ?",
+      "choices": [
+        "Call 999 for fire brigade and ambulance",
+        "Stay calm and assess the situation",
+        "Help injured   people"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.5376,
+      "text": "for emergency fire drills, which one",
+      "choices": [
+        "xx time pressure",
+        "complacency lack of assertiveness",
+        "lack of resources communication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.0757,
+      "text": "When emergency situation occurs , how to get the situation under control? Evacuation drill should be commenced immediately",
+      "choices": [
+        "Company should have an emergency procedure and provide related drill.",
+        "Emergency equipment should be placed near management and supervisor staff."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6665,
+      "text": "emergency",
+      "choices": [
+        "look for danger for oneself and other s",
+        "safety kit",
+        "a safety certify person or in charge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.2065,
+      "text": "What is the most effective warning signal dur ing cabin emergency evacuation:",
+      "choices": [
+        "Emergency escape light path",
+        "Abstract warning sound",
+        "Emergency escape light path and abstract warning sound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.6653,
+      "text": "Which type of warning sign is more effective",
+      "choices": [
+        "The statement \"stay behind yellow line\"",
+        "The sign with compre hensive word",
+        "The statement \"do not come near this tooling\""
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6184,
+      "text": "When warning occur?",
+      "choices": [
+        "Aural + red signal",
+        "Aural",
+        "Red signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.7954,
+      "text": "What kinds of alert are used in the cockpit? Effective cockpit warning should involve:",
+      "choices": [
+        "Visual",
+        "Abstract Audio",
+        "Visual   + Abst ract Audio"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.308,
+      "text": "The X lies on the quatrain represent a person who is: Anxious X Extrovert",
+      "choices": [
+        "…. & Easy going",
+        "Control led   & thoughtful",
+        "…. & aggressive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1774128350614.2734,
+      "text": "The average engineer, with respect to the   introvert - extrovert / anxious - stable model,   is:",
+      "choices": [
+        "A stable extrovert",
+        "A stable introvert",
+        "An anxious extrovert"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.306,
+      "text": "Assessing an engineer personality by What is the most effective way to understand and engineer’s behaviour?",
+      "choices": [
+        "Interview",
+        "Questionnaires",
+        "Project objective testing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.9507,
+      "text": "If something you don’t know how to do",
+      "choices": [
+        "Ask other engine er",
+        "Follow the training notes",
+        "Follow the   procedure, MM"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1774128350614.019,
+      "text": "How to maintain assertiveness",
+      "choices": [
+        "Refuse to compromise your standard and if it is not critical, recor d it in the log book and only sign",
+        "Conversant with the procedure / Consult with the document",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.3782,
+      "text": "Dirty dozen of \"distraction\"",
+      "choices": [
+        "Solved by detail check sheet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.329,
+      "text": "Check list / Work sheet using white paper",
+      "choices": [
+        "Upper and lower case , in black   letters and white base",
+        "Upper and lower case, colour code",
+        "Upper case only, colour code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6877,
+      "text": "There is no problem about extinct, data, but you represent it wrong",
+      "choices": [
+        "You want to see what you expect",
+        "Visual illusion",
+        "xx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.7935,
+      "text": "Which one of the following all item has adversely effect on human performance",
+      "choices": [
+        "Flexibility",
+        "Adoption of human to hotness and coldness",
+        "Forgetfulness xx humor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.5835,
+      "text": "Why o - ring and small fastener is always omitted in installation?",
+      "choices": [
+        "It checked out improperly by store inspection",
+        "Not inspection item of procedure",
+        "For too small and can’t cause enough due attend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.461,
+      "text": "For top maintenance problem, which one is correct",
+      "choices": [
+        "Incorrect installation is at the sixth position",
+        "Fitting of the wrong parts before FOD",
+        "L/G pin not removed is at 1 position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.534,
+      "text": "Which one of the following is circle based task",
+      "choices": [
+        "Hydraulic reservoir service",
+        "System trouble shooting",
+        "Lubrication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.4636,
+      "text": "If you record a damage to surface panel, which one is necessary in the log book",
+      "choices": [
+        "Describe the damage dimension a nd extension",
+        "Detail describe the cause of the damage",
+        "Describe the nature of the damage, and material removed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.254,
+      "text": "When the age of engineer is 40 - 60, their bones would",
+      "choices": [
+        "Remains its strength as early time",
+        "Stronger",
+        "Weaker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.6746,
+      "text": "The access panel is repositioned to fit the human body dimension. The purpose is",
+      "choices": [
+        "Belong to L - H interface problem",
+        "Reduce the error probability",
+        "Eliminate the error"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.0928,
+      "text": "If the material is an a/c drawing, a reason that causes the mechanic’s incorrect interpretation is:",
+      "choices": [
+        "Use of English between English natio nal an non - national people",
+        "De - coding skill of the reader"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.624,
+      "text": "Plain ladder",
+      "choices": [
+        "Can be used in cognitive space",
+        "Never use, use an alternative one",
+        "Can’t stand on the top of the ladder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.2302,
+      "text": "Held.....engineer....non - re l ative to hear.....memory time,",
+      "choices": [
+        "2 - 3s",
+        "10 - 20s",
+        "?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.9111,
+      "text": "Human effect in aviation accident percentage?",
+      "choices": [
+        "95%",
+        "90%",
+        "70%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.1682,
+      "text": "40 - 50age,muscle become",
+      "choices": [
+        "strong",
+        "normal",
+        "bad, recover slow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1774128350614.197,
+      "text": "Information process",
+      "choices": [
+        "ear",
+        "eye",
+        "brain"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
