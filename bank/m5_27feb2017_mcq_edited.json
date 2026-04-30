@@ -1,0 +1,3681 @@
+{
+  "name": "M5-27Feb2017 MCQ edited",
+  "date": "2026-04-30T19:16:17.190Z",
+  "questions": [
+    {
+      "id": 1777576577189.9053,
+      "text": "1.   Base of hexadecimal is",
+      "choices": [
+        "16",
+        "15",
+        "2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577189.9248,
+      "text": "2.   The number after FF(hex) is",
+      "choices": [
+        "10",
+        "1000",
+        "100"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577189.1587,
+      "text": "3.   According to hexadecimal, which number is the smallest?",
+      "choices": [
+        "F",
+        "10",
+        "B"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577189.2751,
+      "text": "4.   What is the number after 7(hex)?",
+      "choices": [
+        "8",
+        "A",
+        "100"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577189.824,
+      "text": "5.   Hexadecimal 123 convert to decimal",
+      "choices": [
+        "191",
+        "291",
+        "391"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577189.4583,
+      "text": "2   1   0 123(hex) = 1 x 16   + 2 x 16   + 3 x 16 = 256 + 32 + 3 = 291 6.   Convert decimal 534 to binary",
+      "choices": [
+        "0010110",
+        "100011010",
+        "01000010110"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577189.6975,
+      "text": "7.   Add 21 to 75, answer in binary:",
+      "choices": [
+        "1011000 (= 88)",
+        "1100000 (= 96)",
+        "1110001 (= 113)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577189.2646,
+      "text": "8.   Decimal to binary",
+      "choices": [
+        "Binary express numbers using less digits",
+        "Express in binary to transistor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577189.9355,
+      "text": "9.   The decimal number 152 is equal to",
+      "choices": [
+        "Octal number xx",
+        "Octal number xx",
+        "Octal number 230"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.864,
+      "text": "10.   Convert 3051 base 8 to hexadecimal",
+      "choices": [
+        "629",
+        "62A",
+        "628"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3362,
+      "text": "11.   473(octal) convert to decimal:",
+      "choices": [
+        "314",
+        "320",
+        "414"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7612,
+      "text": "12.   Octal (number) to Hex (number",
+      "choices": [
+        "429",
+        "250",
+        "477"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4312,
+      "text": "13.   convert 1AE2(16) to decimal(ccc)",
+      "choices": [
+        "6882(10)",
+        "7164(10)",
+        "7884(10)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9404,
+      "text": "14.   Convert the 77   to Octal: 10",
+      "choices": [
+        "10011012",
+        "115"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1536,
+      "text": "8 8 15.   Convert 9FE   to Octal: 16",
+      "choices": [
+        "1001111111102",
+        "4776"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4,
+      "text": "8 8 16.   Binary use in computer logic circuit",
+      "choices": [
+        "1 and 0 signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.792,
+      "text": "17.   How many NAND equal a 2 input (1 output) OR gate?",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8594,
+      "text": "18.   How many NAND gate can form a AND gate(ccc)",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.262,
+      "text": "19.   How many NAND gate can simulate a 2 input 1 output NOR gate?",
+      "choices": [
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8113,
+      "text": "20.   NAND Gate connects inputs together can act as",
+      "choices": [
+        "AND",
+        "NOR",
+        "NOT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.895,
+      "text": "21.   How many NOR gates connected together same as the AND gate with 2 inputs?",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.4387,
+      "text": "22.   NOR gate with 2 shorted input have what function?",
+      "choices": [
+        "OR",
+        "AND",
+        "NOT"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.075,
+      "text": "23.   How many NOR gates are needed to form a 2-input OR gate?",
+      "choices": [
+        "1",
+        "2",
+        "3"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.803,
+      "text": "24.   The logic output is 1 when any input applied is logic 0:",
+      "choices": [
+        "NAND gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.027,
+      "text": "25.   What logic is an NAND gate having 2 inputs A and B ? Boolean statement of “output is logic 1 when any input is logic 1”:",
+      "choices": [
+        "F = A + B",
+        "F = ( A x B )"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1145,
+      "text": "26.   Which one is correct?",
+      "choices": [
+        "(a + b) + c = a + (b + c)",
+        "(a.b).c = a.(b.c)",
+        "(a.b.c)_bar = a_bar + b_bar + c_bar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8313,
+      "text": "27.   DEF + NOT(DEF) = ?",
+      "choices": [
+        "0",
+        "DEF + NOT(D) + NOT(E) + NOT(F)",
+        "1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.528,
+      "text": "28.   What is the result of FEB + EBF?",
+      "choices": [
+        "1",
+        "0",
+        "Infinity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.242,
+      "text": "29.   How many gates needed to represent A+B(A+C)",
+      "choices": [
+        "6",
+        "5",
+        "4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5728,
+      "text": "30.   The truth table of a logic function shows:",
+      "choices": [
+        "The output of a logic circuit with different output combinations"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.161,
+      "text": "31.   The logic diagram is",
+      "choices": [
+        "Logic gate and triode",
+        "Circuit elements such as resistors and capacitors",
+        "Logic gates and input/output"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.85,
+      "text": "32.   Test light on when (1) hydraulic system failed (2) speed > 120 knots OR (3) engine switch level is set:",
+      "choices": [
+        "OR gate followed by AND gate",
+        "Exclusive OR with 3 inputs",
+        "AND gate and multiple inverter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.052,
+      "text": "33.   To enable an air test positive, it required 1) hydraulic loss 2) lower than 10000 ft or 3) engine lever switch",
+      "choices": [
+        "OR gate follow a AND gate",
+        "XOR gate with multiple inverted input",
+        "AND gate with inverted input of hydraulic loss , inverted input of below 10000ft & output of air test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6384,
+      "text": "34.   Light passive, HYD pressure low, air speed>120MPH, throttle level switch engage",
+      "choices": [
+        "OR gate and then AND gate",
+        "NAND and then NOR",
+        "NOR and then NOT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.628,
+      "text": "35.   If there were 3 procedures planned to finish during take off, which gate should be use?",
+      "choices": [
+        "AND gate",
+        "NOR gate",
+        "Exclusive OR gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8682,
+      "text": "36.   Undercarriage, down and lock",
+      "choices": [
+        "AND gate output 1",
+        "OR gate output 1",
+        "Exclusive or output 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.298,
+      "text": "37.   Ground seeking light test logic circuit consists of:",
+      "choices": [
+        "AND Gate with a preset input ‘1’",
+        "OR Gate with a preset input ‘1’",
+        "AND Gate with a preset input ‘0’"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4277,
+      "text": "38.   Logic gate question with GA GB GC, ask output for GA and GC:",
+      "choices": [
+        "Low, High"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.266,
+      "text": "39.   What gate is used when landing gear down secure?",
+      "choices": [
+        "Positive and output=1",
+        "Positive and output=0",
+        "Negative and output=0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.692,
+      "text": "40.   Logic gate two pressure are different, system triggered",
+      "choices": [
+        "AND gate negative logic",
+        "AND gate positive logic",
+        "OR (XOR?) gate positive logic"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.6926,
+      "text": "41.   The output logic of a positive OR gate when applies a negative logic will have a same logic as a",
+      "choices": [
+        "Negative AND gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2402,
+      "text": "42.   A positive logic AND gate could also be suitable as a:-",
+      "choices": [
+        "negative logic AND gate",
+        "negative logic OR gate",
+        "positive logic exclusive OR gate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5667,
+      "text": "43.   An OR gate with DC supply and a output lamp can be represented by:",
+      "choices": [
+        "Parallel switches"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4653,
+      "text": "44.   Flip-flop J-K type is better than S-R type because",
+      "choices": [
+        "no clock input",
+        "both can be set to ‘1’",
+        "both can be set to ‘0’"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.374,
+      "text": "45.   Master/ Slave flip flop (only rmb keywords of this question)",
+      "choices": [
+        "JK",
+        "SR",
+        "Mastering  (plz confirm)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5981,
+      "text": "46.   Master Slave Flip Flop",
+      "choices": [
+        "J-K Flip Flop in series",
+        "S-R Flip Flop in series same clocking",
+        "S-R Flip Flop in series different clocking"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.0925,
+      "text": "47.   1024 Clock pulses send to ten T-flip-flop in series, what is the output after the pulses?",
+      "choices": [
+        "10",
+        "2",
+        "1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8938,
+      "text": "48.   Shift register",
+      "choices": [
+        "Multiply by power of 2 when shift to left",
+        "Divide by 2 when shift to right",
+        "Multiply by binary of 2 when shift to left"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2197,
+      "text": "49.   Why convert analog to digital?",
+      "choices": [
+        "Less noise",
+        "Need to use digital computer to process signal",
+        "Makes information more accurate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7778,
+      "text": "50.   In transmission, analog signal",
+      "choices": [
+        "Is deep and reliable",
+        "Require separate input and output device and A/D D/A converter",
+        "Need a pair twist shield wire"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.183,
+      "text": "51.   In data transmission, analogue is used, because",
+      "choices": [
+        "Cheap and reliable",
+        "and 1 parameter in each signal",
+        "Analogue-to-digital converter, data transmitter and digital-to-analogue converter",
+        "---",
+        "Cheaper and more reliable",
+        "Only use twisted-cable and A/D or D/A converter",
+        "Sending and receiving requires separate cables"
+      ],
+      "correctIndex": 5
+    },
+    {
+      "id": 1777576577190.8442,
+      "text": "52.   Analogue Signal transmission",
+      "choices": [
+        "a pair of twisted shielded cable and A/D D/A converter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8948,
+      "text": "53.   An AD converter is used (ADC)",
+      "choices": [
+        "To convert an AC voltage to a DC equivalent",
+        "To convert a digital signal to analog signal",
+        "To convert an analog signal to digital signal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5945,
+      "text": "54.   A A/D converter constructed (ccc)",
+      "choices": [
+        "8 bit binary counter, A/D converter",
+        "8 bit binary counter, D/A converter, comparator",
+        "8 bit binary counter, A/D converter, amplifier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5864,
+      "text": "55.   Simple AD converter consist of:",
+      "choices": [
+        "Binary counter + AD converter",
+        "DA converter + comparator",
+        "AD converter + summing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.474,
+      "text": "56.   There are three basic techniques for A/D conversion:",
+      "choices": [
+        "Ramp generation, successive approximation and integration.",
+        "DA converter + comparator",
+        "AD converter + summing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1594,
+      "text": "57.   A binary weighted ladder network and a sum amplifier",
+      "choices": [
+        "D/A converter",
+        "A/D converter",
+        "Operational"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5251,
+      "text": "58.   In an 8 bit R2R ladder type D/A converter, how many different resistors are used at its input?",
+      "choices": [
+        "2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0718,
+      "text": "59.   Analog output sometimes required",
+      "choices": [
+        "particular wave form, a ramp or sawtooth wave can implemented by R-2R ladder and a counter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2717,
+      "text": "60.   D/A converter can be used to provide gain control of an analog signal by",
+      "choices": [
+        "applying an AC voltage as VR to a ladder network."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5972,
+      "text": "61.   Output of digital computer in an analogue control system",
+      "choices": [
+        "D/A > analogue controller",
+        "D/A > analogue sensor",
+        "A/D > analogue controller"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8728,
+      "text": "62.   Analogue output is provided by:",
+      "choices": [
+        "Circuit with current carrying voltage to stabilized, electrical, constant signal",
+        "Circuit with Capacitor on/off / Cap which charge and discharge according to ...",
+        "Circuit output is digital output / 0 and 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5642,
+      "text": "63.   Synchro output",
+      "choices": [
+        "Analogue",
+        "Digital"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8513,
+      "text": "64.   Morse code is",
+      "choices": [
+        "Digital",
+        "Analog",
+        "Amplitude moderated signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1282,
+      "text": "65.   The output of a EGT thermocouple probe would be",
+      "choices": [
+        "analogue data",
+        "digital data",
+        "discrete data"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3728,
+      "text": "66.   Air-ground signal is:",
+      "choices": [
+        "Discrete signal",
+        "Digital…",
+        "Analog…"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1846,
+      "text": "67.   Compact   disc   player   is   an   example   of   a   device",
+      "choices": [
+        "Analog to AnalogAnalog to Digital",
+        "Digital to Analog"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7651,
+      "text": "68.   The step effect of an analog voltage after conversion is called:",
+      "choices": [
+        "Quadrant noise",
+        "Quantum noise",
+        "Quantisation noise"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8535,
+      "text": "69.   Serial Input port is for",
+      "choices": [
+        "Analogue",
+        "Digital",
+        "Memory access port"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5051,
+      "text": "70.   Serial interface port… USB",
+      "choices": [
+        "Provide analog input",
+        "Provide digital input",
+        "Direct memory access…"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.0173,
+      "text": "71.   Which one is continuous data transmission:",
+      "choices": [
+        "Serial",
+        "Parallel",
+        "Discrete"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2085,
+      "text": "72.   Signal in an optic fibre cable is transmitted by:",
+      "choices": [
+        "Light"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8608,
+      "text": "73.   What is the characteristic of aircraft optical fibre glass?",
+      "choices": [
+        "For single mode, the optical fibre glass size is 50-100 micron",
+        "It only transfer HF ray",
+        "It can reflect light ray",
+        "---",
+        "Single mode core diameter is 50 - 100 um",
+        "Reflection by cladding"
+      ],
+      "correctIndex": 5
+    },
+    {
+      "id": 1777576577190.491,
+      "text": "74.   Bending of lightweight fibre optics cable for long term and construction",
+      "choices": [
+        "90/180mm",
+        "75/90mm",
+        "175/300mm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5972,
+      "text": "75.   Bending radius of lightweight fibre optics:",
+      "choices": [
+        "70/90 mm",
+        "50/70 mm",
+        "75/90 mm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.386,
+      "text": "76.   With respect to fibre optical connector, the correct connector is made:",
+      "choices": [
+        "xx",
+        "The red band on the receptacle is at least 50% covered by coupling nut",
+        "Align pin bottoming"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6323,
+      "text": "77.   A Type-A optic fibre connection contains what feature?",
+      "choices": [
+        "Multi-channel and in-line (Butt-type) connect for production break",
+        "Contains 4-6 fibres in a cable",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1797,
+      "text": "78.   Fiber optics bending losses is due to",
+      "choices": [
+        "Breakage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1765,
+      "text": "79.   Fiber optic, absorption loss refer to:",
+      "choices": [
+        "Impurity substance in optic fiber"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.223,
+      "text": "80.   In fibre optics, dispersion means:",
+      "choices": [
+        "Spread out the core and become wider when the light passes through",
+        "Increase the light wavelength along the fiber / Wavelength change",
+        "Lengthening the light pulse along the transmission"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.2012,
+      "text": "81.   Fibre optic used in Application of fibre optics for aircraft system are likely",
+      "choices": [
+        "Passenger entertainment system",
+        "Flight control signalling",
+        "Aircraft to ground communication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7112,
+      "text": "82.   Unshielded copper wire is affected by:",
+      "choices": [
+        "Volt amp",
+        "Mechanical fatigue",
+        "EMI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.092,
+      "text": "83.   An advantage of a fibre optic cable over a metallic core cable is that it is",
+      "choices": [
+        "A stronger cable physically.",
+        "Immune to electromagnetic interference",
+        "Unaffected by physical disturbance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.0586,
+      "text": "84.   Why use optical fibre rather than copper",
+      "choices": [
+        "Lighter",
+        "Mechanically stronger",
+        "Less expensive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.485,
+      "text": "85.   The main disadvantage with fibre optic cable is that they are",
+      "choices": [
+        "Easy to terminate",
+        "Difficult to terminate",
+        "Not suited to carrying digital signals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8523,
+      "text": "86.   Which is NOT a disadvantage of fibre optics?",
+      "choices": [
+        "No cross talk between wires when sending signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.599,
+      "text": "87.   Optic fibre are normally made of",
+      "choices": [
+        "Composite materials",
+        "Polyester",
+        "Silica or plastic (polymer?)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.2146,
+      "text": "88.   A fibre optic cable consists of:",
+      "choices": [
+        "A silica glass core with a cladding having a lower refractive index",
+        "Composite materials",
+        "Polyester"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.472,
+      "text": "89.   Different angles of the light entering into the fibre optic are call?",
+      "choices": [
+        "Channels",
+        "Modes",
+        "Level"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4888,
+      "text": "90.   Precaution of optic fiber equipment",
+      "choices": [
+        "Check if visible light in optical fiber",
+        "Turn off the equipment and pull C/B",
+        "Disconnect from equipment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8367,
+      "text": "91.   Before inspecting the end of the optical fiber: What should be done to optic fibre before testing it?",
+      "choices": [
+        "Remove from equipment  / Disconnect the fibre optic from equipment",
+        "Turn off the equipment and pull C/B",
+        "Remove from light source / Remove the fibre optic away from light source"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.487,
+      "text": "92.   Optic fibre coupling:",
+      "choices": [
+        "Connect 2 optic fibre",
+        "Terminate unused optic fibre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7285,
+      "text": "93.   Use of coupler:",
+      "choices": [
+        "Join two optic fibres together",
+        "Produce director current between 2 equipment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9683,
+      "text": "94.   The optical receiver in a fibre optic system used",
+      "choices": [
+        "Avalanche photodiode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5776,
+      "text": "95.   Two connected fibre optic cable ends are parallel but not quite touching. This is called:",
+      "choices": [
+        "End to end coupling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7415,
+      "text": "96.   Optical fibre bandwidth:",
+      "choices": [
+        "More than copper wire",
+        "Less than copper wire",
+        "According ACG/OGC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3916,
+      "text": "97.   Which is not an advantage of optic fibre:",
+      "choices": [
+        "Low bandwidth"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9678,
+      "text": "98.   Optic speed in optic fibre is:",
+      "choices": [
+        "The fastest in free space",
+        "Increases with refractive index"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7837,
+      "text": "99.   The speed of light in optical fibre:",
+      "choices": [
+        "Is never faster than in free space"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.915,
+      "text": "100.   The light source in fibre optic core for signal transmission is:",
+      "choices": [
+        "Infrared light",
+        "Light",
+        "Electrical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4595,
+      "text": "101.   Laser specification work for optical fibre",
+      "choices": [
+        "Rise and fall time 100ns",
+        "Current 50mA",
+        "Spectral width 20nm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2944,
+      "text": "102.   ESD common point ground is:",
+      "choices": [
+        "Connection point",
+        "Storage location for electronic component",
+        "Power point"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6501,
+      "text": "103.   After putting a ESDS device into a conductive bag:",
+      "choices": [
+        "Must close the bag by approved adhesive tape",
+        "Must close the bag by 100% cotton stringer",
+        "You can retain the device in the bag and do so by stapling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4043,
+      "text": "104.   Which one of the following ESDS device can withstand higher static electricity voltage?",
+      "choices": [
+        "SCR",
+        "VCR",
+        "UCR"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0137,
+      "text": "105.   ESDS protective symbol has a reach hand in a triangle, meaning:",
+      "choices": [
+        "Items are sensitive to static electricity",
+        "Bag or container is used to store electro-static sensitive device",
+        "The items are not subject to ESDS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.0686,
+      "text": "106.   Where should ESDS label stick to?",
+      "choices": [
+        "On the container and the package of the ESD device",
+        "On the ESD component",
+        "On the person that is working on the compoment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6223,
+      "text": "107.   ESDS bags are sealed by:",
+      "choices": [
+        "ESDS labels",
+        "Zip locks",
+        "Twine (100% cotton)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9355,
+      "text": "108.   ESDS foot mat is to discharge",
+      "choices": [
+        "the people approaching the workshop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.469,
+      "text": "109.   ESDS floor mat or shoe straps are for removing the discharge on:",
+      "choices": [
+        "Person that’s entering work station",
+        "The parts",
+        "…"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5955,
+      "text": "110.   The function of wrist strap is to:",
+      "choices": [
+        "To obtain the near potential between human and ground",
+        "To obtain the near potential between equipment and ground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0952,
+      "text": "111.   Wrist strap is for:",
+      "choices": [
+        "Environment",
+        "Component",
+        "Individual"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5315,
+      "text": "112.   Wrist band for discharge which static",
+      "choices": [
+        "equilibrium",
+        "individual"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.023,
+      "text": "113.   A normal grounding lead resistance of wrist strap for using in handling ESDS PCB should be",
+      "choices": [
+        "1 mega ohm",
+        "10 mega ohm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8252,
+      "text": "114.   Resistance of wire strap(ccc)",
+      "choices": [
+        "1 M Ohm",
+        "11M Ohm",
+        "111M Ohm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3613,
+      "text": "115.   Bonding strip lead resistance connect to ground The ground level resistance of wrist strap for ESDS device",
+      "choices": [
+        "Within the mega-ohm range",
+        "As low as possible to avoid shock hazard to the personnel",
+        "As low as possible to prevent damage to the sensitive device"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.808,
+      "text": "116.   How to test the ohm resistor of a wrist grounding strap?",
+      "choices": [
+        "By a special tester"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2063,
+      "text": "117.   During removal/installation of the electrical component with metal case, wrist strap can be not",
+      "choices": [
+        "It is not practical to use a wrist strap in the aircraft",
+        "It is not affected by static electricity due to being grounded",
+        "F Box (Faraday cage)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.7773,
+      "text": "118.   Which one is NOT an effective   static   shield",
+      "choices": [
+        "Plastic film",
+        "Foam box",
+        "Faraday cage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1245,
+      "text": "119.   (electrostatic-discharge-sensitive device ) ESDS most damage probably cause by",
+      "choices": [
+        "latent damage",
+        "latent damage & permanent damage",
+        "temporary failure, latent damage & permanent damage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1365,
+      "text": "120.   Damage which causes junctions burnout, metallization, and oxide punch through is: (ccc)",
+      "choices": [
+        "Latent damage",
+        "Permanent damage",
+        "Catastrophic damage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1353,
+      "text": "121.   ESDS damage is due to:",
+      "choices": [
+        "Direct current flow, electric field emanating from a charged body, and the thermal energy during static"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9597,
+      "text": "122.   Damage to ESDS part can occur for static voltages: (ccc)",
+      "choices": [
+        "As low as 30 volts",
+        "500 V",
+        "100 V"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0657,
+      "text": "123.   Which two materials below rubbed together will get more static",
+      "choices": [
+        "Human hair with PVC",
+        "Human hair with silk",
+        "PVC with silk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5945,
+      "text": "124.   Participate static is caused by:",
+      "choices": [
+        "Aircraft flight through a denser static condition",
+        "Due to lightning strike",
+        "Aircraft passing through air"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.1934,
+      "text": "125.   Static discharger",
+      "choices": [
+        "avoid EMI to prevent lightning strike",
+        "prevent radio interference by discharge electrostatic",
+        "avoid communication interference to reducing precipitation static charges"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.42,
+      "text": "126.   Electrostatic Discharge:",
+      "choices": [
+        "Does not affect the electronics component / Will not harm any electrical components",
+        "Partially damage the electronics component but not immediately affect it.",
+        "Will only happen during removal/installation of the electronics component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.843,
+      "text": "127.   After removing PCB (printed circuit board), it should be placed in",
+      "choices": [
+        "Conductive bag.",
+        "Plastic bag",
+        "Wooden box"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.265,
+      "text": "128.   When you remove a PCB from a PCB card file, the first thing is:",
+      "choices": [
+        "Pull and tag the C/B",
+        "Use the wrist strap and connect it to ground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.682,
+      "text": "129.   Choose a circuit design to reduce EMI",
+      "choices": [
+        "Use amplitude modulation in place of frequency modulation",
+        "Use differential amplifier for common cancellation",
+        "Signal cables to be installed on the surface of cable channel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2307,
+      "text": "130.   Proper ground to prevent EMI to conductor carrying",
+      "choices": [
+        "low level signal (high frequency)",
+        "high level signal",
+        "all level signal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1003,
+      "text": "131.   What EMI need proper grounding?",
+      "choices": [
+        "Very high",
+        "Very low",
+        "Intermediate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7349,
+      "text": "132.   EMI ( electro-magnetic interference ) is cause by",
+      "choices": [
+        "High level signal",
+        "Low level signal",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.421,
+      "text": "133.   For braided cables, the amount of braiding is:",
+      "choices": [
+        "A trade off design feature",
+        "Must conform to the requirement for the shielding to cover at least 50% of the surface of the cable",
+        "Keeps radiated power inside the emitting assembly or away from the susceptible circuit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6292,
+      "text": "134.   Electromagnetic compatible device refer to (check)",
+      "choices": [
+        "Emit and absorb",
+        "Device does not interfere with other EMI devices around it",
+        "Device is shielded and not affected by EMI"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.421,
+      "text": ". 135.   Noise/interference affect which type of signal:",
+      "choices": [
+        "Analogue",
+        "Digital",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.563,
+      "text": "136.   Definition of HIRF",
+      "choices": [
+        "High frequency among the onboard system which affects the flight safety",
+        "High frequency external to the aircraft which affects flight safety"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.9446,
+      "text": "137.   Regarding use of cell phone, which one is correct:",
+      "choices": [
+        "Source of high intensity radiated fields (HIRF)",
+        "Will not work because aircraft is shielded",
+        "Will not work because of interference"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9868,
+      "text": "138.   Material most affected by HIRF: HIRF increase, aircraft",
+      "choices": [
+        "Titanium",
+        "Carbon fiber/optic fiber",
+        "Aluminum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.0212,
+      "text": "139.   Which of the following is not the devices for protect HIRF ( high intensity radiated field ) ccc",
+      "choices": [
+        "Ground and bonding",
+        "Cable shielding",
+        "Connect a resistor on the terminal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.1133,
+      "text": "140.   Electronically and electrically propagating interference is",
+      "choices": [
+        "Bonding",
+        "Braiding",
+        "Shielding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9397,
+      "text": "141.   Protection of HIRF is:",
+      "choices": [
+        "Route way from HF station"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3704,
+      "text": "142.   Electronic/electrical devices is a nuisance to:",
+      "choices": [
+        "Communication and navigation systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9692,
+      "text": "143.   Sound EMI-tolerant design is difficult to achieve because:",
+      "choices": [
+        "EMI problems do not appear until the equipment is built and integrated into a system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3582,
+      "text": "144.   The electric bonding of jumper is",
+      "choices": [
+        "As short as possible to improve electromagnetic complicity",
+        "Is less than 0.1 ohm for preventing electric shock",
+        "Better than direct metal-to-metal contact"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.115,
+      "text": "145.   Filter at LRU level 146.   RF test equipment",
+      "choices": [
+        "Audio",
+        "RF susceptibility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2231,
+      "text": "147.   A system that is protected from EMI is called:",
+      "choices": [
+        "Braiding",
+        "Bonding",
+        "Shielding"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.6108,
+      "text": "148.   Noise",
+      "choices": [
+        "Bad bonding",
+        "Optical cable near EMI"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.413,
+      "text": "149.   EMI reading ground design",
+      "choices": [
+        "Separate signal return power ground, case ground",
+        "A singal reference ground point",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5215,
+      "text": "150.   What test determined rather the RF susceptible the voltage in the equipment by radio frequency?",
+      "choices": [
+        "Audio Frequency Conducted Susceptibility",
+        "Emission of radio frequency energy",
+        "Radio frequency susceptibility"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8428,
+      "text": "Lightning 151.   During lightning strike, the magnetic force",
+      "choices": [
+        "Is indirect effect related to electromagnetic field",
+        "At the same location as the resistive heating",
+        "Occur at where metal has the high densitive current"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5237,
+      "text": "152.   Lighting affects the aircraft by EMI in which way?",
+      "choices": [
+        "Direct only",
+        "Indirect only",
+        "Both direct and indirect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4727,
+      "text": "153.   When lightning strike on the aircraft, static charge will discharge at: Discharge of lightning: Wing, Empennage, Nose",
+      "choices": [
+        "Airframe",
+        "Wingtips, nose, T.E.",
+        "Non-conductive structure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7346,
+      "text": "154.   Lightning enter and leave aircraft by:",
+      "choices": [
+        "Wing tip, nose, empennage",
+        "Fuselage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.945,
+      "text": "155.   Aircraft is on the group, what should be done to control static charge?",
+      "choices": [
+        "Bond the aircraft to ground",
+        "Static dischargers at wing tip"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.686,
+      "text": "156.   When the wing tip oil tank made of non-metallic material (carbon fiber) Non-metal material of wing tip fuel tank….",
+      "choices": [
+        "Cannot be susceptible to lighting damage",
+        "Pay attention and with external bonding / Can be used and only having external bonding",
+        "Not use on the area likely to have lightning / Cannot be used in location subject to lightning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.9822,
+      "text": "157.   How to avoid lightning:",
+      "choices": [
+        "Add bleed resistor in aerial matt",
+        "Add discharge tube in aerial matt",
+        "Low resistance bonding in equipment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.605,
+      "text": "ACARS / TCAS 158.   How TCAS get ground information",
+      "choices": [
+        "SATCOM then VHF3",
+        "VHF3 then SATCOM",
+        "Use VHF3 only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6643,
+      "text": "159.   ACARS downlinks aircraft system message to ground station through the use of :",
+      "choices": [
+        "VHF3 or SATCOM by random selection",
+        "VHF3 if SATCOM is not available",
+        "SATCOM if VHF3 is not available"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.301,
+      "text": "160.   ACARS use which frequency",
+      "choices": [
+        "VHF",
+        "UHF",
+        "HF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2256,
+      "text": "161.   What is the function of ACARS?",
+      "choices": [
+        "Report aircraft data and status like a email system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.85,
+      "text": "162.   ACARS Test indication light",
+      "choices": [
+        "All LED lights up and then go off for a while. If system passes the test then green light stays on",
+        "(forget)",
+        "All LED lights up and then green lights up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4514,
+      "text": "163.   ACARS self test",
+      "choices": [
+        "In air only",
+        "On ground only (same as the EFIS one should be…)",
+        "Can do both in air or on ground"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5327,
+      "text": "164.   When recording a system failure of the aircraft,",
+      "choices": [
+        "ACARS will automatically record it only",
+        "Need to record by “depress” button only",
+        "ACARS will automatically record and also need to “depress” button"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.773,
+      "text": "165.   System fail",
+      "choices": [
+        "Auto recorded by ....",
+        "Will be recorded when pressing ? button",
+        "Auto or press the button"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8792,
+      "text": "166.   The functionality of TCAS II over TCAS I is",
+      "choices": [
+        "To control horizontal and latitude",
+        "Not to use in general airplane",
+        "TCAS II provide traffic display, traffic and resulted advisory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.0693,
+      "text": "167.   How does a TCAS equipped aircraft know its intruder bearing location?",
+      "choices": [
+        "Directional antenna"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.526,
+      "text": "168.   During a resolution advisory, collision avoidance crosstalk is done by:",
+      "choices": [
+        "Mode S transponder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.564,
+      "text": "169.   The BITE of TCAS is",
+      "choices": [
+        "The test function for system, attitude, antenna and heading",
+        "Not accessible during beach test",
+        "To test all the signal processing circuit"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.0134,
+      "text": "170.   TCAS self-test, which symbol is not correct?",
+      "choices": [
+        "Cyan circle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4846,
+      "text": "171.   TCAS BITE test",
+      "choices": [
+        "Component level",
+        "System level",
+        "Multi-system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2112,
+      "text": "172.   Why T arrangement of display is not apparent in",
+      "choices": [
+        "Xxxxx",
+        "CRT include EFIS function  / CRT is big enough and combines a few functions",
+        "As screens are much more larger in size and shows more indicators"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8076,
+      "text": "173.   Digital Control system Airspeed input from",
+      "choices": [
+        "Pitot / static tube",
+        "Flight Management System"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.943,
+      "text": "174.   Which instrument is use to measure the air speed?",
+      "choices": [
+        "Pitot-static tube",
+        "FMC",
+        "IDU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.856,
+      "text": "175.   The flight altitude of aircraft can be changed through:",
+      "choices": [
+        "Flight management system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2275,
+      "text": "176.   What does PFD 7-zone record?",
+      "choices": [
+        "Altitude, speed, and heading",
+        "VOR and trajectory deviation",
+        "Attitude, guidance, and navigation mode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8022,
+      "text": "177.   Ground speed is from? Ground speed is shown on: Which instrument does ground speed display on?",
+      "choices": [
+        "ECAM",
+        "HSI",
+        "ADI"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.579,
+      "text": "178.   IRS display:",
+      "choices": [
+        "HSI",
+        "ADI",
+        "ECAM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3142,
+      "text": "179.   DME display on",
+      "choices": [
+        "ADI",
+        "HSI",
+        "Both"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5027,
+      "text": "180.   Which display shows the vertical distance?",
+      "choices": [
+        "ADI",
+        "HIS",
+        "Altimeter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.7356,
+      "text": "181.   Where is pitch info show?",
+      "choices": [
+        "ADI",
+        "HSI",
+        "Altimeter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4326,
+      "text": "182.   Glide slope display on",
+      "choices": [
+        "ADI",
+        "HSI",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.0425,
+      "text": "183.   Which DU (display unit) will EFIS be indicated? The output of EFIS is:",
+      "choices": [
+        "PFD & ND"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1492,
+      "text": "184.   Auto adjustment of DU brightness responds to:",
+      "choices": [
+        "F/D ambient condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8867,
+      "text": "185.   Which ND uses true North?",
+      "choices": [
+        "PLAN",
+        "NAV",
+        "IRS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4338,
+      "text": "186.   An indication of IRS on the DU is:",
+      "choices": [
+        "Magnetic compass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0676,
+      "text": "187.   When ND DU fail or is switch off",
+      "choices": [
+        "ND will lost",
+        "ND could be recovered by PFD manually",
+        "ND will display automatically on EICAS or ECAM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4243,
+      "text": "188.   If PFD fail, then,",
+      "choices": [
+        "Auto switch to ND",
+        "Pilot switch to ND",
+        "Nothing will happen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.72,
+      "text": "189.   PFD is normally displayed on:",
+      "choices": [
+        "O/B DU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8442,
+      "text": "190.   PFD can be displayed on",
+      "choices": [
+        "OB only",
+        "IB & OB",
+        "EICAS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.978,
+      "text": "191.   Primary flight information (PFD) can be shown on",
+      "choices": [
+        "Outboard display",
+        "Outboard and inboard",
+        "Outboard and center ... ?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1353,
+      "text": "192.   Where is the horizontal sensor located?",
+      "choices": [
+        "In front of pilot",
+        "Between pilot and co-pilot",
+        "On the overhead panel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.3518,
+      "text": "193.   Where is HSI located?",
+      "choices": [
+        "In front of pilot",
+        "Between pilot and co-pilot",
+        "On the overhead panel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5503,
+      "text": "194.   EADI and EHSI information is driven by",
+      "choices": [
+        "IRU",
+        "Symbol generator",
+        "Flight management system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.0078,
+      "text": ". 195.   FMC Failed, what happen?",
+      "choices": [
+        "CDU switch on",
+        "ECAM message on screen and then switch to CDU",
+        "CDU blind"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7986,
+      "text": "196.   What happens to FMC failure",
+      "choices": [
+        "one of the choices is something about onside CDU off?",
+        "the other choice is onside CDU off, offside MDU on?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5051,
+      "text": "197.   FMC will carry out self-test during: Which of the following makes initial FMC power on self-test?",
+      "choices": [
+        "Power up or power interruption / Initial supply & power interrupt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0566,
+      "text": "198.   3 Information mode:",
+      "choices": [
+        "Warning, caution, advisory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.029,
+      "text": "199.   Attention getters are normally installed so that:",
+      "choices": [
+        "The master warning light cannot be cancelled",
+        "The master caution light comes on and stays on flashing until it is cancelled",
+        "They are right in front of each pilot"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.781,
+      "text": "200.   Pre-flight, which system notices the crew when there is an unsecured door?",
+      "choices": [
+        "Electronic Centralised Aircraft Monitoring (ECAM)",
+        "Aircraft Communication Addressing and Reporting System (ACARS)",
+        "Engine Indication and Crew Alerting System (EICAS)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.007,
+      "text": "201.   When there is an engine fire, which system will show signal?",
+      "choices": [
+        "Electronic Centralised Aircraft Monitoring (ECAM)",
+        "Aircraft Communication Addressing and Reporting System (ACARS)",
+        "Engine Indication and Crew Alerting System (EICAS)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.4863,
+      "text": "202.   EICAS advisory message,",
+      "choices": [
+        "Dual display",
+        "Single display (normally only display on upper ECAM screen)",
+        "Single when only 1 display is working"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6104,
+      "text": "203.   EICAS provides the following:",
+      "choices": [
+        "Engine parameter and systems warnings only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.502,
+      "text": "204.   EICAS monitoring test can be done",
+      "choices": [
+        "On ground",
+        "In flight",
+        "On ground and in flight"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.6133,
+      "text": "205.   EICAS Level A Message?",
+      "choices": [
+        "Advisory",
+        ".....",
+        "Warning"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.6218,
+      "text": "206.   What is the meaning of ‘Level C’ in EICAS",
+      "choices": [
+        "Advisory warning",
+        "Awareness and corrective action",
+        "Corrective action"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8528,
+      "text": "207.   EICAS level C warning",
+      "choices": [
+        "Advisory",
+        "Need pilot’s attention",
+        "Need immediate attention"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9011,
+      "text": "208.   EICAS x2 Dual EICAS system has “left” and “right” system:",
+      "choices": [
+        "Only one system is in control at a time",
+        "Always “left” system in control unless it fails",
+        "Together simultaneously / Both system is in control at the same time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4426,
+      "text": "209.   EICAS 3 standby Engine indicator on dual EICAS system",
+      "choices": [
+        "Function when primary EICAS Fail",
+        "EICAS 1 and EICAS 3 function together",
+        "Primary EICAS function only, other system is for standby only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6462,
+      "text": "210.   EICAS standby engine indicator:",
+      "choices": [
+        "Display engine fault message",
+        "Display engine indication when EICAS fail"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1643,
+      "text": "211.   Engine fail, what to alert flight crew",
+      "choices": [
+        "Audio, blink message...",
+        "Lights"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.886,
+      "text": "212.   In EICAS, when engine malfunction, how to inform crew",
+      "choices": [
+        "Aural warning",
+        "Flashing amber light in panel",
+        "Message on EICAS with appropriate colour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9705,
+      "text": "213.   Engine indicator?",
+      "choices": [
+        "Works when all engine primary fail",
+        "..",
+        ".."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6912,
+      "text": "214.   In case of lower EICAS failure, what will be on the upper EICAS?",
+      "choices": [
+        "Upper EICAS warning amber"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7231,
+      "text": "215.   During an EICAS system test:",
+      "choices": [
+        "A test pattern is shown on all IDU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5952,
+      "text": "216.   Only 1 display is available for ECAM, what does it show? 217.   If only one information can be shown on ECAM:",
+      "choices": [
+        "Engine status and warning message"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.566,
+      "text": "218.   ECAM system",
+      "choices": [
+        "Test the whole system in flight only",
+        "Can be tested in flight or on ground",
+        "Test the system on ground only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.823,
+      "text": "219.   What happens if ECAM control panel fails?",
+      "choices": [
+        "All system page keys are inoperative"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.993,
+      "text": "220.   ECAM functioning computers:",
+      "choices": [
+        "SDAC, DMC, FWC",
+        "SDAC + DMC only",
+        "FWC only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3352,
+      "text": "221.   If a fault in ECAM switch, what can a person do?",
+      "choices": [
+        "Test switch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1658,
+      "text": "222.   Airbus ECAM/EFIS system, the caution message",
+      "choices": [
+        "CLR to clear all warning and caution message",
+        "RLC to recall",
+        "STS to recall the status when the aircraft take off"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2908,
+      "text": "223.   On Airbus-board ECAM, C/B pushbutton is ON,",
+      "choices": [
+        "To check the status of 13 system circuit break before takeoff",
+        "Check the trip circuit break of all system",
+        "Display EFS/EFIS circuit break condition."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.3557,
+      "text": "224.   During normal functioning of an ECAM system the Engine data shown on the Engine/Warning display",
+      "choices": [
+        "EFIS channel of DMC 3",
+        "ECAM channel of DMC 1",
+        "ECAM channel of DMC 3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5088,
+      "text": "225.   The self test function on an EFIS system can be tested.",
+      "choices": [
+        "On the ground only",
+        "In the air only.",
+        "On the ground and in the air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1157,
+      "text": "226.   FWC of ECAM",
+      "choices": [
+        "has operational software in seven main parts",
+        "includes of BITE to detect failure",
+        "no crosstalk with other FWC or select so by a pilot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5352,
+      "text": "227.   Which computer activates the attention getters in an ECAM system?",
+      "choices": [
+        "FWC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.394,
+      "text": "228.   On Boeing transport aircraft with EFIS/EICAS instrument system, the program pins on an EICAS computer:",
+      "choices": [
+        "Trim display options to suit an engine type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9285,
+      "text": "229.   EFIS is fault monitored:",
+      "choices": [
+        "All the time",
+        "When interrogate",
+        "During power up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.323,
+      "text": "230.   In a typical aircraft electronic display system such as the EFIS, the remote light sensor responds to",
+      "choices": [
+        "Flight deck ambient light condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.573,
+      "text": "231.   ARINC specification 429 is:",
+      "choices": [
+        "Digital Information Transfer System (DITS) – MARK 33 DITS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.655,
+      "text": "232.   ARINC 429 consists of:",
+      "choices": [
+        "Label, SDI, Data, SSM, and parity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.463,
+      "text": "233.   Where is the source destination identifier (SDI) block of a ARNIC 429 data word?",
+      "choices": [
+        "Bit 32",
+        "Bits 1-8",
+        "Bits 9, 10"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.9153,
+      "text": "234.   ARINC 429 bit?",
+      "choices": [
+        "16",
+        "32",
+        "64"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.3809,
+      "text": "235.   429 separation between words:",
+      "choices": [
+        "8 bit rest pulse",
+        "4 bit null level",
+        "1 bit (word?) null level"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.694,
+      "text": "236.   ARINC 429",
+      "choices": [
+        "32 bit serial",
+        "32 bit parallel",
+        "? bit parallel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9636,
+      "text": "237.   ARINC 429 Simplex bus (429)",
+      "choices": [
+        "Only 1 transmitter, multiple receiver",
+        "Multiple transmitter and receivers",
+        "Only one receiver, multiple transmitter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.528,
+      "text": "238.   To create a bi-directional communications link within the ARINC 429 system, you need",
+      "choices": [
+        "only one data bus is required",
+        "two data buses are required",
+        "four data buses are needed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8755,
+      "text": "239.   Equipment code of ARINC 429",
+      "choices": [
+        "Are composed of two hexadecimal numbers",
+        "Must be included in the words",
+        "Is sent before the word"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5757,
+      "text": "240.   ARINC 429 code ‘000’",
+      "choices": [
+        "Not used",
+        "Angle",
+        "Distance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2542,
+      "text": "241.   What type of cable use in ARINC 429 bus?",
+      "choices": [
+        "Coaxial cable",
+        "Twisted wire",
+        "Shielded and twisted cable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.8193,
+      "text": "242.   ARINC 429 bit wise speed",
+      "choices": [
+        "50 kbit/s and 1Mkbit/s",
+        "12-14.5 kbit/s and 100 kbit/s",
+        "100 kbit/s and 1Mkbit/s"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4534,
+      "text": "243.   The ARINC 429 low rate of transmission is",
+      "choices": [
+        "100 kbit/s and 12-14 Mkbit/s",
+        "12-14 kbit/s and 100 kbit/s",
+        "12-14 kbit/s and 100 Mkbit/s"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6765,
+      "text": "244.   What is between speed on ARINC 429?",
+      "choices": [
+        "13 k lower speed per second and 100 k higher speed per second"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8022,
+      "text": "245.   ARINC 429 check data transmission error by:",
+      "choices": [
+        "Looking for the odd parity without error",
+        "Even parity",
+        "Sum of ??"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6052,
+      "text": "246.   The output voltage of an ARINC 429 signal is",
+      "choices": [
+        "+ 5V",
+        "- 5V",
+        "+10V to -10V"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.1372,
+      "text": "247.   What is the function of Periodic Aneroid xxx in ARINC 429?",
+      "choices": [
+        "Ignore other transmission of data when one transmission is processing",
+        "Provide equal priority to each transmission component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.449,
+      "text": "248.   ARINC 629 data bus is:",
+      "choices": [
+        "Two cables, bi-directional",
+        "One bus, bi-directional flow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.64,
+      "text": "249.   Where does the power supply for the current mode coupler in the ARINC 629 system come from?",
+      "choices": [
+        "SIM part of LRU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4863,
+      "text": "250.   In periodic transmission:",
+      "choices": [
+        "A single system is not the dominate ARINC 629 bus",
+        "Each system can transfer data at first",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0388,
+      "text": "251.   ARINC 629",
+      "choices": [
+        "Periodic and aperiodic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5706,
+      "text": "252.   To access ARINC 629 should wait for",
+      "choices": [
+        "2 timing",
+        "3 timing",
+        "4 timing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1206,
+      "text": "253.   The bite rate of ARINC 629 is:",
+      "choices": [
+        "2M/s",
+        "10M/s"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4656,
+      "text": "254.   For ARINC 629, if one of the bus short circuit",
+      "choices": [
+        "Whole bus fail",
+        "Only the faulty terminal fail",
+        "Only the device after faulty terminal fail"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4868,
+      "text": "255.   About ARINC 629:",
+      "choices": [
+        "Can use 120 terminals on one data bus",
+        "At longest 100m using STP wire",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8206,
+      "text": "256.   Test language for ARINC 616 of ATLAS",
+      "choices": [
+        "Subset ATLAS",
+        "Standard ALTAS",
+        "Adapted ALTAS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8528,
+      "text": "257.   Inductive coupling used on data bus systems is preferential to hard-wire connections because:",
+      "choices": [
+        "it is more reliable",
+        "It is not subject to EMI",
+        "It is easier to install"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.485,
+      "text": "258.   629 Inductive coupler",
+      "choices": [
+        "control access from device to data bus?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7754,
+      "text": "259.   The on-board LAN is",
+      "choices": [
+        "Computer network that connects all the LRU to central digital system",
+        "Communication network that connects the LRU together",
+        "Fiber optical network that connects the LRU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.4834,
+      "text": "260.   Onboard LAN (OLAN) connect the following LRU:",
+      "choices": [
+        "Right aims and left aims",
+        "MAT and PMAT",
+        "Through a router to a cabin file server"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8494,
+      "text": "261.   GPS consist of:",
+      "choices": [
+        "Two GPS sensor and two antenna",
+        "Is indirectly to IRS and not receive the data from it",
+        "Xx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8445,
+      "text": "262.   Each GPS satellite is identified by:",
+      "choices": [
+        "Its unique PSEUDO random code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1873,
+      "text": "263.   When a GPSSU ( sense unit ) is faulty during self-test, it will:",
+      "choices": [
+        "Restart",
+        "Changed to FAULT mode.",
+        "Aided mode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8333,
+      "text": "264.   IRS sends data to GPS to",
+      "choices": [
+        "Faster start up alignment",
+        "Something about NAV mode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.816,
+      "text": "265.   IRS initial position entering page?",
+      "choices": [
+        "Progress page",
+        "Pos. Int. Page",
+        "Route Page"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7622,
+      "text": "266.   IRS shows fault signal Alignment of IRS can be interrupted due to:",
+      "choices": [
+        "Entered latitude and longitudinal value is not the same as the stored value",
+        "Entered latitude and longitudinal value is greater than the stored value",
+        "Store latitude and longitudinal value is greater than the computed value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3516,
+      "text": "267.   Do not pull CB for IRU power down IRS circuit breaker should not be used to turn off the IRU, why?",
+      "choices": [
+        "Wait more than 10 minutes when switching from NAV to OFF mode",
+        "Do not switching from ATT to OFF mode directly",
+        "This causes an abnormal power down that prevents IRU from storing last IRU position and fault"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9111,
+      "text": "268.   An IRU interface test is carried out",
+      "choices": [
+        "Only on ground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7397,
+      "text": "269.   If failures are detected during the power-up self-check of a computer system,",
+      "choices": [
+        "The self-check stops at the point of failure detection.",
+        "The failure is recorded in the maintenance memory and the computer turned off.",
+        "The power-up self-check may restart itself or restart the system."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.3435,
+      "text": "270.   ECAM performs cyclic test when?",
+      "choices": [
+        "Before power down",
+        "In flight only",
+        "Whenever MCDU requests"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.9026,
+      "text": "271.   A good example for multi system level BITE comes from:",
+      "choices": [
+        "An autopilot system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1672,
+      "text": "272.   Choose a failure type that BITE is best at determining.",
+      "choices": [
+        "Gross failures such as failure of power supply.",
+        "Out-of-tolerance failures.",
+        "Soft failure without immediate changes in system performance."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6833,
+      "text": "273.   Incorrect statement regarding BITE test:",
+      "choices": [
+        "Detect error and isolate the lower card level"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6716,
+      "text": "274.   The shop reset feature of BITE displays:",
+      "choices": [
+        "Ensure fault data are recorded and made available to the line mechanic",
+        "Is designed because there is no need for a reset control for the line mechanic",
+        "Helps isolate faults to a module or portion of the LRU"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.0066,
+      "text": "275.   IRS system records BITE faults where?",
+      "choices": [
+        "Volatile memory with flight data, altitude, headings…",
+        "Non-volatile memory with flight data, altitude, headings…",
+        "Volatile memory with flight data, altitude, maintenance error…"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.9282,
+      "text": "276.   Relationship of CMCs to BITE systems is best described as:",
+      "choices": [
+        "CMCs replaced but is not related to the older BITE system",
+        "CMCs monitors the individual BITE systems and presents data",
+        "CMCs modifies and upgrades BITE systems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.3655,
+      "text": "277.   The GROUND SCANNING function of BITE is used to",
+      "choices": [
+        "recall all the class 3 faults from the last leg",
+        "give a real time indication of existing faults",
+        "present the internal fault message that have occurred since the last leg"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9907,
+      "text": "278.   Self-test Symbol generator:",
+      "choices": [
+        "Decimal",
+        "Hexadecimal",
+        "English message"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3364,
+      "text": "279.   How does the symbol generator detect a program error?",
+      "choices": [
+        "By looking at the even parity without error.",
+        "By looking at the odd parity without error.",
+        "By check sum bites for error detect."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5688,
+      "text": "280.   What kind of program pin does an EFIS bite test show? Program pin at EFIS component",
+      "choices": [
+        "Hexadecimal",
+        "Octal / English language",
+        "Decimal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5376,
+      "text": "281.   EIU program pin is program in",
+      "choices": [
+        "Hexadecimals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6182,
+      "text": "282.   During self-check, a computer system detects a fault and moves into degraded operations. This means:",
+      "choices": [
+        "It continues to function but in a different mode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8184,
+      "text": "283.   During computer self-checks:",
+      "choices": [
+        "The CPU will follow a program with the necessary routines",
+        "The CPU monitors its own operation without programmed fault actions",
+        "The CPU allows no delay response time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.723,
+      "text": "284.   Computer self-check:",
+      "choices": [
+        "Is by programmed & necessary routines",
+        "Monitor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8003,
+      "text": "285.   About Fly By Wire”",
+      "choices": [
+        "Normal law will change to alternate law if single failure occurs",
+        "Protection lost when pitching only / O > C",
+        "Protection lost when Direct Law / No protection in direct law"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.636,
+      "text": "286.   Reversion from normal law to alternate law could be caused by",
+      "choices": [
+        "Loss of two computers input"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3716,
+      "text": ". 287.   A single failure of a fly-by-wire system:",
+      "choices": [
+        "Has no effect on aircraft operation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2751,
+      "text": "288.   Fly-By-Wire is controlled by:",
+      "choices": [
+        "Pilot",
+        "Pilot and computer system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5027,
+      "text": "289.   When fly by wire is lost control, FBW, mechanical backup",
+      "choices": [
+        "Use side stick & rudder pedal",
+        "There are temporary mechanical power for temporary electrical power loss",
+        "There are no back up / not required"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6643,
+      "text": "290.   The computer that initiates bite, stores failure data and communicates with the CMC in the FBW system",
+      "choices": [
+        "Flight control data concentrator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8308,
+      "text": "291.   What makes Fly by wire redundancy and safety:",
+      "choices": [
+        "Different microprocessor types + different suppliers + tracking signalling lane",
+        "Same microprocessor types",
+        "Different suppliers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.627,
+      "text": "292.   Fly-by-wire load alleviation function in turbulent conditions will result in:",
+      "choices": [
+        "Ailerons and spoilers moving symmetrically upwards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3865,
+      "text": "293.   Fly-by-wire roll control is achieved by:",
+      "choices": [
+        "Spoilers and ailerons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2246,
+      "text": "294.   Onboard CPU architecture (check)",
+      "choices": [
+        "Multiprocessor …"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.616,
+      "text": "295.   What is the function of CPU?",
+      "choices": [
+        "Clocking , memory data control , execution of instruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6064,
+      "text": "296.   Each computer is given a unique task:",
+      "choices": [
+        "By its architecture",
+        "By the peripherals attached to it",
+        "By a pre-planned set of instructions."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.9365,
+      "text": "297.   When a computer powers up, the start code must be executed, and the code is stored in:",
+      "choices": [
+        "Read only memory (ROM)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8477,
+      "text": "298.   For avionic software, the first test of EPROM",
+      "choices": [
+        "It is red manufacture label",
+        "Not flight quality",
+        "Pre-produce unit for engineering ground and flight test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3804,
+      "text": "299.   The type of memory to be used is dependent on:",
+      "choices": [
+        "Capacity, access time, and volatility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5886,
+      "text": "300.   What does EPROM mean?",
+      "choices": [
+        "Erasable Programmable Read Only Memory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2026,
+      "text": "301.   Memory that can be erased by UV light and reprogrammed is:",
+      "choices": [
+        "EPROM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3433,
+      "text": "302.   What is volatile memory?",
+      "choices": [
+        "Will lose data after power shut-down /the memory will erase when power switch off"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9805,
+      "text": "303.   Which memory would retain memory when the power is off?",
+      "choices": [
+        "Volatile",
+        "Non-volatile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1646,
+      "text": "304.   CPU temporary memory is stored in?",
+      "choices": [
+        "Register"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.964,
+      "text": "305.   Magnetic storage advantage",
+      "choices": [
+        "Long term storage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9478,
+      "text": "306.   For magnetic storage, 0 represents:",
+      "choices": [
+        "De-magnetized area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7163,
+      "text": "307.   Magnetic Tape not to be RAM as",
+      "choices": [
+        "volatile",
+        "long access time",
+        "limit capacity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.261,
+      "text": "308.   Check the RAM",
+      "choices": [
+        "Calculate the checksum and compared it to the restored numeric",
+        "Set all 1s to all memory location and read the output",
+        "xx"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2412,
+      "text": "309.   One of RAM as charge on capacitor is The kind of random access memory that stores information as charge on a capacitor is:",
+      "choices": [
+        "Static RAM",
+        "Dynamic RAM",
+        "ROM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.58,
+      "text": "310.   How to write data into PROM:",
+      "choices": [
+        "Electrical",
+        "Ultraviolet",
+        "Special programming machine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.707,
+      "text": "311.   The 3 levels of criticality of aircraft system software is",
+      "choices": [
+        "critical , essential & non-essential"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7583,
+      "text": "312.   The purpose of the TRCA DO-178A/ED-12A document used by manufacturers:",
+      "choices": [
+        "Detail describes technique and methods for software development and the system requirement",
+        "Provides guidance to aircraft constructors, equipment manufacturers, and aircraft operators"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5815,
+      "text": "313.   The sequence of software designation is:",
+      "choices": [
+        "Software requirement, coding test, integrate with hardware, system validation test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0444,
+      "text": "314.   For an RTCA software document which consists of 14 pages, the top page:",
+      "choices": [
+        "Describes the software requirement",
+        "Describes the system requirement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5483,
+      "text": "315.   Layout of information is controlled by",
+      "choices": [
+        "Operating system",
+        "Application software",
+        "Computer hardware"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5305,
+      "text": "316.   Target Hardware Part No.",
+      "choices": [
+        "May not necessarily contain the loaded software part no.",
+        "Does not contain loaded software P/N",
+        "Must contain loaded software P/N"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3557,
+      "text": "317.   Is the hardware P/N show the software version?",
+      "choices": [
+        "Not necessary",
+        "Yes",
+        "No"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9746,
+      "text": "318.   The hardware of a device refers to:",
+      "choices": [
+        "Electronic parts only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0625,
+      "text": "319.   The software which equipped at the aircraft are listed in:",
+      "choices": [
+        "Technical log book",
+        "C of RS",
+        "Aircraft configuration list (ACL)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.1287,
+      "text": "320.   When a new software install, After loading a LSAP, you must:",
+      "choices": [
+        "Need to erase the old software according to AMM/MM",
+        "Retain the old software for at least 30 days / Wait for 28 days then delete it",
+        "Need to issue CRS"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.2957,
+      "text": "321.   Changing the software must be approved by:",
+      "choices": [
+        "Governing regulator authorization",
+        "Design aircraft company",
+        "Equipment manufacturer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5686,
+      "text": "322.   When Aircraft Software Parts is released, it would include which document?",
+      "choices": [
+        "Type certificate and JAA Form One",
+        "JAA Form One and FAA-H-8083-D",
+        "Form 337 and FAA-H-8083-D"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1084,
+      "text": "323.   SWRD in software product process:",
+      "choices": [
+        "Provide functional requirement for software component of a system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7068,
+      "text": "324.   Level 1 & 2 software modification should involve the related design organization 325.   User modifiable software can only be modified by:",
+      "choices": [
+        "The design organization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.431,
+      "text": "326.   What category of software would an engine control system be?",
+      "choices": [
+        "Level 1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7854,
+      "text": "327.   For software management control design which has injury is personnel and downgrade in efficiency",
+      "choices": [
+        "CAT 2 / Level C?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6372,
+      "text": "328.   As far as a software product is concerned:",
+      "choices": [
+        "The verification phase includes performance testing a programmed EPROM"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3418,
+      "text": "329.   Which of the passive type display by use of light to provide picture?",
+      "choices": [
+        "7 segments LED",
+        "CRT",
+        "(Matrix) LCD"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.213,
+      "text": "330.   High intensity display:",
+      "choices": [
+        "CRT",
+        "LED",
+        "LCD"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.316,
+      "text": "331.   Incorrect about LCD",
+      "choices": [
+        "It does not emit light but merely acts on light passing through it.",
+        "Display segments relax to de-energized when two out of phase signals are applied to its electrode",
+        "The best viewing effect occurs when the magnitude of optical change is 15:1."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.1392,
+      "text": "332.   LCD",
+      "choices": [
+        "Dynamic scattering type",
+        "Field effect type",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.2786,
+      "text": "333.   Polarizing film must be used in LCD 334.   What type of supply power is required for a LCD display?",
+      "choices": [
+        "Low voltage and low current applied to both layers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7002,
+      "text": "335.   LCD 640x480 pixel:",
+      "choices": [
+        "307200 connector points?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.119,
+      "text": "336.   The Alphanumeric LED Display can show:",
+      "choices": [
+        "Only alphabets and numerals in ASCII",
+        "Depend on the cursor add on the address of LED"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.333,
+      "text": "337.   Which segments of a typical 7-segment LED display will be on for a BCD to 7-segment if a number of 5",
+      "choices": [
+        "a,b,c,d,e,g",
+        "a,c,d,f,g",
+        "a,d,c,d,g"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.5103,
+      "text": "338.   Input of BCD is 1000, 7-segment display will be energized:",
+      "choices": [
+        "abcdefg (all)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4497,
+      "text": "339.   The 7 segments of LED display: b, c, e, f, g",
+      "choices": [
+        "Letter H"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.343,
+      "text": "340.   BCD",
+      "choices": [
+        "Use 4 bit to represent each decimal",
+        "Base of hex-decimal",
+        "Is useful to descript very small quantity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.711,
+      "text": "341.   A segmented configuration for the display of alphanumeric data requires:",
+      "choices": [
+        "16 segments to display the full range of capital letters and numerals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7595,
+      "text": "342.   The colour of a LED display is:",
+      "choices": [
+        "Constructed from different material"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5725,
+      "text": "343.   LED are not used as the light source for high speed operation time telecommunication because of their:",
+      "choices": [
+        "Slow switching speed and high spectral width"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.685,
+      "text": "344.   Color LED is made   and",
+      "choices": [
+        "Reverse biased, PN doping arsenals partial",
+        "Forward biased, PN proportional",
+        "Guillent, diode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.176,
+      "text": "345.   Electron beam of CRT is classified to",
+      "choices": [
+        "Passive operation mode",
+        "Active operation mode",
+        "Modulated electrons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.8228,
+      "text": "346.   Anode of CRT is for:",
+      "choices": [
+        "Generate electrons",
+        "Modulate electrons",
+        "Accelerate electrons to high velocity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.4478,
+      "text": "347.   CRT colour is:",
+      "choices": [
+        "Sensed by human eye…",
+        "Produced by 3-colour electron gun",
+        "By 7 kind of phosphate powder on the screen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.4443,
+      "text": "348.   Typical application of electron beam CRT display is:",
+      "choices": [
+        "IRU control display units",
+        "Distance measuring indicators, digital counters",
+        "Weather radar"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.7673,
+      "text": "349.   CRT is made of:",
+      "choices": [
+        "Deflection plate + deflection coil",
+        "All deflection coil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.205,
+      "text": "350.   CRT RGB display is consist of",
+      "choices": [
+        "3 electron guns & 1 shadow mask",
+        "1 electron gun & 1 shadow mask",
+        "1 electron gun & 3 shadow masks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.087,
+      "text": "351.   The inside of a CRT consists of:",
+      "choices": [
+        "A phosphor coating and rare mercury gas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.465,
+      "text": "352.   CRT focus is controlled by:",
+      "choices": [
+        "Two permanent magnets forming a magnetic field",
+        "The grid around the cathode",
+        "Phospher on the screen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9287,
+      "text": "353.   The electrons of a CRT display is heated:",
+      "choices": [
+        "At the cathode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.464,
+      "text": "354.   The Anode electrodes in a Cathode Ray Tube are biased:-",
+      "choices": [
+        "negative with respect to the cathode",
+        "positive with respect to the cathode",
+        "positive or negative depending on the the cathode biasing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8542,
+      "text": "355.   A saw-tooth signal input to the horizontal plates of CRT, what will be seen on the screen:",
+      "choices": [
+        "A horizontal line",
+        "A vertical line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.451,
+      "text": "356.   Time lag of servo due to",
+      "choices": [
+        "Inertia"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6277,
+      "text": "357.   When designing the aircraft on board computer system, A/C system having a computer distributed architecture means:",
+      "choices": [
+        "One or more LRU located in the avionics bay",
+        "Introduce multiple processors that can works at same time to control different tasks",
+        "Major system share date come from different inputs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7239,
+      "text": "358.   The term “Write” refer to:",
+      "choices": [
+        "Recall info",
+        "Store info",
+        "Clear info"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.7205,
+      "text": "359.   The term “Read” refer to:",
+      "choices": [
+        "Recall info",
+        "Store info",
+        "Clear info"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8267,
+      "text": "360.   A digital word",
+      "choices": [
+        "24 bit",
+        "32 bit",
+        "64 bit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2234,
+      "text": "361.   What is the minimum number of 1024 of 1 RAM IC’s memory of 8 bit word?",
+      "choices": [
+        "2",
+        "4",
+        "8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.2644,
+      "text": "362. A 16 bit word maximum number approximately is? 16 bit word",
+      "choices": [
+        "32000",
+        "69000",
+        "95000"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.543,
+      "text": "362.   Input voltage of 4-bit register is 4.6V, if the input is 0-8V:",
+      "choices": [
+        "Output is 1001 (which is 9)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7305,
+      "text": "363.   Which one is more than a combination logic circuit Which one below is more than just digital combinations?",
+      "choices": [
+        "Adder and subtracter",
+        "Digital clock",
+        "Flip-flop circuit."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2046,
+      "text": "364.   Purpose of a digital transmitter is:",
+      "choices": [
+        "To transmit in digital format the signal for indication in the cockpit",
+        "To change positive logic to negative logic before being processed by the computer",
+        "To convert the signal to proper format to a user system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.5352,
+      "text": "365.   Weather radar system",
+      "choices": [
+        "receiver video data from antenna is x-y coordinate form",
+        "rainfall information stored data as binary data and four condition display",
+        "it has no microprocessor"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.2373,
+      "text": "366.   Which one is a single purpose computer?",
+      "choices": [
+        "Master warning pca.",
+        "Equ cooling sys control",
+        "Engine EEC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.791,
+      "text": "367.   The Flight Management Computer",
+      "choices": [
+        "tuning the VOR, DME and ILS to position",
+        "xx",
+        "xx"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.5344,
+      "text": "368.   Which computer system required discrete digital data input for computation?",
+      "choices": [
+        "Flight control computer",
+        "Flight management computer",
+        "Yaw control computer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.026,
+      "text": "369.   IDU position pin is programmed in:",
+      "choices": [
+        "Octal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8079,
+      "text": "370.   An IC RAM that requires frequency refreshing is:",
+      "choices": [
+        "Dynamic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.147,
+      "text": "371.   When aircraft reported system switching fault, what test to be done to confirm the defect?",
+      "choices": [
+        "Display bite test",
+        "Display initial? test",
+        "Display switching test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6194,
+      "text": "372.   The data bus analyser:",
+      "choices": [
+        "Is a common piece of test equipment to troubleshoot digital systems"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8606,
+      "text": "373.   Touch sensible screen",
+      "choices": [
+        "Input signal only",
+        "Output signal only",
+        "Input and output signal only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777576577190.177,
+      "text": "374.   Engine stand-by power",
+      "choices": [
+        "Critical fault in ground record",
+        "Start-up and shut down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9346,
+      "text": "375.   What represents the light gathering capacity?",
+      "choices": [
+        "NA numerical aperture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.3406,
+      "text": "376.   During the test, we simulate the flight control surface position, which one of the following is true:",
+      "choices": [
+        "Need more mechanic to monitor the flight control surface",
+        "Set up a dangerous area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.862,
+      "text": "377.   About EIS:",
+      "choices": [
+        "Blue colour represent",
+        "Cyan for parameter names, statue cue, and sec. engine data cue",
+        "Use 8 colours and 4 intensity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.9028,
+      "text": "378.   Flux sensor output:",
+      "choices": [
+        "Magnetic heading",
+        "Radio frequency interference",
+        "DMM/D2MM",
+        "---",
+        "Detect Earth’s magnetic field",
+        "?",
+        "Correct drift of IRS (gyroscope)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6082,
+      "text": "379.   Location of CDU:",
+      "choices": [
+        "Aisle stand",
+        "Flight instrument panel",
+        "Overhead panel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2478,
+      "text": "380.   EIS control panels are:",
+      "choices": [
+        "Physical interfaces between the crew members and the EIS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.195,
+      "text": "381.   The data format of transmission for digital flight data recording system is used:",
+      "choices": [
+        "Manchester II biphase with 12bit or 64bit words",
+        "12 bit Harvard bi-phase coding system",
+        "Bipoiar RZ with 12 bit words"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777576577190.6418,
+      "text": "382.   The input combination of following circuit with 5 input is:",
+      "choices": [
+        "32"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0818,
+      "text": "383.   A 32 bit data can be sent by:",
+      "choices": [
+        "4 bytes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.6194,
+      "text": "384.   How many individual voltage steps will a 4 bit binary D/A converter generate to illustrate all",
+      "choices": [
+        "16"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.2732,
+      "text": "385.   The description of fault tolerant software, “when a sensor fails, software can combine data from the",
+      "choices": [
+        "Analytical redundancy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7932,
+      "text": "386.   The ND potentiometer on the DMC switching panel controls:",
+      "choices": [
+        "ND brightness on the INNER knob and weather radar image on the OUTER knob"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7932,
+      "text": "387.   A microcomputer is:",
+      "choices": [
+        "A computer in an IC with memory installed in it"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.558,
+      "text": "388.   The important thing when removing an LRU from the rack is:",
+      "choices": [
+        "Put a BLACK conductive cap on the connector pins"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.1448,
+      "text": "389.   EPROM software that has been verified and validated before installing on a customer LRU is labelled:",
+      "choices": [
+        "Black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.9048,
+      "text": "390.   A suppressor installed to a rotary equipment to remove electrical interference would consist of:",
+      "choices": [
+        "Choke connected in series and a shunt connected condenser to the supply"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.245,
+      "text": "391.   Operation of a frequency counter is such that:",
+      "choices": [
+        "It detects incidences of peak value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.8137,
+      "text": "392.   Representation of alphanumeric and special symbols as binary digits is known as:",
+      "choices": [
+        "ASCII codes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.51,
+      "text": "393.   An FMS system, besides controlling navigation, thrust, and auto-nav also provides:",
+      "choices": [
+        "Dedicated status and warnings"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.7866,
+      "text": "394.   Serial microswitch on aircraft take-off warning system is a good example of:",
+      "choices": [
+        "Digital system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777576577190.0962,
+      "text": "395.   3 switch in parallel with one leg on ground:",
+      "choices": [
+        "NOR"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
