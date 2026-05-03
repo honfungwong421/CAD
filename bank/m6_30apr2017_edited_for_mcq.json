@@ -1,0 +1,5843 @@
+{
+  "name": "M6-30Apr2017 edited for MCQ",
+  "date": "2026-05-03T15:28:26.797Z",
+  "questions": [
+    {
+      "id": 1777822106795.6382,
+      "text": "During the installations of the close tolerance fasteners with special collar nut, which if the following will",
+      "choices": [
+        "Lockbolt",
+        "Unified close tolerance bolt",
+        "Hi-lock bolt"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.9158,
+      "text": "The Hi-Tigue fasten has higher fatigue strength is",
+      "choices": [
+        "because it has hardened head",
+        "because its surface is roughed",
+        "because it has compressive peening treatment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.7864,
+      "text": "Camloc fastener is locked:",
+      "choices": [
+        "the pin protruding from the stud lock the stud in the receptacle",
+        "the slot located in the stud lock the stud on the spring",
+        "the cross pin located in the receptacle locks the stud in the receptacle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.882,
+      "text": "To loosen cam loc nut:",
+      "choices": [
+        "Quarter turn anti clockwise",
+        "Half turn clockwise",
+        "Quarter turn clockwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5762,
+      "text": "Panel and cowling fasteners are:",
+      "choices": [
+        "hi-lock and camlock.",
+        "CAMLOC AND DZUS (airlock & dzus ?)",
+        "Lock-bolt and Airloc."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.7642,
+      "text": "An acceptable method for locking cowling fasteners is the use of",
+      "choices": [
+        "locking wires",
+        "cotter pin",
+        "spring action"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.6238,
+      "text": "What is the difference between screw and bolt?",
+      "choices": [
+        "Screw has thread throughout the length of the shank",
+        "Screw thread usually coarser",
+        "It is very sharp end in the screw"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9805,
+      "text": "What is the maximum number of screws to have sufficient tightness?",
+      "choices": [
+        "3",
+        "5",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5833,
+      "text": "Aircraft component normal drill countersunk:",
+      "choices": [
+        "100°",
+        "120°",
+        "90°"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7056,
+      "text": "Aircraft rivet countersunk is drill:",
+      "choices": [
+        "90°",
+        "100°",
+        "45°"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.5308,
+      "text": "A countersink rivet of the “SP” series has a head angle of:",
+      "choices": [
+        "90 degree",
+        "100",
+        "120"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.5269,
+      "text": "Countersunk angle",
+      "choices": [
+        "55.5",
+        "100",
+        "120"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.8633,
+      "text": "The lip angle ground on a twist drill used or drilling aluminum alloy usually:",
+      "choices": [
+        "59 degrees"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.6008,
+      "text": "Different types of bolt can normally be identified by:",
+      "choices": [
+        "The normal root",
+        "The head marking",
+        "The dimension of the root diameter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.0981,
+      "text": "Straight line on the head of the bolt represents:",
+      "choices": [
+        "CRS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.8762,
+      "text": ". Jo-bolt:",
+      "choices": [
+        "made from stainless or alloy steel",
+        "is a kind of blind rivet",
+        "both statements above are correct"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.6072,
+      "text": ". Jo-rivets are made from:",
+      "choices": [
+        "steel or stainless steel/alloy steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3389,
+      "text": ". American washer common: Locking device commonly used by American standard:",
+      "choices": [
+        "Tab washer and spring washer",
+        "Split washer and sth",
+        "Split washer and shake proof washer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.2712,
+      "text": "A lockwasher is used areas with:",
+      "choices": [
+        "infrequent removal area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5554,
+      "text": "Tab washer can be used:",
+      "choices": [
+        "Only once",
+        "Three times",
+        "As long as its condition satisfactory"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.1006,
+      "text": "Which one can use once only?",
+      "choices": [
+        "tab washer",
+        "locking plate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7793,
+      "text": "Which one of the following depends on spring action?",
+      "choices": [
+        "Tube",
+        "lock washer",
+        "stiff nut"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.3923,
+      "text": "Which one is not associated with spring affect?",
+      "choices": [
+        "Stiff Nut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3389,
+      "text": "Spring washer is a locking device because:",
+      "choices": [
+        "it is cut for spring action to increase friction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5017,
+      "text": "How many times is spring washer to be used:",
+      "choices": [
+        "only twice",
+        "as long as it to fit size",
+        "as long as it doesn’t lose tension and/or bite"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.5625,
+      "text": "The service life of a spring washer is:",
+      "choices": [
+        "infinite."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5745,
+      "text": "Spring washer v.s. plain washer,",
+      "choices": [
+        "Larger area to hold component",
+        "Twisted to spring force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.114,
+      "text": "Spring washer function by",
+      "choices": [
+        "Space take up by the spring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.753,
+      "text": "Both twist teeth and spring reaction on",
+      "choices": [
+        "AN936 shake-proof lock washer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4429,
+      "text": "Shakeproof washers can be used:",
+      "choices": [
+        "only once"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5115,
+      "text": "Cotter pin is made of:",
+      "choices": [
+        "Corrosion resistant steel/steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0903,
+      "text": "A tapered pin taper ratio is:",
+      "choices": [
+        "1:48"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3193,
+      "text": "The maximum bolt diameter for which a 1/16 split pin (cotter pin) maybe be used is:",
+      "choices": [
+        "¼ or 2BA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.735,
+      "text": "Clevis pin:",
+      "choices": [
+        "self locking pin.",
+        "Cotter pin.",
+        "Flat heading pin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.8652,
+      "text": "Clevis bolt is used in control cable because:",
+      "choices": [
+        "Long grip length",
+        "Long shank length"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.2856,
+      "text": "For a self locking nut to be used in condition over 120 deg C (250 deg F), the locking material should be",
+      "choices": [
+        "Nylon",
+        "High strength Zinc-Aluminum alloy steel",
+        "Nut material"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.8943,
+      "text": "Self-locking with fiber and nylon:",
+      "choices": [
+        "use only once",
+        "check with torque wrench",
+        "be reused for location other than control run"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.727,
+      "text": "Nylon self locking nut can be checked by:",
+      "choices": [
+        "using a torque wrench"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.8623,
+      "text": "Al/MG fasteners are colored:",
+      "choices": [
+        "Blue/Purple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.401,
+      "text": "What is the general purpose of using Anchor nut?",
+      "choices": [
+        "using in a shadow area",
+        "for the minor alignment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.748,
+      "text": "Anchor nuts are installed:",
+      "choices": [
+        "in areas were accessibility is difficult"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2363,
+      "text": "Rivnuts are used:",
+      "choices": [
+        "for securely device bolt de-ice boot / for securing de-icer boots to leading edges"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0828,
+      "text": "What is the difference between thick and thin castellated nut?",
+      "choices": [
+        "for high shear application"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0237,
+      "text": "High shear Castle nuts differ from castle nuts because they are:",
+      "choices": [
+        "Thinner",
+        "made of different material",
+        "thicker"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7922,
+      "text": ". Locking method for the clinch nut",
+      "choices": [
+        "self-locking",
+        "lock wire only",
+        "lock-wire or cotter pin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2778,
+      "text": "Choose the correct statement for the design and install of stud",
+      "choices": [
+        "locking thread are at least 2 diameters long",
+        "anchor thread are fine standard thread for good security",
+        "the coarse end points away from the component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9783,
+      "text": "(unbroken) Stud is normally removed by",
+      "choices": [
+        "Ezy-out extractor",
+        "Double lock nut method",
+        "Grip plier"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.1711,
+      "text": "Non-metallic friction element in a stiff nut is signified in the part number by:",
+      "choices": [
+        "The suffix 77.",
+        "The suffix 66.",
+        "The prefix NM."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4028,
+      "text": "A metallic friction element in a stiff nut is signified in the part number by:",
+      "choices": [
+        "the suffix 66"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4597,
+      "text": "MIL specification for screw and nut are:",
+      "choices": [
+        "MS24693 and MS20365."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2522,
+      "text": "What is meant by “Major Diameter” of screw?",
+      "choices": [
+        "it is the maximum diameter of screw",
+        "it is the maximum tolerance of screw",
+        "it is the identification of screw fitness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3245,
+      "text": "Minimum diameter of screw is:",
+      "choices": [
+        "at the root."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9834,
+      "text": "Machine screw has:",
+      "choices": [
+        "thread for whole shank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0632,
+      "text": "A self-tapping screw:",
+      "choices": [
+        "may be used to replace coarse-threaded machine screws",
+        "should not be used to replace standard screws, bolts or nuts",
+        "is not made with a gimlet point"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.88,
+      "text": "Self tapping screws must have at least:",
+      "choices": [
+        "1 and half thread protruding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.449,
+      "text": "Second dash number in PN of A/C screw:",
+      "choices": [
+        "Indicate length in 1/16.",
+        "Indicate diameter in 1/16.",
+        "A drill head if it has “A” before the dash number."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.1829,
+      "text": "Which of the following statements is true?",
+      "choices": [
+        "bolts and nuts are only produced with a right hand thread",
+        "left hand threads loosens when it is turned anti-clockwise",
+        "right hand thread tightens when it is turned clockwise"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.0764,
+      "text": "‘L’ on nut identification number stands for:",
+      "choices": [
+        "left hand thread",
+        "low profile"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0862,
+      "text": "Class 2 thread tolerance is:",
+      "choices": [
+        "close fit",
+        "normally used for aircraft bolts",
+        "a free fit and can be used for screws"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.671,
+      "text": "Class 2",
+      "choices": [
+        "free fit to move directly",
+        "loose fit",
+        "usually use in AN bolt and screw"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.791,
+      "text": "Aircraft bolts are usually manufactured with:",
+      "choices": [
+        "class 2 fit for the threads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.779,
+      "text": "Class 4 fit",
+      "choices": [
+        "free fit",
+        "close fit, need wench to adjust",
+        "commonly used in aircraft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.529,
+      "text": "Which of the following classes of thread required a wrench to turn a nut on a bolt:",
+      "choices": [
+        "class 2",
+        "class 3",
+        "class 4"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.2297,
+      "text": "Class 3 tolerance is a:",
+      "choices": [
+        "… and is used for aircraft bolts and screws",
+        "… and is used for aircraft bolts",
+        "… and is used for aircraft screw"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.6296,
+      "text": "Class 3 is known as a:",
+      "choices": [
+        "medium fit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4792,
+      "text": "Class 3B are applied to aircraft thread system means",
+      "choices": [
+        "free fit male thread",
+        "close fit female thread",
+        "any thread of the interference class of fit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.4604,
+      "text": "A chain’s pitch is the:",
+      "choices": [
+        "distance between the roller centers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.1245,
+      "text": "What is ‘lead’ of the screw thread?",
+      "choices": [
+        "it is the truncation of the thread",
+        "it is the nominal length of the thread",
+        "it is the distance of a screw advances axially in one complete turn"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.8408,
+      "text": "Single Start end thread",
+      "choices": [
+        "Pitch equal to lead",
+        "Pitch equal half of lead",
+        "Pitch equal to twice of lead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9692,
+      "text": "Double start lead is equal to On a two-start thread the lead is equal:",
+      "choices": [
+        "half the pitch",
+        "one pitch",
+        "Double the pitch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.8616,
+      "text": "Double start fastener has 16 threads per inch, it is",
+      "choices": [
+        "Finer thread than 20 threads per inch",
+        "Coarser than a thread with a pitch of 0.125 inches",
+        "Coarser than a thread with a pitch of 0.05 inches"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.097,
+      "text": "If the pitch of double start screw thread is given as 0.2mm, this means that the:",
+      "choices": [
+        "distance between adjacent threads is 0.2mm",
+        "lead is 0.1 mm",
+        "distance between adjacent threads is 0.4mm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3313,
+      "text": "Double start and thread, the nut rotated a turn of thread, move 0.4mm",
+      "choices": [
+        "Lead = 0.2mm",
+        "Pitch = 0.4mm",
+        "Lead = 0.4mm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.5327,
+      "text": "There is a double start end thread, when we screw the nut in one rotation, the length is 0.04mm, then:",
+      "choices": [
+        "pitch is 0.08mm",
+        "lead is 0.02 mm",
+        "lead is 0.04 mm"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.1504,
+      "text": "AS and AN cannot replace each other because:",
+      "choices": [
+        "Material type",
+        "Thread pitch",
+        "Thread form"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.744,
+      "text": "Compared to American Standard unified thread series, the American National thread series has: The",
+      "choices": [
+        "more threads per inch",
+        "fewer threads per inch",
+        "the same number of threads per inch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.6553,
+      "text": "0 The thread formation of 47.5   inclined angle refers to 0",
+      "choices": [
+        "BSW thread 55",
+        "BA thread"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.5386,
+      "text": "0 Unified thread angle",
+      "choices": [
+        "55",
+        "60",
+        "70"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.4707,
+      "text": "For unified threads, the depth of cadmium plating",
+      "choices": [
+        "is normally 0.005inch",
+        "can be ignored when considering thread tolerances",
+        "can be absorbed by allowance for class 2A threads"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.9214,
+      "text": "Unified system screw thread, “UNC” is:",
+      "choices": [
+        "Unified coarse pitch thread",
+        "Unified thread with constant pitch",
+        "Unified thread with a special pitch/diameter ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3276,
+      "text": "The UNJF series of threads:",
+      "choices": [
+        "Features deeper threads and stronger roots than the UNF.",
+        "Has better temperature and corrosion resistance.",
+        "Is only made to class 3 tolerances."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.8442,
+      "text": "The plain length of a hexagon headed BA thread:",
+      "choices": [
+        "include the thread runout"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3284,
+      "text": "Bolts and screws smaller than 1/4” diameter:",
+      "choices": [
+        "Have BA threads and are specified by code number.",
+        "Have BSF threads and are specified by fractional inches.",
+        "Have BA threads and are specified by code letter."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.378,
+      "text": "Thread gauges are:",
+      "choices": [
+        "screw pitch gauge."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5876,
+      "text": "Rivet clearance:",
+      "choices": [
+        "drill hole diameter to rivet diameter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.936,
+      "text": "The minimum distance between a rivet and the edge of a plate is:",
+      "choices": [
+        "2D"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.035,
+      "text": "The minimum sheet thickness for countersinking a 1/8” rivet is:",
+      "choices": [
+        "18 SWG"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7878,
+      "text": "A magnesium rivet is colored",
+      "choices": [
+        "green"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.419,
+      "text": "Rivet head code is:",
+      "choices": [
+        "Alloy type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.6687,
+      "text": "In aircraft fuel tank, the type of rivet used is:",
+      "choices": [
+        "universal head rivets",
+        "100°head rivet",
+        "70°or 82° countersunk angle rivet."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.3174,
+      "text": "The advantage of cherry max over cherry lock rivet:",
+      "choices": [
+        "its larger head works better for thinner sheet metals.",
+        "Its stem is retained in the shell by friction.",
+        "Its installation tool is not expansive and easy to use. (Tooling is the same for a series of cherry max"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.1252,
+      "text": "Particular color tray rivets:",
+      "choices": [
+        "same material",
+        "belong to same bath.",
+        "Same age hardening characteristic."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.0544,
+      "text": "BA rivet head Indication of a BA standard, close tolerance bolt:",
+      "choices": [
+        "Raised ring",
+        "Embossed ring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7622,
+      "text": "The nominal length of universal head rivet is:",
+      "choices": [
+        "The rivet shank length plus the rivet head thickness",
+        "The rivet shank length",
+        "The rivet shank length minus one and half rivet diameter"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.0144,
+      "text": "Lockwire properly to resist the turning of bolt (Right hand bolt) in: Locking right hand screw (A+B bolt):",
+      "choices": [
+        "Both anticlockwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.705,
+      "text": "Which of the following statement is correct:",
+      "choices": [
+        "All metal stiff nuts cannot be reused.",
+        "The direction of locking wire is the same of left and right hand thread.",
+        "The angle of approach is using locking must be over 45°."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.3398,
+      "text": "Lock wire angle of approach",
+      "choices": [
+        ">45",
+        "<45",
+        "<90"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7998,
+      "text": "When locking wire, where should the locking commence:",
+      "choices": [
+        "at the locking tab"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3008,
+      "text": "Wire locking:",
+      "choices": [
+        "it is necessary to pull the wire taut to ensure that the final twists are close to the locking hole.",
+        "There should not be untwisted lengths in excess of 3/8 inch.",
+        "Length of unsupported wire should not normally exceed 3 inch."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4412,
+      "text": "Wire locking:",
+      "choices": [
+        "not support is less than 3”",
+        "Not support is less than 6”.",
+        "Not support is less than 8”."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2502,
+      "text": "Oil cap/drain lock (cock)/valve; which is/are wirelocked?",
+      "choices": [
+        "All the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.8545,
+      "text": "Oil caps, drain locks and valves should at most be lock-wired with how many other items that require lock",
+      "choices": [
+        "One other item",
+        "Two other items",
+        "No other items"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.664,
+      "text": "Which is a correct description for corrosion:",
+      "choices": [
+        "all corrosions are electrochemical reaction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4966,
+      "text": "The deterioration of metal by chemical or electrochemical attack is called:",
+      "choices": [
+        "Corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9912,
+      "text": "Corrosion definition:",
+      "choices": [
+        "surface lose material"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.8752,
+      "text": "Corrosion can be divided into 2 categories Corrosive reaction can be broadly divided into two categories, they are:",
+      "choices": [
+        "Oxidation and Dry corrosion",
+        "Electrochemical and Wet corrosion",
+        "Oxidation and Wet corrosion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.6194,
+      "text": "Electro-chemical reaction is caused by the contact of:",
+      "choices": [
+        "dissimilar metals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.0496,
+      "text": "Which of the following would easily lead to corrosion?",
+      "choices": [
+        "Metals far away from each other in the reactivity series",
+        "Metals next to each other in the reactivity series"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4968,
+      "text": "Electrochemical reaction occurs in:",
+      "choices": [
+        "physical contact with…….",
+        "physical contact with………",
+        "electrical contact with…….."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2222,
+      "text": "Oxidation is the same process as",
+      "choices": [
+        "anodic change",
+        "cathodic change",
+        "electrolysis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5784,
+      "text": "Pitting corrosion is an electrochemical action that will cause blisters of dull grey powder to form on which area",
+      "choices": [
+        "Anodic area",
+        "Cathodic area",
+        "Neutral area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2478,
+      "text": "How does cladding protect an aluminum alloy surface from corrosion?",
+      "choices": [
+        "Prevents oxygen from reaching the alloy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9172,
+      "text": "When aluminum film broken on Alcad, the aluminum alloy:",
+      "choices": [
+        "unbroken film act as anode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7673,
+      "text": "Alclad a metal consisting of: Clad",
+      "choices": [
+        "pure aluminum surface layers on an aluminum alloy core.",
+        "Aluminum alloy surface layers and pure aluminum core.",
+        "A homogeneous mixture of pure aluminum and aluminum alloy."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.389,
+      "text": "The thickness of the cladding on each side of an aluminium alloy clad sheet is approximately: (oxide",
+      "choices": [
+        "5% of the thickness of the sheet",
+        "1% of the thickness of the sheet",
+        "10% of the thickness of the sheet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.239,
+      "text": "The artificial non-electrolytic of a film of hydroxide on the surface of the aluminum or any of its alloy is",
+      "choices": [
+        "alodizing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3848,
+      "text": "The layer of the oxide film obtainable by anodizing is",
+      "choices": [
+        "0.1 - 0.5 thou",
+        "1 - 3 thou",
+        "Purple in color"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.778,
+      "text": "White powder on aluminum is",
+      "choices": [
+        "chemical salt",
+        "chemical iron",
+        "chemical alloy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5454,
+      "text": "The surface corrosion on Al is identified by",
+      "choices": [
+        "green power",
+        "red rust",
+        "white and gray power"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.7395,
+      "text": "Surface corrosion on light alloy is identified by:",
+      "choices": [
+        "white powder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.1853,
+      "text": "Surface corrosion on stainless steel is identified by:",
+      "choices": [
+        "black pitting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7998,
+      "text": "Corrosion product of magnesium:",
+      "choices": [
+        "white powdery product",
+        "White or gray powdery product and sometimes fluffy and…"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.6807,
+      "text": "Surface corrosion on copper is identified by:",
+      "choices": [
+        "green Verdigris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.1914,
+      "text": "What cause of corrosion on engine mount structure? Corrosion is frequently found on engine mount bolt because:",
+      "choices": [
+        "Temperature different",
+        "Starting Current flow / return current from starter (to battery)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4768,
+      "text": "Which of the following types of corrosion may exist in aircraft structure and not be visible:",
+      "choices": [
+        "stress, intergranular, electrolyte"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.5269,
+      "text": "Which of the following type of corrosion is not due to the electrochemical attack?",
+      "choices": [
+        "galvanic corrosion",
+        "fretting corrosion",
+        "exfoliation corrosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.7637,
+      "text": "The rised surface flow is a corrosion of",
+      "choices": [
+        "filiform corrosion",
+        "intergranular corrosion",
+        "surface corrosion or fretting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.206,
+      "text": "A structural part is subject to alternating stress under a corrosive environment. Which of following is/are",
+      "choices": [
+        "ii only",
+        "i & iii",
+        "ii & iii"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.5762,
+      "text": "If aluminum alloy and magnesium alloy were riveted together in conditions suitable for galvanic corrosion to",
+      "choices": [
+        "aluminum alloy",
+        "magnesium alloy",
+        "either one could corrode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.8665,
+      "text": "When a carbon fibre or an aramid (Kevlar) composite material is bonded to aluminium component, galvanic",
+      "choices": [
+        "either composite material types is used",
+        "aramid composite material is used",
+        "Carbon fibre composite material is used"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.5776,
+      "text": "If the chromium plating of the chromium plated steel is damaged:",
+      "choices": [
+        "chromium is cathodic to steel",
+        "chromium is anode to steel",
+        "chromium is directly oxidiation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.49,
+      "text": "The chromium plating of the chromium plated steel if damaged:",
+      "choices": [
+        "will cause the steel to rust readily"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.8862,
+      "text": "Galvanic corrosion occurs at",
+      "choices": [
+        "Dissimilar metals, electrically conduct",
+        "Dissimilar metals, physically conduct",
+        "Similar metals, electrically conduct"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.4841,
+      "text": "In galvanic corrosion:",
+      "choices": [
+        "the anode gives out electrons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.2554,
+      "text": "A electro-chemical cell when discharge:",
+      "choices": [
+        "anode is oxidized and electron is lost"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.9314,
+      "text": "A electro-chemical cell when discharge:",
+      "choices": [
+        "electrons and corrodes",
+        "anode give up electrons and does not corrode",
+        "anode loses electrons and corrodes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.5076,
+      "text": "The presence of electrolytes functions as:",
+      "choices": [
+        "Neutralize electrons",
+        "Conduct electricity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.62,
+      "text": "Electrolyte",
+      "choices": [
+        "To let electron flow through",
+        "To turn metal to salt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.286,
+      "text": "Electrolysis about:",
+      "choices": [
+        "Salt neutralize",
+        "Galvanic corrosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.792,
+      "text": "Filiform corrosion:",
+      "choices": [
+        "is organic coating corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.723,
+      "text": "Filiform corrosion found in",
+      "choices": [
+        "Adjacent to fastener head and skin edges"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.765,
+      "text": "In what form does filiform corrosion appear on aluminum alloy:",
+      "choices": [
+        "worm casts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.3418,
+      "text": "Hydrogen embrittlement is different with Titanium alloy because:",
+      "choices": [
+        "it occurs at room temperature",
+        "Hydrogen cannot be baked once it is bonded",
+        "Hydrogen is collect at high stress area"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.143,
+      "text": "High (Hydrogen?) embrittlement is generally associated with",
+      "choices": [
+        "Aluminum alloy.",
+        "Steel Alloy.",
+        "Titanium."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106795.0525,
+      "text": "Hydrogen embrittlement occur when these factor is present",
+      "choices": [
+        "tensile stress, susceptible material, presences of the hydrogen",
+        "high temperature, metallic alloy, presence of water",
+        "cyclic stress, titanic alloy, galvanic action"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106795.7026,
+      "text": "If the steel is heavily cold worked, which of the corrosion tend to:",
+      "choices": [
+        "galvanic corrosion",
+        "fatigue corrosion",
+        "stress corrosion"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106795.032,
+      "text": "Exfoliation and stress corrosion are variation of:",
+      "choices": [
+        "Crevice corrosion",
+        "Intergrannular corrosion",
+        "Galvanic corrosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3577,
+      "text": "The lifting or flaking of metal at the surface due to delamination of grain boundaries caused by the",
+      "choices": [
+        "Exfoliation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.899,
+      "text": "Surface corrosion if untreated will lead to:",
+      "choices": [
+        "pitting corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7383,
+      "text": "Pitting corrosion begins as untreated surface corrosion. Once the pit forms, it is propagation by means of:",
+      "choices": [
+        "concentration cell or galvanic action",
+        "galvanic action or exfoliation action",
+        "oxidation or intergranular action",
+        "---",
+        "Galvanic + intergranular"
+      ],
+      "correctIndex": 4
+    },
+    {
+      "id": 1777822106796.793,
+      "text": "After the pitting corrosion:",
+      "choices": [
+        "galvanic corrosion occur between the metal and the corrosion product (metal salt)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4512,
+      "text": "After pitting corrosion starts the progressive corrosion is caused by:",
+      "choices": [
+        "stress corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9077,
+      "text": "The concentration cells belong to:",
+      "choices": [
+        "stress corrosion mechanize",
+        "galvanic corrosion",
+        "directly chemical attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1846,
+      "text": "In a concentration cell, lower oxygen areas",
+      "choices": [
+        "are prone to corrosion",
+        "are cathode",
+        "are protected in the electrochemical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4648,
+      "text": "Fretting corrosion is promoted by:",
+      "choices": [
+        "Oxide layer being rubbed away by metal surfaces",
+        "Electrolytes trapped inside surfaces"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5093,
+      "text": "Fretting corrosion is caused by:",
+      "choices": [
+        "parts being bolted tightly together yet slip slightly over another; the frictions from this movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.881,
+      "text": "Indication of fretting corrosion on aluminum alloy:",
+      "choices": [
+        "black powder.",
+        "Brown powder.",
+        "White powder."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.278,
+      "text": "Stress corrosion cause by",
+      "choices": [
+        "tensile stress",
+        "compress stress"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3086,
+      "text": "How to resistant stress corrosion crack improve:",
+      "choices": [
+        "added tensile load",
+        "added compress load",
+        "uniform deformation heat treatment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1838,
+      "text": "Stress corrosion crack can improved",
+      "choices": [
+        "removed compress stress on surface of material",
+        "added compression stress on the surface of material"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9905,
+      "text": "Continuous stress corrosion is subjected to:",
+      "choices": [
+        "tension loads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1333,
+      "text": "The stress corrosion cracking",
+      "choices": [
+        "primary caused by compression stress on the surface of material",
+        "result in multiple hairline crack",
+        "most in surface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.49,
+      "text": "Regarding intergranular corrosion, which statement is correct?",
+      "choices": [
+        "anodic to the boundary / Boundary cathode to grain",
+        "between metal and composite / Potential between boundary and grain due to alloy composition",
+        "both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2356,
+      "text": "For incorrect heat treatment, the:",
+      "choices": [
+        "intergranular grain structure will be larger"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3408,
+      "text": "Intergranular corrosion is caused by:",
+      "choices": [
+        "dissimilar metal contact",
+        "properly assembied components",
+        "improper heat treatment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.2976,
+      "text": "Intergranular corrosion due to",
+      "choices": [
+        "Grain structure too large",
+        "Grain structure too small",
+        "Grain structure too….."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4597,
+      "text": "Intergranular corrosion",
+      "choices": [
+        "stress is a diciding factor",
+        "the potential difference between grain and boundary is due to the material composition",
+        "the process starts from inside of the material"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.0476,
+      "text": ". What action should be taking upon finding intergranular corrosion?",
+      "choices": [
+        "Replace the component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4834,
+      "text": "The corrosion mechanism probable to happen on Ti fail-safe trip is",
+      "choices": [
+        "surface corrosion",
+        "galvanic attack",
+        "intergranular corrosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.519,
+      "text": "Surface corrosion result in:",
+      "choices": [
+        "Reduction of the amount of sound material remaining.",
+        "Corrosion products being concentrated in boundaries.",
+        "Chemical attack penetrated into the core of material."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8604,
+      "text": "What chemical is used to remove corrosion from aluminum alloy?",
+      "choices": [
+        "Thickened phosphoric acid solution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.732,
+      "text": "To remove the corrosion products of magnesium alloys, we should use:",
+      "choices": [
+        "a solution of 10% by weight of chromic acid in distilled water with 0.1% sulphuric acid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0745,
+      "text": "Mercury attack on metals can be detected by: Detect mercury corrosion",
+      "choices": [
+        "Radiographic inspection / By X-Ray",
+        "Ultrasonic test",
+        "Penetrant test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9321,
+      "text": "In detecting the spilled mercury by X-ray radiograph, tree like forms in the aluminum structure indicates:",
+      "choices": [
+        "corrosion and embrittlement of the structure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.053,
+      "text": "Hg attack The effect of mercury:",
+      "choices": [
+        "crack and embrittlement",
+        "oxide the metal surface",
+        "formed other material at the same strength"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7168,
+      "text": "Spilled mercury on Aluminum structure can be removed by: Which compound, in contact with mercury, will form an inert solid so that the spilled mercury can be easily",
+      "choices": [
+        "Potassium chloride.",
+        "Calcium polysulphide.",
+        "Potassium hydroxide."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3435,
+      "text": "Spilled mercury on aircraft can be removed by which mechanical means?",
+      "choices": [
+        "blow",
+        "suction",
+        "sweep"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.889,
+      "text": "To determine a suspected area of non-metallic fiberglass material for delamination:",
+      "choices": [
+        "use a caliper and feeler gauge.",
+        "Use a steel ball of proper size.",
+        "Tap light with a metal coin."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.6528,
+      "text": "A “coin tap” test on a composite material is generally used to detect:",
+      "choices": [
+        "Internal delamination",
+        "Water inside honey comb core cells",
+        "The hardness of cursed resin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5652,
+      "text": "Most common damage of composite structure:",
+      "choices": [
+        "penetration",
+        "crack",
+        "delamination"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9897,
+      "text": "Delamination can be detected by Non-magnetic delamination of glass fiber composite detected by:",
+      "choices": [
+        "Ultrasonic",
+        "Eddy current",
+        "Visual inspection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9136,
+      "text": "The most effective method of detecting water inside honey comb cells is:",
+      "choices": [
+        "ultrasonic inspection",
+        "X-ray inspection",
+        "visual inspection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0981,
+      "text": "How do we check the internal structure of non-metallic material in the internal panel?",
+      "choices": [
+        "x-ray",
+        "eddy current",
+        "ultrasonic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6567,
+      "text": "When using an ultrasonic tester to inspect a composite panel for defeats, the probe is",
+      "choices": [
+        "used dry and held against the test area",
+        "used with petroleum jelly or similar “couplant” material in order to maintain an airtight bond",
+        "a sensitive microphone which is held just above the test area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.979,
+      "text": "Ultrasonic can be used to:",
+      "choices": [
+        "measure thickness and find fatigue crack and other defects"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.754,
+      "text": "Ultrasonic is:",
+      "choices": [
+        "50 KHz to 10MHz"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3318,
+      "text": "To detect fatigue crack starting from the fastener hole, we should use:",
+      "choices": [
+        "eddy current inspection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0776,
+      "text": "Color for fluorescent indication:",
+      "choices": [
+        "greenish yellow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6082,
+      "text": "For X-ray (radiography) inspection, void/empty space in structure:",
+      "choices": [
+        "absorbs less x-ray"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0005,
+      "text": "X-ray radiography:",
+      "choices": [
+        "definition is sharpness of line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.024,
+      "text": "Developer for dye penetration:",
+      "choices": [
+        "act as a blotter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.704,
+      "text": "Improper rinse technique for liquid penetration:",
+      "choices": [
+        "may result in shallow and broad discontinuities"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7017,
+      "text": "The first visible sign of fatigue failure is:",
+      "choices": [
+        "crack",
+        "fretting corrosion",
+        "pitting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.256,
+      "text": "Fatigue is due to Fatigue can be caused by:",
+      "choices": [
+        "heavy impacts at elevated temperatures",
+        "prolonged operations under cyclic loads / Continual reversal loads",
+        "static thermal loads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3008,
+      "text": "The fatigue strength of a metal improve by",
+      "choices": [
+        "the surface is polished.",
+        "Stress concentration are reduced.",
+        "The mean stress is tensile."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2014,
+      "text": "Component failure under repeated stress much less than the ultimate static tensile stress is known as:",
+      "choices": [
+        "fatigue failure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6245,
+      "text": "The concept of malleability is:",
+      "choices": [
+        "The ability of a metal to be bent or formed.",
+        "The ability of a metal to resist cutting."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6052,
+      "text": "The plastic deformation is noticeable at:",
+      "choices": [
+        "fatigue",
+        "ductility or yield point",
+        "buckle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9795,
+      "text": "For the same length and diameter, the fiber in ascending order of lightness are:",
+      "choices": [
+        "Glass fiber, Graphite, Kevlar..",
+        "Kevlar, graphite.",
+        "Graphite, Kevlar."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7646,
+      "text": "The kind of fiber showing high strength, high stiffness, low density is",
+      "choices": [
+        "fiberglass/Kevlar",
+        "graphite/carbon",
+        "ceramic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4695,
+      "text": "Fully hardened stainless steel seldom be used in the A/C for:",
+      "choices": [
+        "corrosion resistance",
+        "weight penalty",
+        "fatigue corrosion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.0496,
+      "text": "Group II metal is:",
+      "choices": [
+        "magnesium and 5025 aluminum alloy",
+        "chromium and nickel",
+        "cadmium and aluminium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.811,
+      "text": "Cadmium plating is used for the protection of:",
+      "choices": [
+        "light alloys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0474,
+      "text": "Aluminum is extracted from:",
+      "choices": [
+        "Bauxite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0671,
+      "text": "Copper is ductile and can be drawn out by:",
+      "choices": [
+        "even cold condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2502,
+      "text": "Design titanium Coding/designation for titanium:",
+      "choices": [
+        "Four digits index system",
+        "A,B,C class index system",
+        "Three digits index system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9531,
+      "text": "Why is Titanium widely used in aircraft industry:",
+      "choices": [
+        "Titanium has low impact resistance",
+        "Titanium has the ability to resist intensive heat at high temperature",
+        "Titanium has the Highest strength to weight ratio."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.0286,
+      "text": "Titanium alloy has:",
+      "choices": [
+        "high strength, excellent corrosion resistance, and light weight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3743,
+      "text": "Titanium after heat treated has:",
+      "choices": [
+        "medium weight, excellent strength, high corrosion resistance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6257,
+      "text": "The elasticity of Titanium is between:",
+      "choices": [
+        "Stainless steel and aluminium",
+        "Copper and aluminum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4148,
+      "text": "Titanium hardness is between:",
+      "choices": [
+        "steel and aluminium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0518,
+      "text": "Lead pencil marking on titanium:",
+      "choices": [
+        "acceptable the point of the pencil has no effect to the Ti surface",
+        "it fires better accuracy that felt-trip marks",
+        "latent damage is done which will lead to structural failure eventually"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.1213,
+      "text": "Fiberglass (Cloth) is manufactured from:",
+      "choices": [
+        "linen cloth impregnated with a glass resin",
+        "small strands of molten silica glass spun and woven together",
+        "strands of silica glass woven together with linen"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9941,
+      "text": "The advantage of fiberglass honeycomb structure",
+      "choices": [
+        "Lightness & stiffness.",
+        "Dielectric property.",
+        "Both of two"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3623,
+      "text": "Honeycomb:",
+      "choices": [
+        "good compressive and shear strength"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6133,
+      "text": "The class of high tensile strength fiber glass: JP A/F",
+      "choices": [
+        "Class E.",
+        "Class S.",
+        "Class G."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5735,
+      "text": "The major of advantage of ceramic fiber:",
+      "choices": [
+        "excellent strength to weight ratio",
+        "withstand high temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9114,
+      "text": "Fiberglass manufacturing",
+      "choices": [
+        "add resin to the surface",
+        "twist to mix cotton"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.858,
+      "text": "When fabricating composites parts:",
+      "choices": [
+        "open mold are relatively independent of gravity and atmospheric condition.",
+        "Close mold are designed on matched male and female configuration.",
+        "External heating is seldom used with mold to control thermal expansion better."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.2432,
+      "text": "The use of vacuum bagging in repairing composite:",
+      "choices": [
+        "pressure increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7275,
+      "text": "During a composite repair process, the vacuum gauge is better to be placed:",
+      "choices": [
+        "Directly over the repair.",
+        "Close to the vacuum tube.",
+        "On the opposite side of the repair to the vacuum tube."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.1873,
+      "text": "Exceeding the temperature for repairing composite causes: Overheat. during a resin repair may be indicated by:",
+      "choices": [
+        "Bubble formation on the surface of the repair",
+        ".. of the resin",
+        "area around the repair due to material sweating"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9602,
+      "text": "For resin repairs, use:",
+      "choices": [
+        "specific heat apparatus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0444,
+      "text": "To repair damage to composite material",
+      "choices": [
+        "a surface path will suffice",
+        "the parent material is “cocked” with an oven or portable hot bonder",
+        "The damage are removed in ascending concentric circles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5532,
+      "text": "Descending order of reactivity:",
+      "choices": [
+        "aluminum, iron, copper",
+        "Copper, iron, aluminum.",
+        "Iron, copper, aluminum."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5566,
+      "text": "The hardest iron phase is:",
+      "choices": [
+        "Cementite",
+        "Ferrite.",
+        "Austenite."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.119,
+      "text": "Wood intended for aircraft uses should have the majority of the grain across the end of the wood plants   in",
+      "choices": [
+        "Diagonal grain",
+        "Horizontal grain",
+        "Vertical grain"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.48,
+      "text": "When using Solvents such as “Methtyl-Ethly-Keytone” (MEK) during composite, precaution:",
+      "choices": [
+        "use only in a well-ventilated area",
+        "store the MEK only in polystyrene containers",
+        "gloves do not need to be worn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1238,
+      "text": "Hardness of a material is",
+      "choices": [
+        "Ability to withstand structural stress without failure",
+        "Ability to resist cutting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8643,
+      "text": "A Rockwell hardness tester used for testing metals areas",
+      "choices": [
+        "Either a diamond point or fixed diameter steel ball that is forced into the material under a known",
+        "A spring loaded needle-point which penetrates into the material",
+        "A variable pressure on a fixed diameter steel ball that is forced into the material."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0845,
+      "text": "Rockwell testers for aluminum alloy",
+      "choices": [
+        "the penetrator is used diamond point",
+        "the test is not recommended",
+        "the test result is no available"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0466,
+      "text": "The Rockwell test is used to determine material:",
+      "choices": [
+        "brittleness.",
+        "Hardness.",
+        "Tensile strength."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.4102,
+      "text": "Which is used to test for hardness?",
+      "choices": [
+        "Rockwell Tester"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9849,
+      "text": "A portable hand-held tester designed for hardness testing of relatively soft materials such as aluminium is",
+      "choices": [
+        "Barcol tester",
+        "Brinell tester",
+        "Rockwell tester"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.3337,
+      "text": "The Brinell method of testing utilizes:",
+      "choices": [
+        "the impact of steel ball ender 3 pressures"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.951,
+      "text": "The brinel test relates to:",
+      "choices": [
+        "The strength",
+        "Hardness"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.323,
+      "text": "Vicker’s hardness value is lowest for:",
+      "choices": [
+        "white cast steel.",
+        "Soft brass.",
+        "Nitrioled steel."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.2615,
+      "text": "The test unit of Vicker Hardness Test is",
+      "choices": [
+        "HV",
+        "HT",
+        "HVT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4558,
+      "text": "By using the non-ferrous material in hardness test, how do we need to adjust?",
+      "choices": [
+        "reduce pressure in equipment",
+        "use a smaller diameter of ball",
+        "Use less weight"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.5383,
+      "text": "During high carbon steel tensile test, the breakpoint is indicated by:",
+      "choices": [
+        "bright silver color",
+        "shows as bright broken surface / bright surface appearance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9106,
+      "text": "Hardness test:",
+      "choices": [
+        "After heat treat cannot do hardness test",
+        "Value obtained from hardness test tie with tensile strength",
+        "Ferrous metal must perform hardness test at red hot"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7227,
+      "text": "Toughness of ferrous material determining is:",
+      "choices": [
+        "IZOD test",
+        "S-N curves",
+        "Brinell test"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2898,
+      "text": "Testing hardness of non-ferrous metal:",
+      "choices": [
+        "Use lower test pressure",
+        "Use smaller diameter ball",
+        "Test after heat treatment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.009,
+      "text": "Tensile testing:",
+      "choices": [
+        "Pull material at one end and measure at the other end",
+        "use vice and tight it to at right angle in pendulum motion",
+        "use a subject to hit the surface and determine the penetration"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5417,
+      "text": "Strain =",
+      "choices": [
+        "elongation/original gauge length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.845,
+      "text": "Toughness test",
+      "choices": [
+        "use vice and tight it to at right angle in pendulum motion",
+        "use a subject to hit the surface and determine the penetration",
+        "use two equipment to test in pendulum method"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.067,
+      "text": "Pot-life is the amount of time that ?",
+      "choices": [
+        "the resin remains usable staying of store",
+        "the resin remains usable after adding the catalyst",
+        "the fiber remains acceptable before using on aircraft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.7449,
+      "text": "The length of time that a catalyzed resin will remain in workable state is called:",
+      "choices": [
+        "shelf life",
+        "service life",
+        "pot life"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.747,
+      "text": "Step curing involves:",
+      "choices": [
+        "different temperature at intervals"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4792,
+      "text": "Cure time is",
+      "choices": [
+        "to be gelled and become consistent in properties",
+        "to harden chemically",
+        "to lose its toxic properties so that it is safe to handle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.22,
+      "text": "The minimum time for a sealant to become soft enough to be applicable is called",
+      "choices": [
+        "squeeze out life",
+        "application time",
+        "tack-free time"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.852,
+      "text": "With hard-setting compound, you should",
+      "choices": [
+        "keep the joint loose while the compound is wet",
+        "tighten the joint loose while the compound is wet",
+        "tight the 90% of the required torque while the compound is wet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.6013,
+      "text": "In hot curing, how do you detect the temperature:",
+      "choices": [
+        "It is computer controlled"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1033,
+      "text": "A hot layup is method requires:",
+      "choices": [
+        "vacuum pressure & heat blanket"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4949,
+      "text": "To determine the weave pattern and other properties of a damaged FRP (fibre-reinforced plastics). You",
+      "choices": [
+        "do a burn-test",
+        "do a detailed visual inspection",
+        "do a water break test   （ if or not free from contamination ）"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.575,
+      "text": "Stress in the FRP:",
+      "choices": [
+        "goes along the fibre",
+        "goes in any direction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.795,
+      "text": "Resin (polyester/epoxy) added to fiberglass structure will cause the tensile strength to:",
+      "choices": [
+        "Increase",
+        "No change",
+        "Decrease due to increased brittleness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0342,
+      "text": "Resins that bond glass filaments to make a/c structure are",
+      "choices": [
+        "Thermoplastics",
+        "Thermosetting",
+        "thermocure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9417,
+      "text": "Thermosetting plastic.",
+      "choices": [
+        "Cannot reform"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4663,
+      "text": "What is the effect of increasing the catalyst on a cold cure polyester?",
+      "choices": [
+        "composite stiffness increase",
+        "composite stiffness decrease",
+        "Pot life decrease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.879,
+      "text": "When using a heat source to cure a resin repair, the temperature of the heat applied is measured:",
+      "choices": [
+        "only during the first 30 minutes of curing time",
+        "at the surface of the repair",
+        "using the temperature indicator on the heat source"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.7087,
+      "text": "The ratio of catalysts for polyester is:",
+      "choices": [
+        "1:100",
+        "1:1",
+        "1:2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1829,
+      "text": "The resin/fiber ratio is usually about:",
+      "choices": [
+        "1:2 by weight",
+        "2:1 by weight",
+        "2:1 By volume"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5027,
+      "text": "Prepreg fabrics lay-up needed:",
+      "choices": [
+        "catalyst pressure and temperature",
+        "using a cooler work and force out all the air bubbles",
+        "apply heat and temperature"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.999,
+      "text": "Pre-impregnated fabric is stored in the freezer Sealant compound apply before curing is:",
+      "choices": [
+        "pot life",
+        "Shelf life.",
+        "Curing life."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3384,
+      "text": "Curing of sealing compounds may be accelerated by: To lessen curing time for sealant:",
+      "choices": [
+        "Mixing a greater proportion of accelerator with the ease",
+        "Heating the work during assembling",
+        "Heating the work after the work is finished"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.399,
+      "text": "Two parts of sealant:",
+      "choices": [
+        "base compound and accelerator.",
+        "Matrix and resin.",
+        "Resin and hardener."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2104,
+      "text": ".   Sealant can heat not exceed: During hot curing, max. temperature on catalyst:",
+      "choices": [
+        "120° C.",
+        "50°C.",
+        "120°F"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.942,
+      "text": "In woven materials such as fiberglass cloth the term “warp” refers to:",
+      "choices": [
+        "The threads of material that run the length of the fabric",
+        "The threads of material that run perpendicular to the length of the fabric",
+        "The amount of natural twist within the fabric"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0957,
+      "text": "What is the warp in terms of composite cloth?",
+      "choices": [
+        "It is a pattern of the composite cloth",
+        "It is the longitudinal pattern along weft",
+        "It gives 2X2 twill pattern"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3262,
+      "text": "Direction of warp:",
+      "choices": [
+        "Longitudinal along weft.",
+        "Perpendicular to weft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.599,
+      "text": "Unidirectional weave gives very high strength in",
+      "choices": [
+        "warp direction",
+        "weft direction",
+        "both of above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.62,
+      "text": "Which weave has high strength in one direction but weak in the weft direction:",
+      "choices": [
+        "unidirectional weave"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.013,
+      "text": "Unidirectional weave cloths should be used where:",
+      "choices": [
+        "High strength in all directions is required",
+        "Good impact strength is required",
+        "High strength in one direction is required"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.644,
+      "text": "Composite fabric materials is considered to be the strongest in direction of",
+      "choices": [
+        "Fill",
+        "Bias",
+        "Warp"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9639,
+      "text": "What can be found in Roving Fibre In composites, the term ‘roving’ refers to fibers that are:",
+      "choices": [
+        "short fibre",
+        "twist fibre",
+        "untwist fibre"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9172,
+      "text": "Pick the scenario where a smaller size of electrical cable can carry the same current",
+      "choices": [
+        "cable bundle in conduit",
+        "single cable in free air",
+        "same size of cable in conduit and free air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.0925,
+      "text": "Current capacity of a wire is determined by:",
+      "choices": [
+        "the cross-sectional area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1318,
+      "text": "The current carrying capacity of wire depends on",
+      "choices": [
+        "the loads in terms of continuous or intermittent circuit voltage",
+        "the wire and its bundling characteristics",
+        "all of the above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1858,
+      "text": "Higher current carrying capacity is obtained with:",
+      "choices": [
+        "A wire with a larger SWG number",
+        "A wire with a smaller SWG number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.915,
+      "text": "The two most generally used conductors are:",
+      "choices": [
+        "silver and copper",
+        "silver and aluminum",
+        "Copper and aluminium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9163,
+      "text": "Which is not a conductor:",
+      "choices": [
+        "aluminum alloy",
+        "Fiberglass",
+        "Graphite"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.2551,
+      "text": "Shielding is process of:",
+      "choices": [
+        "Apply insulator protection to wire.",
+        "Enclose wire in a conduit.",
+        "Apply a metallic covering to wire."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.0698,
+      "text": "F luid defect of most generally occur electrical cables",
+      "choices": [
+        "complete insulation fail",
+        "abrasion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.2761,
+      "text": "The common electrical cable defect include",
+      "choices": [
+        "complete insulation failure",
+        "delaminating, deformation",
+        "corrosion, fracture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5435,
+      "text": "When dealing with electric wiring in an aircraft, what factor should be considered? When installing new electrical wire, we need to take in account:",
+      "choices": [
+        "Wire resistance and induction",
+        "Induction and Insulation",
+        "Voltage allowance and system voltage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8,
+      "text": "The smallest size of electrical cable",
+      "choices": [
+        "0000.",
+        "6",
+        "0."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9688,
+      "text": "The wire used for electrical installation at according to",
+      "choices": [
+        "British standard",
+        "manufacture specification such as BCC",
+        "American wire gauge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.805,
+      "text": "For an electric wire with identification number 2C381C-20, “C-20” represents:",
+      "choices": [
+        "The system that this wire is used and the number of wires in a bundle respectively",
+        "segment of cable between two terminals, and cable size respectively",
+        "a basic wire number that remains unchanged systems and junctions respectively."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9817,
+      "text": "C-20 of a wire identification code indicates",
+      "choices": [
+        "Wire to be installed at C – segment with 20 gauge."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7432,
+      "text": "20-gauge wire and 0-gauge are approximately :",
+      "choices": [
+        "0.032 inch and 0.325 inch diameter",
+        "0.375 inch and 0.04 inch diameter",
+        "0.025 inch and 0.050 inch diameter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.508,
+      "text": "The co-axial cable innermost conduct is",
+      "choices": [
+        "AL",
+        "Copper",
+        "light alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.311,
+      "text": "Which cable is used for high frequency signal transmission?",
+      "choices": [
+        "Coaxial Cable",
+        "Chromel-Alumel Cable",
+        "Aluminium Cable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1365,
+      "text": "Which cable used for radio communication",
+      "choices": [
+        "twist cable",
+        "shield cable",
+        "coaxial cable"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.2397,
+      "text": "A co-axial cable is damaged, interference increases because:",
+      "choices": [
+        "the conductor/shield distance decreases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.05,
+      "text": "The coaxial cable the outer conductor is",
+      "choices": [
+        "copper wire",
+        "in the form of tubes, usually of fine wire braid",
+        "Teflon"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.103,
+      "text": "Coaxial cable construction",
+      "choices": [
+        "gold or copper as the tube conductor",
+        "Teflon as the insulation material"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5977,
+      "text": "When connect a coaxial cable to the end fitting the first step is :",
+      "choices": [
+        "cut back end expose the outer conductor",
+        "cut the insulation and expose the inner conductor",
+        "clamp the outer conductor firmly between the component of end-fitting Assembly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8604,
+      "text": "Explanation:   http://www.wikihow.com/Strip-Coax-Cable Fibre optics minimum bend radius is:",
+      "choices": [
+        "20 times overall diameter for single mode cables"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5786,
+      "text": "Signal wire in a wiring loom was to be replaced. The new wire should:",
+      "choices": [
+        "AWG size larger than existing wire",
+        "AWG size smaller than existing wire",
+        "same AWG size and material as the existing wire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8079,
+      "text": "Aircraft electrical wire terminals should be: Which of the following should be used for electrical wiring on an Aircraft?",
+      "choices": [
+        "connected to lugs by crimping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7222,
+      "text": "When using wire crimping tools; sufficient pressure is ensured by:",
+      "choices": [
+        "Ratchet device",
+        "Xxx",
+        "Wire selector"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2178,
+      "text": "Aluminum cable is used for long distance heavy duty power transmission instead of copper cable because of: Al cable instead of Cu for long cable , it is because",
+      "choices": [
+        "as higher electrical conductivity",
+        "as light weight",
+        "Causing less interference problem / magnetic field effect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.7537,
+      "text": "The wire size is technical specification are usually tabulated statistically in order:",
+      "choices": [
+        "1000 feet of standard anneal copper wire",
+        "500 feet silver cable",
+        "100 kg ----"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6375,
+      "text": "The typical conductivity of aluminum alloy in terms of % IACS:",
+      "choices": [
+        "2024-T3 is lower than 7075-T73"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3376,
+      "text": "Cable identification should be:",
+      "choices": [
+        "removed from or secured to the cable depending on the method of identification tag attachment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9604,
+      "text": "Cable with PVC insulation jacket",
+      "choices": [
+        "can be used in a cold section of an engine",
+        "can be used for cabin installed",
+        "cannot be used in aircraft system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.2505,
+      "text": "Excess solder at electrical joint",
+      "choices": [
+        "may cause short circuits",
+        "is the result of controlled cooling of conductors or terminal fitting",
+        "ensures good electrical contact"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.4512,
+      "text": "General-purpose solders is an alloy of:",
+      "choices": [
+        "rosin, tin, and lead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7007,
+      "text": "After fitting, the tang of a wire insert:",
+      "choices": [
+        "removed or left depending manufacturers instruction in though hole"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3206,
+      "text": "Solders are available in two forms:",
+      "choices": [
+        "stick solder needing a separate flux and solder in a wire from having a rosin core"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.515,
+      "text": "The solder used to solder aluminum is:",
+      "choices": [
+        "wire flux-cored solder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.262,
+      "text": "Al terminal is protected from corrosion by",
+      "choices": [
+        "Soldering",
+        "Coating",
+        "No protection is needed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.899,
+      "text": "High tension cable is used as:",
+      "choices": [
+        "Ignition cable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8298,
+      "text": "Sealant compound:",
+      "choices": [
+        "prevent corrosion and prevent leakage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7085,
+      "text": "One form of matrix application in B stage is",
+      "choices": [
+        "sheet film adhesive which must be stored at low temperature",
+        "two-part liquid mixture which is about to gel",
+        "composite material that has cured under controlled temperature"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.5703,
+      "text": "The applicator used to apply sealants and adhesives should be made from:",
+      "choices": [
+        "Hardwood",
+        "Softwood",
+        "Thin steel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1458,
+      "text": "Pyrometer used in salt baths should be checked:",
+      "choices": [
+        "monthly, but more frequently if temperature is critical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.934,
+      "text": "Salt bath use:",
+      "choices": [
+        "Sodium nitrate and potassium nitride",
+        "Sodium nitrate and potassium nitrate",
+        "Sodium nitride and potassium nitride"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.337,
+      "text": "The most suitable mixture for salt bath operation is:",
+      "choices": [
+        "90% nitrate of soda and 10% sodium nitrate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.864,
+      "text": "Why are parts rinsed thoroughly in hot water after they have been heat treated in a sodium and",
+      "choices": [
+        "Prevent corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1033,
+      "text": "Rivets are washed after salt bath treatment with",
+      "choices": [
+        "clean kerosene",
+        "clean cold water",
+        "degreasing fluid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1538,
+      "text": "Soaking is done to:",
+      "choices": [
+        "allow time for change in grain structure to take place"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7256,
+      "text": "Concept of soaking",
+      "choices": [
+        "Quenching",
+        "soaking",
+        "normalizing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6687,
+      "text": "Hot or boiling water use for quenching",
+      "choices": [
+        "alloy tube",
+        "larger forging",
+        "extrusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1367,
+      "text": "The time interval between soaking and quenching of non-ferrous metals affect their resistance to",
+      "choices": [
+        "intergranular corrosion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8882,
+      "text": "In order to successfully heat treat ferrous metals, the rate of cooling should be (controlled by)",
+      "choices": [
+        "allowing time lag between soaking and quenching",
+        "artificial aging",
+        "Selecting a suitable quenching medium"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.3586,
+      "text": "Al Alloy age hardening takes Aluminum reaches its maximum hardness when age hardening:",
+      "choices": [
+        "4-5 days",
+        "5-8 hrs",
+        "4-5 hrs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6724,
+      "text": "Following heat treatment, a naturally-aged aluminum alloy would attain its mechanism strength in:",
+      "choices": [
+        "Approximately five years",
+        "Six to eight hours at room TEMP",
+        "Four or five days at room TEMP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.5762,
+      "text": "Ice-box rivets kept at a temperature of between –15 deg C and -20 deg C are usable for,",
+      "choices": [
+        "150 hours",
+        "45 hours",
+        "2 hours"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9412,
+      "text": "After heat treatment, how long dose rivet can be kept in ice box before heat treatment is needed again?",
+      "choices": [
+        "30 days",
+        "14 days",
+        "7 days"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.6577,
+      "text": "Heat treated Rivet strength harden in",
+      "choices": [
+        "10hr",
+        "20hr",
+        "40hr"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.5676,
+      "text": "Normalizing is a heat treatment process normally carried out on steel components after:",
+      "choices": [
+        "Welding",
+        "Brazing",
+        "Case hardening"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3374,
+      "text": "What is done to soften aluminum for manipulation processes?",
+      "choices": [
+        "Annealing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8567,
+      "text": "Annealing is to:",
+      "choices": [
+        "harden metal",
+        "soften metal and recrystalliy ( release internal stress)",
+        "low corrosion resistant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.4565,
+      "text": "If aluminum is to be formed without annealing, it should be done immediately after:",
+      "choices": [
+        "quenching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4827,
+      "text": "Normalizing difference from annealing",
+      "choices": [
+        "higher temperature than Tcrit, faster cooling rate",
+        "higher temperature than Tcrit, slower cooling rate",
+        "lower temperature than Tcrit, faster cooling rate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1929,
+      "text": "Immediately after quenching, in what state are heat-treated rivets found?",
+      "choices": [
+        "relatively soft state",
+        "Half hard state",
+        "Full hard state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.7532,
+      "text": "Steel is tempered and allowed to cool in:",
+      "choices": [
+        "still air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8013,
+      "text": "The first step for light metal alloy heat treatment is:",
+      "choices": [
+        "Heating"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7708,
+      "text": "Steel heat treatment when rapidly cooled: Ferrous metal rapidly quench",
+      "choices": [
+        "will form martensite"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1592,
+      "text": "Steel hardening by",
+      "choices": [
+        "Quenching rapidly",
+        "Soaking slowly",
+        "Air cool rapidly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5625,
+      "text": "The steel is cooled more rapidly:",
+      "choices": [
+        "the steel is more harden",
+        "the steel is more soften",
+        "the steel is more brittleness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7275,
+      "text": "Nitrating is process applied to contain steel components with the purpose of improving",
+      "choices": [
+        "Wear resistance",
+        "Corrosion resistance",
+        "Thermal resistance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5493,
+      "text": "Temporary protective treatment used on magnesium alloy is:",
+      "choices": [
+        "selenious acid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0752,
+      "text": "Hooks, wires, and other suspension devices used in an anodic bath should be made of:",
+      "choices": [
+        "aluminum or titanium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5374,
+      "text": "The heat treatment of 2024-T4 aluminium alloy is called solution heat treatment because:",
+      "choices": [
+        "Some of the alloy is dissolved into the salt bath",
+        "Some of the salt is dissolved into the alloy to form a chemical protective surface layer",
+        "None of the above is true"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.915,
+      "text": "The first step in the heat treatment of 2024 Aluminum alloy:",
+      "choices": [
+        "allows copper to enter into a solid solution.",
+        "Soften the crystal structural.",
+        "Is done to prevent intergranular corrosion."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.895,
+      "text": "Why do we need to store the rivet in the refrigerator?",
+      "choices": [
+        "to maintain the hardening of the rivet",
+        "to soften the rivet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8596,
+      "text": "The temper—T3 applied to 7075 alloy:",
+      "choices": [
+        "accelerates the cooling rate.",
+        "Cause case hardening.",
+        "Improves corrosion resistance."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.832,
+      "text": "The “T3” means",
+      "choices": [
+        "work done",
+        "solution heat-treated",
+        "artificial aging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3823,
+      "text": "Heat treating “6” suffix means:",
+      "choices": [
+        "Artificial aging.",
+        "Safe aging.",
+        "solution heat treat then artificial aging"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.3503,
+      "text": "The letter A.F.D. in a circle stamped on a material indicated that it has:",
+      "choices": [
+        "been annealed, fired, and doped"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4382,
+      "text": "Annealed part is marked: Material and part which have been annealed is indicated with",
+      "choices": [
+        "T",
+        "W",
+        "A"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.7688,
+      "text": "Annealed Bolt marked with:",
+      "choices": [
+        "O",
+        "M",
+        "A"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.592,
+      "text": "The symbol “W” stamped on material indicated",
+      "choices": [
+        "is for workshop only",
+        "has been solution treated and will respond effectively to precipitation",
+        "has been cold worked"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.6978,
+      "text": "What effect does precipitation hardening have upon the strength, hardness, and ductility on aluminum",
+      "choices": [
+        "strength and hardness are increased, ductility is decreased"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4866,
+      "text": "The process in which aluminum alloy is allowed to harden at room temperature is known as:",
+      "choices": [
+        "natural aging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1238,
+      "text": "Heat treatable aluminium alloys are able to be identified by How do we test aluminum to see whether it is heat treatable or non-heat treatable?",
+      "choices": [
+        "Spark testing",
+        "Immersing in a 10% solution of sodium hydroxide (caustic soda)",
+        "Immersing in a 10% solution of nitric acid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1543,
+      "text": "How do we test magnesium whether it is heat-treatable or non heat-treatable?",
+      "choices": [
+        "by using 10% sodium hydroxide solution(soda solution) (IVE note 6.2 P.5)",
+        "by using 10% hydrochloric acid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7896,
+      "text": "Alclad aluminium alloy material should not be heat treated more than 3 times, otherwise:",
+      "choices": [
+        "Corrosion will result due to precipitation of copper.",
+        "The metal will become fatigued.",
+        "Stress corrosion cracking will occur."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8743,
+      "text": "If a pure metal is heated about its critical temperature and cooled to room temperature, it will:",
+      "choices": [
+        "return to its original structure (because not an alloy)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2935,
+      "text": "Pure light metal:",
+      "choices": [
+        "return to its original structure by heat treatment.",
+        "Pure metal cannot heat treatment."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.581,
+      "text": "As for the pure light metal, improve to heating temperature then cooled down to the room temperature",
+      "choices": [
+        "The metal return to its original",
+        "solid solution",
+        "pure metal and solid solution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8628,
+      "text": "The process of heating a ferrous metal slightly above its critical temperature and then rapidly cooling it",
+      "choices": [
+        "Brittleness",
+        "Hardness",
+        "tensile strength"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5042,
+      "text": "The symbol for 1/2H means:",
+      "choices": [
+        "half hard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1174,
+      "text": "The chemical coatings for aluminum, steel and magnesium are generally:",
+      "choices": [
+        "anodic, phosphate, and chromate respectively"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7634,
+      "text": "Magnesium alloys are protected using:",
+      "choices": [
+        "The anodizing process",
+        "Phosphate pickling",
+        "chromate bath"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9983,
+      "text": "Phosphoric and phosphating used for:",
+      "choices": [
+        "aluminum",
+        "chemical method for steel",
+        "magnesium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3281,
+      "text": "Phosphating of steels is carried out by immersing the steel into a solution containing:",
+      "choices": [
+        "phosphoric acid and metal phosphates"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7798,
+      "text": "In the phosphating process, “pointage” is:",
+      "choices": [
+        "the measure of the total acidity of a phosphating solution"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0527,
+      "text": "Nickel added to steel alloy increases:",
+      "choices": [
+        "hardness and yield strength",
+        "corrosion resistance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5974,
+      "text": "The chief alloy in stainless steel is:",
+      "choices": [
+        "Nickel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.789,
+      "text": "Molybdenum:",
+      "choices": [
+        "Produce tougher steel.",
+        "Promotes a fine-grained steel structure",
+        "Increase hardness and corrosion resistance."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.205,
+      "text": "Manganese is used to alloy with iron to:",
+      "choices": [
+        "Eliminate oxides and sulphur from it",
+        "improve its ductility",
+        "increase its yield strength"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4717,
+      "text": "Increasing carbon in steel makes the alloy steel easier to:",
+      "choices": [
+        "heat treat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.409,
+      "text": "Magnesium crack found in the area may be improved by:",
+      "choices": [
+        "adding high percentage of aluminum alloy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.288,
+      "text": "Most common metals alloyed with aluminium are:",
+      "choices": [
+        "Zinc, copper, carbon",
+        "Zinc, copper, silicon",
+        "Bronze, magnesium, manganese"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5872,
+      "text": "Natural aluminium is protected by:",
+      "choices": [
+        "aluminium oxide",
+        "pure aluminium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3132,
+      "text": "What is the main alloying element of steel 4130 For ferrous material, code 413X:",
+      "choices": [
+        "nickel and zinc",
+        "molybdenum and chromium",
+        "nickel and chromium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.778,
+      "text": "Chromium steels are numbered:",
+      "choices": [
+        "5xxx",
+        "4xxx.",
+        "3xxx."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0989,
+      "text": "AL 2024 alloy contains:",
+      "choices": [
+        "Al + Cu",
+        "Al + Ni"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2266,
+      "text": "Nicks around the edge of the BA nut indicate:",
+      "choices": [
+        "light alloy.",
+        "High tensile steel.",
+        "Aluminum alloy."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.765,
+      "text": "One rised dash bolt express:",
+      "choices": [
+        "CRES"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3284,
+      "text": "Single dashes on the head of the bolt",
+      "choices": [
+        "Al alloy",
+        "Corrosion resistant steel",
+        "Close tolerance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.723,
+      "text": "A bolt with two raised dashes on the head is classified as an:",
+      "choices": [
+        "AN aluminum alloy bolt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.691,
+      "text": "A bolt with a singled raised dash on the heads is classified as an:",
+      "choices": [
+        "AN corrosion resistant steel bolt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1533,
+      "text": "Aircraft bolts with a cross or asterisk marked on the bolt head are made from:",
+      "choices": [
+        "cadmium plated nickel steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2307,
+      "text": "Star or cross on both (bolt?) means:",
+      "choices": [
+        "Close Tolerence",
+        "Nickel Based steel",
+        "Aluminium"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.506,
+      "text": "There is an asterisk line in the surface of the nut. What type of the nut represent??",
+      "choices": [
+        "Aluminium made",
+        "Stainless steel",
+        "Corrosion resistant steel"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.7324,
+      "text": "AN cross or asterisk mark",
+      "choices": [
+        "Close tolerance",
+        "Nickel alloy steel",
+        "Aluminum alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1646,
+      "text": "A bolt with cross on head is made of what material",
+      "choices": [
+        "Ni alloy",
+        "Al alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.206,
+      "text": "For a given diameter and length; the strongest rivet is made of:",
+      "choices": [
+        "5056-H32.",
+        "2017-T4.",
+        "2024-T4"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.7578,
+      "text": "Aluminum alloy usually contains:",
+      "choices": [
+        "copper, zinc, silicon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4478,
+      "text": "Which of the following metals is an aluminum silicon alloy used mainly for coatings?",
+      "choices": [
+        "Alpax"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4478,
+      "text": "The rivet that requires use as soon as possible is:",
+      "choices": [
+        "2024"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0352,
+      "text": "Which rivet can be heat-treated?",
+      "choices": [
+        "2017",
+        "2024",
+        "2117"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8289,
+      "text": "Which alloy rivets need heat treatment before driven",
+      "choices": [
+        "2017 D",
+        "2017 AD",
+        "5057 BB"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7903,
+      "text": "Under room temperature, the best material for rivet is:",
+      "choices": [
+        "2117"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7466,
+      "text": "DD stand for",
+      "choices": [
+        "2024",
+        "2117",
+        "2017"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.26,
+      "text": "A bolt with the designation AN4-C6 would be made from:",
+      "choices": [
+        "nickel-steel",
+        "corrosion resistant steel",
+        "aluminium-copper alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3347,
+      "text": "AN4 C3 is made of:",
+      "choices": [
+        "CRS and is 3/8” in length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.438,
+      "text": "Monel is comprised of:",
+      "choices": [
+        "Nickel and copper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.979,
+      "text": "A box of rivet named AN470D5-7, what is the heading? A rive AN470D-5-7 would look like:",
+      "choices": [
+        "countersink 100 deg head with raised dot",
+        "a universal head rivet with raised dot",
+        "Universal head with recessed dot"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.2852,
+      "text": "The fastener AN426 is",
+      "choices": [
+        "flush-head rivet countersunk 100 degrees",
+        "clevis bolt",
+        "pipe union"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.56,
+      "text": "The external oxide film on the aluminum cable",
+      "choices": [
+        "protect the cable from further oxidation",
+        "cause corrosion at connecting",
+        "grows in thickness with current increasing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.6123,
+      "text": "Lockclad cable:",
+      "choices": [
+        "Steel cable with aluminum clad",
+        "Aluminum cable with steel clad."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.513,
+      "text": "Lockclad cables:",
+      "choices": [
+        "greater stiffness and break load.",
+        "Extra flexibility.",
+        "Less thermal expansion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3577,
+      "text": "Lockclad cables are used:",
+      "choices": [
+        "where long and straight cable runs occurs",
+        "where potential able corrosion occurs",
+        "to reduce cable tension"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3484,
+      "text": "The turnbuckle found in control cable system:",
+      "choices": [
+        "has positive threads in one end and negative in the other end",
+        "is used to compensate for in-exact cable length (tension)",
+        "is self-locked and requires no external locking device"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.0183,
+      "text": "About turnbuckle",
+      "choices": [
+        "right thread on one side and left thread on other side",
+        "only lock by slip pin",
+        "is suit for adjust the cable’s length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.964,
+      "text": "When installing a turnbuckle, make sure that",
+      "choices": [
+        "Both side of the assembly have an equal turn of threads.",
+        "The terminal ends are clear of inspection hole.",
+        "Duplicate inspection follows installation."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4045,
+      "text": "After install turnbuckle,",
+      "choices": [
+        "There are no threads that can be seen at the safety hole",
+        "There are no more than 3 thread exposed on each side"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.3591,
+      "text": "Turn buckle are usually locked with:",
+      "choices": [
+        "lockwire or clips"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.706,
+      "text": "If the turnbuckles in a control system are tightened excessively the result would be that:",
+      "choices": [
+        "the cable will break",
+        "the aircraft will be heavy on controls",
+        "the cable will vibrate excessively and cause failure of controls"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.226,
+      "text": "Turnbuckle adjusts too tight.",
+      "choices": [
+        "More control force need",
+        "Less control force need.",
+        "Not change."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2998,
+      "text": "With increased temperature, the cable tension:",
+      "choices": [
+        "Increases",
+        "decreases",
+        "remains constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.0784,
+      "text": "Temperature rise:",
+      "choices": [
+        "less control force.",
+        "More control force.",
+        "Not change force."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.212,
+      "text": "A chain system is adjusted in tension by",
+      "choices": [
+        "positioning a jockey pulley.",
+        "Turnbuckles or screw end connectors.",
+        "Using both device."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.693,
+      "text": "Aircraft control cable",
+      "choices": [
+        "expands more than aluminum airframe",
+        "are made with wrought iron",
+        "are used in pairs"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.3884,
+      "text": "Aircraft control cable",
+      "choices": [
+        "expands more than aluminum airframe",
+        "must be preload on ground",
+        "show both properties"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.4902,
+      "text": "What is the use of fairlead?",
+      "choices": [
+        "It is to prevent contact between aircraft structure and wire",
+        "Change direction",
+        "Helps to maintain the tightening of the wire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.588,
+      "text": "Fairlead in aircraft control cable systems to:",
+      "choices": [
+        "prevent direction changes",
+        "prevent cable form contacting the aircraft structure",
+        "prevent control cables firm against pulleys"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9954,
+      "text": "Cable tensioning chart includes:",
+      "choices": [
+        "cable size, rigging load, and temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5176,
+      "text": "Cabling rigging charts are obtained from:",
+      "choices": [
+        "maintenance manual"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9565,
+      "text": "To determine chain wear.",
+      "choices": [
+        "measure the elongation not more than 2%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1743,
+      "text": "When checking a chain for elongation. The extension on any action of the chain should not exceed:",
+      "choices": [
+        "1%",
+        "1.5%",
+        "2%"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.7185,
+      "text": "The maximum permissible extension of a chain is",
+      "choices": [
+        "2%",
+        "3%",
+        "4%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.224,
+      "text": "In a wire, a strand is:",
+      "choices": [
+        "group of wire helically twisted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9817,
+      "text": "Non-flexible steel control cable used in aircraft control systems may be made up of:",
+      "choices": [
+        "Seven strands each having only one wire (1X7)",
+        "Seven strands each having seven wires (7X7)",
+        "Seven strands each having nineteen wires (7X19)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.331,
+      "text": "Non-flexible Cable for primary control",
+      "choices": [
+        "7X19 (it is used for the primary control system and in other place where operation over pulley",
+        "1X19",
+        "7X7 (medium flexibility and is used for trim tab control, engine control and indicator control)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1558,
+      "text": "Extra-flexible cable is:",
+      "choices": [
+        "7x7",
+        "7x19",
+        "7x11"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1597,
+      "text": "7X19 cables are used:",
+      "choices": [
+        "on small pulleys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2305,
+      "text": "Material to make preformed cable is normally",
+      "choices": [
+        "galvanized carbon steel (or CRS)",
+        "nickel alloy steel",
+        "both of the other two"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1157,
+      "text": "The advantage of perform cable are:",
+      "choices": [
+        "Ease of manufacture.",
+        "Lower tendency to unravel.",
+        "Reduce cable friction."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.9062,
+      "text": "Trim cable is used in a trim cable system are usually:",
+      "choices": [
+        "larger than the main control cable",
+        "smaller than the main control cable",
+        "same size as the main control cable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.8271,
+      "text": "A common procedure for checking a steel control cable for broken strands is to:",
+      "choices": [
+        "Carry out a proof load test up to 50% of the designed load.",
+        "Hold a rag in your hand and wipe every portion of the cable.",
+        "Carry out a general visual inspection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.221,
+      "text": "A tight joint on a chain which cannot be remedied by cleaning:",
+      "choices": [
+        "may be cleared by gently tapping the end of the bearing pin with a light hammer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.025,
+      "text": "To allow a 90º directional change for chain running planes",
+      "choices": [
+        "special designed end connectors are used",
+        "a turnbuckle is used",
+        "a bi-planer block is used"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.0881,
+      "text": "What fraction of the minimum-breaking load should be the proof load for a chain?",
+      "choices": [
+        "1/3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2275,
+      "text": "Cable is proof loaded to",
+      "choices": [
+        "50% minimum breaking loading for British cables and 60% for American cables",
+        "60 lbf for British cables and 50 lbf for American cables",
+        "50 lbf for British cables and 60 lbf for American cables"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2126,
+      "text": "The length of a completed cable assembly is measured:",
+      "choices": [
+        "After proofing-loading",
+        "After assembling but before proofing-loading",
+        "Under tension equal to 2% of the breaking load for all lengths of cable."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.7,
+      "text": "The length of a completed cable assembly is measured:",
+      "choices": [
+        "after proof loading",
+        "after assembly but before proof loading",
+        "under tension equal to 2% of the breaking load for longer than 120cm cable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0623,
+      "text": "The paint make on a control cable is used to tell;",
+      "choices": [
+        "whether the cable is correctly engaged in the end fitting",
+        "the type of cable",
+        "the cable passes the length check"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.414,
+      "text": "Pulley guards are used to:",
+      "choices": [
+        "prevent cable slipping off and from jamming"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.9136,
+      "text": "In a cable jam situation, the bungee rod is used",
+      "choices": [
+        "to boost the stick force and to free the cable from jam",
+        "to bypass the jam when the stick force is high enough",
+        "to lock the cable system and to give a warning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.417,
+      "text": "All cables and control linkages should be:",
+      "choices": [
+        "inspected and checked for freedom of operation after installation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0215,
+      "text": "Termination of control cables are often:",
+      "choices": [
+        "swaged thimble"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.0544,
+      "text": "Crimp control cable end terminals:",
+      "choices": [
+        "120% strain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4192,
+      "text": "Copper crimped in the steel wire, the strength is:",
+      "choices": [
+        "100%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.077,
+      "text": "Strength of crimped steel wire should withstand:",
+      "choices": [
+        "60%",
+        "80%",
+        "90%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.3293,
+      "text": "Steel Cable and Copper Thimble / When a steel cable end is supported by a copper thimble, how much",
+      "choices": [
+        "75 % (80%?)",
+        "100 %",
+        "120 %"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1238,
+      "text": "Cable terminal strength is:",
+      "choices": [
+        "75%"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1604,
+      "text": "The purpose of spring type cable connector: Spring type cable connector:",
+      "choices": [
+        "to enable a cable remove and install quickly.",
+        "Compensate the tension follow temperature.",
+        "Can provide movement cable in case of jam."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.464,
+      "text": "If one retaining ring on a pressure seal comes off:",
+      "choices": [
+        "The sealing effect is lost.",
+        "The seal separators into two.",
+        "The ring may jam a pulley"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.9255,
+      "text": "Shield in the bearing is used to",
+      "choices": [
+        "prevent the corrosive agent into bearing",
+        "retain the grease in the bearing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.386,
+      "text": "What kind of bearing should be use at the end of the push-pull rod?",
+      "choices": [
+        "Deep groove Ball bearing",
+        "Self-aligning roller bearing",
+        "Self-aligning Ball bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.0498,
+      "text": "Bearing for wheel assembly:",
+      "choices": [
+        "roller bearing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5676,
+      "text": "Needle Bearings take:",
+      "choices": [
+        "radial load",
+        "Axial load",
+        "longitudinal load"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.646,
+      "text": "The type of bearing which is best for oscillatory movement is",
+      "choices": [
+        "washer type thrust bearing",
+        "angular contact ball bearing",
+        "needle bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.803,
+      "text": "The contact angle of an angular contact bearing is in order of:",
+      "choices": [
+        "20-30 degrees (around 10-45 degrees)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5203,
+      "text": "Which bearing has the least amount of friction:",
+      "choices": [
+        "self-aligning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.2942,
+      "text": "The material to make rings of anti-friction bearing",
+      "choices": [
+        "High chromium hard steel (tin + steel?)",
+        "nickel steel alloy",
+        "CRES"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.6667,
+      "text": "Bearing is made of",
+      "choices": [
+        "Chromium Alloy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.5447,
+      "text": "Ball of ball bearing is made from:",
+      "choices": [
+        "chromium steel",
+        "vanadium steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1953,
+      "text": "Teflon use in non-lubricated basically bearing because",
+      "choices": [
+        "good insulation",
+        "is extremely hardness and almost frictionless"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1392,
+      "text": "Engine shaft is supported with bearings forward and aft. They may be",
+      "choices": [
+        "ball (fwd), roller (aft)",
+        "ball (fwd), ball (aft)",
+        "roller (fwd), roller (aft)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.4019,
+      "text": "In an anti-friction bearing, the separator is used to:",
+      "choices": [
+        "Rolling element separate / Separates the rolling elements",
+        "Space out the rolling elements"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4355,
+      "text": "What is the application of the straight ball bearing?? For storage, the bearing is placed:",
+      "choices": [
+        "vertical direction",
+        "horizontal direction",
+        "inclined against and stand"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.778,
+      "text": "What loads can a ball bearing takes:",
+      "choices": [
+        "axial",
+        "radial",
+        "both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.6226,
+      "text": "Bearing can take radial and axial loads are?",
+      "choices": [
+        "ball and roller bearing",
+        "ball bearing",
+        "roller bearing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.5962,
+      "text": "Bearing that can take radial and axial loads are",
+      "choices": [
+        "all types of ball and roller bearings",
+        "ball and tapered roller bearing",
+        "spherical roller and needle roller bearing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.7173,
+      "text": "What is the best type of bearing to sustain Radial and Axial load?",
+      "choices": [
+        "Deep groove ball bearing",
+        "Needle bearing",
+        "Tapered roller bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.2754,
+      "text": "What kind of loads may be carried by deep-groove ball bearings:",
+      "choices": [
+        "both thrust and radial loads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8547,
+      "text": "Roller bearings take:",
+      "choices": [
+        "Radial load"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.8496,
+      "text": "Straight roller bearing best for",
+      "choices": [
+        "Axial Load",
+        "Radial Load",
+        "Thrust Load"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.6929,
+      "text": "Thrust bearing takes:",
+      "choices": [
+        "axial load",
+        "radial load",
+        "both of above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.4258,
+      "text": "The spherical roller bearing",
+      "choices": [
+        "can carry heavy loads in lower speed",
+        "accept a minor degree of misalignment between opposite bearings",
+        "heavy radials and moderate axial loads from one direction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.6907,
+      "text": "Taper bearing:",
+      "choices": [
+        "can take both radial and axial and is dependent on angle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.912,
+      "text": "Where would you most likely find a plain ball bearing?",
+      "choices": [
+        "Piston engine",
+        "Alternator",
+        "Turbine of a turbine engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1033,
+      "text": "What is the purpose of a larger race on one side of a ball bearing?",
+      "choices": [
+        "To carry a thrust load on the larger race",
+        "To dampen out harmonics and vibrations",
+        "To allow a close tolerance fit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.1943,
+      "text": "What is conical bearing:",
+      "choices": [
+        "Tapered roller."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.942,
+      "text": "Bevel gears should be supported by:",
+      "choices": [
+        "ball bearings.",
+        "Plain journal bearing",
+        "Conical bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.677,
+      "text": "No friction bearing, it main load is: Anti-friction bearing’s main load is:",
+      "choices": [
+        "slide contact",
+        "rolling contact.",
+        "Lubricate oil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106796.1619,
+      "text": "Antifriction rod and bearings of the common self-aligning type should be set at mid rotational travel to",
+      "choices": [
+        "Adjusting with turns of the locknut",
+        "Centering the bearing housing and securing the locknut",
+        "Adding washers under the bearing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106796.457,
+      "text": "The pre-mature of bearing will failure",
+      "choices": [
+        "contaminated",
+        "stress",
+        "material and workmanship"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106796.2166,
+      "text": "Indentations on bearing races caused by high static loads are known as",
+      "choices": [
+        "fretting",
+        "galling",
+        "brinelling"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.6113,
+      "text": "The term galling refers to:",
+      "choices": [
+        "transfer of metal from one surface to another"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3364,
+      "text": "Bearing material   STAINLESS STEEL,   CERAMICS,MONEL, PLASTIC USED TO   CONJUCTION WITH DIFFERENT MATERIAL For high RPM application of bearings:",
+      "choices": [
+        "grease is sufficient to protect against corrosion and dissipate heat.",
+        "Oil is the suitable lubricant.",
+        "Air cooling is preferred."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.1365,
+      "text": "Proper installation of bearing requires",
+      "choices": [
+        "very often finger pressure",
+        "an assembly tool or press for all classes of fit",
+        "heating the shaft and cooling bearing for high degree of interference"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.1807,
+      "text": "One ring interference, no transfer heat, what type bearing use? In application, the ring of the bearing is an interference fit and no transfer of heat occurs, you should",
+      "choices": [
+        "Class 2 bearing",
+        "Normal class bearing",
+        "Class 4 bearing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.7856,
+      "text": "Ball and roller bearing are manufactured in:",
+      "choices": [
+        "Two grades of fit",
+        "Three grades of fit",
+        "Four grades of fit"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.4746,
+      "text": "Class of fit for radial ball bearing is such that:",
+      "choices": [
+        "Group 2 has the largest radial internal clearance.",
+        "Group 3 bearing are not acceptable for heat trans for application.",
+        "Group 4 bearing are used where both rings are an interference fit."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.9402,
+      "text": "Bushing used on the aircraft are:",
+      "choices": [
+        "small plain bearings",
+        "thrust bearing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.889,
+      "text": "The service life of a spring is:",
+      "choices": [
+        "Longer for constant rate and short for progressive rate.",
+        "A function of the spring stiffness.",
+        "Given in terms of number of operation cycles"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.0295,
+      "text": "The spring resistant to bending force:",
+      "choices": [
+        "cantilever.",
+        "Helicopter.",
+        "Metal case."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.32,
+      "text": "The characteristic of the progressive-rate is",
+      "choices": [
+        "it always has tapered size",
+        "it is using leaf spring only",
+        "its spring rate increase with load"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.7334,
+      "text": "Cup spring is used when there is:",
+      "choices": [
+        "Space limitation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1401,
+      "text": "Flat spring is used:",
+      "choices": [
+        "to overcome space limitation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3293,
+      "text": "How many valve springs are normally used with each valve in a reciprocating engine",
+      "choices": [
+        "One",
+        "Two",
+        "Two or more"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0945,
+      "text": "During valve surge, the valve will:",
+      "choices": [
+        "slowly close thus degrading engine performance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6328,
+      "text": "Engine valve uses:",
+      "choices": [
+        "conical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0793,
+      "text": "Nickel spring is non-magnetic and used in:",
+      "choices": [
+        "gyroscope and chronoscope"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.346,
+      "text": "Pick out the incorrect statement about springs",
+      "choices": [
+        "it is used to return a device to neutral position",
+        "it is used to dampen a vibration",
+        "it is used to absorb impact damage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.428,
+      "text": "A spring is sometimes used to activate an emergency device because",
+      "choices": [
+        "it is convenient to use",
+        "it stores potential energy",
+        "the energy it stores is independent of the cause for emergency"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.503,
+      "text": "Gearbox A has a drive/driven gear teeth ratio of 36/60 and gearbox B has a driven/drive gear teeth ration",
+      "choices": [
+        "Neither",
+        "Box A",
+        "Box B"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.974,
+      "text": "Which gear have larger Mechanical Advantage, Given that: Gear A (Drive / Driven = 30/60), Gear B (Driven / Drive = 50/30).",
+      "choices": [
+        "Neither",
+        "Box A",
+        "Box B"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.4526,
+      "text": "Assume the direction of input and output gear is the same. What is the number of gears?",
+      "choices": [
+        "even number",
+        "odd number",
+        "either"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.5066,
+      "text": "Transmission ratio of gear increased by:",
+      "choices": [
+        "gear teeth number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.7168,
+      "text": "On which gear are teeth numbers NOT taken into account when calculating gear ratio of planetary gear",
+      "choices": [
+        "Ring gear",
+        "Three Planetary gears",
+        "Sun gear"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.1091,
+      "text": "Which one of gear effect the mechanical advantage in planetary gear?",
+      "choices": [
+        "Ring gear",
+        "Three small gear",
+        "Sun gear"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.859,
+      "text": "5-gear system, which gears have no power flow through their shafts In a 5 gears system, 3 of the gears connected to the input and output shaft but without any power pass",
+      "choices": [
+        "Intermediate gears",
+        "Idle gears",
+        "Planetary gears if sun gear is fixed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.0098,
+      "text": "There is a planetary gear. The sun gear is 60 teeth, ring gear is 100 and the three small gears are 30 teeth. What is the reduction ratio?",
+      "choices": [
+        "5/8",
+        "2/3"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1523,
+      "text": "Planetary gear useful in:",
+      "choices": [
+        "propeller gear box"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0398,
+      "text": "What is the gear system and ratio of a 90 Rotation between Transmission and Tail rotor, to be rotating in",
+      "choices": [
+        "Spur gear, 2:1 GR",
+        "Bevel gear 1:2 GR",
+        "Bevel gear 2:1 GR"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.1921,
+      "text": "A tail rotor gearbox has two gears at 90 degrees to each other, one a drive from the transmission, the",
+      "choices": [
+        "spur gear, gear ratio of 2:1",
+        "bevel gear, gear ratio of 1:2",
+        "bevel gear, gear ratio of 2:1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.8948,
+      "text": "Select a differential transmission system",
+      "choices": [
+        "Epicyclic gear system",
+        "bellcrank and push-pull bar",
+        "BSF threads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1616,
+      "text": "For a worm gear system, the mechanical advantage is determined",
+      "choices": [
+        "by the number of teeth on the driven gear",
+        "by the number of threads on the worm",
+        "by the ratio of diameter, gear/worm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.84,
+      "text": "Which gear prevents the ‘back-drive’ from output?",
+      "choices": [
+        "worm gear",
+        "bevel gear",
+        "herringbone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0374,
+      "text": "Bevel gear supersede spur gear:",
+      "choices": [
+        "Good torque transmission.",
+        "Strong connection."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2246,
+      "text": "The gear system that transmit rotation from horizontal to vertical are: Gear, Linear from rotatory",
+      "choices": [
+        "rack and pinion / bevel gear",
+        "worm and wheel / pinion and wheel",
+        "rack and pinion / worm and spiral"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.925,
+      "text": "To transmit linear motion to angular motion:",
+      "choices": [
+        "use a cam and follower/rack and pinion",
+        "use a worm and spiral/rack and pinion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4834,
+      "text": "Compare with the spur gear, the spiral gears:",
+      "choices": [
+        "more wear resistance",
+        "less stress concentration on gears",
+        "have mechanical advantage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.868,
+      "text": "If you design the clutch, you expect slip between the driven gear and the driven gear at some loads",
+      "choices": [
+        "positive wheel",
+        "Overload wheel",
+        "Freewheel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.9475,
+      "text": "The clutches which can overrun the driving member are also know?",
+      "choices": [
+        "overload clutch",
+        "freewheel clutch",
+        "no-slip clutch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.6235,
+      "text": "Mechanical advantage is determined by:",
+      "choices": [
+        "The number of movable pulley"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9265,
+      "text": "By using two pulleys, we need to raise the object 1m. How long does the string travel??",
+      "choices": [
+        "4m",
+        "8m",
+        "2m"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.6548,
+      "text": "Which of the following statements is correct?",
+      "choices": [
+        "Chains may be friction or positive drive",
+        "Belts and chains may be friction or positive drive",
+        "Belts may be friction or positive drive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.1729,
+      "text": "Friction and positive transmission is possible through:",
+      "choices": [
+        "belt only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.166,
+      "text": "To transmit power between engine and transmission in a helicopter, a multiple V belt is used n:",
+      "choices": [
+        "Friction",
+        "positive drive",
+        "Friction and positive drive"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.7427,
+      "text": "V belt is made from what kind of materials?",
+      "choices": [
+        "steel",
+        "aluminium",
+        "fabric and cord"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.1245,
+      "text": "An Inspection of a cable pulley shows a heavy imprint of the cable pattern. This should indicate:",
+      "choices": [
+        "that the pulley was too large for the cable",
+        "a bearing was frozen in the pulley",
+        "Excessive cable tension"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.3342,
+      "text": "A pulley in a cable system.",
+      "choices": [
+        "Change cable tension.",
+        "Support the cable & change direction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.5442,
+      "text": "What is the use of the lay line?",
+      "choices": [
+        "to show whether the hose has been twisted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.8147,
+      "text": "Metal pipe and flexible Hose are sized by:",
+      "choices": [
+        "outside diameter/inside diameter",
+        "inside diameter/outside diameter",
+        "both inside"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4976,
+      "text": "Metal tubing fluid lines are sized by wall thickness and",
+      "choices": [
+        "OD and 1/16 inch increase",
+        "OD and 1/32 inch increase",
+        "ID and 1/16 inch increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9011,
+      "text": "A number 12 tubing is:",
+      "choices": [
+        "¾ inch in diameter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.7356,
+      "text": "Flexible hoses are sized by:",
+      "choices": [
+        "inside diameter only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.7603,
+      "text": "Measure of flexible pipe:",
+      "choices": [
+        "nipple to nipple"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.085,
+      "text": "Fluid lines are normally made from:",
+      "choices": [
+        "Aluminium or steel",
+        "Aluminium or copper",
+        "Steel or copper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0835,
+      "text": "Aircraft pipes are made mostly out of:",
+      "choices": [
+        "aluminum and stainless steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1187,
+      "text": "Hydraulic hose used in motion:",
+      "choices": [
+        "Flexible",
+        "Hardness."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1292,
+      "text": "Which kind of pipe/hose is generally used to connect moving parts",
+      "choices": [
+        "Low pressure hose",
+        "Flexible hose",
+        "Aluminum pipe"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.872,
+      "text": "Hose assemble locate in fire zones consist of:",
+      "choices": [
+        "Asbestos sleeve",
+        "Metal reinforced rubber sleeve.",
+        "Steel wire braiding."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4348,
+      "text": "The storage life of a flexible hose can be up to but not exceeding:",
+      "choices": [
+        "4 years"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6887,
+      "text": "Which of the following does not have a shelf life:",
+      "choices": [
+        "Teflon hose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6738,
+      "text": "Flexible hose testing When pressure testing flexible hose assemblies, a suitable test pressure if none is specified is:",
+      "choices": [
+        "1.5 times MAX working pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.53,
+      "text": "When pressure test a flexible tube, the pressure is normal",
+      "choices": [
+        "3% about work pressure",
+        "100 PSI",
+        "2 times work pressure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.4565,
+      "text": "Aging crack in a flexible hose",
+      "choices": [
+        "render the hose unserviceable",
+        "way be ignored",
+        "don’t render the hose unserviceable if the first braid is not penetrated"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.4119,
+      "text": "Reusable end fitting for flexible hose consists of",
+      "choices": [
+        "socket and tapered nipple",
+        "compression seal or lip seal and soft collar",
+        "union fitting and nut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.573,
+      "text": "The material that can be applied to most flexible fluid lines is: Flexible house compatible with every fluid is made from:",
+      "choices": [
+        "Teflon"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1736,
+      "text": "One advantage of the using Teflon as hose material is its resistance to:",
+      "choices": [
+        "The fluid that flow through.",
+        "Damage and rough landing.",
+        "High temperature and pressure effects"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.4934,
+      "text": "Hose used at engine and nacelle areas should meet standard piping requirements, and in addition, be",
+      "choices": [
+        "High frequency vibration",
+        "Excessive heat",
+        "Pressure change"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.572,
+      "text": "High pressure pipes used in aircraft can normally withstand: Max PSI for rigid pipe lines",
+      "choices": [
+        "3000 psi",
+        "1000 psi",
+        "1500 psi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6624,
+      "text": "Identify the parts require to make up to flared-tube fitting?",
+      "choices": [
+        "sleeve and nut",
+        "body and nut",
+        "ferrale and nut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.093,
+      "text": "The standard flaring angle for aircraft pipes The inclined angle of a flared pipe for use on aircraft is:",
+      "choices": [
+        "30 deg",
+        "37 deg",
+        "45 deg"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.5994,
+      "text": "The double flare is usually used on:   provide a greater thickness of metal and thus more strength for the",
+      "choices": [
+        "2024 alloy tubes.",
+        "5052-D and 6061-T alloy tube. (5051-D and 6062-T alloy tube?)",
+        "Stainless steel tubes."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.8174,
+      "text": "AN and AS are both for flared fittings and:",
+      "choices": [
+        "should not be used together"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.039,
+      "text": "When comparing AC and AN tube fitting:",
+      "choices": [
+        "AC has finer threads, AC has smaller angle, AC doesn’t have recess, AC is shorter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.649,
+      "text": "Flareless fitting uses what standard?",
+      "choices": [
+        "MS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9526,
+      "text": "When installing an MS standard flareless fitting, the fitting should be tightened (after?) finger tightness",
+      "choices": [
+        "one sixth (1/6) of a turn",
+        "half a turn (1/2)",
+        "one turn"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.1394,
+      "text": "For a MS flareless fitting, how to attach the sleeve",
+      "choices": [
+        "Threaded on outer surface",
+        "Interference fit on outer tube",
+        "Preset on outer tube"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.756,
+      "text": "For flareless fitting, the ferrule is:",
+      "choices": [
+        "preset on the outer side of the tube"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2732,
+      "text": "The connection on a flareless tube is tightened by:",
+      "choices": [
+        "The ferrule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9268,
+      "text": "To obtain the correct seal for an MS standard flareless fitting, the jointing compound:",
+      "choices": [
+        "Must be applied to the flare and fitting",
+        "Is required for high pressure systems only",
+        "Must never be applied to the flare and fitting"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.491,
+      "text": "Banjo fittings are used:",
+      "choices": [
+        "when a 90 turn is needed",
+        "when the fitting requires a loose connection",
+        "when a 360 turn is needed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.9194,
+      "text": "How to install an AN 833 elbow fitting The AN833 allows fluid fitting to seal it: AN833 fluid elbow, the threads are sealed by:",
+      "choices": [
+        "Metal to metal direct installation",
+        "Crushable Al gasket",
+        "“O” ring seal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0479,
+      "text": "AN833 fluid line fitting is:",
+      "choices": [
+        "elbow, flared tube bulkhead and universal 90 degrees made of steel and aluminum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2766,
+      "text": "When assembling plumbing systems in an aircraft, the materials used in the fitting should be similar to",
+      "choices": [
+        "Cadmium plated brass fittings may be used with aluminum alloy tubing",
+        "Anodized aluminum fittings may be used with steel tubing",
+        "Cadmium plated steel fittings may be used with aluminum alloy tubing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.4932,
+      "text": "Copper tubes are replaced by aluminum or steel tubes because",
+      "choices": [
+        "They can become brittle due to vibration",
+        "they can too soft for normal working pressure",
+        "they cannot sustain high temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.5093,
+      "text": "Avimo coupling is:",
+      "choices": [
+        "Unsuitable for high pressure",
+        "Semi-flexible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.5679,
+      "text": "“Avimo” coupling:",
+      "choices": [
+        "use for bronze. / brazed joints",
+        "Use at high pressure",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1187,
+      "text": "Fluid pipelines tape contains what information? In a fluid pipeline tape, what information is given?",
+      "choices": [
+        "Content, color code, code number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4312,
+      "text": "Yellow-blue color and circular mark identify Yellow colour and circular marks is the identification for",
+      "choices": [
+        "hydraulic line",
+        "lubricate lines",
+        "fuel lines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4414,
+      "text": "The international symbol for hydraulic pipeline consists of a series of:",
+      "choices": [
+        "Dots"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1519,
+      "text": "Fuel pipe label is coloured:",
+      "choices": [
+        "Red",
+        "blue",
+        "yellow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.822,
+      "text": "The international symbol for fire detection pipeline is a series of:",
+      "choices": [
+        "Diamonds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3384,
+      "text": "Fire protection line identification:",
+      "choices": [
+        "Brown color diamond mark."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.027,
+      "text": "International marking for water injector pipelines is:",
+      "choices": [
+        "a series of Chevron"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9236,
+      "text": "The international marking for instrument air pipeline is a:",
+      "choices": [
+        "zigzag line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.893,
+      "text": "Oxygen pipeline color band?",
+      "choices": [
+        "Black rectangle & green band",
+        "Green rectangle & black band."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4155,
+      "text": "The geometric symbol on the international marking for breathing oxygen pipeline is a series of:",
+      "choices": [
+        "Rectangle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.5952,
+      "text": "Vertical rectangle on pipe:",
+      "choices": [
+        "Lubricant",
+        "Oil.",
+        "Hydraulic."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.8662,
+      "text": "Industrial oxygen cylinder are painted:",
+      "choices": [
+        "Black"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.285,
+      "text": "Cylinder containing argon gas is painted:",
+      "choices": [
+        "Blue"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1384,
+      "text": "Other The clearance of the attachment holes in transparent panels are provided to:",
+      "choices": [
+        "Allow for the expansion and contraction of the panel",
+        "Allow ease of alignment during fitting",
+        "Fit the temperature sensors"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.7336,
+      "text": "Cockpit window:",
+      "choices": [
+        "Bond a vinyl layer on top of the preformed, pretempered glass sheet."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2644,
+      "text": "Which statement is correct (picture of connector pin):",
+      "choices": [
+        "Front release, rear inserts",
+        "Rear release, rear insert",
+        "Front release, front insert."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.3286,
+      "text": "The molecular structure of oxygen is:",
+      "choices": [
+        "Cubic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6707,
+      "text": "Styrofoam:",
+      "choices": [
+        "May be used with epoxy",
+        "Use with polyester",
+        "Only cutting by mechanical cutting tool"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3862,
+      "text": "Styrofoam can be cut with:",
+      "choices": [
+        "a heated wire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0627,
+      "text": "The most common material use to provide protection again X-ray is:",
+      "choices": [
+        "Lead"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1665,
+      "text": "Damage assessment must be used:",
+      "choices": [
+        "before rectification"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3428,
+      "text": "Buckling failure is associated with",
+      "choices": [
+        "compressive loads",
+        "tensile loads",
+        "torsion and bending",
+        "prevent the loss of fluid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3423,
+      "text": "The transmitting fluid used is:",
+      "choices": [
+        "ester based oil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.8079,
+      "text": "Butyl rubber bases seals are used with:",
+      "choices": [
+        "phosphate ester based fluid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.5854,
+      "text": "Metal rod torsion test:",
+      "choices": [
+        "Pulling machine on one side and a measuring machine on another"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.0781,
+      "text": "Grinding aluminum on steel wheel will:",
+      "choices": [
+        "cause the wheel to explode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.698,
+      "text": "When sharpening a drill on an electric grinding wheel:",
+      "choices": [
+        "carbon steel or alloy steel metal can be damage by excessive temperature",
+        "special lubricants must be used for cooling",
+        "The higher the RPM, the safer will be the operation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.555,
+      "text": "Sanding on flat plastic surface:",
+      "choices": [
+        "circle grinding"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9243,
+      "text": "In high temperature area, the bolt that is used will have:",
+      "choices": [
+        "The same material as the nut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1438,
+      "text": "The alloy of bolt and nut using in a/c includes:",
+      "choices": [
+        "3.5—5.0% Nickel and some carbon",
+        "Nickel, Chromium, Vanadium",
+        "0.05---0.15% carbon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.7236,
+      "text": "Transmit high torque through greater angle is",
+      "choices": [
+        "universal joint",
+        "flexible coupling",
+        "vernier coupling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3936,
+      "text": "Terminal BAC T14A is used to",
+      "choices": [
+        "secure one terminal of the control cable to the control quadrant",
+        "connect two segment of the control cable",
+        "AN thread and fitting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.621,
+      "text": "With sandwich material, which is the",
+      "choices": [
+        "sheet face",
+        "core"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.6611,
+      "text": "The Bowden cable",
+      "choices": [
+        "is nylon cover to protect corrosion",
+        "in aluminum tubing for long installation",
+        "prevent the ingress of moisture and corrosive agents"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.366,
+      "text": "Why not use the Mg on aircraft?",
+      "choices": [
+        "strength not as the Al",
+        "can’t cast nor worked",
+        "easily ignited"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.861,
+      "text": "The insulation tape approved for application on aircraft wiring and splices is",
+      "choices": [
+        "high-temperature silicon-type metal",
+        "plastic warp",
+        "thin metallic foil"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.04,
+      "text": "Intermittent loads that are operation of",
+      "choices": [
+        "30 minutes",
+        "10 minutes",
+        "2 minutes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.5103,
+      "text": "At 150 C acrylic panels will",
+      "choices": [
+        "it decrease rigidity and become rubber-like",
+        "panel start to demould and returns to original cast shape",
+        "stiff no-change and little affect"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.7551,
+      "text": "Tapered hole for hi-shear is checked:",
+      "choices": [
+        "applying engineer’s blue to the hole and turn a bolt inside slightly",
+        "with feeler gauge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.6284,
+      "text": "If the colour coding of a metal is gone:",
+      "choices": [
+        "the piece is tested and reused",
+        "discard the metal",
+        "The metal can be used only under"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.7117,
+      "text": "High energy impact on composite-material is",
+      "choices": [
+        "cause hidden damage of difficult to detect",
+        "visible evidence of damage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.4583,
+      "text": "SAE4130 steel which:",
+      "choices": [
+        "can’t use in high temperature condition",
+        "approximate 13% carbon",
+        "weldable; heat-treaded ; mechanical"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1777822106797.9626,
+      "text": "The music steel wire used for",
+      "choices": [
+        "high strength springs and as progressive-rate springs",
+        "lower strength springs",
+        "made of hard carbon or nickel alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.8853,
+      "text": "AN507C83R8 indicate",
+      "choices": [
+        "1 inch long carbon steel",
+        "cruciform recessed head"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.1836,
+      "text": "When high carbon steel fractures by tension",
+      "choices": [
+        "the material first begins to neck.",
+        "the fracture is always 45 degrees to the axis of stress.",
+        "the fracture surface has a bright appearance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.9292,
+      "text": "At 600°C, plate and sheet glass:",
+      "choices": [
+        "sharp change in physic characteristic.",
+        "Tempered and increase strength.",
+        "by it weight."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.5703,
+      "text": "When installing a connector the ‘hot’ or voltage position side should NOT be connected to:",
+      "choices": [
+        "Pin contact section.",
+        "Socket contact section."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.1414,
+      "text": "Aluminum terminal size is determined by:",
+      "choices": [
+        "barrel.",
+        "Tounge.",
+        "Hole diameter."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4158,
+      "text": "Size of aluminum terminal lug is determined by:",
+      "choices": [
+        "color"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.8281,
+      "text": "The usually used insert / What is the most common type of thread insert?",
+      "choices": [
+        "Helical coil & thin wall."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4426,
+      "text": "The terminal of the Aluminum wire expose to the outer. What we have to do?? Aluminum wire is connected to the terminal is:",
+      "choices": [
+        "protected from corrosion by a coating",
+        "nothing to do"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1777822106797.6272,
+      "text": "What is the use of the sleeve in the end fitting?",
+      "choices": [
+        "to provide interference fit",
+        "provide interference fit",
+        "preset to……(IVE note M7)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.841,
+      "text": "Before fiber test, what we have to do??",
+      "choices": [
+        "Austenite: non magnetic",
+        "Hardness definition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.49,
+      "text": "Pin is used to safety nickel chromium steel screw located adjacent to the static compass should be made of:",
+      "choices": [
+        "corrosion resistant steel",
+        "low carbon Steel",
+        "Nickel steel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2683,
+      "text": "“AN” is the abbreviation of :",
+      "choices": [
+        "Air Force and Navy specification."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.4224,
+      "text": "Splicers on gear shaft serve to:",
+      "choices": [
+        "transmit torque."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.3784,
+      "text": "Nikel(chromium) is used to make brake drum or composite chamber for",
+      "choices": [
+        "resistant to high temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.2275,
+      "text": "Cherry rivet",
+      "choices": [
+        "Hammer and tuck bar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1777822106797.456,
+      "text": "what is the mean of MIL-H-8794",
+      "choices": [
+        "…….Hose…….."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
