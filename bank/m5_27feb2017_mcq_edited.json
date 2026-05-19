@@ -79,7 +79,7 @@
         "Binary express numbers using less digits",
         "Express in binary to transistor"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577189.9355,
@@ -135,23 +135,25 @@
       "id": 1777576577190.9404,
       "text": "14.   Convert the 77   to Octal: 10",
       "choices": [
-        "10011012",
-        "115"
+        "10011012(8)",
+        "115(8)",
+        "511(8)"
       ],
       "correctIndex": 1
     },
     {
       "id": 1777576577190.1536,
-      "text": "8 8 15.   Convert 9FE   to Octal: 16",
+      "text": "15.   Convert 9FE   to Octal: 16",
       "choices": [
         "1001111111102",
-        "4776"
+        "4776(8)",
+        "6774(8)"
       ],
       "correctIndex": 1
     },
     {
       "id": 1777576577190.4,
-      "text": "8 8 16.   Binary use in computer logic circuit",
+      "text": "16.   Binary use in computer logic circuit",
       "choices": [
         "1 and 0 signal"
       ],
@@ -404,7 +406,7 @@
         "negative logic OR gate",
         "positive logic exclusive OR gate"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.5667,
@@ -430,9 +432,9 @@
       "choices": [
         "JK",
         "SR",
-        "Mastering  (plz confirm)"
+        "Mastering "
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.5981,
@@ -598,7 +600,7 @@
         "Circuit with Capacitor on/off / Cap which charge and discharge according to ...",
         "Circuit output is digital output / 0 and 1"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.5642,
@@ -641,12 +643,13 @@
     },
     {
       "id": 1777576577190.1846,
-      "text": "67.   Compact   disc   player   is   an   example   of   a   device",
+      "text": "67.   Compact   disc   player   is   an   example   of   a   XXXX device",
       "choices": [
-        "Analog to AnalogAnalog to Digital",
+        "Analog to Analogs",
+        "Analogs to Digital",
         "Digital to Analog"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.7651,
@@ -707,7 +710,7 @@
         "Single mode core diameter is 50 - 100 um",
         "Reflection by cladding"
       ],
-      "correctIndex": 5
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.491,
@@ -727,7 +730,7 @@
         "50/70 mm",
         "75/90 mm"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.386,
@@ -970,7 +973,7 @@
         "Current 50mA",
         "Spectral width 20nm"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.2944,
@@ -990,7 +993,7 @@
         "Must close the bag by 100% cotton stringer",
         "You can retain the device in the bag and do so by stapling"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.4043,
@@ -1020,7 +1023,7 @@
         "On the ESD component",
         "On the person that is working on the compoment"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.6223,
@@ -1076,7 +1079,7 @@
         "equilibrium",
         "individual"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.023,
@@ -1133,7 +1136,7 @@
         "Foam box",
         "Faraday cage"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.1245,
@@ -1201,7 +1204,7 @@
         "prevent radio interference by discharge electrostatic",
         "avoid communication interference to reducing precipitation static charges"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.42,
@@ -1211,7 +1214,7 @@
         "Partially damage the electronics component but not immediately affect it.",
         "Will only happen during removal/installation of the electronics component"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.843,
@@ -1230,7 +1233,7 @@
         "Pull and tag the C/B",
         "Use the wrist strap and connect it to ground"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.682,
@@ -1349,7 +1352,7 @@
         "Braiding",
         "Shielding"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.9397,
@@ -1383,16 +1386,16 @@
         "Is less than 0.1 ohm for preventing electric shock",
         "Better than direct metal-to-metal contact"
       ],
-      "correctIndex": 1
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.115,
-      "text": "145.   Filter at LRU level 146.   RF test equipment",
+      "text": "146.   RF test equipment",
       "choices": [
         "Audio",
         "RF susceptibility"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.2231,
@@ -1435,7 +1438,7 @@
     },
     {
       "id": 1777576577190.8428,
-      "text": "Lightning 151.   During lightning strike, the magnetic force",
+      "text": "151.   During lightning strike, the magnetic force",
       "choices": [
         "Is indirect effect related to electromagnetic field",
         "At the same location as the resistive heating",
@@ -1499,11 +1502,11 @@
         "Add discharge tube in aerial matt",
         "Low resistance bonding in equipment"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.605,
-      "text": "ACARS / TCAS 158.   How TCAS get ground information",
+      "text": "158.   How TCAS get ground information",
       "choices": [
         "SATCOM then VHF3",
         "VHF3 then SATCOM",
@@ -1613,7 +1616,7 @@
         "Not accessible during beach test",
         "To test all the signal processing circuit"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.0134,
@@ -1915,7 +1918,7 @@
         "Aircraft Communication Addressing and Reporting System (ACARS)",
         "Engine Indication and Crew Alerting System (EICAS)"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.4863,
@@ -1943,7 +1946,7 @@
         "In flight",
         "On ground and in flight"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.6133,
@@ -2021,7 +2024,7 @@
         "Flashing amber light in panel",
         "Message on EICAS with appropriate colour"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.9705,
@@ -2051,7 +2054,7 @@
     },
     {
       "id": 1777576577190.5952,
-      "text": "216.   Only 1 display is available for ECAM, what does it show? 217.   If only one information can be shown on ECAM:",
+      "text": "217.   If only one information can be shown on ECAM:",
       "choices": [
         "Engine status and warning message"
       ],
@@ -2065,7 +2068,7 @@
         "Can be tested in flight or on ground",
         "Test the system on ground only"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.823,
@@ -2121,7 +2124,7 @@
         "ECAM channel of DMC 1",
         "ECAM channel of DMC 3"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.5088,
@@ -2301,7 +2304,7 @@
         "12-14 kbit/s and 100 kbit/s",
         "12-14 kbit/s and 100 Mkbit/s"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.6765,
@@ -2338,7 +2341,7 @@
         "Ignore other transmission of data when one transmission is processing",
         "Provide equal priority to each transmission component"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.449,
@@ -2412,7 +2415,7 @@
         "At longest 100m using STP wire",
         "Both"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.8206,
@@ -2432,7 +2435,7 @@
         "It is not subject to EMI",
         "It is easier to install"
       ],
-      "correctIndex": 2
+      "correctIndex": 0
     },
     {
       "id": 1777576577190.485,
@@ -2507,7 +2510,7 @@
         "Pos. Int. Page",
         "Route Page"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.7622,
@@ -2527,7 +2530,7 @@
         "Do not switching from ATT to OFF mode directly",
         "This causes an abnormal power down that prevents IRU from storing last IRU position and fault"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.9111,
@@ -2555,7 +2558,7 @@
         "In flight only",
         "Whenever MCDU requests"
       ],
-      "correctIndex": 2
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.9026,
@@ -2621,7 +2624,7 @@
         "give a real time indication of existing faults",
         "present the internal fault message that have occurred since the last leg"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.9907,
@@ -2631,7 +2634,7 @@
         "Hexadecimal",
         "English message"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.3364,
@@ -2641,7 +2644,7 @@
         "By looking at the odd parity without error.",
         "By check sum bites for error detect."
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.5688,
@@ -2651,7 +2654,7 @@
         "Octal / English language",
         "Decimal"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.5376,
@@ -2809,7 +2812,7 @@
         "Not flight quality",
         "Pre-produce unit for engineering ground and flight test"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.3804,
@@ -2931,7 +2934,7 @@
         "Detail describes technique and methods for software development and the system requirement",
         "Provides guidance to aircraft constructors, equipment manufacturers, and aircraft operators"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.5815,
@@ -3038,7 +3041,7 @@
     },
     {
       "id": 1777576577190.7068,
-      "text": "324.   Level 1 & 2 software modification should involve the related design organization 325.   User modifiable software can only be modified by:",
+      "text": "325.   User modifiable software can only be modified by:",
       "choices": [
         "The design organization"
       ],
@@ -3086,7 +3089,7 @@
         "LED",
         "LCD"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.316,
@@ -3110,7 +3113,7 @@
     },
     {
       "id": 1777576577190.2786,
-      "text": "333.   Polarizing film must be used in LCD 334.   What type of supply power is required for a LCD display?",
+      "text": "334.   What type of supply power is required for a LCD display?",
       "choices": [
         "Low voltage and low current applied to both layers"
       ],
@@ -3211,7 +3214,7 @@
         "Active operation mode",
         "Modulated electrons"
       ],
-      "correctIndex": 1
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.8228,
@@ -3231,7 +3234,7 @@
         "Produced by 3-colour electron gun",
         "By 7 kind of phosphate powder on the screen"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.4443,
@@ -3296,7 +3299,7 @@
         "positive with respect to the cathode",
         "positive or negative depending on the the cathode biasing"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.8542,
@@ -3323,7 +3326,7 @@
         "Introduce multiple processors that can works at same time to control different tasks",
         "Major system share date come from different inputs"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.7239,
@@ -3467,7 +3470,7 @@
         "Display initial? test",
         "Display switching test"
       ],
-      "correctIndex": 0
+      "correctIndex": 2
     },
     {
       "id": 1777576577190.6194,
@@ -3494,7 +3497,7 @@
         "Critical fault in ground record",
         "Start-up and shut down"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.9346,
@@ -3511,7 +3514,7 @@
         "Need more mechanic to monitor the flight control surface",
         "Set up a dangerous area"
       ],
-      "correctIndex": 0
+      "correctIndex": 1
     },
     {
       "id": 1777576577190.862,
@@ -3535,7 +3538,7 @@
         "?",
         "Correct drift of IRS (gyroscope)"
       ],
-      "correctIndex": 0
+      "correctIndex": 4
     },
     {
       "id": 1777576577190.6082,
