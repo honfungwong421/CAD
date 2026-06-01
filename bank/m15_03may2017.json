@@ -2991,6 +2991,16 @@
       "correctIndex": 2
     },
     {
+      "id": 1780343077511.7124,
+      "text": " 307.   T he difference of FCU in turbojet and turboshaft engine is that FCU in a turboshaft engine also controls: Hydro - mechanical fuel control in turbojet vs turboshaft, FCU in turboshaft also controls:",
+      "choices": [
+        "N1 and N2 RPM",
+        "Turbine inlet temperature",
+        "Free turbine RPM "
+      ],
+      "correctIndex": 2
+      },
+    {
       "id": 1780342977442.568,
       "text": "308.   In   turboprop,   turbine   N2   indication   too   high,   engine   will",
       "choices": [
@@ -5510,16 +5520,6 @@
         "Mixed   with   core   stream"
       ],
       "correctIndex": 0
-    },
-    {
-      "id": 1780343077511.7124,
-      "text": " 307.   T he difference of FCU in turbojet and turboshaft engine is that FCU in a turboshaft engine also controls: Hydro - mechanical fuel control in turbojet vs turboshaft, FCU in turboshaft also controls:",
-      "choices": [
-        "N1 and N2 RPM",
-        "Turbine inlet temperature",
-        "Free turbine RPM "
-      ],
-      "correctIndex": 2
     }
   ]
 }
