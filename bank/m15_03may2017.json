@@ -1,0 +1,5525 @@
+{
+  "name": "M15-03May2017",
+  "date": "2026-06-01T19:42:57.442Z",
+  "questions": [
+    {
+      "id": 1780342977441.0684,
+      "text": "1.   What   is   Newton’s   first   law   called?",
+      "choices": [
+        "The   law   of   inertia",
+        "The   law   of   acceleration",
+        "The   law   of   action   and   reaction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0095,
+      "text": "2.   If   a   mass   of   air   is   accelerated   rearward,   according   to   Newton’s   third   law:",
+      "choices": [
+        "There   will   be   rearward   reaction",
+        "The   magnitude   of   the   force   varies   with   the   square   of…",
+        "A   forward   reaction   will   result"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.8293,
+      "text": "3.   By   the   third   law,   the   air   is   push   by   compressor   rearward,   thrust   is   added   to",
+      "choices": [
+        "Rearward",
+        "Forward"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.1384,
+      "text": "4.   When   analyzing   airflow   through   an   axial   compressor,   velocity   would   be   regarded   as   a",
+      "choices": [
+        "Directional   quantity",
+        "Scalar   quantity",
+        "Vector   quantity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.747,
+      "text": "5.   Velocity   and   speed   are   often   expressed   in   similar   terms,   but   velocity   is   determined   when: Difference between speed and velocity:",
+      "choices": [
+        "Direction   of   an   objects   movement   is   detailed",
+        "The   weight   of   an   objected   detailed",
+        "A   scalar   quantity   is   applied"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.9907,
+      "text": "6.   A   spring   has:",
+      "choices": [
+        "Potential   energy",
+        "Kinetic   energy",
+        "Pressure   energy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.2598,
+      "text": "7.   Total   pressure",
+      "choices": [
+        "Static   +   dynamic",
+        "Ambient   +   dynamic",
+        "Ambient   +   static"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5295,
+      "text": "8.   Total   pressure   as   inlet   air,   the   pressure   is?",
+      "choices": [
+        "Increase   ram   air",
+        "Decrease   ram   air",
+        "Forward   direction   of   air   flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.4072,
+      "text": "9.   Total   air   pressure   measured,   static   pressure",
+      "choices": [
+        "Plus   ram   effect",
+        "Minus   ram   effect",
+        "Measured   at   vertical   ……."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.893,
+      "text": "10.   Airflow   through   a   convergent   duct   will   result   in:",
+      "choices": [
+        "Pressure   rise,   velocity   rise,   temperature   rise.",
+        "Pressure   rise,   velocity   drop,   temperature   rise.",
+        "Pressure   drop,   velocity   rise,   temperature   drop."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.524,
+      "text": "11.   Diffuser   of   inlet:",
+      "choices": [
+        "Pressure   rise,   temperature   rise,   velocity   drop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.1353,
+      "text": "12.   Airflow   through   a   divergent   duct   will   result   in",
+      "choices": [
+        "Pressure   rise,   velocity   rise,   temperature   rise",
+        "Pressure   rise,   velocity   drop,   temperature   rise",
+        "Pressure   drop,   velocity   rise,   temperature   rise"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.034,
+      "text": "13.   What   is   the   difference   of   the   aerodynamics   between   the   compressor   and   turbine   area?",
+      "choices": [
+        "The   air   flows   through   a   converging   passage   in   the   compressor   area   but   the   air   flows   through   a"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5627,
+      "text": "14.   Air   exiting   from   the   exhaust   duct   of   a   choked   nozzle,   the   pressure:",
+      "choices": [
+        "Below   the   ambient   pressure",
+        "Above   the   ambient   pressure",
+        "At   the   ambient   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.7915,
+      "text": "15.   If   the   pressure   ratio   of   an   engine   is   greater   than   1.89,   the   exhaust   nozzle   speed: In convergent section of a converging - diverging duct, EPR > 1.89:",
+      "choices": [
+        "Air   velocity   increases   to   supersonic",
+        "The   density   or   air   will   decrease   at   the   throat",
+        "Air   velocity   stabilizes   and   increase   to   Mach   1"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.5852,
+      "text": "16.   Nozzle   choked:",
+      "choices": [
+        "Provide   pressure   thrust   which   is   affect   over   the   nozzle",
+        "Overall   thrust   decreases",
+        "EGT   increases   and   engine   performance   drops"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.241,
+      "text": "17.   A   choked   nozzle   increases   thrust   by:",
+      "choices": [
+        "Increasing   the   velocity   of   the   exhaust   gas   to...",
+        "Creating   a   high   pressure   when   the   gas   react",
+        "Preventing   the   gases   from   reaching   the   speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.9368,
+      "text": "18.   If more fuel is added to an engine when the exhaust is choked/ Fuel flow increased with choke exhaust",
+      "choices": [
+        "A   decrease   in   the   mass   airflow   and   increase...",
+        "An   increase   in   the   engine   speed   and   an   increase...",
+        "An   increase   in   the   mass   flow   and   a   decrease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.5818,
+      "text": "19.   If more fuel is added to an engine when the exhaust is choked/ Fuel flow increased with choke exhaust",
+      "choices": [
+        "Mass   of   airflow   increase,   jet   nozzle   pressure   decrease",
+        "Rpm   increase,   jet   nozzle   pressure   increase",
+        "Mass   of   airflow   decrease,   jet   nozzle   pressure   increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.106,
+      "text": "20.   More   fuel   added   after   Mach   1   gas   velocity   is   reached:",
+      "choices": [
+        "Engine   speed   increases,   tail   pipe   pressure   increases",
+        "Mass   flow   decreases,   tail   pipe   pressure   increases",
+        "Mass   flow   increases,   engine   speed   decreases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.304,
+      "text": "21.   The   working   cycle   of   turbine   engine",
+      "choices": [
+        "Combustion   at   constant   volume",
+        "Stages   of   induction,   combustion,   expansion,   exhaust   occur   intermittently",
+        "Higher   flame   temperature   than   piston   engine   counterparts"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.1838,
+      "text": "22.   Gas   turbine   engine   Brayton   cycle   consist   of:",
+      "choices": [
+        "Two   constant   volume   process   and   two   adiabatics   processes",
+        "Two   constant   pressure   (isobaric)   process   and   two   adiabatic   processes",
+        "Two   isothermal   processes   and   two   adiabatic   processes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.369,
+      "text": "23.   The   main   difference   between   turbojet   and   turboprop,   turboprop   has:",
+      "choices": [
+        "More   turbine   stages",
+        "Less   turbine   stages",
+        "More   compressor   stages"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.4636,
+      "text": "24.   The   design   of   the   modern   turbojet   engines   provide...",
+      "choices": [
+        "Lower   noise   levels   and   increased   propulsive   efficiency",
+        "Decreased   propulsive   efficiency   and...",
+        "Higher   specific   fuel   consumption.."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5144,
+      "text": "25.   Increase   in   aircraft   speed   causes   increase   specific   fuel   consumption   for:",
+      "choices": [
+        "Turbojet engines",
+        "Turboprop   engines",
+        "Both   turbojet   engines   and   turboprop   engines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.5334,
+      "text": "26.   High   jet   velocity",
+      "choices": [
+        "Turbofan",
+        "Turbojet",
+        "Turboprop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.0017,
+      "text": "27.   Bypass   flow…….",
+      "choices": [
+        "Turboprop",
+        "Turbofan",
+        "Turbojet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0098,
+      "text": "28.   Turboprop   thrust   produced   by",
+      "choices": [
+        "Propeller   thrust   only",
+        "Propeller   thrust   +   compress   bypass",
+        "Propeller   thrust   +   nozzle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0037,
+      "text": "29.   Turboprop   thrust   produced   by",
+      "choices": [
+        "Propeller",
+        "Exhaust",
+        "Tail   pipe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5044,
+      "text": "30.   Bypass   ratio   is   the   ratio   of   the",
+      "choices": [
+        "Pressure   in   the   bypass   duct   to   atmosphere   pressure",
+        "Pressure   at   the   bypass   duct   exit   to   the   H.P.   compressor   exit",
+        "Mass   of   cool   air   bypassed   through   the   duct   to   the mass   of   hot   air   (jet   air)   passed   through   the   core"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.9878,
+      "text": "31.   A   by - pass   ratio   0.7:1   means:",
+      "choices": [
+        "0.7lb   of   air   is   by - passed   for   every   1lb   taken   in",
+        "0.7Ib   of   air   is   by - passed   for   every   1lb   through   the   HP   compressor",
+        "0.7lb   of   air   is   passed   through   the   HP   compressor...   pass"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.9197,
+      "text": "32.   Engine   with   by - pass   ratio   6:1,   it   is:",
+      "choices": [
+        "Low   by - pass",
+        "High   by - pass",
+        "Medium/   Intermediate   by - pass"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.8613,
+      "text": "33.   There   are   two   types   design   of   turboprop;",
+      "choices": [
+        "Free   turbine   and   single   shaft",
+        "Free   turbine   and   twin   spool",
+        "Twin   spool   and   single   spool"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.442,
+      "text": "34.   A   reduction   gearbox   in   a   turboprop   engine   convert:",
+      "choices": [
+        "High   RPM   low   torque   into   low   RPM,   high   torque",
+        "Low   RPM   low   torque   into   high   RPM,   high   torque",
+        "High   RPM   into   low   RPM   but   no   effect   to   torque"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.495,
+      "text": "35.   The   RPM   of   engine   is   lower   than   the   propeller,   which   is   achieved   by:",
+      "choices": [
+        "High   reduction   gearbox",
+        "Low   reduction   gearbox"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5308,
+      "text": "36.   Propeller   RPM   lower   than   engine,   how   to   achieve:",
+      "choices": [
+        "Free   turbine",
+        "Through   planetary   reduction   gearbox",
+        "Direct   couple   with   gas   generator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.0686,
+      "text": "37.   A   special   reduction   gear   for   turboprop   is   mainly:",
+      "choices": [
+        "Epicyclic",
+        "Bevel",
+        "Differential"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.2737,
+      "text": "38.   Epicyclic   gearing   is   used   between   shafts   which   are:",
+      "choices": [
+        "At   right   angles   to   each   other   in   different   planes.",
+        "At   an   angle   to   each   other   in   the   same   plane.",
+        "Rotating   about   a   common   axis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.6309,
+      "text": "39.   Turboshaft   design:",
+      "choices": [
+        "Axial   flow   compressor   and   direct   flow",
+        "Axial   flow   compressor   and   reverse   flow",
+        "Centrifugal   compressor   and   direct   flow",
+        "Centrifugal   compressor   and   reverse   flow"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977441.4827,
+      "text": "40.   Turboshaft   engine   (Compressor/   Combustor)",
+      "choices": [
+        "Impeller   /   straight",
+        "Impeller   /   Reversal   flow   combustor",
+        "Axial   /   straight"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.7034,
+      "text": "41.   Small   turboshaft   engine   commonly   uses:",
+      "choices": [
+        "Centrifugal   compressor   only",
+        "Axial   compressor   compressor   only",
+        "Both   centrifugal   and   axial   compressor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.8066,
+      "text": "42.   In   a   turboshaft   engine   the   function   of   the   gas   producer   section   is   to   produce   the   required   energy   to   the .",
+      "choices": [
+        "Power   turbine   system",
+        "First   turbine   system",
+        "Compressor   system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.9817,
+      "text": "43.   Gas   producer   of   turboshaft   engine   consists   of",
+      "choices": [
+        "Compressor   and   free   turbine",
+        "Power   compressor,   combustion   section   and   ??",
+        "Compressor,   compressor   turbine,   power   turbine",
+        "Compressor,   combustion   chamber   and   compressor   turbine"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977441.3018,
+      "text": "44.   Gas   generator   turboshaft   engine   extracts   of   engine   from   combustion   chamber,   leaving   for   turbine",
+      "choices": [
+        "1/3,   2/3",
+        "2/3,   1/3",
+        "1/2,   ½"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.959,
+      "text": "45.   A gas turbine engine, with...drive the compressor is called Turbine directly attached to compressor:",
+      "choices": [
+        "Directed   coupled   engine",
+        "Free - turbine   engine   (not   connected   with   compressor)",
+        "Power   turbine   engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.3298,
+      "text": "46.   Free   turbine:",
+      "choices": [
+        "Turbine   to   compressor   is   independent   from   turbine   to   reduction   gear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.059,
+      "text": "47.   Helicopter   rotation",
+      "choices": [
+        "Governed",
+        "Free   turbine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.687,
+      "text": "48.   A   turboshaft   engine   installed   in   a   helicopter   ????   free   turbine   which   can   rotate   at   it's   own   speed   due   ???",
+      "choices": [
+        "Gas   coupled",
+        "Mechanically   coupled",
+        "Governed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.7007,
+      "text": "49.   A   free   turbine",
+      "choices": [
+        "Not   mechanically   connected   with   Compressor",
+        "Mechanically   connected   with   Compressor",
+        "Operated   on   constant   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.4287,
+      "text": "50.   In   the   free   turbine   engine:",
+      "choices": [
+        "No   mechanical   connection   between   compressor   and   turbine   power   shaft",
+        "Compressor   is   driven   by   turbine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5605,
+      "text": "51.   In   a   free   turbine   engine",
+      "choices": [
+        "The   air   to   compressor   inlet   from   turbine",
+        "The   compressor   and   the   power   output   shaft   is   mechanically   connected",
+        "The   compressor   and   the   power   output   shaft   is   not   mechanically   connected"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.776,
+      "text": "52.   Why   compressor   blades   need   twist?",
+      "choices": [
+        "Remain   constant   axial   velocity",
+        "Allow   root   to   stall   first"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.2625,
+      "text": "53.   Fan   blade   twisting   is   for:",
+      "choices": [
+        "Maintain   constant   angle   of   attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.8503,
+      "text": "54.   Why   is   the   number   of   stator   and   rotor   blades   in   each   stage   of   a   compressor   or   turbine   unequal",
+      "choices": [
+        "To   facilitate   manufacture",
+        "To   minimize   vibration",
+        "To   stabilize operating   temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.1685,
+      "text": "55.   Rotor   and   stator   blades   camber   orientation",
+      "choices": [
+        "Facing   each   other",
+        "Parallel   to   each   other",
+        "Opposite   to   each   other"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.278,
+      "text": "56.   Stator   blades   of   an   axial   flow   compressor   are   secured   to   the:",
+      "choices": [
+        "Casing   using   retainer   ring",
+        "Drum   using   solid   root   connection",
+        "Casing   using   fir   tree   connection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.1785,
+      "text": "57.   In   a   compressor,   stator   is   secured:",
+      "choices": [
+        "To   the   casing   using   rivets",
+        "To   the   drum   at   root   attachment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.153,
+      "text": "58.   Methods   for   retention   of   compressor   blade",
+      "choices": [
+        "Spot   weld   at   the   tip",
+        "Chock   at   the   tip",
+        "Rivet   at   the   tip"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.929,
+      "text": "59.   Turbine   blades   are   shrouded   to:",
+      "choices": [
+        "Reduce   tip   loses   and   improve   vibration   characteristics",
+        "Provide   a   seal   for   the   cooling   airflow",
+        "Reduce   blade   creep"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.762,
+      "text": "60.   Stator",
+      "choices": [
+        "Fir   tree",
+        "Drum   root"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.596,
+      "text": "61.   The   blow - in   doors   in   the   intake   of   an   engine   are   used   to",
+      "choices": [
+        "Decrease   the   air   intake   on   ground",
+        "Increase   the   air   intake   on   ground",
+        "Increase   the   intake   air   intake   in   air.",
+        "Increase   in   air   intake   to   the   compressor"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977441.518,
+      "text": "62.   Blow - in   door   operates   when",
+      "choices": [
+        "High   airspeed,   low   rpm",
+        "Low   airspeed,   high   rpm",
+        "High   airspeed,   high   rpm"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.4922,
+      "text": "63.   The   most   efficient   air   intake   of   an   engine   is: Which is the most efficient cowling inlet?",
+      "choices": [
+        "Mounted   on   fuselage",
+        "Diameter   is   minimum   and   as   long   as   possible",
+        "Large   diameter   and   as   short   as   possible"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.6438,
+      "text": "64.   Subsonic   aircraft   engine   inlet:",
+      "choices": [
+        "Divergent",
+        "Divergent - convergent",
+        "Convergent - divergent"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.8984,
+      "text": "65.   Under   supersonic   condition,   which   type   will   be   used   for   inlet?",
+      "choices": [
+        "Convergent - divergent   type",
+        "Convergent   type",
+        "Divergent - convergent   type"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0227,
+      "text": "66.   Super - sonic   inlet   air",
+      "choices": [
+        "Slow   down   the   air   speed",
+        "Increase   the   air   speed",
+        "Keep   the   airflow   constantly   at   sonic   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.271,
+      "text": "67.   When   fitted   to   a   gas   turbine   engine   ,   the   bell   mouth   inlet:",
+      "choices": [
+        "Gives   a   very   high   aerodynamic   efficiency",
+        "Is   susceptible   to   ‘vena   contracta’   effect",
+        "Has   retractable   skin   for   takeoff   and   icing   conditions."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.1255,
+      "text": "68.   Bell   mouth   design   of   inlet   duct   is   used   in:",
+      "choices": [
+        "Helicopter   only",
+        "Slow   speed   aircraft",
+        "Helicopter,   in   testing   bench   and   low   speed   aircraft"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.7869,
+      "text": "69.   In   a   turboprop   engine   inlet   that   has   a   movable   deflector   vane   ....... Deployed   position   it:",
+      "choices": [
+        "Assist   the   engine   inlet   to   supply   more   air   under   take - off   conditions",
+        "Creates   a   prominent   venturi,   which   forces   sand   or   ice   particles   to   bypass   the   engine   intake",
+        "Bypasses   excess   air   from   the   compressor   inlet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.4211,
+      "text": "70.   In   turboprop,   air   inlet   movable   vane   is   deflected   to",
+      "choices": [
+        "Increase   air   into   compressor   at   take - off",
+        "Prevent   FOD"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.3538,
+      "text": "71.   Turbine   vortex   diminisher/dissipater   to   reduce   the:",
+      "choices": [
+        "Vortex   between   wing   and   fuselage………..very   close   tolerance……..",
+        "Vortex   around   the   engine   casing   intake",
+        "Vortex   between   engine   and   wing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.8665,
+      "text": "72.   Turbine   vortex   diminisher/dissipater   to   reduce   the:   (Alternative)",
+      "choices": [
+        "Vortex   generated   from   …..   fuselage - mounted   pod - type   engine",
+        "Vortex   ……   wing - mounted   engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.8345,
+      "text": "73.   Turbine   vortex   diminisher/dissipater   to   reduce   the:   (Alternative)",
+      "choices": [
+        "Reduce   ground   vortex   for   pod - type   under   wing   engine",
+        "Reduce   vortex   before   engine   inlet   during   flight   time",
+        "Reduce   vortex   for   fuselage   mounted   engine   before   entry   of   engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.3823,
+      "text": "74.   Vortex   dissipator   use   when",
+      "choices": [
+        "Low   ground   clearance",
+        "High   ground   clearance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.965,
+      "text": "75.   Hollow   IGV   is   for",
+      "choices": [
+        "Cooling",
+        "Oil   circulation",
+        "Weight   saving"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.428,
+      "text": "76.   Hollow   IGV   is   for ( Alternative)",
+      "choices": [
+        "To   reduce   weight",
+        "To   pass   hot   air   for   ice   protection",
+        "To   circulate   lubricant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.5767,
+      "text": "77.   The   pressure   ratio   across   a   stage   of   axial   flow   compressor   is   about",
+      "choices": [
+        "1.2   :   1",
+        "4   :1",
+        "2.1   :   1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.1113,
+      "text": "78.   The   compressor   pressure   ratio   of   a   single   stage   centrifugal   compressor   is   normally   in   the   range   of?",
+      "choices": [
+        "6:1   to   7:1",
+        "2:1   to   3:1",
+        "25:1   to   31:1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.7354,
+      "text": "79.   If   the   pressure   ratio   on   each   of   a   two   stage   axial   flow   compressor   is   1.2:1.   The   inlet   pressure   15psi.   What",
+      "choices": [
+        "18   PSI",
+        "21.6   psi",
+        "31   psi"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.685,
+      "text": "80.   The   axial   compressor:",
+      "choices": [
+        "The   compressor   casing   is   tapered   from   intake   to   high   pressure   compressor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.2827,
+      "text": "81.   Axial   compressor   annular   casing:",
+      "choices": [
+        "From   first   stage   taper   to   compressor   outlet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.6323,
+      "text": "82.   For   the   air   in   single   spool   axial   flow   compressor   to   maintain   a   constant   velocity   while   increasing   pressure,",
+      "choices": [
+        "Excess   pressure   is   bled   off",
+        "Inlet   guide   vanes   are   adjustable",
+        "Blades   get   shorter   towards   the   back   stages"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.9924,
+      "text": "83.   A   centrifugal   flow   compressor   consists   of:",
+      "choices": [
+        "Impeller   and   diffuser",
+        "Inducer   and   diffuser",
+        "Rotor   and   inducer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.7756,
+      "text": "84.   Axial   flow   –   centrifugal   combined   type   engine,   the   centrifugal   compressor   is",
+      "choices": [
+        "Placed   to   the   LP   side",
+        "Placed   to   the   HP   side"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.1704,
+      "text": "85.   In   the   combination   of   centrifugal   and   axial   flow   compressor:",
+      "choices": [
+        "The   centrifugal   flow   compressor   handles   low   pressure   stage",
+        "The   centrifugal   flow   compressor   handles   high   pressure   stage",
+        "Both   the   centrifugal   and   axial   flow   can   be   used   to   handles   low   stages"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.2988,
+      "text": "86.   Centrifugal   compressor   compared   to   axial   flow   compressor:",
+      "choices": [
+        "Fewer   component   and   short   rotor   shaft.",
+        "Higher   manufacture   cost   &   replacement   cost.",
+        "More   robust   and   lower   SFC."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5237,
+      "text": "87.   In   comparison   with   an   axial   flow   compressor,   a   centrifugal   compressor   has:",
+      "choices": [
+        "Small   mass   flow   and   lower   specific   fuel   consumption",
+        "Large   inlet   diameter   and   higher   rotational   speed",
+        "Large   mass   flow   and   higher   cost"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.4553,
+      "text": "88.   Which   of   the   following   is   an   advantage   of   axial   flow   compressor   over   centrifugal   flow   compressor:",
+      "choices": [
+        "More   robust",
+        "Light   weight",
+        "Can   attain   high   pressure   ratio   with   the   frontal   area",
+        "Shorter   shaft   and   fewer   components",
+        "More   blades   in   each   stage   of   same   area"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.7783,
+      "text": "89.   Which   statement   is   true   for   a   compressor:",
+      "choices": [
+        "Shaft   is   supported   by   ball   bearing",
+        "Rotor   blade   and   casing   tapered   toward   high   pressure   end"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.3413,
+      "text": "90.   The   first   stage   of   blade   of   compressor   is   used   to   :",
+      "choices": [
+        "Hot   gas   in   the   engine   intake   is   cooled   by   compressor   bleed   air",
+        "Electrical   heating   of   leading   edge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.9248,
+      "text": "91.   Compressor   wash   is   used   when:",
+      "choices": [
+        "Engine   dry   motoring",
+        "Detergent   &   steam",
+        "Rectify   surge   and   stall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.798,
+      "text": "92.   A   desalination   compressor   wash   would   normally   be   carried   out   at   an   engine   gas   generator   speed   of?",
+      "choices": [
+        "80%   to   98%",
+        "58%to   64%",
+        "14%to   25%"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.5146,
+      "text": "93.   Aft   of   the   compressor,   air   passages:",
+      "choices": [
+        "Reduce   the   velocity   of   the   air   before   it   reaches   the   corr...",
+        "Increase   the   velocity   of   the   air   before   it   reaches   the   co...",
+        "Reduce   the   pressure   of   the   air   before   it   reaches   the..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.628,
+      "text": "94.   The   cause   for   a   compressor   surging   is:",
+      "choices": [
+        "Airflow   too   low   relative   to   engine   rotational   speed",
+        "Airflow   too   high   relative   to   engine   rotational   speed",
+        "Airflow   separating   from   the   blades   on   one   or   more   stage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.52,
+      "text": "95.   Compressor   stall   caused   by:",
+      "choices": [
+        "RPM   too   low",
+        "Angle   of   attack   too   low",
+        "Excessive   angle   of   attack"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.926,
+      "text": "96.   Compressor   stall:",
+      "choices": [
+        "Front   of   compressor",
+        "Rear   of   compressor",
+        "Combustion   chamber"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.127,
+      "text": "97.   To   prevent   low   speed   stall   on   compressor: High power at low speed condition:",
+      "choices": [
+        "Bleed   valve   close,   IGV   in   max   flow   position",
+        "Bleed   surge   open   +   VIGV   at   max   flow   position",
+        "Bleed   surge   open   +   VIGV   at   min   flow   position"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.2004,
+      "text": "98.   The   engine   surge   bleed   valve   is   used   to",
+      "choices": [
+        "Minimize   the   possibility   of   compressor   stall   when   the   engine   is   operating   at   a   low   thrust   level",
+        "Minimize   the   possibility   of   compressor   stall   when   the   engine   is   operating   at   a   high   thrust   level",
+        "Electrically   operated"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.6614,
+      "text": "99.   The   engine   surge   bleed   valves   minimize   the   possibility   of   compressor   stall   by",
+      "choices": [
+        "Bleeding   some   air   away   from   the   compressor   when   the   engine   is   operating   at   low   rotational   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.371,
+      "text": "* 100.   How   does   the   bleed   valve   prevent   compressor   stall?",
+      "choices": [
+        "Open   when   engine   is   at   low   speed",
+        "Close   when   engine   is   at   low   speed   to   provide   sufficient   air   flow",
+        "Open   at   high   speed   to   keep   the   air   flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.716,
+      "text": "101.   Variable   inlet   guide   vanes   can   be   actuated   by:",
+      "choices": [
+        "Electric   solenoid",
+        "Fuel   pressure   and   compressor   bleed   air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.53,
+      "text": "102.   Variable   inlet   guide   vane   controlled/actuated   by   signal   from",
+      "choices": [
+        "N1   compressor   rpm",
+        "An   electrical   switch   at   flight   deck",
+        "Fuel   pressure   or   high   pressure   compressor   output",
+        "Exit   of   high   pressure   compressor   and   ….."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.0105,
+      "text": "103.   VIGV   operated   by   using:",
+      "choices": [
+        "Fuel",
+        "Pneumatic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.126,
+      "text": "104.   Why   the   bleed   air   is   taken   at   the   early   stage   of   compressor?",
+      "choices": [
+        "Bleed   air   at   later   stage   affect   thrust",
+        "Reduce   the   effect   of   compressor   surge   &   stall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.66,
+      "text": "105.   When   the   exhaust   gas   exits   a   choked   nozzle,   the   gas   accelerates?",
+      "choices": [
+        "Radially   faster   than   axially",
+        "To   the   speed   of   sound",
+        "Axially   with   little   radial   component"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.7578,
+      "text": "106.   Engine   surge,   exhaust   gas   accelerates:",
+      "choices": [
+        "High   acceleration   in   radial   direction   and   axial   direction",
+        "Small   acceleration   in   radial   direction   and   high   acceleration   in   axial   direction",
+        "To   the   speed   of   sound"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.326,
+      "text": "107.   Potential   energy   converted   to   kinetic   energy   in   combustion   chamber   by:",
+      "choices": [
+        "Additional   to   fuel",
+        "Compression   of   air",
+        "Slowing   down   the   air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0852,
+      "text": "108.   Flame   tube   in   combustion   chamber:",
+      "choices": [
+        "Used   to   confine   and   steady   the   flame",
+        "Lowers   the   working   temperature",
+        "Ensure   complete   combustion   of   kerosene"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.0325,
+      "text": "109.   Liner   in   combustion   chamber",
+      "choices": [
+        "Ignition",
+        "Centre   of   combustion   chamber"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.325,
+      "text": "110.   In   combustion   chamber,   pressure   is   almost   constant   because   volume   i s   and   gas   velocity   is .",
+      "choices": [
+        "Increase,   increase",
+        "Increase,   decrease",
+        "Decrease,   increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.738,
+      "text": "111.   From   compressor   outlet   to   combustion   chamber:",
+      "choices": [
+        "Velocity   increase",
+        "Velocity   decrease",
+        "Pressure   increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.2888,
+      "text": "112.   Toroidal   vortex   is   describing   in   fuel   system?",
+      "choices": [
+        "Vortex   formation   on   wing   tip",
+        "Fuel   spray   nozzle   spraying   pattern",
+        "The   re - circling   station   fluid   inside   combustion   chamber"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.0522,
+      "text": "113.   Pre - swirl   vane   combustion",
+      "choices": [
+        "Slow   airflow",
+        "Decrease   airflow   temperature",
+        "Split   for   1st   and   2nd   airflow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.8591,
+      "text": "114.   Swirl   vane   in   a   combustion   section   are   designed   to:",
+      "choices": [
+        "Propagate   the   flame   between   the   combustion   area",
+        "Keep   the   flame   off   the   liners",
+        "Better   air   mix   and   retain   combustion",
+        "Slow   the   combustion   air   down   which   prevents   flame   out",
+        "Ensure   complete   combustion   of   kerosene"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977441.3691,
+      "text": "115.   The   air   entering   a   combustion   chamber   through   swirl   vanes   is   known   as?",
+      "choices": [
+        "The   tertiary   air",
+        "The   secondary   air",
+        "The   primary   air"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.987,
+      "text": "116.   Secondary   air   comes   from",
+      "choices": [
+        "Compressor",
+        "Inlet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.4497,
+      "text": "117.   Can - annular,   the   secondary   air   is   used   for",
+      "choices": [
+        "Streamline   the   combusted   air",
+        "??"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.4958,
+      "text": "118.   The   radial   airflow   lining   in   the   secondary   air   at   the   combustion   chamber   is   used   for:",
+      "choices": [
+        "To   assist   the   combustion,   center   the   flame"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.94,
+      "text": "119.   In   combustion   chamber,   secondary   air   is   for",
+      "choices": [
+        "Retard   flame   front",
+        "Go   through   swirl   vane",
+        "Cool   the   primary   air"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.498,
+      "text": "120.   The   interconnection   at   the   can - annular   combustion   system   is   connected   between:",
+      "choices": [
+        "Can   to   can",
+        "Can   to   lining"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.074,
+      "text": "121.   Turbojet   engine   usually   use",
+      "choices": [
+        "Can   annular   combustion",
+        "Annular",
+        "Multiple   can"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.314,
+      "text": "122.   Common   flame   propagation   tube   in   turbofan   engine   is:",
+      "choices": [
+        "Can - annular",
+        "Annular"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.7627,
+      "text": "123.   Which   combustion   system   has   the   highest   efficiency?",
+      "choices": [
+        "Can - annular",
+        "Annular",
+        "Multiple   can"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.5818,
+      "text": "124.   Flame   propagation   tube   is   used   in   what   combustion   chamber?",
+      "choices": [
+        "Can   type",
+        "Annular",
+        "(something   else   that’s   wrong)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.859,
+      "text": "125.   Turbo   shaft   engine   combustion   chamber   is   usually   : \\",
+      "choices": [
+        "Forward   flow   and   …",
+        "Forward   flow   and   …",
+        "Reverse   flow   and   …."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.1577,
+      "text": "126.   The   most   popular   configuration   for   the   combustion   ????   a   turboshaft   engine   is?",
+      "choices": [
+        "Can - annular,   through   flow",
+        "Annular, through   flow",
+        "Annular,   reverse   flow"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.017,
+      "text": "127.   Which   type   of   igniter   has   swirl?",
+      "choices": [
+        "Duplex",
+        "Simplex",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.9333,
+      "text": "128.   Duplex   nozzle   advantage:",
+      "choices": [
+        "Even   distribution",
+        "Can   select   two   detent   output"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.0627,
+      "text": "129.   Double   orifice   for:",
+      "choices": [
+        "Even   distribution   and   rapid   burn",
+        "For   both   low   and   high   thrust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.6343,
+      "text": "130.   Carbon   formation   on   the   combustion   chamber   nozzle:",
+      "choices": [
+        "Change   the   flame   /   fuel   ejection   angle",
+        "Create   turbulence   in   the   combustion   chamber"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.0168,
+      "text": "131.   Too   fast   of   acceleration   can   cause   what   kind   of   flame   out:",
+      "choices": [
+        "Lean   flame   out",
+        "Rich   flame   out",
+        "?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.1777,
+      "text": "132.   Rich   flame   out:",
+      "choices": [
+        "Too   much   fuel",
+        "Excessive   heat   at   turbine   area",
+        "Too   high   bulk   pressure   at   combustion   chamber"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.5354,
+      "text": "133.   A   plenum   chamber   is   most   likely   to   be   found   on   an   engine   fitted   with",
+      "choices": [
+        "An   axial   flow   compressor",
+        "An   early   types   of   centrifugal   compressor",
+        "A   combination   of   axial   and   centrifugal   compressor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.873,
+      "text": "134.   Turbine   blade   and   turbine   disc:",
+      "choices": [
+        "Statically   and   dynamically   balanced   with   turbine",
+        "Integral   with   blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.397,
+      "text": "135.   Turbine   disc   definition",
+      "choices": [
+        "Integral   shaft,   attachment   of   turbine   blade   /   It   is   the   integral   shaft   and   the   rotor   carry   the   blade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.731,
+      "text": "136.   In   an   impulse - reaction   turbine   stage,   the   reaction   portion   of   the   blade   is:",
+      "choices": [
+        "Blade   root   to   mid - span",
+        "At   the   mid - span",
+        "Mid - span   to   tip"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.814,
+      "text": "137.   In   the   reaction - impulse   turbine:",
+      "choices": [
+        "There   are   multiple   stages,   only   some   of   which   are   impulse   turbine",
+        "The   turbine   blade   is   reaction   at   the   root   and   impulse   at   the   tip",
+        "The   turbine   blade   is   impulse   at   the   root   and   reaction   at   the   tip."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.5662,
+      "text": "138.   For   impulse - reaction   turbine,   the   blade",
+      "choices": [
+        "Extract   same   KE   on   the blade   surface",
+        "Uniform   axial   velocity   along   root   to   tip",
+        "70%   impulse,   30%   reaction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.6902,
+      "text": "139.   In   reaction   turbine,   the   area   of   stator   and   rotor",
+      "choices": [
+        "Divergent,   convergent",
+        "Convergent,   constant",
+        "Constant,   convergent"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.3503,
+      "text": "140.   A   straight   (parallel)   duct   nozzle   guide   vane   would   normally   be   associated   with:",
+      "choices": [
+        "Impulse - reaction   turbine   blades",
+        "Impulse   turbine   blades",
+        "Reaction   turbine   blades"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.9077,
+      "text": "141.   What shape of the stator vane when installed before impulse type rotor blade? (N.B: the question does not mention compressor or turbine stage)",
+      "choices": [
+        "Straight",
+        "Convergent",
+        "Divergent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.1372,
+      "text": "142.   Air   exit   the   combustion   stage,   and   enter   the   exhaust   section   the   turbine   blade",
+      "choices": [
+        "Impulse   and   Reaction   Type",
+        "Impulse   Type",
+        "Reaction   Type"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.873,
+      "text": "143.   Turbine   blade   un - twist   is   cause   by?",
+      "choices": [
+        "Blade   erosion",
+        "Gas   loads   on   the   blade   surface",
+        "A   high   torque   loading   on   the   blade."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.0176,
+      "text": "144.   A   fir - tree   root   turbine   blade   attachment?",
+      "choices": [
+        "Locates   the   blade   radially",
+        "Locates   the   blade   axially",
+        "Allows   a   limited   amount   of   axial   movement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.405,
+      "text": "145.   The   rotor   blade   is   locked   by",
+      "choices": [
+        "Located   axially",
+        "Located   radically"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.8022,
+      "text": "146.   Retention   of   a   fir - tree   mounted   turbine   blade   ?????   In   the   groove   on   a disk   is   by? /   Rotor blades are",
+      "choices": [
+        "Spot   welding",
+        "The   use   of   a   grub   screw",
+        "Using   a   rivet   or   locktab"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977441.7021,
+      "text": "147.   Turbine   blade   under   fixed   stress,   service   life   is:",
+      "choices": [
+        "Deteriorate   significantly   when   operated   slightly   over   temperature",
+        "Dependent   on   blade   cooling   only",
+        "It’s   relatively   constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977441.367,
+      "text": "148.   The   turbine   inlet   guide   vane   and   first   stage   rotor   blade   is   normally   cooled   by?",
+      "choices": [
+        "Transpiration   cooling   with   bleed   air",
+        "Bleed   air   film   cooling",
+        "Cooling   the   hot   gases   before   they   strike   the   vanes   and   blades   /   Convection   cooling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977441.14,
+      "text": "149.   Porous   turbine   blade   cooling   is   called:",
+      "choices": [
+        "Transpiration   cooling   with   bleed   air",
+        "Bleed   air   film   cooling",
+        "Cooling   the   hot   gases   before   they   strike   the   vanes   and   blades   /   Convection   cooling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.113,
+      "text": "150.   Cooling   turbine   nozzle   vane   by   transpiration   is   only   used   on:",
+      "choices": [
+        "Non - segment   shroud",
+        "Shrouded   turbine   blade",
+        "Stationary   turbine   nozzle   guide   vane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.004,
+      "text": "151.   When   air   passes   through   nozzle   guide   vane",
+      "choices": [
+        "Velocity   increase,   pressure   decrease",
+        "Velocity   decrease,   pressure   increase",
+        "Velocity   increase,   pressure   increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0505,
+      "text": "152.   The   stator   vanes   of   a   turbine   are   used   to",
+      "choices": [
+        "Decrease   the   velocity,   increase   the   pressure",
+        "Increase   the   velocity,   decrease   the   pressure",
+        "Decrease   the   velocity,   increase   the   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.913,
+      "text": "153.   Hollow   NGV,   cool   air   from:",
+      "choices": [
+        "Compressor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4956,
+      "text": "154.   The   primary   reason   for   a   limitation   being   imposed   on   the   temperature   of   gas   flow   is   to:",
+      "choices": [
+        "Prevent   damage   to   the   jet   pipe   by   overheating",
+        "Ensure   that   the   maximum   acceptable   temperature   at   the   turbine   blades   is   not   exceeded",
+        "Prevent   overheating   and   subsequent   creep.."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4421,
+      "text": "155.   For a gas turbine engine, the turbine overheat can: Over - temperature of turbine:",
+      "choices": [
+        "Causes   a   serious   fire   risk.",
+        "Requires   immediate   stoppage   of   the   engine   like   an   engine   fire.",
+        "Is   an   essential   warning   because   no   fire   extinguishant   discharges   into   the   turbine   area"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.254,
+      "text": "156.   Temperature   control",
+      "choices": [
+        "Prevent   tailpipe   overheated   (Wrong.   Lai   Sir:   many   fish.)",
+        "Prevent   NGV   overheated   then   creep",
+        "Prevent   turbine   blade   temperature   excess   acceptable   limit."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.015,
+      "text": "157.   To   reduce   “blade   growth”   due   to   high   rotational   speed:",
+      "choices": [
+        "Absorbed   by   turbine   shroud",
+        "Reduced   by   using   reaction   turbine   blade",
+        "Limit   the   use   of   turbine   shroud"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3794,
+      "text": "158.   Creep   of   turbine   blades   is   caused   by:",
+      "choices": [
+        "Prolonged   idling   at   low   rev/min",
+        "Application   of   heat   whilst   under   centrifugal   loading",
+        "Bending   stresses   set   up   by   gas   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9194,
+      "text": "159.   Blade   creep   in   the   turbine   will   result   in",
+      "choices": [
+        "Increased   turbine   vibration",
+        "Loss   of   thrust",
+        "Increased   turbine   diameter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7605,
+      "text": "160.   For   uneven   creep   of   turbine,   what   did   the   engine   experience?",
+      "choices": [
+        "Hot   start",
+        "Over   stress   on   the   turbine   blade",
+        "Overspeed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.51,
+      "text": "161.   Turbine   creep   is   a:",
+      "choices": [
+        "?",
+        "Plastic   and   irreversible   process",
+        "Time   elapsed   to   failure   to   definite   and   predictable"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2837,
+      "text": "162.   Turbine   creep:",
+      "choices": [
+        "High   temperature   +   high   rotational   speed",
+        "High   temperature   +   long   operation   time"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2078,
+      "text": "163.   Prevent   turbine   creep   by:",
+      "choices": [
+        "Keep   maximum   exhaust   temperature",
+        "Keep   minimum   exhaust   temperature",
+        "Minimum   inlet   temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.1848,
+      "text": "164.   Turbine   blade   creep   at   a   small   and   constant   rate   at   what   stage?",
+      "choices": [
+        "Tertiary   stage",
+        "Secondary   stage",
+        "Primary   stage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8962,
+      "text": "165.   Tertiary   creep   is   due   to:",
+      "choices": [
+        "Hot   start/Over   temperature",
+        "Too   many   engine   cycles",
+        "Too   much   load   on   the   blade   surface"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.55,
+      "text": "166.   The   exhaust   of   turbojet   engine   is   usually   :",
+      "choices": [
+        "Always   nozzle",
+        "Always convergent   duct",
+        "Includes   diffuser   and   followed   by   nozzle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6611,
+      "text": "167.   Reduce   exhaust   nozzle   area:",
+      "choices": [
+        "Affect   exhaust   pressure",
+        "Affect   exhaust   temperature",
+        "Turbine   expansion   ratio   change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3938,
+      "text": "168.   For   a   variable   exhaust   nozzle,   what   changes   when   the   nozzle   area   is   decreased?",
+      "choices": [
+        "EGT",
+        "Turbine   expansion   ratio",
+        "Exhaust   gas   pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.859,
+      "text": "169.   For   modern   variable   area   exhaust   nozzle:",
+      "choices": [
+        "The   nozzle   is   wide   open   for   minimum   thrust",
+        "The   nozzle   goes   to   minimum   operating   at   er..",
+        "The   nozzle   changes   to   cause   a   ..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4338,
+      "text": "170.   For   modern   variable   area   exhaust   nozzle (Alternative)",
+      "choices": [
+        "Nozzle   open   wide   when   min   thrust",
+        "Nozzle   close   to   minimum",
+        "Can   provide   free   path   for   sonic   airflow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6472,
+      "text": "171.   Variable   area   exhaust   nozzle",
+      "choices": [
+        "Wide   open   at   minimum   thrust",
+        "Minimum   RPM   at   idle",
+        "Nozzle   changes   area   to   cause   supersonic   flow   condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.192,
+      "text": "172.   Moveable   tail   moves   towards   the   turbine   outlet,   it   will   change?",
+      "choices": [
+        "Nozzle   area",
+        "Exhaust   velocity",
+        "Choked   limit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.596,
+      "text": "173.   In order to regain lost performance of the engine, can use converging: Higher exhaust speed:/ regain",
+      "choices": [
+        "Exhaust   cone",
+        "Exhaust   strut",
+        "Tailpipe"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4844,
+      "text": "174.   Exhaust   cone   shape:",
+      "choices": [
+        "Convergent,   conical,   and   cylindrical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7925,
+      "text": "175.   On   a   turboprop   engine,   reverse   thrust   action:",
+      "choices": [
+        "Reversing   the   exhaust   flow   by   clamshell   door",
+        "Changing   the   pitch   of   the   propeller   blade",
+        "Feathering   the   propeller"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.135,
+      "text": "176.   The   thrust   reverser   clamshell   door   is   used   to",
+      "choices": [
+        "Prevent   air   leakage   into   the   engine   exhaust",
+        "Decrease   the   exhaust   area   so   as   to   increase   the   engine   thrust",
+        "Spoil   the   hot   stream   exhaust   so   as   to   decrease   engine   thrust"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0068,
+      "text": "177.   A aerodynamic type of   thrust reverser. Reverse the gas   flow of the   exhaust gases from: The vane of the blocker door type thrust reverser is installed at:",
+      "choices": [
+        "Pre - exit   position",
+        "Post - exit   position",
+        "Either   a   pre - exit   or   post   exit   position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3586,
+      "text": "178.   T/R   blocker   door   type   consist   of:",
+      "choices": [
+        "Hydraulic   motor,   XXX,   Gear   box",
+        "Air   motor,   flexible   shaft,   screwjack",
+        "Hydraulic   actuator,   gearbox,   screwjack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.841,
+      "text": "179.   Thrust   reverser   using   pneumatic   actuator,   operating   pressure   is   ensured   by:",
+      "choices": [
+        "Isolating   valve",
+        "Pressure   regulating   valve",
+        "Directional   valve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4111,
+      "text": "180.   A   mixed   exhaust   nozzle   on   a   turbofan   engine   would   have   in   its   configuration:",
+      "choices": [
+        "One   thrust   reverser,   normally   as   part   of   the   exhaust",
+        "Both   cold   and   hot   stream   thrust   reversers",
+        "A   turbofan   thrust   reverser   only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5562,
+      "text": "181.   High   by - pass   turbine   engine.   Why   only   the   cold   stream   have   T/R?",
+      "choices": [
+        "No   space   for   T/R   at   hot   stream",
+        "No   material   can   stand   for   the   hot   temp",
+        "The   majority   of   thrust   comes   from   cold   stream"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.984,
+      "text": "182.   Thrust   reverser   deployed,   the   EPR:",
+      "choices": [
+        "Less   than   1",
+        "Negative",
+        "No   use   condition   /   Inoperative   in   that   moment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7588,
+      "text": "183.   When   deploying   thrust   reverser   to   open:",
+      "choices": [
+        "Engine   running   at   idle",
+        "Throttle   lever   at   idle   position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.588,
+      "text": "184.   Afterburner   components",
+      "choices": [
+        "Burner,   jet   pipe,   thrust   reverser",
+        "Burner,   jet   pipe,   variable   area   propelling   nozzle",
+        "Burner,   tail   pipe,   variable   area   propelling   nozzle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8938,
+      "text": "185.   Afterburner   increase   mass   flow   rate   and   also   increase",
+      "choices": [
+        "Temperature",
+        "Compressor   RPM",
+        "Compressor   compression   ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9653,
+      "text": "186.   The   effect   of   afterburning:",
+      "choices": [
+        "Increase   50%   of   thrust   and   100%   of   fuel   flow",
+        "Increase   100%   of   thrust   and   100%   of   fuel   flow",
+        "Increase   50%   of   thrust   and   150%   of   fuel   flow"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7642,
+      "text": "187.   Construction   of   afterburner:",
+      "choices": [
+        "Needs   exclusive   material",
+        "Prolong   of   tail   pipe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1475,
+      "text": "188.   The   afterburner   jet   pipe",
+      "choices": [
+        "Require   a   two   position   (convergent   and   divergent   duct)",
+        "In   an   extension...",
+        "Uses   extrusively..."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6746,
+      "text": "189.   The   requirements   for   an   efficient   compressor   is",
+      "choices": [
+        "High   RPM,   high   pressure   ratio,   high   temperature   rise",
+        "Low   RPM,   low - pressure   ratio,   high   temperature   rise",
+        "Low   RPM,   high - pressure   ratio,   low   temperature   rise"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3823,
+      "text": "190.   For   any   given   engine,   if   the   velocity   of   the   jet   stream   is   increased   this   will   cause:",
+      "choices": [
+        "Overall   efficiency   to   increase",
+        "Propulsive   efficiency   to   decrease",
+        "Thrust   to   decrease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.723,
+      "text": "191.   Overall   efficiency   is   thermal   efficiency   plus",
+      "choices": [
+        "Thermodynamic   efficiency",
+        "Propulsive   efficiency",
+        "Isometric   efficiency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.6614,
+      "text": "192.   Kinetic   energy   change   to   propulsive   energy",
+      "choices": [
+        "Kinetic   efficiency",
+        "Propulsive   efficiency",
+        "Thermal   efficiency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.69,
+      "text": "193.   The   efficiency   of   converting   fuel   energy   to   kinetic   energy   is: /   Fuel   burn   to   propulsion",
+      "choices": [
+        "Adiabatic   efficiency",
+        "Propulsive   efficiency",
+        "Thermal   efficiency"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9849,
+      "text": "194.   MB   extinguisher   neck   at:",
+      "choices": [
+        "Bottom.",
+        "Top.",
+        "Middle."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.234,
+      "text": "195.   Fire   extinguisher",
+      "choices": [
+        "Halogen   Nitrogen",
+        "CO2",
+        "CTC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.704,
+      "text": "196.   Fire   extinguisher",
+      "choices": [
+        "Pump   +TCT",
+        "Sphere   cylinder   +   N2   halon",
+        "CO2"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.1602,
+      "text": "197.   Engine   fire   bottle",
+      "choices": [
+        "Special   and   filled   with   halon",
+        "Contain   compressed   CO2",
+        "Have   high   volume   pump"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8489,
+      "text": "198.   Fire   bottle   cartridge   check   with",
+      "choices": [
+        "Safety   (low   current)   ohmmeter",
+        "250   volt   megger",
+        "H.T.   voltmeter"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.336,
+      "text": "199.   The   serviceability   of   a   extinguishing   bottle   can   be   check   by",
+      "choices": [
+        "Pressure   check",
+        "Weight   check",
+        "Pressure   and   weight   check"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.361,
+      "text": "200.   Which   is   a   true   statement   regarding   the   engine   fire   extinguisher?",
+      "choices": [
+        "A   container   mounted   on   non - fire   zone",
+        "Discharge   to   the   component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8416,
+      "text": "201.   The   extinguishant   to   be   used   for   engine   fire   is:",
+      "choices": [
+        "The   amount   to   give   a   concentrated   discharge   for   30   seconds.",
+        "Released   by   the   action   of   an   electrical   solenoid",
+        "In   pressurized   containers   located   outside   the   fire   risk   zone."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3647,
+      "text": "202.   How   to   operate   fire   extinguisher:",
+      "choices": [
+        "Manually   discharge   by   valve",
+        "Electrically   cartilage   fire   to   rupture   pin   to   cylinder   head",
+        "Electrically   operate   valve   to   discharge   fire   extinguish   element   to   engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7102,
+      "text": "203.   If   a   thermal   discharge   causes   the   fire   bottle   disc   to   rupture,   the   extinguisher   discharge",
+      "choices": [
+        "Into   the   nacelle",
+        "Overboard",
+        "Through   the   discharge   nozzles"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.831,
+      "text": "204.   When   fire   bottle   is   discharged:",
+      "choices": [
+        "Fire   discharge   solenoid   energized",
+        "Plug   unlocks   automatically",
+        "Indication   to   the   system   that   fire   bottle   discharge   has   taken   place"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8801,
+      "text": "205.   Fire   detector sensor,   temperature   setting:",
+      "choices": [
+        "Set   during   transit   check",
+        "Sealed   and   set   by   manufacturer,   and   cannot   be   changed",
+        "Set   during   maintenance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2896,
+      "text": "206.   Fire   detection   wire   loop,   why   is   it   installed   with   rubber   plastic   clip:",
+      "choices": [
+        "Resistance   insulation   of   the   wire",
+        "Prevent   corrosion   with   the   engine   support",
+        "Reduce   heat   exchange   and   protect   the   wire   from   sharp   clip"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.1536,
+      "text": "207.   Fire   detection   wire   loop,   why   is   it   installed   with   rubber   plastic   clip:",
+      "choices": [
+        "Prevent   corrosion",
+        "Less   heat   loss/transfer",
+        "Absorb   vibration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2292,
+      "text": "208.   A   continuous   wire   type   fire   detector   relies   o n   operation   on   the   temperature   dependence   of?",
+      "choices": [
+        "The   capacitance   or   resistance   of   the   detector   element",
+        "The   capacitance   of   the   winding   in   the   control   relays",
+        "The   resistance   of   the   winding   in   the   control   relays"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5117,
+      "text": "209.   Thermistor   type   continuous   loop   system,   senses   temperature   increase   by:",
+      "choices": [
+        "Sense the   rise   of   the   temperature",
+        "Sense   the   decrease   of   resistance",
+        "Sense   the   increase   of   the   resistance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3635,
+      "text": "210.   Thermistor:",
+      "choices": [
+        "Positive   temperature   coefficient",
+        "Negative   temperature   coefficient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9397,
+      "text": "211.   In   most   pneumatic   continuous   loop   fire   detector,",
+      "choices": [
+        "Use   thermo - switch",
+        "Compare   local   &   general   heat   rises",
+        "Use   ceramic   continuous   loop…   (better)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3296,
+      "text": "212.   Fire   discharging   circuit…..relay……",
+      "choices": [
+        "Mechanically   by   cable   and   linkage",
+        "Automatically   by   electrical   circuit",
+        "Circuit   completed   by   power   of   bus   bar"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6326,
+      "text": "213.   Pull   of   fire   handle   implement",
+      "choices": [
+        "Mechanical   and   linkage",
+        "Powered   electrically   by   main   aircraft   battery",
+        "Discharge   automatically   when   electrical   power   cut - off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.639,
+      "text": "214.   Asking   about   how   the   engine   prevents   fire",
+      "choices": [
+        "Because   the   cowling   is   made   by   aluminium   and   has   a   double   layer",
+        "Because   something   is   made   of   steel   and   titanium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.927,
+      "text": "215.   Gross   thrust   is   calculated:",
+      "choices": [
+        "Net   thrust   add   static   thrust",
+        "Mass   flow   /   thrust",
+        "When   the   aircraft   is   on   the   ground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2654,
+      "text": "216.   If the gross thrust of an engine was computed at 1000 lb, net thrust of the engine in an aircraft traveling",
+      "choices": [
+        "Less   than   gross   thrust",
+        "Greater   that   gross   thrust",
+        "Unaffected   by   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6406,
+      "text": "217.   Propeller   thrust   (not   sure)   is   the   product   of,",
+      "choices": [
+        "ESHP   &   airspeed",
+        "…….   &   density",
+        "SHP   &   propeller   efficiency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0005,
+      "text": "218.   When   air   thrust   increases:",
+      "choices": [
+        "Power   of   the   powerplant   increases",
+        "Power   of   the   powerplant   decreases",
+        "Power   of   the   powerplant   remains   unchanged"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6917,
+      "text": "219.   Thermodynamic   horsepower   is?",
+      "choices": [
+        "Horse   power   measured   at   dynamometer",
+        "Horse   power……thermo…..internal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5403,
+      "text": "220.   The   total   equivalent   shaft   horse   power   of   a   propeller   turbine   engine:",
+      "choices": [
+        "Is   the   horse   power   developed   by   the   turbine",
+        "Is   the   horse   power   developed   by   the   turbine   less   than   the   power   required   to   drive   the   compressor",
+        "Is   the   horse   power   available   to   the   propeller   plus   the   power   available   in   the   jet   efflux"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.5605,
+      "text": "221.   As   air   temperature   increase   the   net   thrust   at   any   given   throttle   setting",
+      "choices": [
+        "Decrease",
+        "Remains   constant",
+        "Increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9436,
+      "text": "222.   Atmospheric   temperature   decreases",
+      "choices": [
+        "Increase   fuel   to   maintain   same   speed",
+        "Decrease   fuel   to   maintain   same   speed",
+        "No   change   in   fuel   flow   and   engine   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8794,
+      "text": "223.   Altitude   increase   causes:",
+      "choices": [
+        "Thrust   decrease",
+        "Temperature   decrease",
+        "Function   of   density"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1987,
+      "text": "224.   The   relationship   between   altitude   and   thrust,",
+      "choices": [
+        "Higher   the   altitude,   lower   the   thrust",
+        "Directly   function   of   density",
+        "Related   to   ambient   temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7622,
+      "text": "225.   An   increase   in   altitude   at   fixed   throttle   setting:",
+      "choices": [
+        "Would   cause   an   increase   in   engine   pressure   ratio   (EPR)",
+        "Would   cause   a   decrease   EPR",
+        "Would   have   no   effect   in   EPR"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.1165,
+      "text": "226.   Under   the   same   thrust   setting,   altitude   increase:",
+      "choices": [
+        "EGT   increase,   thrust   decrease",
+        "EGT   increase,   thrust   increase",
+        "EGT   decrease,   thrust   decrease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8674,
+      "text": "227.   When   the   engine   climbs   in   constant   throttle,   the   engine   EPR   will:",
+      "choices": [
+        "Remain   constant",
+        "Increase",
+        "Decrease"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2927,
+      "text": "228.   When   EPR   is   not   changed   with   different   altitude,   the   net   thrust   force:",
+      "choices": [
+        "Increases   with   altitude",
+        "Decreases   with   altitude",
+        "The   fuel   metering   unit   compensates   it"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.042,
+      "text": "229.   The   relative   air   flow   is   getting   faster,   and   the   net   jet   thrust   would",
+      "choices": [
+        "Increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0703,
+      "text": "230.   Velocity   of   jet   stream   increase",
+      "choices": [
+        "Thrust   increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.114,
+      "text": "231.   Airspeed   increase:",
+      "choices": [
+        "SHP   increase,   jet   thrust   decrease",
+        "SHP   decrease,   jet   thrust   increase",
+        "SHP   and   jet   thrust   remain   constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7336,
+      "text": "232.   High   humidity,   power   will",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "No   significant   change"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7266,
+      "text": "233.   Gas   turbine   engine   take - off   with   humid   weather:",
+      "choices": [
+        "Loss   of   thrust",
+        "No   noticeable   effect   compare   to   piston   engine   counterpart"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3704,
+      "text": "234.   Use   of   part   power   setting   during   trim   runs   will:",
+      "choices": [
+        "Reduce   hot   section   life",
+        "Increase   hot   section   life",
+        "Increase   noise   levels   but   reduce   fuel   consumption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3225,
+      "text": "235.   Use   engine   on   idle   speed……..",
+      "choices": [
+        "Longer   hot   section   life",
+        "Shorter   hot   section   life"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4463,
+      "text": "236.   Engine   trimming   of   the   part   power   setting   is   used   for:",
+      "choices": [
+        "Increase   noise",
+        "Decrease   service   life",
+        "Increase   service   life   and   increase   noise"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7676,
+      "text": "237.   Take - off   wet   thrust   /   SHP   engine   power   rating   ????   maximum   power   available   ?",
+      "choices": [
+        "For   emergency   situation   and   is   not   time   limited.",
+        "While   using   water   injection   and   is   normally   limited   operation   time",
+        "At   standard   condition   and   engine   are   trimmed   to   this   rating"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0703,
+      "text": "238.   Wet   thrust",
+      "choices": [
+        "Used   in   high   temperature   with   limited   time",
+        "Used   in   high   altitude",
+        "No   limit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0798,
+      "text": "239.   Under   which   condition   would   water   injection   be   used?",
+      "choices": [
+        "Dirty   compressor",
+        "Icing   conditions",
+        "Adverse   ambient   air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4563,
+      "text": "240.   Water   injection   is   used",
+      "choices": [
+        "Normally   under   landing",
+        "Under   bad   weather   condition",
+        "Under   high   ambient   temperature   takeoff"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.0483,
+      "text": "241.   High   ambient   temperature   will",
+      "choices": [
+        "Sometimes   add   water   in   the   inlet   to   reduce   the   temperature",
+        "Turbo   engine   affect   less   than   piston   engine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4194,
+      "text": "242.   The use   of   water injection   in   a gas turbine engine is for the recovery   of thrust   when the   engine is",
+      "choices": [
+        "Low   density   altitudes",
+        "High   altitude   cruise",
+        "Take - off   power"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2104,
+      "text": "243.   Where   to   use   water   injection?",
+      "choices": [
+        "Compressor   inlet   or   combustion   chamber",
+        "Compressor   inlet   or   turbine",
+        "Combustion   chamber   or   turbine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4976,
+      "text": "244.   Gas   turbine   water   injection   system   are   designed   to   spray   water   into   the:",
+      "choices": [
+        "Compressor   outer   and   /or   the   combustion   chamber   outlet",
+        "Compressor   inlet   and/   or   the   combustion   chamber   inlet",
+        "Free   turbine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8586,
+      "text": "245.   Water   used   in   water   injection   system   is",
+      "choices": [
+        "Demineralised   water",
+        "Tap   water",
+        "Methanol"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2654,
+      "text": "246.   Water/methanol   in   water   injection   is",
+      "choices": [
+        "Power   increase   with   no   fuel   flow   increase",
+        "Power   increase   by   burning   methanol,   no   fuel   flow   increase",
+        "Power   increase   by   burning   methanol,   fuel   flow   increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7837,
+      "text": "247.   Primary   purpose   of   methanol   in   water   injection",
+      "choices": [
+        "To   reduce   turbine   inlet   temperature",
+        "Lower   freezing   point   of   water",
+        "To   add   power   as   fuel"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.531,
+      "text": "248.   Water   injection",
+      "choices": [
+        "Water   cooling,   alcohol   for   anti - freeze",
+        "Alcohol   cooling,   water   increase   air   density",
+        "Alcohol   cooling,   water   enrich   oxygen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9001,
+      "text": "249.   An   injection   of   water   methanol...",
+      "choices": [
+        "Cooling   the   air   mass,",
+        "Supplement   the   fuel..",
+        "Increasing   the   velocity.."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.975,
+      "text": "250.   Once   the   water   injection   system   is   activated,   what   to   do   with   the   remained   water?",
+      "choices": [
+        "Leave   it   as   it   is,   will   be   kept   for   further   use",
+        "Will   be   drained   overboard",
+        "All   water   will   be   consumed,   inject   until   no   more   is   left   over"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.262,
+      "text": "251.   Fuel   is   suitable   as   a   lubricant   in   fuel   pump   and   fuel   control   unit   because   it   has:",
+      "choices": [
+        "High   viscosity",
+        "Low   viscosity",
+        "Anti - foaming   characteristic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.789,
+      "text": "252.   Chose   a   quality   which   is   NOT   practicable   for   a   turbine   engine   fuel?",
+      "choices": [
+        "Have   as   high   a   calorific   valve   as   possible",
+        "Do   not   freeze   under   all   conditions   of   flight",
+        "Provide   adequate   lubrication   for   the   moving   parts   of   the   fuel   system."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.901,
+      "text": "253.   The   turbine   fuel   designation   Jet   A1   indicates:",
+      "choices": [
+        "The   freezing   point",
+        "The   performance   characteristic",
+        "The   octane   number"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.057,
+      "text": "254.   What   is   Jet   A1   fuel?",
+      "choices": [
+        "Freezing   point   - 47   deg   C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8955,
+      "text": "255.   Difference   between   general   aviation   fuel   and   Jet   A1   is   that   Jet   A1   contains:",
+      "choices": [
+        "Lead",
+        "Kerosene"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9543,
+      "text": "256.   Turbine   fuel   and   kerosene   difference",
+      "choices": [
+        "In   color",
+        "Lead",
+        "Kerosene"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7827,
+      "text": "257.   Jet   A1",
+      "choices": [
+        "Blend   of   gasoline   and   kerosene",
+        "Kerosene/Te…   lead",
+        "Kerosene"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6284,
+      "text": "258.   Difference   between   Jet   A   and   Jet   A1",
+      "choices": [
+        "?",
+        "Jet   A1   has   a   lower   freezing   point   than   Jet   A",
+        "Jet   A   has   a   lower   freezing   point   than   Jet   A1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.247,
+      "text": "259.   Extreme   low   temperature:",
+      "choices": [
+        "Jet   A1",
+        "Jet   A",
+        "Jet   B"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8838,
+      "text": "260.   Kerosene   is   more   difficult   in   visual   inspection   on   the   contamination   of   water   than   gasoline   because:",
+      "choices": [
+        "Kerosene’s   SG   is   far   from   water",
+        "Kerosene’s   SG   is   close   to   water"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4521,
+      "text": "261.   SFC   definition:",
+      "choices": [
+        "(Mention   about   maximum   operating   flight,   wrong)",
+        "One   unit   of   fuel   used   for   one   unit   of   thrust   provided",
+        "How   much   fuel   use   in   one   minutes   to   produce   maximum   power"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.232,
+      "text": "262.   To   achieve   at   low   SFC",
+      "choices": [
+        "Higher   thrust   setting",
+        "Higher   exhaust   velocity",
+        "Low   temperature   gas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7234,
+      "text": "263.   Location   of   fuel   heater",
+      "choices": [
+        "Between   FCU   and   fuel   cock",
+        "Between   HP   pump   and   FCU",
+        "At   upstream   of   the   filter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.58,
+      "text": "264.   High   pressure   fuel   filter   is   located:",
+      "choices": [
+        "Upstream   of   fuel   heater",
+        "Downstream   of   fuel   heater",
+        "Upstream   of   booster   pump"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.769,
+      "text": "265.   The   HP   fuel   cock   is   placed   in",
+      "choices": [
+        "Pride   engine   fuel",
+        "At   FCU   outlet",
+        "After   the   fuel/air   cooler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8914,
+      "text": "266.   Fungi   and   bacteria   presence   in   the   fuel   tank",
+      "choices": [
+        "Corrosion",
+        "Water   contamination",
+        "Fuel - Ice"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3037,
+      "text": "267.   Where fungi and bacteria   accumulate at the bottom of   the fuel   tank? / When fungal and bacteria in fuel tank,...",
+      "choices": [
+        "Corrosion   will   take   place   and   sometime   to   an   appreciable   extent.",
+        "Wet   wings   will   not   be   affected",
+        "Fuel   ice   contamination   will   result"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6782,
+      "text": "268.   Low   pressure   backing   fuel   pump?",
+      "choices": [
+        "Supply   a   sufficient   fuel   pressure   for   HP   pump",
+        "Use   while   HP   fuel   pump   failure",
+        "Transfer   fuel   from   pipe   to   another"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.076,
+      "text": "269.   The   purpose   of   the   fuel   drain   system   on   a   gas   turbine   engine   is   to:",
+      "choices": [
+        "Drain   the   unburned   fuel   collected   in   the   combustion   chamber   whilst   the   engine   is   running",
+        "Collect   the   unburned   fuel   on   failure   to   start   and   fuel   which   has   leaked   from   certain   fuel   system",
+        "Return   fuel   to   the   inlet   side   of   the   fuel   control   unit   when   the   pressure   cock   is   closed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7039,
+      "text": "270.   What   is   the   function   of   the   oil   system   relieve   valve?",
+      "choices": [
+        "Regulate   oil   pressure",
+        "Minimize   oil   loss",
+        "Provide   a   filter   bypass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.765,
+      "text": "271.   Oil   pump   relieve   valve   is   to",
+      "choices": [
+        "Protect   the   oil   cooler",
+        "Regulate   oil   pressure",
+        "Provide   a   recirculating   loop   in   case   of   system   blocked"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8367,
+      "text": "272.   What   is   the   function   of   oil   bypass   valve?",
+      "choices": [
+        "Pass   unfiltered   oil   when   filter   blocked",
+        "Regulate   the   pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.228,
+      "text": "273.   When   will   oil   cooler   valve   bypass   be   open:",
+      "choices": [
+        "Oil   cooled,   and   is   the   valve   is   blocked",
+        "Oil   cooler   is   blocked,   and   oil   pressure   is   high",
+        "Oil   cooled,   ..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5254,
+      "text": "274.   When will oil cooler valve bypass be open(Alternative)",
+      "choices": [
+        "Oil   cool   &   cooler   blocked",
+        "Oil   cool   &   oil   pressure   too   high",
+        "Oil   pressure   too   high   &   cooler   blocked"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5789,
+      "text": "275.   Oil   filter,   bypass   relieving   valve",
+      "choices": [
+        "Prevent   the   oil   back   flow   to   the   oil   pump",
+        "Let   unfilled   oil   through   the   pump   when   the   boost   pump   is   shut   off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0178,
+      "text": "276.   In   oil   lubrication   system,   last   chance   filter   is   located   at",
+      "choices": [
+        "Scavenge   line",
+        "Outlet   of   oil   tank",
+        "Oil   line   before   oil   jet   spray"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.165,
+      "text": "277.   Magnetic   chip   detector   (MCD)   located   at",
+      "choices": [
+        "Pressure   pump   outlet",
+        "Scavenge   line",
+        "Filter   outlet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.1157,
+      "text": "278.   Magnetic   plug   is   installed",
+      "choices": [
+        "Into   the   flow",
+        "In   order   to   pick   up   the   ferrous   chips",
+        "?   return   line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.492,
+      "text": "279.   Magnetic   plug   usually   install   with",
+      "choices": [
+        "Oil - drain   plug",
+        "Oil - fill   plug"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1992,
+      "text": "280.   Magnetic   detector   is",
+      "choices": [
+        "Fitted   at   case   drain   for   collect   ferrous   debris",
+        "Inserted   in   oil   line   for   conditioning   &   monitoring"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9207,
+      "text": "281.   Magnetic(?)   plugs   are?",
+      "choices": [
+        "Fitted   on   the   case - drain   lines   to   collect   ferritic   debris",
+        "Inserted   in   the   oil   flow   and   inspected   for   condition   and   monitoring",
+        "Installed   one   for   each   pump   and   retained   within   a   selfsealing   valve   housing."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.965,
+      "text": "282.   Dry   sump   lubrication   system",
+      "choices": [
+        "Oil   is   carried   in   its   own   separated   oil   tank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.731,
+      "text": "283.   Dry   sump   system   of   engine,   the   oil   tank:",
+      "choices": [
+        "Does   not   need   expandable   space",
+        "May   have   expandable   space   filled   extended   range   and   transit",
+        "Must   need   expandable   space"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4993,
+      "text": "284.   Compressor   oil   leakage   caused   by",
+      "choices": [
+        "Seal   failure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3394,
+      "text": "285.   An   oil   leak   into   compressor   may   cause",
+      "choices": [
+        "Increases   in   oil   and   breather   pressure",
+        "Burning   and   distress   on   the   compressor",
+        "Oil   baking   onto   the   compressor   or   dirt   sticking   to   it."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8408,
+      "text": "286.   Internal   oil   leaking   of...   may:",
+      "choices": [
+        "A   decrease   in   fuel   consumption",
+        "A   decrease   in   engine   performance",
+        "A   decrease   in   breather   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.644,
+      "text": "287.   Oil   tank",
+      "choices": [
+        "Always   pressurized",
+        "Has   a   vent"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.6748,
+      "text": "288.   Sub   vent   pressure   system   in   oil   tank,   function",
+      "choices": [
+        "Slightly   negative   to   assist   the   flow",
+        "To   ambient   pressure   to   prevent   pump   cavitation",
+        "Slightly   positive   to   prevent   pump   cavitation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.111,
+      "text": "289.   Oil   pressure   pump:",
+      "choices": [
+        "Gear   pump   &   helical",
+        "Piston   &   gear   pump"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0432,
+      "text": "290.   Measuring   the   engine   oil   temperature   at?",
+      "choices": [
+        "Within   oil   tank",
+        "Measuring   at   the   point   where   oil   flow   into   bearing   compartment",
+        "Measuring   at   the   point   where   oil   flow   out   bearing   compartment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.643,
+      "text": "291.   Engine   oil   flow   plan",
+      "choices": [
+        "C ooler   first   then   to   the   veering   gears      hot   tank",
+        "To   the   bearing   gears,   then   scavenge   to   the   drain   system,   back   in   cooler      cold   tank"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0012,
+      "text": "292.   The   difference   between   a   hot   tank   and   a   cold   tank   is   that   hot   tank   is:",
+      "choices": [
+        "Inside   the   engine",
+        "Located   downstream   of   sub - pressure   system",
+        "Located   upstream   of   sub - pressure   system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2434,
+      "text": "293.   Hot   tank   lubrication   system,   the   oil   from   boost   pump   direct   to:",
+      "choices": [
+        "Cooler   - >   bearing   and   gear",
+        "System   breather   - >   fuel - oil - cooler   - >   bearing   and   gear",
+        "Bearing   and   gear   - >   from   scavenge   to   cooler"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9788,
+      "text": "294.   Why   is   the   scavenge   oil   pump   volume   larger   than   the   oil   pump?",
+      "choices": [
+        "Because   the   scavenge   is   mixed   with   contaminated   air",
+        "Temperature   in   the   scavenge   line   is   larger   than   that   in   pump,   so   the   pressure   increases",
+        "Because   the   scavenge   is   dirty"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5347,
+      "text": "295.   Cleanable   oil   filter   components:",
+      "choices": [
+        "Screen,   spacer,   and   water",
+        "Pleated   screen,   pleated   spacer,   and   pleated   water",
+        "Screen,   spacer,   and   consumable   screen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.298,
+      "text": "296.   Cleanable   oil   filter   components : (Alternative)",
+      "choices": [
+        "Screen   and   spacer,   pleated   screen   and   water   screen",
+        "Pleated   screen,   pleated   space,   and   water   screen",
+        "Water   screen,   screen   and   spacer   and   disposable   screen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.727,
+      "text": "297.   Which   statement   is   correct?",
+      "choices": [
+        "Synthetic   turbine   oils   will   affect   thermosetting   plastics.",
+        "Prolonged   exposure   to   synthetic   oils   may   cause   dermatitis",
+        "The   flush   points   of   synthetic   turbine   oils   are   very   low"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.474,
+      "text": "298.   Engine   lubricating   oil   is",
+      "choices": [
+        "Synthetic   oil",
+        "Mineral   oil",
+        "Heavy duty oil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4404,
+      "text": "299.   Engine   oil   is   best   to   use:",
+      "choices": [
+        "Low   viscosity",
+        "High   viscosity",
+        "Constant   viscosity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4648,
+      "text": "300.   Synthetic   lubrication   oil   spillage,   what   to   do:",
+      "choices": [
+        "Wiped,   washed,   and   cleaned   with   suitable   cleaning   agent",
+        "Neutralized   with   an   approved   agent",
+        "Mopped   up   and   flushed   with   plenty   of   water"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4954,
+      "text": ". 301.   For   FADEC   powered   engine,   an   alternate   mode   operation   means:",
+      "choices": [
+        "For   ground   test   purposes",
+        "If   the   prime   power   parameter   fail",
+        "For   use   on   take - off   only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5017,
+      "text": "302.   FADEC   power   from:",
+      "choices": [
+        "Aircraft   electrical   battery",
+        "Engine   special   generator",
+        "?   engine   shut   down,   and   when   engine   running"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7327,
+      "text": "303.   EEC   conjunction   is   used   with:",
+      "choices": [
+        "Pressure   injection   system",
+        "Hydro - mechanical   unit",
+        "FADEC"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.64,
+      "text": "304.   The   main   advantage   of   FADEC   is:",
+      "choices": [
+        "Efficiency   is   always   maximum,   reduce   complexity,   add   flexibility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7573,
+      "text": "305.   When   an   engine   is   overspeed,   FCU   will:",
+      "choices": [
+        "Cut   off   the   fuel   supply",
+        "Reduce   the   fuel   flow   to   reduce   the   speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4717,
+      "text": "306.   The   HP   shaft   is   overspeed:",
+      "choices": [
+        "N1   and   N2   RPM",
+        "Turbine   inlet   temperature",
+        "Free   turbine   RPM"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.568,
+      "text": "308.   In   turboprop,   turbine   N2   indication   too   high,   engine   will",
+      "choices": [
+        "Bleed   off   compressor   air",
+        "Decrease   fuel   flow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5894,
+      "text": "309.   Turboshaft   engine   FCU   control:",
+      "choices": [
+        "Turbine   inlet   temperature",
+        "Compressor   RPM",
+        "Turbine   RPM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9434,
+      "text": "310.   Throttle   lever   angle   is   related   to",
+      "choices": [
+        "The   throttle   lever   in   the   cockpit",
+        "The   EEC   transducer   /   controlled   by   ECU",
+        "The   fuel   control   system……….."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4363,
+      "text": "311.   Electrical   engine   control   governor",
+      "choices": [
+        "TIT,   shaft   speed,   inlet   air   pressure",
+        "TIT,   fuel   pressure,   inlet   air   pressure,   lever   angle",
+        "Fuel   pressure,   lever   angle"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.1145,
+      "text": "312.   Digital   Engine   Control   sensing   element",
+      "choices": [
+        "Fuel   Pressure,   …"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9685,
+      "text": "313.   Fuel   flow   regulation   principle",
+      "choices": [
+        "By   fuel   schedule",
+        "Constant   pressure   by   pressure   relief   valve",
+        "Differential   pressure   from   throttle   position   and   engine   RPM"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2576,
+      "text": "314.   The   fuel   control   usually   senses   compre...   temperature",
+      "choices": [
+        "As   a   function   of   the   density   of   the...",
+        "As   a   base   for   standard   day   temperature",
+        "To   re   reference   the   EGT   limit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2214,
+      "text": "315.   Gas   turbine   engine   power   control   by",
+      "choices": [
+        "Fuel",
+        "Fuel   &   intake   air",
+        "Intake   air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5237,
+      "text": "316.   When   propeller   RPM   exceed   (100%   operating   RPM).   ...   moves   the   blade   to   a",
+      "choices": [
+        "Lower   pitch   angle",
+        "Higher   pitch   angle",
+        "Free   wheeling   position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5525,
+      "text": "317.   Turbo - prop   …   fuel   control   …   flyweight   …   is   controlled   by:",
+      "choices": [
+        "RPM",
+        "Fuel   pressure",
+        "Power   spring   …"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6768,
+      "text": "318.   Hyper….   Fuel   control,   flyweight",
+      "choices": [
+        "RPM",
+        "Fuel   pressure",
+        "Fuel   flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8022,
+      "text": "319.   Hydro - mechanical   fuel   control   system   governor   control   by",
+      "choices": [
+        "Fuel   pressure",
+        "Spring   feeder"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.186,
+      "text": "320.   Turboprop   overspeed   governor   is   adjusted?",
+      "choices": [
+        "Automatically   during   flight",
+        "In   flight   by   cockpit   controls",
+        "When   installed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.752,
+      "text": "321.   When   aircraft   is   flying   at   high   altitude,   the   fuel   control   unit:",
+      "choices": [
+        "Increase   the   fuel   rate   when   the   increase   amount   of   air   intake",
+        "Reduce   the   fuel   flow   rate"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3826,
+      "text": "322.   Gas   turbine   engine   is   controlled   at   CSD   an   increase   of   flight   altitude   ,   the   sense   of   fuel   ????   such   that? Fuel   flow   when   increasing   altitude   with   constant   engine   speed",
+      "choices": [
+        "Fuel   flow   is   adjusted   to   match   the   increased   airflow",
+        "Fuel   flow   reduces",
+        "Fuel   flow   remains   the   same   if   the   forward   speed   of   the   aircraft   changes   by   proportional   amount."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.5986,
+      "text": "323.   Altitude   increase,   and   the   thrust   setting   is   same,",
+      "choices": [
+        "Fuel   consumption   increase",
+        "Fuel   consumption   decrease",
+        "No   change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0918,
+      "text": "324.   Airspeed   increase   with   attitude,   fuel   control   unit:",
+      "choices": [
+        "Adjust   the   fuel   flow,   according   to   the   airspeed",
+        "Reduce   the   fuel   flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1516,
+      "text": "325.   CSD   warning   indicator   light   are   usually   operated   by:",
+      "choices": [
+        "Over   temperature   or   over   pressure   condition",
+        "Over   temperature   or   low   pressure   condition",
+        "Over   temperature   or   drive   disconnect   condition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7383,
+      "text": "326.   The   highest   velocity   inside   a   jet   engine   is",
+      "choices": [
+        "At   compressor   outlet",
+        "At   the   turbine   exit",
+        "At   the   exhaust"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.508,
+      "text": "327.   The   highest   velocity   inside   a   jet   engine   is (Alternative)",
+      "choices": [
+        "Compressor   outlet",
+        "Combustion   chamber   outlet",
+        "Nozzle   guide   vane   outlet"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8289,
+      "text": "328.   What does exhaust gas velocity relate to? / The velocity of ..   through...exhaust ... relates to the: The",
+      "choices": [
+        "Potential   energy   (PE)   of   gas",
+        "Pressure   energy   of   gas",
+        "Kinetic   energy   (KE)   of   gas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.5393,
+      "text": "329.   In   practice,   the   highest   pressure   inside   a   jet   engine   occurs",
+      "choices": [
+        "At   the   compressor   outlet",
+        "At   the   combustion   chamber   outlet",
+        "At   the   turbine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9436,
+      "text": "330.   What   is   EPR?",
+      "choices": [
+        "Inlet   total   pressure   to   exhaust   total   pressure   ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7058,
+      "text": "331.   EPR   definition",
+      "choices": [
+        "Inlet   to   Exhaust",
+        "Exhaust   to   Inlet"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.155,
+      "text": "332.   EPR   definitio n (Alternative)",
+      "choices": [
+        "Compressor   inlet/jet   pipe",
+        "Compressor   outlet/jet   pipe",
+        "Compressor   inlet/compressor   outlet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6465,
+      "text": "333.   When   the   engine   is   stationary,   the   reading   of   EPR   is",
+      "choices": [
+        "0",
+        "1",
+        "1.5"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9736,
+      "text": "334.   If   an   engine   pressure   ratio   indicates   just   above   1   when   turbine   engine   stop   running: /   Engine   pressure   ratio",
+      "choices": [
+        "No   action   is   needed   as   it   is   normal",
+        "It   means   the   transmitter   has   reading   shift   and   needs   replacement",
+        "The   indicator   is   out   tolerance   and   should   be   adjusted   to   1",
+        "Not   a   fault,   this   is   due   to   drag   of   measuring   equipment   and   needs   calibration"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977442.84,
+      "text": "335.   Blade   surge   off   take   ASAP",
+      "choices": [
+        "Reduce   power   loss",
+        "Regain   pressure   and   temp   compromising   engine   performance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.288,
+      "text": "336.   When   the   engine   surge   bleed   valve   closes,   you   would   observe",
+      "choices": [
+        "A   rise   in   EPR,   a   drop   in   EGT",
+        "A   drop   in   EPR,   a   drop   in   EGT",
+        "A   drop   in   EPR,   a   rise   in   EGT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.934,
+      "text": "337.   When   the   engine   surge   bleed   valve   closes,   you   would   observe (Alternative)",
+      "choices": [
+        "A   rise   in   rotational   speed   and   a   drop   in   exhaust   gas   temperature",
+        "A   drop   in   rotational   speed   and   a   drop   in   exhaust   gas   temperature",
+        "A   drop   in   rotational   speed   and   a   rise   in   exhaust   gas   temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9165,
+      "text": "338.   If   the   air   is   supplied   from   the   HP   stage   compressor   for   the   engine   anti - icing:",
+      "choices": [
+        "EGT   and   RPM   increase",
+        "EGT   increase   and   RPM   decrease",
+        "No   change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.15,
+      "text": "339.   If   air   is   tapped   from   the   high   compressor   of   a   turbine   engine...",
+      "choices": [
+        "Engine   pressure   ratio   (EPR)   and   exhaust   gas   temperature   decreases",
+        "EPR   remains   constant   and   EGT   decreases",
+        "EPR   decreases   and   EGT   increases"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4917,
+      "text": "340.   When   air   is   taken   from   the   compressor   of   an   airplane   engine,   its   power",
+      "choices": [
+        "Goes   up",
+        "Goes   down",
+        "Remain   the   same"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7432,
+      "text": "341.   Air   bleed   from   compressor,   power   and   EGT",
+      "choices": [
+        "Increase,   Decrease",
+        "Decrease,   Increase",
+        "(Can’t   remember)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9534,
+      "text": "342.   When   there   is   a   leakage   of   air   in   the   compressor:",
+      "choices": [
+        "EGT   and   EPR   will   decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2622,
+      "text": "343.   Turbine   interstage   seal   for   the   cavities   is   ….",
+      "choices": [
+        "Control   air   cooling   &   velocity",
+        "Prevent   hot   gas   ingestion   by   turbine   through   cavities"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.6978,
+      "text": "344.   Turbine   disc   interconnect   seal   is   used   for:",
+      "choices": [
+        "Prevent   thermal   fatigue",
+        "Prevent   hot   gas   leakage",
+        "?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0955,
+      "text": "345.   The   three   types   of   bearing   seals   commonly   used   are:",
+      "choices": [
+        "Carbon,   feather   and   brush   types",
+        "Brush,   labyrinth   and   carbon   types",
+        "Labyrinth,   carbon   and   helical   types"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8599,
+      "text": "346.   What   is   the   function   of   a   turbine   blade   labyrinth   seal?",
+      "choices": [
+        "Pressurizes   the   labyrinth   air   seals   which   control   the   rate   of   cooling   air   flow   and   prevent   the   inflow   of"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5432,
+      "text": "347.   The sealing   effect   of the   main   shaft of a   gas turbine   engine   –   labyrinth sealing   properties upon   the",
+      "choices": [
+        "Fuel   pressure",
+        "The   vacuum   created   in   the   sealing   passage...",
+        "Compressor   blade   air   pressure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.0068,
+      "text": "348.   Air   sealing   attention   to:",
+      "choices": [
+        "Fuel   pressure",
+        "Vacuum   in   the   oil   passage",
+        "N pressure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.299,
+      "text": "1 349.   The   air   pressure   used   in   labyrinth   seal   for   sealing   is:",
+      "choices": [
+        "Decreasing   across   the   blades",
+        "Increasing   across   the   blades",
+        "Constant   pressure   at   different   blades"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3428,
+      "text": "350.   Labyrinth   bearing   seal   uses?",
+      "choices": [
+        "An   air   pressure   drop   across   the   sealing   fines",
+        "An   air   pressure   increase   across   the   sealing   fines",
+        "A   constant   air   pressure   across   the   sealing   fines"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.974,
+      "text": "351.   When   to   use   labyrinth   seal:",
+      "choices": [
+        "In   high   temperature   condition",
+        "In   high   pressure   condition",
+        "In   low   pressure   condition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2537,
+      "text": "352.   Which   is   NOT   a   good   condition   to   use   the   labyrinth   seal?",
+      "choices": [
+        "High   temperature",
+        "Low   temperature",
+        "High   pressure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8633,
+      "text": "353.   Where   a   labyrinth   seal   is   used   to   enclose..",
+      "choices": [
+        "Inward   airflow   is   limited   by   turbulent   ......   Surface",
+        "Inflow   of   air   is   free   and   outflow   of   ..",
+        "Air   is   stopped   from   moving   in   for   .."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0688,
+      "text": "354.   Labyrinth   seal",
+      "choices": [
+        "Forms   an   airtight   seal   between   rotating   component   and   casing",
+        "Restrict   the   air   flow   between   rotating   component   and   casing",
+        "Form   an   airtight   seal   for   static   component"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4832,
+      "text": "355.   Labyrinth   seal   is   used   on",
+      "choices": [
+        "Airtight   seal   between   rotating   shaft   and   fix   casing",
+        "(wrong   because   no   airtight)",
+        "Airtight   seal   between   fix   component"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0957,
+      "text": "356.   The   labyrinth   is   usually   used   on:",
+      "choices": [
+        "Inlet   section",
+        "Compressor   section",
+        "Turbine   section"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3242,
+      "text": "357.   What   is   the   application   of   a   carbon   seal?",
+      "choices": [
+        "Compressor   bearing   section"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.205,
+      "text": "358.   Carbon   seal",
+      "choices": [
+        "Oil   pressure",
+        "Air   pressure",
+        "Spring   pressure"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4438,
+      "text": "359.   Spring   loaded   seal   to   seal   against   a   rotating   shaft:",
+      "choices": [
+        "Labyrinth",
+        "Helical",
+        "Carbon"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.1907,
+      "text": "360.   A   spring   ring   seal   is   effective   for:   Spring … efficiently on the condition of:",
+      "choices": [
+        "Stationary",
+        "Rotational",
+        "Both"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.767,
+      "text": "361.   A   screw   back   seal   will   normally?",
+      "choices": [
+        "Screw   the   oil   away   from   the   bearing",
+        "Screw   the   air   away   from   the   bearing",
+        "Screw   the   oil   toward   the   bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3386,
+      "text": "362.   What   is   the   function   of   a   screw - back   seal?",
+      "choices": [
+        "A   continuous   thread   form,   helical   groove   formed   on   either   a   rotating   member   or   stationary   member"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7424,
+      "text": "363.   Thread   type   oil   seal:",
+      "choices": [
+        "Works   with   o - ring   or   carbon   seal   ring",
+        "Labyrinth   seal",
+        "Consists   of   brush   seals   on   ceramic   coating"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4702,
+      "text": "364.   What   is   the   application   of   self - clearing   seals?",
+      "choices": [
+        "Turbine   area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.628,
+      "text": "365.   Turbine   knife - edge   seal   severe   eroded,   indication   is:",
+      "choices": [
+        "N1   speed   increase   rapidly,   EGT   increase",
+        "Black   smoke",
+        "Tailpipe   fire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.99,
+      "text": "366.   Turbine   seal   failure   indication",
+      "choices": [
+        "EGT   increase",
+        "Smoke   at   exhaust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8953,
+      "text": "367.   A spectrometric   oil   analysis   showed a high   amount of   silicon. The   most probable contaminant cause",
+      "choices": [
+        "Labyrinth   seal",
+        "Dirty   environment",
+        "Carbon   seal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0586,
+      "text": "368.   Sand   found   during   S.O.A.P.   =>",
+      "choices": [
+        "Dirty   environment"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.033,
+      "text": "369.   What   kind   of   engine   sealing   will   cause   serious   damage   due   to   dirty   engine   oil?",
+      "choices": [
+        "Labyrinth   seal",
+        "?   seal",
+        "Carbon   seal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4824,
+      "text": "370.   What   loads   does   a   roller   bearing   take?",
+      "choices": [
+        "Axial   loads",
+        "Thrust   and   radial   loads",
+        "Radial   loads"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3997,
+      "text": "371.   Taper   bearing   cone: In   a   Taper   Roller   Bearing   use   in   shaft",
+      "choices": [
+        "Face   away.",
+        "Face   to   face",
+        "Two   Taper   Bearing   end   face   away",
+        "Two   Taper   Bearing   end   same   face",
+        "Two   Taper   Bearing   end   face   together"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7087,
+      "text": "372.   Tapered   roller   bearings   which   are   fitted   in   pairs   are:",
+      "choices": [
+        "Fitted   with   the   cone   ends   away   from   each   other",
+        "Fitted   with   the   cone   ends   both   facing   in   the   same   direction",
+        "Fitted   with   the   cone   ends   towards   each   other"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.464,
+      "text": "373.   The   special   bearing   of   stator   designed   for   dampening   vibration",
+      "choices": [
+        "Needle   rolling   bearing",
+        "Cushioned   bearing",
+        "Oil   dampened   bearing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.415,
+      "text": "374.   In   disc - type   turbine,   what   share   the   axial   load?",
+      "choices": [
+        "Rotor   disc",
+        "A   platform   and   spacer   ring",
+        "Splines   on   rotor   shaft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0696,
+      "text": "375.   Axial   flow   compressor   axial   load   taken   by:",
+      "choices": [
+        "Blade   platform   +   spacer   ring",
+        "Spline   shaft",
+        "Rotor   disk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5015,
+      "text": "376.   Spalling   of   a   gas   turbine   bearing   is   normality   caused   by:",
+      "choices": [
+        "Overloading",
+        "Lack   of   lubrication",
+        "Overheating"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.529,
+      "text": "377.   ‘Squeeze   film'   bearing   are   used   specifically",
+      "choices": [
+        "To   increase   the   oil   flow   through   the   bearings",
+        "To   increase   heat   dissipation",
+        "To   reduce   the   engine   vibration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4424,
+      "text": "378.   Brinelling   of   bearing   evidence",
+      "choices": [
+        "Mechanical   smoothness",
+        "Shallow   indentation",
+        "Discolouration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7383,
+      "text": "379.   The   proper   starting   sequence   for   a   turbine   engine   is",
+      "choices": [
+        "Starter,   ignition,   fuel",
+        "Fuel,   starter, ignition",
+        "Starter, fuel,   ignition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1265,
+      "text": "380.   The   proper   sequence   of   starting",
+      "choices": [
+        "Start   off,   ignition,   sustain   speed",
+        "High   pressure   fuel   on,   light   up,   ignition   off",
+        "Starter,   idle   speed,   peak   starting   temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4507,
+      "text": "381.   For   engine   start,   which   stage   turns   first,",
+      "choices": [
+        "Low   pressure   turbine",
+        "High   pressure   turbine",
+        "N1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9355,
+      "text": "382.   Indication   light   “Starter   Engaged”   is   “ON”,",
+      "choices": [
+        "Is   normal   for   more   than   30s,   and   can   be   ignored",
+        "Is   fault   if   it   is   still   “ON”   after   30s   (better)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4944,
+      "text": "383.   The   starter   engaged   warning   light   is   illuminated   after   engine   starts,   it   is:",
+      "choices": [
+        "Normal   and   will   continue   for   30   seconds",
+        "The   starter   is   engaged   and   needs   inspection   immediately",
+        "The   starter   is   engaged,   investigate   if   warning   light   is   still   ON   after   30   seconds"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4253,
+      "text": "384.   For   small   engine,   starter   check   should",
+      "choices": [
+        "Check   rest   period",
+        "Starter   enough   energy",
+        "Select   in   motor   mode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0642,
+      "text": "385.   When   engine   start   with   start - generation",
+      "choices": [
+        "Select   the   switch   to   “motor”   mode"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.281,
+      "text": "386.   Which   one   is   permanently   engaged   to   the   engine   shaft?",
+      "choices": [
+        "Spur   and   clutch   assembly",
+        "Starter   generator",
+        "Direct   current   …   control"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8599,
+      "text": "387.   Air   starter   component:",
+      "choices": [
+        "Clutch   and   pawl"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4248,
+      "text": "388.   When   is   a   starter   cut   off?",
+      "choices": [
+        "By   centrifugal   force",
+        "Electrical   circuit   time   delay",
+        "Pneumatic   operate"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9585,
+      "text": "389.   How   to   disengage   a   pneumatic   starter?",
+      "choices": [
+        "Spur   and   clutch   assembly"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.669,
+      "text": "390.   Starter   overspeed……….",
+      "choices": [
+        "Stop   the   starter   once   and   release   the   relay",
+        "Overspeed   the   starter   to   ‘light   up’   position",
+        "Starter   give   the   power   to   bus   bar"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7913,
+      "text": "391.   N2,   run   until   10%,   indication   doesn’t   read   up   to   the   setting,   then   suddenly   back   to   normal   because:",
+      "choices": [
+        "Reading   error   due   to   transmitter",
+        "Reading   error   due   to   drag   cup   mechanism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9163,
+      "text": "392.   N2,   run   until   10%,   indication   doesn’t   read   up   to   the   setting,   then   suddenly   back   to   normal",
+      "choices": [
+        "Indicator   slippage   fail",
+        "Indicator   drag   cup   mechanism   fail",
+        "Normal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7278,
+      "text": "393.   On   engine   start   up   an   N2   indicator   fails   to   ?????   increase   till   10X,   then   it   jump   to   the   correct   ?????",
+      "choices": [
+        "The   likely   fault   is   slippage   inside   the   transmitter.",
+        "The   likely   fault   is   in   the   indicator   drag   cup   mechanism",
+        "The   condition   is   normal   for   engine   speed   indicators."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5842,
+      "text": "394.   A gas turbine engine fail   to   start because the starter...(Starter valve close too early), how to dispatch   the",
+      "choices": [
+        "The   starter   valve   may   be   overridden   manually   in..   engine   becomes   self - sustaining   speed",
+        "The   engine   cross   start   procedure   should   be   followed...",
+        "The   fault   with   the   starter   valve   or   the   speed.."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6501,
+      "text": "395.   The   starter   clutch   spring   tension   set   too   low",
+      "choices": [
+        "Difficult   to   engage",
+        "Slow   and   hot   start",
+        "??"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6782,
+      "text": "396.   Hot   start   will   cause:",
+      "choices": [
+        "EGT   increase   and   vibration   level   increase",
+        "?",
+        "EGT   increase   and…"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.429,
+      "text": "397.   Too   little   fuel   at   start   up:",
+      "choices": [
+        "Hot   start",
+        "Cold   start",
+        "Hung   start"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.268,
+      "text": "398.   Hung   start   is:",
+      "choices": [
+        "Engine   light   up   but…",
+        "Engine   light   up   but   cannot   accelerate",
+        "Engine   max   RPM   cannot   be   reached"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2173,
+      "text": "399.   Typical highest energy in ignition unit... Ignitor rating:",
+      "choices": [
+        "Amps",
+        "Watts",
+        "Joules"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3337,
+      "text": "400.   Discharge   resistor   in   DC   ignition   unit",
+      "choices": [
+        "Ensure   that   any   stored   energy   in   the   capacitor   is   dissipated   within   one   minute   of   the   system   being",
+        "Ensure   discharge   1   minute   and   then   switch   off",
+        "Enable   the   unit   to   operate   safely   even   when   the   high   tension   lead   is   disconnected   and   insulated."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1,
+      "text": "(safety resistor) / Protect the ignited system if the igniter plug is removed * 401.   Function   of   resistor   in   resistor   spark   plug:",
+      "choices": [
+        "Prevent   spark   plug   from   sparking   before   high   enough   voltage   build   up",
+        "Provide   minimum   electrode   erosion   by   prevent   peak   current   build   up",
+        "Reduce   radio   interference"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.42,
+      "text": "402.   An   open   circuit   limiting   resistor   in   a   typical   turbo???   engine   starter   circuit   would   cause?",
+      "choices": [
+        "The   starter   motor   to   run   immediately   at   full   speed",
+        "No   noticeable   change   in   starter   motor   operation",
+        "A   delay   before   starter   motor   operation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2742,
+      "text": "403.   Advantage   of   the   high   tension   ignition   system:",
+      "choices": [
+        "No   moving   parts",
+        "Small   trembler",
+        "Produce   higher   voltage   than   AC   and   DC"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6633,
+      "text": "404.   AC   igniter   advantage   over   DC   igniter",
+      "choices": [
+        "No   duty   cycle",
+        "Can   use/   have   better   performance   in   extreme   climate   condition",
+        "Can   change   to   another   glow   plug   when   another   is   fail   to   use"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.509,
+      "text": "405.   What is the main reason   for ignitor plug gaps on a gas turbine being larger than those of conventional",
+      "choices": [
+        "To   prevent   carbon   build   up",
+        "Because   it   is   easier   to   ignite   petrol   in   a   cylinder",
+        "Because   the   operating   pressure   at   which   the   plug   is   fired   is   much   lower"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.211,
+      "text": "406.   Proper handling of unserviceable igniter plug with beryllium - oxide insulation precaution / Why insulation box is needed for ignition plug cesium barium handling?",
+      "choices": [
+        "Beryllium   is   radioactive",
+        "Prolonged   exposure   is   toxic   if   inhaled",
+        "Exposure   when   touch   with   jet   A"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3586,
+      "text": "407.   Testing   of   the   high   tension   plug:",
+      "choices": [
+        "Connect   the   igniter   to   power   supply   and   light   it   up   about   30   sec"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.718,
+      "text": "408.   Before   testing   of   igniter   plug,   the   igniter   should   be:",
+      "choices": [
+        "Removed",
+        "Shorted   to   ground",
+        "Installed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.708,
+      "text": "409.   What   is   the   danger   with   installing   spark   plug   with   too   little   torque?",
+      "choices": [
+        "The   spark   plug   electrode   may   not   stick   far   enough   into   the   cylinder   head   mixture",
+        "The   spark   plug   may   vibrate   in   its   hole   and   wear   the   threads   in   the   cylinder   head.",
+        "It   would   provide   an   inadequate   seal,   and   hot   gases   could   escape   ..   Threads   damaging   both   the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.175,
+      "text": "410.   For   a   low   tension   DC   ignition   circuit   for   intermediate   use,",
+      "choices": [
+        "The   system   consist   2   ignition   plugs",
+        "The   system   consist   1   ignition   plug",
+        "The   system   consist   1   spark   plug"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.613,
+      "text": "411.   When   start   fail   and   no   light   up,   the   residual   fuel   combustion   system   can   be   drained   by:",
+      "choices": [
+        "Can   be   evacuated   only   by   combustion   drain",
+        "Can   be   evacuated   by   dry   motoring   the   engine   with   HP   fuel   valve   closed   to   evaporate   the   fuel",
+        "Must   wait   for   the   fuel   to   vaporize"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0967,
+      "text": "412.   Igniter test for engine start run Test igniter plug serviceability",
+      "choices": [
+        "Distinct   ‘click’   sound",
+        "Steady   sparks   can   be   seen",
+        "Heat   the   igniter   plug   to   white   yellow   colour   within   30   seconds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.791,
+      "text": "413.   Use   aluminium   ignition   cable   rather   than   copper   ignition   cable   because:",
+      "choices": [
+        "Aluminium   is   lighter   than   copper",
+        "The   current   capacity   of   aluminium   is   2/3   larger   than   copper   in   the   same   diameter",
+        "Aluminium   is   more   resistant   to   vibration   than   copper"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.752,
+      "text": "414.   During   igniter   plug   maintenance,   check   for:",
+      "choices": [
+        "Damage,   security   or   leakage",
+        "Sign   of   chaffy,   security   or   fluid   contamination",
+        "Sign   of   burn,   security   or   gas   leakage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5571,
+      "text": "415.   Anti   icing   when",
+      "choices": [
+        "Below   10   deg",
+        "Below   0",
+        "Below   - 10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.406,
+      "text": "416.   When   the   engine   nose   cowl   is   being   anti - iced   electrically,   it   would   be   of",
+      "choices": [
+        "Continuous   operating   type",
+        "Manually   selecting   required   temperature",
+        "Cyclic   unit   operating   in   conjunction   with   ambient   temperature",
+        "No   continuous   operation   &   cycle   varies   with   air   temperature."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2734,
+      "text": "417.   Engine   inlet   strut   and   fan   blade   anti - iced   by:",
+      "choices": [
+        "Fluid",
+        "Electrical",
+        "Hot   air   tapped   from   compressor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6782,
+      "text": "418.   Engine   inlet   strut   &   blade   root   anti - icing",
+      "choices": [
+        "Electrical   blanket   bonded   on   the   skin",
+        "Compressor   bleed   air",
+        "Engine   oil   enrooting   to   cooler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5144,
+      "text": "419.   How to anti - ice engine inlet (more than   one question ask this, combination of answer is not memorised",
+      "choices": [
+        "Electric   heating",
+        "Hot   engine   oil",
+        "Pneumatic   boot",
+        "Bleed   air"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1780342977442.4397,
+      "text": "420.   Which   is   the   following   is   not   a   possible   medium   for   engine   inlet   anti - icing:",
+      "choices": [
+        "Hot   air",
+        "Electricity",
+        "Anti -   freezing   fluid"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2366,
+      "text": "421.   Engine   cowling   de - icing   method",
+      "choices": [
+        "De - icing   fluid...",
+        "Pneumatic   boots",
+        "Compressor   stage   bleed   air"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.141,
+      "text": "422.   With   respect   to   anti - icing,   compressor   blades   are:",
+      "choices": [
+        "Always   anti - icing",
+        "Never   anti - icing",
+        "Anti - icing   depends   on   power   setting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.89,
+      "text": "423.   The   compressor   bleed   air   discharge   on",
+      "choices": [
+        "Inlet   air   anti - icing",
+        "Turbine   cooling",
+        "Fuel   system   anti - icing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0874,
+      "text": "424.   Protect   inlet   from   icing   condition   of   turbofan   engine:",
+      "choices": [
+        "Anti - ice   heating   prevents   ice   formation   ahead   of   compressor",
+        "Hot   engine   oil",
+        "Pneumatic   boot   prevents   ice   stick   on   the   wall   of   inlet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4631,
+      "text": "425.   Which   are   the   usual   methods   for   engine   intake   anti - icing?",
+      "choices": [
+        "Engine   oil,   pneumatic   boots,   bleed   air",
+        "Engine   oil,   bleed   air,   electricity   pad",
+        "Pneumatic   boots,   bleed   air,   electricity   pad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.335,
+      "text": "426.   The   prime   location   for   anti - icing   are",
+      "choices": [
+        "Engine   inlet   cowl   &   1st   stage   of   rotor/   stator",
+        "Fan   blade   &   spinner"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1384,
+      "text": "427.   The   usual   source   of   heating   engine   inlet   ?????   guide   vanes   for   purpose   of   anti - icing   is?",
+      "choices": [
+        "Electric   heating   element   bonded   to   the   leading   edge.",
+        "The   circulation   of   engine   scavenge   oil   en   route   to   the   oil   cooler",
+        "Heated   air   tapped   from   the   engine   compressor   casing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.128,
+      "text": "428.   A   good   performance   indication   for   ice   formation   at   inlet",
+      "choices": [
+        "Rapid   rise   in   EGT",
+        "Compressor   surge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7744,
+      "text": "429.   Compressor   air   is   taken   for   anti - ice,   power   will",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "No   change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5938,
+      "text": "430.   Heated   gas   is   taped   for",
+      "choices": [
+        "Inlet   cowl   anti   ice/turbine   cooling",
+        "Compressor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.307,
+      "text": "431.   Which   statement   is   correct   about   turbine   section   cooling? Limit   turbine   disc   temperature   variation",
+      "choices": [
+        "Diaphragm   require   more   cooling   than   rim",
+        "Rim   is   hotter   than   center",
+        "Drum   disc   is   hotter   than   center"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4192,
+      "text": "432.   Hottest   part   of   the   turbine   disk",
+      "choices": [
+        "Centre",
+        "Core",
+        "Rim"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.5461,
+      "text": "433.   To   limit   the   turbine   disc   variation   due   to   temperature   change:",
+      "choices": [
+        "Diaphragm   cooling   >   rim   cooling",
+        "Rim   cooling   >   center   cooling",
+        "Blade   cooling   <   Rim   cooling|"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5222,
+      "text": "434.   The   bleed   air   source   for   heat   exchanger",
+      "choices": [
+        "Fan   air",
+        "Compressor   air",
+        "Surge   bleed   air"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1448,
+      "text": "435.   What   is   the   measure   unit   of   the   vibration   indicator?",
+      "choices": [
+        "Millimeter   per   second   &   inch   per   second",
+        "Thou   per   second",
+        "Millis..."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3872,
+      "text": "436.   What   is   the   measure   unit   of   the   vibration   indicator?",
+      "choices": [
+        "Millimetres   per   second   and   thousands   of   an   inch",
+        "Thousand   of   an   inch   and   ...",
+        "Inches   per   second   and."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8423,
+      "text": "437.   What   is   the   measure   unit   of   the   vibration   indicator?",
+      "choices": [
+        "Inch   per   second   and   MILS",
+        "Millimeter   per   second   and   thousand   of   inch",
+        "(Can’t   remember,   must   be   wrong)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0056,
+      "text": "438.   Engine   vibration   transducer   is   used   to",
+      "choices": [
+        "Signal   increases   with   speed",
+        "Fed   into   indicator   directly",
+        "Always   filtered   unwanted   frequency"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8755,
+      "text": "439.   The   vibration   transmitter   filter   out",
+      "choices": [
+        "Either   high   frequency   and   very   low   frequency",
+        "High   frequency   only",
+        "Both   high   frequency   and   very   low   frequency"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.271,
+      "text": "440.   The   noise   generated   by   a   turbofan   engine   is   less   compared   with   turbojet   because   the   turbofan   engine:",
+      "choices": [
+        "Emits   a   lower   frequency",
+        "Has   an   increased   perimeter",
+        "Exhaust   velocity   is   less"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9556,
+      "text": "441.   The   lobe   type   exhaust:",
+      "choices": [
+        "Increase   diameter",
+        "Change   low   pitch   noise   to   high   pitch   noise   and   high   pitch   to   low   pitch   noise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2983,
+      "text": "442.   Multi - tube   exhaust   reduces   noise   by:",
+      "choices": [
+        "Air   mixing,   intensive   wake",
+        "Large   diameter   for   suppressor",
+        "Increase   the   low   frequency   and   reduce   the   high   frequency   noise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.018,
+      "text": "443.   Multi - tube   exhaust   reduces   noise   by : (Alternative)",
+      "choices": [
+        "Mix   component   stream…….,   intensifying   the   wakes",
+        "Increase   low   frequency,   decrease   high   frequency",
+        "Decrease   low   frequency,   increase   high   frequency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.623,
+      "text": "444.   Effect   on   full   ducted   turbofan   engine   exhaust   gas   mixed   with   cold   stream:",
+      "choices": [
+        "Raise   frequency",
+        "Reduce   frequency",
+        "Reduce   Ndb"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9126,
+      "text": "445.   Noise   reduction",
+      "choices": [
+        "Increase   low   frequency   noise",
+        "Decrease   high   frequency   noise",
+        "Mix   ambient   air"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4553,
+      "text": "446.   What   kinds   of   power   can   be   directly   supplied   by   APU",
+      "choices": [
+        "Hydraulic   and   pneumatic",
+        "Hydraulic   and   electric",
+        "Pneumatic   and   electric"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4104,
+      "text": "447.   With   respect   to   a   service   (provide   by   APU)",
+      "choices": [
+        "Pneumatic:   engine   starting,   .....   Water   pressurization",
+        "Hydraulic:   power   ...",
+        "Electrical:   cabin   pressurization,...."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8618,
+      "text": "448.   APU   on   load,   the   first   concern   is   :",
+      "choices": [
+        "Pneumatic   supply",
+        "Electrical   for   generator"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0833,
+      "text": "449.   In   an   APU   control   system   the…",
+      "choices": [
+        "Electrical   load   has   equal   priority   with   the   pneumatic   load",
+        "Pneumatic   load   has   priority   over   the   electrical",
+        "Electrical   load   has   priority   over   the   pneumatic   load"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.0793,
+      "text": "450.   When   an   APU   is   providing   both   electrical   power   and   (pneumatic)   bleed   air   to   aircraft   system,   safe",
+      "choices": [
+        "Modulating   the   bleed   air   take - off",
+        "Modulating   the   electrical   load",
+        "Crew   action"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6797,
+      "text": "451.   APU   auto   shutdown?",
+      "choices": [
+        "Generator   overload,   EGT   over - limit",
+        "CIT,   FCU   inoperative",
+        "Crew   control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.956,
+      "text": "452.   APU   auto   shutdown?   (Alternative)",
+      "choices": [
+        "Generator   overspeed,   APU   over   temperature",
+        "TIT,   ECU   fail"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7168,
+      "text": "453.   APU   auto   shutdown?   (Alternative)",
+      "choices": [
+        "APU   compartment   fire;   Battery   overloaded",
+        "CIT   (compressor   inlet   temp)   indication   fail   (not   sure);   ECU   fail",
+        "No   oil   pressure   indication;   no   APU   battery"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.634,
+      "text": "454.   APU   generator   can   generate   400   Hz   constant   supply   because   of :",
+      "choices": [
+        "CSD",
+        "APU   speed   constant   but   varied   air   flow   at   intake   (by   variable   inlet   guide   vanes)",
+        "APU   speed   constant   but   pneumatic   load   constant."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2185,
+      "text": "455.   APU   generator   can   generate   400   Hz   constant   supply   because   of:   (Alternative)",
+      "choices": [
+        "CSD",
+        "APU’s   constant   rotational   speed",
+        "Varying   the   loads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4548,
+      "text": "456.   APU   generator   can   generate   400   Hz   constant   supply   because   of:   (Alternative)",
+      "choices": [
+        "Voltage   regulator",
+        "Constant   speed   drive",
+        "APU   electronic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.912,
+      "text": "457.   APU",
+      "choices": [
+        "CSD",
+        "CSD   with   XX   volt"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.158,
+      "text": "458.   APU   in   large   aircraft   produces",
+      "choices": [
+        "DC   power,   convert   to   AC   if   necessary",
+        "AC   power,   convert   to   DC   if   necessary",
+        "Both   DC   and   AC"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.173,
+      "text": "459.   APU   generator:",
+      "choices": [
+        "3   phase   AC   battery",
+        "It   is   driven   by   …"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5876,
+      "text": "460.   Generator   connect   to   APU:",
+      "choices": [
+        "Frequency - wide   AC   power   supplied",
+        "Directly   connected   to   APU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6282,
+      "text": "461.   Which   statement   is   correct   regarding   the   APU?",
+      "choices": [
+        "Only   turn   off   during   emergency   in   cockpit",
+        "EGT   &   hour - meter   affects   service   life",
+        "Amber   warning   indicates   fuel   valve   stuck   close   fault"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.006,
+      "text": "462.   When   use   APU   battery,   the   purpose   of   battery   used   on   the   transport   aircraft   is",
+      "choices": [
+        "To   power   separate   electrical   fuel   pump   and   starter",
+        "To   start   the   APU   without   the   aircraft   main   battery",
+        "Avoid   current   surge   demand   on   the   main   battery   during   APU   start"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.576,
+      "text": "463.   With   respect   to   the   accessories   on   the   APU   of   ?????   aircraft?",
+      "choices": [
+        "The   FCU   and   the   ECU   form   a   matched   set,   and   are   replaced   together   (can   be   removed   with   APU)",
+        "A   common   oil   system   is   used   to   cool   and   lubricate   the   bearings,   gearbox   and   the   generator.",
+        "An   AC   electric   motor   is   used   to   start   the   APU."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.928,
+      "text": "464.   ECU   on   APU,   it   is   operated   when",
+      "choices": [
+        "APU   control   switch   ON   or   START",
+        "RPM   over   7%",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.165,
+      "text": "465.   Airflow   around   APU",
+      "choices": [
+        "Airflow   from   inlet   door   and   exhaust   from   opening   outlet",
+        "Bleed   air   take   off   from   gas   generator   compressor",
+        "Portion   of   air   use   for   cooling   APU   compartment"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.782,
+      "text": "466.   APU   air   through   and   around",
+      "choices": [
+        "From   APU   inlet   door   and   exhaust   at   open   exhaust   pipe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4353,
+      "text": "467.   APU   fuel   from",
+      "choices": [
+        "Own   tank   with   DC   boost   pump",
+        "Main   tank   without   boost   pump",
+        "Main   tank   with   boost   pump"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.502,
+      "text": "468.   APU   fan   shut   off   valve   is   controlled   by   sensing:",
+      "choices": [
+        "Compressor   inlet   pressure",
+        "Exhaust   pressure",
+        "Compressor   outlet   pressure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7144,
+      "text": "469.   APU   operation   has:",
+      "choices": [
+        "No   limitation   in   general   but   is   usually   inoperative   during   flight",
+        "Cannot   operate   when   air   density   decreases   as   altitude   increases",
+        "Air/ground   switch   sensor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6665,
+      "text": "470.   Load   compressor   in   the   APU   consists   of:",
+      "choices": [
+        "Axial   flow   compressor,   diffuser,   load   control   unit",
+        "Centrifugal   flow   compressor,   diffuser,   load   control unit",
+        "?"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2622,
+      "text": "471.   What   is   the   speed   of   the   APU   shaft?",
+      "choices": [
+        "High   speed",
+        "Low   speed",
+        "Variable   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1914,
+      "text": "472.   A   control   cable   function   brake:",
+      "choices": [
+        "Allow   the   cable   to   hold   in   one   selected   position   during   engine   changes",
+        "Ensure   cables   do   not   move   from   their   activated   position",
+        "Allows   auto   throttle   drive   units   to   move   the   controls"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3066,
+      "text": "473.   Control   cable   friction   end   used   to?",
+      "choices": [
+        "Stop   control   cable   at   one   selected   position   when   engine   is   removed",
+        "For   auto   adjusting   the   throttle   level"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2144,
+      "text": "474.   Control   cable   stop",
+      "choices": [
+        "For   engine   removal…..",
+        "Control   cable   mechanism….."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8755,
+      "text": "475.   Engine   control   cable   with   stop   end   is   used   for:",
+      "choices": [
+        "A trim   part",
+        "Separating   the   control   cable   of   engine   and   wing",
+        "As   a   quick   unit   during   engine   change"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9639,
+      "text": "476.   Dry   motor   with   pneumatic   start:",
+      "choices": [
+        "Continuous   operate   with   enough   pneumatic",
+        "…   Lower   operation   pressure   to   continuous   operate",
+        "Limited   cycle   with   MM"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2942,
+      "text": "477.   Pneumatic   starter   need…….",
+      "choices": [
+        "High   pressure   /   High   volume   source",
+        "Low   pressure   /   High   volume   source",
+        "High   pressure   /   Low   volume   source"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6238,
+      "text": "478.   Primary   engine   indication:",
+      "choices": [
+        "N2",
+        "EPR",
+        "Oil   Pressure",
+        "EPR,   EGT,   RPM,   N1"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.695,
+      "text": "479.   When   overspeed,   the   gauge   pointer",
+      "choices": [
+        "At   maximum   position",
+        "At   actual   RPM",
+        "Move   with   the   main……   /   reduce   when   reduce   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.395,
+      "text": "480.   When   overspeed,   the   gauge   pointe r (Alternative)",
+      "choices": [
+        "The   needle   moves   with   the   speed   indicator   and   back   to   the   limit   when   speed   reduces",
+        "The   needle   points   at   the   max   speed   limit",
+        "The   needle   moves   with   the   indicator   and   stays   at   the   highest   position"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9424,
+      "text": "481.   Over   speed   pointer……….",
+      "choices": [
+        "The   pointer   will   follow   the   main   indicator   when   the   speed   reduced",
+        "The   pointer   will   reach   the   maximum   value",
+        "The   pointer   will   follow   the   actual   value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0708,
+      "text": "482.   Tachogenerator   type   RPM   gauge   power   supply   from",
+      "choices": [
+        "Self - sustain/independent   system",
+        "115   volt   AC.",
+        "28   volt   DC."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3567,
+      "text": "483.   In   a   turbine   engine,   N1   is:",
+      "choices": [
+        "Low   pressure   compressor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.762,
+      "text": "484.   How   the   fuel   flow   transmitter   makes   sure   the   drum   rotates   at   the   same   direction?",
+      "choices": [
+        "Restraining   spring",
+        "Swirl   generator",
+        "Turbine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.0083,
+      "text": "485.   Which   component   in   the   fuel   flow   transmitter   ensure   that   the   fuel   flow   to   the   correct   direction?",
+      "choices": [
+        "Swirl   generator",
+        "Restraining   spring",
+        "Turbine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.5464,
+      "text": "486.   Vane - type   fuel   theory:",
+      "choices": [
+        "Spring   restricted",
+        "Vane   coupled   by   tachometer",
+        "Vane   coupled   with   AC   generator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1096,
+      "text": "487.   Fuel - flow   meter",
+      "choices": [
+        "Wheel   contact   to   magnet",
+        "Wheel   connected   to   tachometer",
+        "Wheel   connected   to   delta   connected   generator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.497,
+      "text": "488.   Electric   torque   meter   indicator   measurement   depends   on   the   inner   and   outer   calibrated:",
+      "choices": [
+        "Shafts",
+        "Splices",
+        "Helical   gear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.083,
+      "text": "489.   Oil   or   Fuel   pressure   gauge",
+      "choices": [
+        "Bourdon   tube",
+        "Diaphragm",
+        "??"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1594,
+      "text": "490.   The   direct   reading   type   of   oil   pressure...",
+      "choices": [
+        "By   bourdon   tube",
+        "By   aneroid   capsule",
+        "By   pitot   tube"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4763,
+      "text": "491.   Temperature bulk, DC   ratiometer",
+      "choices": [
+        "Linear,   negative   coefficient",
+        "Linear,   positive   coefficient",
+        "Non - linear,   positive   coefficient"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0225,
+      "text": "492.   For   typical   electrical   resistance   temperature   bulb,",
+      "choices": [
+        "The   resistance   rises   with   increasing   temperature",
+        "The   resistance   falls   with   increasing   temperature",
+        "The   resistance   remains   constant   with   increasing   temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.6433,
+      "text": "493.   Thermocouples   made   of   2   materials:",
+      "choices": [
+        "Nickel - chromium   and   nickel - aluminum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7178,
+      "text": "494.   Stagnation immersion type thermocouple are employed by:",
+      "choices": [
+        "Piston   engine",
+        "Jet   engine",
+        "Turboprop   engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3472,
+      "text": "495.   Stagnation immersion type fire detection system used by:",
+      "choices": [
+        "Turboprop",
+        "Piston   engine",
+        "Gas   turbine   engine"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9648,
+      "text": "496.   Thermocouples   connection",
+      "choices": [
+        "In   series   to   obtain   average   value",
+        "In   series   for   fail - safe   design"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3367,
+      "text": "497.   Thermocouple   is   located....",
+      "choices": [
+        "Exhaust   gas   temperature",
+        "There   is   less   chance...",
+        "Turbine   outlet   temperature..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.414,
+      "text": "498.   Thermocouples   for   measuring   exhaust   gas   temperature   are   connected",
+      "choices": [
+        "In   parallel",
+        "In   series",
+        "In   a   network"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.759,
+      "text": "499.   Thermocouple   uses",
+      "choices": [
+        "AC   from   inverter",
+        "DC   from   aircraft   bus",
+        "Independent   electrical   supply   /   Does   not   need   external   power"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.062,
+      "text": "500.   The   leads   of   thermocouple   operated   instruments?",
+      "choices": [
+        "Are   calibrated   for   a   particular   installation   and   should   not   be   shortened",
+        "Are   lagged   to   prevent   heat   loss   between   the   thermocouple   and   the   instrument",
+        "Carry   high   current   and   voltages."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9983,
+      "text": "501.   Thermocouple   leads:",
+      "choices": [
+        "Cannot   be   shorten   because   it’s   conduit",
+        "Heat   lagged   material   between   thermocouple   to   indicator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.688,
+      "text": "502.   When   measuring   EGT   with   multiple   thermocouples   and   one   fail:",
+      "choices": [
+        "No   effect   to   indication",
+        "Scale   up   to   100%",
+        "5 - 10   C   difference"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3035,
+      "text": "503.   Thermocouple   maximum   operating   temperature:",
+      "choices": [
+        "400   ° C",
+        "850   ° C",
+        "1,100   °C"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2153,
+      "text": "504.   Dual   channel   philosophy",
+      "choices": [
+        "Operating   together",
+        "One   channel   takes   over   if   another   fails",
+        "??"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4026,
+      "text": "505.   Material   for   oil   tank:",
+      "choices": [
+        "Copper",
+        "Cast   iron",
+        "Mild   steel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.072,
+      "text": "506.   Combustion   chamber   casing   material:",
+      "choices": [
+        "Aluminum   alloy",
+        "Nimonic",
+        "Magnesium   alloy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8728,
+      "text": "507.   Material   of   compressor   casing   and   compressor   blade:",
+      "choices": [
+        "Aluminum   alloy   and   magnesium   alloy",
+        "Titanium   alloy   and   aluminum   alloy",
+        "Magnesium   alloy   and   aluminum   alloy"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.0864,
+      "text": "508.   When   looking   at   wires   in   an   engine   installation.   ????   gauge   should   be?",
+      "choices": [
+        "Marked   every   12 - 15   inches   on   the   outer   cover.",
+        "Stamped   on   the   swaged   terminals.",
+        "Shown   on   a   tag   that   is   attached   to   the   wire."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.7346,
+      "text": "509.   When bending an electrical wires loom, it is good practice...is approximately: Electrical loom bending radius must be more than:",
+      "choices": [
+        "Three   times   the   diameter   of   the   looms",
+        "Ten   times   the   diameter   of   the   looms",
+        "Twenty   times   the   diameter   of   the   looms"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.2273,
+      "text": "510.   Electric   loom   installed   parallel   to   liquid/oxygen   loom? The   suitable   distance   between   electrical   wire   and   oxygen   pipeline   is:",
+      "choices": [
+        "6”   above",
+        "4”   above",
+        "2”   above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8464,
+      "text": "511.   Min   size   of   copper   cable   in   engine:",
+      "choices": [
+        "20   AWG",
+        "22   AWG",
+        "24   AWG"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4417,
+      "text": "512.   When   supporting   electrical   wire   bundles that are   ????? The   fuselage   structure ,   the clamps should   be",
+      "choices": [
+        "Slack   between   the   clamp",
+        "The   need   for   tie - wraps",
+        "Excessive   vibration"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7668,
+      "text": "513.   Wire   bundle   covered   with   heat   shrinkable   tubing:",
+      "choices": [
+        "In   a   conduit",
+        "Open   wire   arrangement",
+        "Closed   wire   arrangement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.255,
+      "text": ". 514.   Modern   engine,   electrical   wires   are:",
+      "choices": [
+        "Cu   and   fibreglass",
+        "Al   and   PVC",
+        "Thin   Cu   and   .."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8562,
+      "text": "515.   During   engine installation,   the engine   mount ?????   tightened and   the   engine is not   yet detached   ?????",
+      "choices": [
+        "Have   valid   calibration   dates",
+        "Show   uniform   positive   reading",
+        "All   read   zero"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.5027,
+      "text": "516.   Engine   mount   bolt",
+      "choices": [
+        "Show   uniform   position",
+        "All   reading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.277,
+      "text": "517.   Some   engine   are   dismantled   vertically   because:",
+      "choices": [
+        "Arrangement   is   easier   for   hoisting   and   slinging",
+        "Weight   will   assist   with   the   alignment   of   the   engine.",
+        "Bearings   cannot   carry   a   radial   load   while   the   engine   is   disassembled"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.205,
+      "text": "518.   Access   of   engine   mount   in   the   wing   or   fuselage",
+      "choices": [
+        "Removable   cowling   and   access   panel",
+        "Access   door   with   fast   released   fastener",
+        "??"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.4783,
+      "text": "519.   Access   of   engine   mount   in   the   wing   or   fuselage (alternative)",
+      "choices": [
+        "Removable   cowl,   quick   release   latch   door",
+        "Removable   cowl,   hinged   door",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.469,
+      "text": "520.   Access   of   engine   mount   in   the   wing   or   fuselage (alternative)",
+      "choices": [
+        "Both   of   the   other",
+        "Open   hinged   panel   (which   is   cowling)   or   quick   release   panel",
+        "Door   after   quick   release   fastener   removed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.011,
+      "text": "521.   Gas   turbine   engine   is   mounted",
+      "choices": [
+        "Forward   to   a   tubular   fuselage   on   turbojet",
+        "Free   to   expand   in   longitudinal   and   horizontal   direction",
+        "Side   mounted   or   under   wing   sling   on   turboprop"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.2102,
+      "text": "522.   Removing   engines,   be   caution   at?",
+      "choices": [
+        "Notice   the   wing   tip   and   tail   in   case   of   tail   touching   ground",
+        "Tailstand   requirement   vary   with   the   aircraft   type   and   number   of   engines",
+        "Tailstand   is   an   optional   tool"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3809,
+      "text": "523.   Allowable   damage   of   first   stage   turbine   blade",
+      "choices": [
+        "Slight   pitting",
+        "Leading   edge   and   trailing   edge   limit   as   per   MM",
+        "A   hairline   crack   in   specific   length"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9543,
+      "text": "524.   Take   the   transit   check   item   for   an   engine",
+      "choices": [
+        "Engine   oil   quantity,   thrust   reverser   door   movements   and   operations",
+        "Starter   oil   level,   …",
+        "Servicing   the   CSD,   filling   oil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.2717,
+      "text": "525.   Engine   part   power",
+      "choices": [
+        "For   ground   maintenance   only   and   have   5   minutes   limit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8494,
+      "text": "526.   Felt   tip   marking   on   compressor   blade   identifies:",
+      "choices": [
+        "The   position   of   balance   weights",
+        "Particular   blade   as   shorter   service - life   items",
+        "That   the   blade   have   been   reworked   in   the   marked   area."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.7026,
+      "text": "527.   Turbine   blade   tip   is   corroded",
+      "choices": [
+        "Iron   deposits   at   the   exhaust"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.396,
+      "text": "528.   Before   any   work   is   done   on   the   ignition   plug",
+      "choices": [
+        "Make   sure   CB   is   pulled",
+        "Disconnect   the   low   tension   lead   and   wait   for   30   minutes",
+        "Switch   off   power   or   disconnect..."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0647,
+      "text": "529.   You   are   asked   to carry   out   a   boroscope   inspection   after   the   engine   experienced   a   decrease   in   N2   and",
+      "choices": [
+        "A   damaged   combustion   liner",
+        "N2   blade   damage",
+        "Hot   spots   on   turbine   nozzle   guide   vanes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.7114,
+      "text": "530.   Which   parameter   of   the   engine   fault   can   be   used   in   the   trend   indicator?",
+      "choices": [
+        "Smoke   at   the   tail   pipe",
+        "Increase   of   N2   speed   and   EPR",
+        "Soap   in   some   sample"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.0825,
+      "text": "531.   Engine   reach   self   sustain   RPM,   but   cannot   goes   to   a   high   RPM",
+      "choices": [
+        "Fuel   control   unit   defect",
+        "Starter   clutch   problem",
+        "The   starter   clutch   can   reach   the   release   speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.871,
+      "text": "532.   After   heavy   landing,   the   bolt   of   the   engine   mount   is   found   loosen   during   inspection",
+      "choices": [
+        "Tighten   the   bolt   and   nut   with   specified   torque   load",
+        "Add   a   suitable   washer   between   the   bolt   and   torque   to   the   specified   load",
+        "Bolt   is   elongated,   replace   and   torque   to   specified   load"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.4504,
+      "text": "533.   When you receive   an engine of   modular design,   you should   check   the   engine logbook   and   relevant",
+      "choices": [
+        "For   proper   preservation   work   record",
+        "Against   the   engine   data   plate   for   the   proper   configuration",
+        "To   find   the   overall   service   time   of   the   whole   engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.8499,
+      "text": "534.   Foreign   object   damage   (FOD)   in   a   turbine   engine   compressor   may   result   in? FOD   in   turbine   section,   where   the   indication   come   from",
+      "choices": [
+        "Hard   rub",
+        "A   need   for   a   shell - dewax",
+        "Chip   detector   (MCD)   debris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9282,
+      "text": "535.   During   engine ground   run,   the engine is   still   running   while the   throttle is   set to ‘off’ position,   what",
+      "choices": [
+        "Shut   off   the   fuel   shut   off   valve",
+        "Shut   off   the   booster   pump   of   the   fuel   tank",
+        "Initiate   the   fire   extinguish   system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.5623,
+      "text": "536.   Turbojet engine, throttle level in OFF position, but the engine is running: If, after ground running... turbojet engine... the engine down but....",
+      "choices": [
+        "Fuel   cock   shut - off   valve   to   OFF",
+        "Put   throttle   on   ‘idle’",
+        "Switch   off   the   fuel   pump"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.871,
+      "text": "537.   Engine   ground   testing:",
+      "choices": [
+        "Move   throttle   smooth   to   test   acceleration   and   deceleration   capabilities",
+        "Outside   temperature   irrelevant",
+        "Facing   the   wind"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.8145,
+      "text": "538.   Transport   of   windmilling   engine /   When   an   engine   is   transport   as   a   wind   milling - engine   on   the   specific",
+      "choices": [
+        "Drain   Fuel   and   oil",
+        "Have   sufficient   oil",
+        "Drain   oil"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.613,
+      "text": "539.   Transport   of   windmilling   engine /   When   an   engine   is   transport   as   a   wind   milling - engine   on   the   specific",
+      "choices": [
+        "The   oil   and   fuel   system   must   be   drained",
+        "Drain   fuel   system",
+        "Add   engine   oil   to   a   specific   quantity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.1653,
+      "text": "540.   When   repairing   compressor   blade   damage,   the   most   critical   repair   area   is   at   the   blade:",
+      "choices": [
+        "Tip",
+        "Chord",
+        "Root"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.3184,
+      "text": "541.   For   engine   storage   what   is   requirement   to   add   into   engine?",
+      "choices": [
+        "Silica   gel",
+        "Anti - freeze   fluid"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.3477,
+      "text": "542.   A   sealed   pressurized   container   is   usually   sealed   ????",
+      "choices": [
+        "One PSI   of dry   air",
+        "Five   PSI   of   nitrogen",
+        "Ten   PSI   of   nitrogen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3552,
+      "text": "543.   Why   should   you   not   apply   preservation   to   pressure   compressor? Some   manufacturers   do   not   recommend   spraying   inhibiting   oil   directly   to   the   compressor,   because:",
+      "choices": [
+        "The   preservation   chemical   break   silica   gel   /   Silica   gel   will   get   contaminated",
+        "Preserved   dust   contaminated   on   the   compressor   blade   affects   aerofoil   shape /   Oil   mist   will   change",
+        "The   producer   doesn’t   think   it   works   /   Not   the   best   method"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1116,
+      "text": "544.   Engine   long   term   storage   is",
+      "choices": [
+        ">1   year",
+        ">2   weeks",
+        ">3   months"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.1138,
+      "text": "545.   Which   of   the   following   sentences   are   true:",
+      "choices": [
+        "For   the   protection   of   turbine   engines   which   may   be   in   storage   for   up   to   six   month.   In   addition   to   the",
+        "Installed   turbine   engine   which   to be   out   of   usage   for   a   period   of   ......   Seven   days   require   no   protection",
+        "A   and   B"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.6245,
+      "text": "546.   Humidity   of   seal   storage   shipping   container   can   be   checked:",
+      "choices": [
+        "By   hygrometer   on   container",
+        "Observation   port",
+        "Barometer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9958,
+      "text": "547.   When   storing   a   powerplant,   dehydration   is   for:",
+      "choices": [
+        "Oil   system",
+        "Fuel   system",
+        "Air   system"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.539,
+      "text": "548.   Hydrodioxide   (H2O)   is   put   into   what   system   when   engine   is   to   be   stored?",
+      "choices": [
+        "Fuel   system",
+        "Lubrication   system",
+        "Air   system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.928,
+      "text": "549.   Storing   an   engine:",
+      "choices": [
+        "Remove   engine   first   and   drain   oil   system",
+        "Inhibit   fuel   system   with   engine   on   maintenance   stand",
+        "Both   actions   should   be   done"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.9763,
+      "text": "550.   Inhibiting   uninstalled   engine",
+      "choices": [
+        "(fill   with   fuel,   must   be   wrong)",
+        "Remove   all   external   pipe   and   blank   all   opening",
+        "Fill   with   inhibiting   oil   until   drain   from   combustion   drain   hole"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.9666,
+      "text": "551.   To   inhibit   fuel   system,",
+      "choices": [
+        "Add   inhibiting   oil",
+        "Remove   all   pipes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.312,
+      "text": "552.   Engine   storage   should",
+      "choices": [
+        "Inhibit   fuel   system   (for   sure)",
+        "Drain   all   engine   oil   (depends   on   the   manufacturer)",
+        "Both"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.9626,
+      "text": "553.   During   inhibiting   process,",
+      "choices": [
+        "Engine   rotating,   open   HP   cock   and   remove   the   filter",
+        "Engine   rotating,   open   HP   cock   and   open   the   drain   or   disconnect   connection   drain",
+        "Engine   stationary,   close….."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.714,
+      "text": "554.   Fluid   for   inhibiting   fuel   system",
+      "choices": [
+        "Kerosene",
+        "Light   anti - freeze   oil",
+        "Engine   oil"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1780342977442.71,
+      "text": "555.   During   reverser   system   maintenance,   deactivation   pin   is   installed   at",
+      "choices": [
+        "Feedback   cable",
+        "Struct   box",
+        "Air   bleed   valve"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.798,
+      "text": "556.   The   tubular   body   is   supposed   to   take   :",
+      "choices": [
+        "Radial   load   and   twisting   load",
+        "Radial   load   only",
+        "…."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.4502,
+      "text": "557.   Mooring:",
+      "choices": [
+        "Use   rope   tighten   blade.",
+        "Fit   a   cover   in   turbine   blade   tip,   use   rope   tighten   blade   in   a   desired   tension   load."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1780342977442.3228,
+      "text": "558.   Thrust   level   ?   revolver",
+      "choices": [
+        "Operated   by   the   thrust   level   in   the   fight   deck",
+        "Controlled   by   the   Electronic   Engine   Control   Unit",
+        "Found   on   engine   fuel   metering   unit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.1519,
+      "text": "559.   Prism   on   hot - air   system,   include:",
+      "choices": [
+        "Inlet   cowling   and   stator   vane   blade",
+        "Gearbox   accessory   and   compressor   inlet   probe"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.891,
+      "text": "560.   What   kinds   of   mechanism   is   used   on   turboprop   to   prevent   FOD?",
+      "choices": [
+        "Vortex   dissipater   and   air   inlet   movable   vane",
+        "Movable   vane   and   air   inlet   screen",
+        "Vortex   dissipated   and   air   inlet   screen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8853,
+      "text": "561.   Some   sort   of   (throttle)   lock,   purpose?",
+      "choices": [
+        "Prevent   reverse   thrust   in   the   air",
+        "Prevent   reverse   thrust   on   the   ground",
+        "Only   allows   reverse   thrust   under   some   condition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0981,
+      "text": "562.   Thrust   produced   is   directly   proportional   to   air   mass   imparted   and:",
+      "choices": [
+        "Velocity   of   the   air   mass",
+        "Temperature   of   the   air   mass",
+        "Pressure   of   the   air   mass"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.0059,
+      "text": "563.   Afterburner   produces   more   thrust   by:",
+      "choices": [
+        "Increasing   air   velocity   and   temperature"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8044,
+      "text": "564.   Which   part   of   the   turbine   engine   forces   the   engine   in   the   rearward   direction?",
+      "choices": [
+        "Compressor",
+        "Tailpipe",
+        "Exhaust   cone"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780342977442.8496,
+      "text": "565.   Some   question   about   mixing   air   at   exhaust",
+      "choices": [
+        "Mixed   with   fan   stream",
+        "Mixed   with   core   stream"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1780343077511.7124,
+      "text": " 307.   T he difference of FCU in turbojet and turboshaft engine is that FCU in a turboshaft engine also controls: Hydro - mechanical fuel control in turbojet vs turboshaft, FCU in turboshaft also controls:",
+      "choices": [
+        "N1 and N2 RPM",
+        "Turbine inlet temperature",
+        "Free turbine RPM "
+      ],
+      "correctIndex": 2
+    }
+  ]
+}
