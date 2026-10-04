@@ -1,0 +1,3288 @@
+{
+  "name": "M8-14Sept2015 1_9252 MCQ edited",
+  "date": "2026-10-04T10:15:21.827Z",
+  "questions": [
+    {
+      "id": 1791108921827.2402,
+      "text": "1.   Which is correct statement:",
+      "choices": [
+        "Density decreases continually with increase altitude",
+        "Absolute altitude is measured from the surface of the earth",
+        "Pressure altitude is equal to geometry height"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.488,
+      "text": "2.   True stalling airspeed at high altitude depends on air:",
+      "choices": [
+        "Temperature",
+        "Density",
+        "Compressibility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.4,
+      "text": "3.   The stalling IAS of the aircraft:",
+      "choices": [
+        "Decrease with altitude",
+        "Increase with altitude",
+        "Remains substantially the same(?)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.3318,
+      "text": "4.   When aircraft stalls:",
+      "choices": [
+        "Lift increases, drag decreases",
+        "Drag increases, lift decreases",
+        "Lift decreases, drag decreases"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7766,
+      "text": "5.   At the stalling angle, the L/D ratio is:",
+      "choices": [
+        "Zero",
+        "Less than that of the most effective angle of attack",
+        "More than that of the most effective angle of attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.4482,
+      "text": "6.   The coefficient of lift obtained at the stalling angle of a given airfoil is:",
+      "choices": [
+        "A maximum, and drag also a maximum",
+        "A maximum",
+        "A minimum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0657,
+      "text": "7.   At level flight, the lift of a wing increases due to:",
+      "choices": [
+        "Increased angle of attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7788,
+      "text": "8.   Stall is caused by:",
+      "choices": [
+        "An increase in the angle of attack greater than 10",
+        "Break-up of the boundary layer",
+        "Increase in AOA and break-up of the boundary layer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.397,
+      "text": "9.   The angle of attack of a wing at which the streamline flow starts to break up and from",
+      "choices": [
+        "Angle of drag",
+        "Angle of servo light",
+        "Critical angle of attack",
+        "Pitch"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.387,
+      "text": "10.   Tip stalling occurring to a sweptback wing at subsonic flight is difficult to recover for:",
+      "choices": [
+        "Loss of lift",
+        "Nose-up moments",
+        "Nose-down moments"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1624,
+      "text": "11.   On main wing swept back aircraft, tip stall will cause:",
+      "choices": [
+        "Aircraft nose up",
+        "Aircraft nose down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7249,
+      "text": "12.   The primary purpose of the stall strip is to:",
+      "choices": [
+        "Provide added lift at slow speeds",
+        "Stall the inboard portion of the wing first",
+        "Provide lateral stability at cruise speed and above"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5518,
+      "text": "13.   Increase in stalling speed at stalling angle at high altitude is due to:",
+      "choices": [
+        "Decrease in pressure",
+        "Decrease in humidity",
+        "Decrease in density"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.954,
+      "text": "14.   Stall angle:",
+      "choices": [
+        "Is greater in a bank",
+        "Decreases in a bank",
+        "Does not change in a bank"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.464,
+      "text": "15.   For given aircraft, the high incidence stall will",
+      "choices": [
+        "Always occur at the same angle of attack regardless of weight and dynamic",
+        "Occur over a range of angles of attack depending upon weight, speed and bank angle",
+        "Be dependent on aircraft speed only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3333,
+      "text": "16.   At the onset of high incidence stall",
+      "choices": [
+        "A nose-down pitching moment helps recovery",
+        "The moments in the pitch roll axes are undesirable",
+        "The airplane should slow down and reduce altitude"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5117,
+      "text": "17.   At stall warning the pilot will first experience",
+      "choices": [
+        "Sudden rise of drag and buffering",
+        "Stick shaking and aural horn",
+        "Loss of lift and flight control"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.165,
+      "text": "18.   Weight and wing loading will effect",
+      "choices": [
+        "Stall angle only",
+        "Stall angle and stall speed",
+        "Stall speed only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6636,
+      "text": "19.   On an airfoil set at an angle of attack causing lift, in a high sub-sonic airflow, a loss of lift",
+      "choices": [
+        "Large form drag of wings",
+        "Incipient shock waves",
+        "The rudder change in flow pattern."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7502,
+      "text": "20.   For a subsonic aircraft, the nose up moment is usually attributed to:",
+      "choices": [
+        "Lift/weight couple",
+        "Thrust/drag couple",
+        "The download on tailplane"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.42,
+      "text": "21.   Angle of attack is",
+      "choices": [
+        "The angle between the chord line and the horizontal",
+        "The angle between the chord line and the relative wind",
+        "The line between the chord line and the normal to the surface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3857,
+      "text": "22.   The reverse camber of the horizontal stabilizer will:",
+      "choices": [
+        "Increase the down weight of the tail",
+        "Decrease the down weight of the tail",
+        "Has no effect"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3096,
+      "text": "23.   When aircraft is rolling, the horizontal moment of lift:",
+      "choices": [
+        "Opposes the turning moment of aircraft",
+        "Tends to turn the aircraft in a circular moment.",
+        "Tends to keep the aircraft in the same attitude."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.899,
+      "text": "24.   Induced drag at tips of swept back wings:",
+      "choices": [
+        "Causes a yawing movement in both directions",
+        "Causes a nose up pitching movement",
+        "Causes a nose down pitching movement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5144,
+      "text": "25.   On the standard wing of an aircraft in flight the vortices from the induced drag will",
+      "choices": [
+        "Rotate clockwise when viewed from the trailing edge",
+        "Rotate anti-clockwise when viewed from the trailing edge",
+        "Rotate anti-clockwise when viewed from the leading edge"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7283,
+      "text": "26.   What is the direction of rotation at the left wing tip vortices?",
+      "choices": [
+        "Clockwise when viewed from rear"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.1646,
+      "text": "27.   A spring tab:",
+      "choices": [
+        "Automatically moves whenever the control surfaces are moved, being connected to",
+        "Is controlled from the cockpit and will return to neutral when the control released",
+        "Will only move under a certain airload, to the opposite direction to the control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.863,
+      "text": "28.   A servo tab:",
+      "choices": [
+        "Is used to relieve pilot fatigue",
+        "Is used to trim the aircraft",
+        "Always operates in the opposite direction to control surface"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.7295,
+      "text": "29.   The purpose of spring tabs or servo tabs is to:",
+      "choices": [
+        "Assist the pilot in moving the control surfaces",
+        "Contribute to the static balance of the control surface",
+        "Make in-flight trim adjustments possible"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.471,
+      "text": "30.   The spring tab balance control forces:",
+      "choices": [
+        "At high airspeed",
+        "At low airspeed",
+        "At all speeds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6995,
+      "text": "31.   Anti-balance tab:",
+      "choices": [
+        "Reduce control force",
+        "Prevents flutter of control surfaces",
+        "Moves in the same direction as the control surfaces (prevent over control)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.7937,
+      "text": "32.   Ground lock installation for servo tab:",
+      "choices": [
+        "Is not necessary",
+        "Is done by locking the control column",
+        "Is done by locking the control surface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.759,
+      "text": "33.   “Q” feel senses variation from:",
+      "choices": [
+        "Pitot & static tube",
+        "Barometer",
+        "Pressure capsules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.161,
+      "text": "34.   For same surface deflection, Q feel of powered control (artificial control feel devices) is",
+      "choices": [
+        "Airspeed & wing loading",
+        "Airspeed & stabilizer position",
+        "Airspeed & all-up weight )"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6677,
+      "text": "35.   A powered control surface is provided:",
+      "choices": [
+        "To assist the pilot in moving the control",
+        "Can only be operated when autopilot is engaged",
+        "For emergency use only."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.73,
+      "text": "36.   What is the aircraft flying control system called which senses pitot and static pressures",
+      "choices": [
+        "`Q' feel",
+        "Pitot static control",
+        "Gentry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.265,
+      "text": "37.   Failure in the `Q' feel will result in:",
+      "choices": [
+        "Loss of control",
+        "Heavier controls",
+        "Lighter controls"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6199,
+      "text": "38.   With powered flying controls the pilot receives:",
+      "choices": [
+        "No feedback",
+        "Artificial feel",
+        "Both \"A\" and \"B\""
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.537,
+      "text": "39.   For power-operated flight controls, the pilot feel is:",
+      "choices": [
+        "Provided by the control surface loads",
+        "Provided by artificial forces which varies with speed",
+        "Provided by artificial force which is independent of control surface loads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2869,
+      "text": "40.   A stick shaker is a device which:",
+      "choices": [
+        "Vibrates the control column after the stall",
+        "Vibrates the control column long before the stall",
+        "Vibrates the control column prior to stall"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4363,
+      "text": "41.   ISA is set for the purpose of:",
+      "choices": [
+        "Reflecting the average atmospheric conditions of the atmosphere",
+        "Aligning the aircraft and aerodrome for reference"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9678,
+      "text": "42.   At sea level according to ISA, the gas pressure is:",
+      "choices": [
+        "Oxygen 3 psi., Nitrogen 1 psi.",
+        "Oxygen 14.7 psi., Nitrogen 14.7 psi.",
+        "Oxygen 3 psi., Nitrogen 11.5 psi"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6663,
+      "text": "43.   According to the ISA, the pressure at sea level is:",
+      "choices": [
+        "14.7 psi"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9607,
+      "text": "44.   The standard atmospheric pressure is:",
+      "choices": [
+        "29.92 inch watch",
+        "101.32mb",
+        "76cm mercury"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.351,
+      "text": "45.   The temperature of air at sea level under the ISA standard is accepted as being:",
+      "choices": [
+        "59 degrees F (15 deg C)",
+        "15 degrees F",
+        "32 degrees F"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7065,
+      "text": "46.   According to ISA, water freezes at:",
+      "choices": [
+        "7500 feet"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7034,
+      "text": "47.   With reference to International Standard Atmosphere (ISA), the temperature at 9500ft",
+      "choices": [
+        "-3.8 deg C",
+        "-4.4 deg C",
+        "-6.5 deg C"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.653,
+      "text": "48.   Standard atmosphere lapse ratio is:",
+      "choices": [
+        "Pressure, density decrease with altitude",
+        "Temperature decrease with altitude",
+        "Density increase with altitude"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8423,
+      "text": "49.   Air is composed of a mixture of gases. The two major gases are:",
+      "choices": [
+        "Oxygen and Hydrogen",
+        "Nitrogen and Oxygen",
+        "Nitrogen and Carbon Dioxide"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7708,
+      "text": "50.   Density altitude is:",
+      "choices": [
+        "The reading on a sensitive altimeter when the barometric scale is 1013.4 millibar or"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6807,
+      "text": "29.92 in Hg or 14.7 p.s.i. 51.   An airplane is flying at pressure altitude 6.0, density altitude 6.4, and temperature",
+      "choices": [
+        "Normal",
+        "Incorrect because in ISA density is a common reference",
+        "Not accepted because ISA uses a unique one as reference"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4736,
+      "text": "52.   The rate at which air pressure decreases for a given rate of climb is much greater near",
+      "choices": [
+        "Because the temperature is higher near the earth",
+        "Because of its greater density near the earth",
+        "Because it contains more oxygen near the earth"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.165,
+      "text": "53.   Which atmosphere layer has the constant temperature?",
+      "choices": [
+        "Troposphere",
+        "Mesosphere",
+        "Stratosphere"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.565,
+      "text": "54.   International Standard Atmosphere, constant temperature above:",
+      "choices": [
+        "Above 26000 ft",
+        "Above 36000 ft",
+        "50000"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7056,
+      "text": "55.   Which of the following have the combined function of plain flap, Zap flap, Split flap?",
+      "choices": [
+        "Slotted flap",
+        "Fowler flap",
+        "Jet flap"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.4,
+      "text": "56.   Choose the type of flap which produce a nose-up moment upon deployment?",
+      "choices": [
+        "Kreuger flap",
+        "Slotted Fowler flap",
+        "T/E jet flap"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3208,
+      "text": "57.   Fowler flaps are those in which:",
+      "choices": [
+        "The whole rear portion of the flap moves downward",
+        "A slot is formed between main plane and flap as the flap moves down",
+        "The whole flap moves rearward and downward, increasing effective wing area"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4304,
+      "text": "58.   When the flap extends, the center of pressure:",
+      "choices": [
+        "Moves forward",
+        "Moves backward",
+        "Remains stationary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7168,
+      "text": "59.   Use of flaps:",
+      "choices": [
+        "Lower stall speed",
+        "Raise stall speed",
+        "Increase take-off speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0781,
+      "text": "60.   Lowering flaps:",
+      "choices": [
+        "AOA increase",
+        "Camber increase",
+        "Introduces drag aft of the compression line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5496,
+      "text": "61.   Flaps increase the effective lift of an airfoil by",
+      "choices": [
+        "Increasing the camber of the airfoil",
+        "Introducing drag aft of the center of pressure",
+        "Reducing the profile drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.658,
+      "text": "62.   Deploying TE plain flaps will cause:",
+      "choices": [
+        "Lift & stalling angle increase",
+        "Lift is increased, but stalling angle remains practically the same",
+        "Lift is increased, but stalling angle is decreased"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6616,
+      "text": "63.   If the leading edge of both wings drop, the deployment of trailing edge flap:",
+      "choices": [
+        "Improves lift at low speed and high angles of attack",
+        "Improves lift at high speed and low angles of attack",
+        "Improves lift at high speed and high angles of attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4143,
+      "text": "64.   Deploying the flap will:",
+      "choices": [
+        "Increase the lift"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.534,
+      "text": "65.   When selecting flaps up for a typical airfoil, the lift coefficient will change resulting in:",
+      "choices": [
+        "Same lift",
+        "Nose up",
+        "Nose down"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4233,
+      "text": "66.   Asymmetric flaps means difference in flap position between:",
+      "choices": [
+        "Inboard and outboard flaps",
+        "Inboard flaps",
+        "Left inboard flap and right outboard flaps"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.1528,
+      "text": "67.   Asymmetric flaps have the effect of:",
+      "choices": [
+        "Nose up tendency",
+        "Nose down tendency",
+        "One wing lower than the other"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.666,
+      "text": "68.   LE slat extended will cause:",
+      "choices": [
+        "Stall speed decrease",
+        "Replace flap function"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3193,
+      "text": "69.   A wing slat is a movable airfoil attached to the leading edges of high performance",
+      "choices": [
+        "Reduce stalling speed",
+        "Replace flaps",
+        "Increase speed on takeoff"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7144,
+      "text": "70.   What is the function of a slat?",
+      "choices": [
+        "Energize the airflow / Energize upper wing surface boundary layer"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9722,
+      "text": "71.   A deployed slot or slat will cause:",
+      "choices": [
+        "CP move aft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4924,
+      "text": "72.   Leading edge auto-slots disadvantage:",
+      "choices": [
+        "Weight increase, asymmetry problem",
+        "Ice formation, excessive drag at low AOA",
+        "All above states"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.741,
+      "text": "73.   For a given weight aircraft, the lift off distance of an airplane in take off flight:",
+      "choices": [
+        "Can be decreased by increase thrust or CL .",
+        "Is same in the winter and summer.",
+        "Is very sensitive to the weight and varied by inversely W"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.805,
+      "text": "2 74.   On a damp day, an aircraft would require a longer take off run. This is because",
+      "choices": [
+        "The viscosity of the air is decreased due to decrease in temperature",
+        "The humidity of the air has decreased due to an increase in relative density",
+        "The density of the air has decreased due to the increase in water vapour content of"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.78,
+      "text": "75.   An aircraft will have a greater true landing speed when there is:",
+      "choices": [
+        "High temperature and high humidity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7266,
+      "text": "76.   Assuming that temperature and pressure remain the same, any increase in water vapour (humidity):",
+      "choices": [
+        "Will not affect the density of the air",
+        "The density of the air will decrease",
+        "The density of the air will increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0046,
+      "text": "77.   The principle purpose of flaps as used in a landing manoeuver is to:",
+      "choices": [
+        "Permit a decrease in the aircraft landing speed yet maintain sufficient lift",
+        "Spoil the lift at landing speed thus shortening the landing run",
+        "Decrease lift and drag simultaneously"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8318,
+      "text": "78.   The term differential controls applies to those which:",
+      "choices": [
+        "Are used always on the rudder",
+        "For a given amount of column movement the controls move further in one",
+        "Cause control surfaces to move in opposite direction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.851,
+      "text": "79.   The term, differential ailerons, means that:",
+      "choices": [
+        "The down-going aileron does not travel as far as the up-going aileron",
+        "Both ailerons have equal travel",
+        "The up-going aileron does not travel as far as the down-going aileron."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.664,
+      "text": "80.   Differential aileron is",
+      "choices": [
+        "To reduce yawing movement in an opposite direction during a turn",
+        "To increase the yawing movement and rolling effect required during a turn",
+        "To keep the yawing movement constant in an opposite direction during a turn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9944,
+      "text": "81.   Differential control on an aileron system means that:",
+      "choices": [
+        "The down travel is more than the up travel",
+        "The up travel is more than the down travel",
+        "The travel up or down equally, but bell cranks are heavy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5286,
+      "text": "82.   If the control stick of an aircraft with properly rigged, when flight controls is moved",
+      "choices": [
+        "Down and the elevator will move down",
+        "Up and the elevator will move down",
+        "Down and the elevator will move up"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.17,
+      "text": "83.   Control wheel pull backward and wheel turn left will cause:",
+      "choices": [
+        "Elevator up and lower aileron up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3674,
+      "text": "84.   When control wheel turned left and pulled backward:",
+      "choices": [
+        "Starboard wing goes up and elevator goes up",
+        "Port wing goes up and elevator goes up",
+        "Port wing goes down and elevator goes down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9202,
+      "text": "85.   When the control column wheel is rotated anti-clockwise the",
+      "choices": [
+        "Right aileron goes up",
+        "Right wing goes down",
+        "Left aileron goes up"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6975,
+      "text": "86.   When the control column is pulled backward and control wheel turned left:",
+      "choices": [
+        "Left aileron goes up, right aileron goes down, elevator goes up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0432,
+      "text": "87.   The yaw damper controls yaw stability by obtaining information about:",
+      "choices": [
+        "Yaw rate",
+        "Yaw angle",
+        "Airspeed and stabilizer position"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6292,
+      "text": "88.   At high incidence angles, the effective stability surface in yaw is:",
+      "choices": [
+        "Vertical fin",
+        "Dorsal fin",
+        "Yaw damper"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6204,
+      "text": "89.   When a fin is a symmetric airfoil:",
+      "choices": [
+        "No aerodynamic force will be produced in level flight",
+        "Larger AOA or lower speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2947,
+      "text": "90.   The tail fin is of symmetrical airfoil shape so that:",
+      "choices": [
+        "It does not produce any aerodynamic force due to its symmetrical shape in straight",
+        "It produces aerodynamic forces only when rudder is used",
+        "It will stall at high angle of attack and low forward speeds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9497,
+      "text": "91.   Which will cause twist of the fuselage?",
+      "choices": [
+        "Vertical fin",
+        "High wing",
+        "Canard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.383,
+      "text": "92.   The stabilizer trim during the phase of cruising just before the decent and approach is",
+      "choices": [
+        "Zero & positive setting",
+        "Extremely negative setting",
+        "Mid negative setting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4797,
+      "text": "93.   Trimming the stabilizer nose up causes:",
+      "choices": [
+        "Download & nose up moments on the tailplane",
+        "Uploaded & nose up moments on the tailplane",
+        "Uploaded & nose down moments on the tailplane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6934,
+      "text": "94.   If the down load on the tail stabilizer is reduced:",
+      "choices": [
+        "1. This will create a nose up pitching moment",
+        "2. This will create a nose down pitching moment",
+        "3. Will have no effect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.662,
+      "text": "95.   If elevator trim tab goes up",
+      "choices": [
+        "Nose of aircraft goes down",
+        "Tail of aircraft goes down",
+        "Elevator goes up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.316,
+      "text": "96.   When an elevator trim tab control is turned forward:",
+      "choices": [
+        "1. The trim tab should move down",
+        "2. The trim tab should move up",
+        "3. Both the elevator and trim tab would move down during flight"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.676,
+      "text": "97.   Movement of the cockpit control toward the nose down position during a ground",
+      "choices": [
+        "Downward regardless of elevator position",
+        "Upward regardless of elevator position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9272,
+      "text": "98.   With a tail-up reaction what direction must the trim tab be set to region normal flying",
+      "choices": [
+        "Up",
+        "Down",
+        "Neutral position"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9084,
+      "text": "99.   The functions of a trim tab on aileron is to correct for:",
+      "choices": [
+        "Longitudinal balance",
+        "Wing heaviness",
+        "Lateral stability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.272,
+      "text": "100.   With stabilizer trim in full aft direction, this will result in:",
+      "choices": [
+        "Aircraft nose up",
+        "Aircraft nose down",
+        "Aircraft right wing down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2693,
+      "text": "101.   With elevator down, the lift AOA curve of stabilizer will:",
+      "choices": [
+        "Slope increased, because lift will increase",
+        "Slope remain, but curve shift downward",
+        "Slope remain, but curve shift upward"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.2544,
+      "text": "102.   Aerodynamic center for the subsonic & supersonic foils are at:",
+      "choices": [
+        "25% & 60% chord length",
+        "25% & 50% chord length",
+        "50% & 60% chord length"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8323,
+      "text": "103.   Compared to the subsonic wing, the supersonic wing tends to be:",
+      "choices": [
+        "Fore-loaded & thicker",
+        "Aft-loaded & thinner",
+        "Fore-loaded & thinner"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7957,
+      "text": "104.   A shock wave is a very thin region in which there is a sudden decrease of:",
+      "choices": [
+        "Pressure",
+        "Velocity",
+        "Temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.201,
+      "text": "105.   Mach No. is:",
+      "choices": [
+        "The ratio of T.A.S. to the speed of sound at atmospheric conditions",
+        "The ratio of I.S.A. to the speed of sound at sea level.",
+        "The ratio of E.A.S. to the speed of sound."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5496,
+      "text": "106.   Mach number is the",
+      "choices": [
+        "Ratio of the speed of sound to the speed of individual molecules in any confined gas",
+        "Aircraft's true airspeed divided by the local speed of sound",
+        "Aircraft's true airspeed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.771,
+      "text": "107.   The critical Mach No. of an airfoil is:",
+      "choices": [
+        "The lowest free stream Mach No. which give rise to a local Mach No. of 1.0",
+        "The Mach No. where a very large rise in drag occur",
+        "The Mach No. where the free stream Mach No. reaches Mach No. of 1.0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0415,
+      "text": "108.   Critical Mach Number:",
+      "choices": [
+        "Is the speed at which hypersonic flight begins",
+        "Is the speed at which subsonic flight ends and supersonic flight begins",
+        "Is the flight velocity at which the local velocity over some part of the aircraft",
+        "Is the speed at which the drag coefficient suddenly decreases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9421,
+      "text": "109.   As critical Mach number is exceeded, control of the inboard ailerons:",
+      "choices": [
+        "Becomes ineffective & erratic",
+        "Requires higher stick forces",
+        "All of the above"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.608,
+      "text": "110.   Sweepback on aircraft wings, tail or fin:",
+      "choices": [
+        "Raises the critical Mach No.",
+        "Lowers the critical Mach No.",
+        "Has no effect on the critical Mach No"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4238,
+      "text": "111.   Sweepback is used on aircraft wings for high-speed flight to:",
+      "choices": [
+        "Enable wings having a basically substance section to be used in trans/supersonic",
+        "Reduce interference flow over tailplane",
+        "Assist lateral stability so that a high fin is unnecessary"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7444,
+      "text": "112.   A reason for using swept back or delta shaped wing on high speed aircraft is",
+      "choices": [
+        "A swept back wing permits low landing speeds",
+        "Low drag at high speed",
+        "Added control at low speeds",
+        "High lift characteristics"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.958,
+      "text": "113.   The use of swept back wings compared with other forms for given wing loading",
+      "choices": [
+        "Necessitate higher landing speeds",
+        "Facilitates lower landing speeds",
+        "Makes no aerodynamic difference",
+        "Permits landing at lower angles of attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5044,
+      "text": "114.   Airspeeds above the speed of sound, but not exceeding 4 times the speed of sound are:",
+      "choices": [
+        "Hypersonic",
+        "Supersonic",
+        "Hyposonic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0073,
+      "text": "115.   When an airfoil is placed in an airflow traveling at sonic speed, its convexity",
+      "choices": [
+        "Spread out approximately normal to the surface aft of the thickest section",
+        "Build up forward of the nose",
+        "Diverge from leading and trailing edges."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.127,
+      "text": "116.   When the thickness of the subsonic airfoil increases:",
+      "choices": [
+        "The stagnation point tends to move rearward",
+        "Stalling AOA will increase",
+        "L/D ratio increase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5403,
+      "text": "117.   Airfoil thickness increase cause stall AOA to:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Stay the same"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4832,
+      "text": "118.   A device to intentionally break up the smooth flow of air over the leading edge of a",
+      "choices": [
+        "A slot",
+        "A spoiler",
+        "Flap"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.562,
+      "text": "119.   If ice accumulated at leading edge, the effect is similar to:",
+      "choices": [
+        "Wind fence",
+        "Fixed spoiler"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3706,
+      "text": "120.   The asymmetrical spoiler mode is to:",
+      "choices": [
+        "Assist ailerons",
+        "Provide trim corrections to aircraft",
+        "Provide dive brakes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8835,
+      "text": "121.   After speed brakes have extended, ailerons are then operated:",
+      "choices": [
+        "Speed brakes should retract, and spoiler should operate in conjunction with ailerons",
+        "Speed brakes will operate in unison with ailerons",
+        "Speed brakes will override aileron control command(?)"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.7463,
+      "text": "122.   When spoilers extend and there is substantial movement of the ailerons, the spoilers",
+      "choices": [
+        "Act as speed brake alone.",
+        "Assist the ailerons in providing lateral control",
+        "Increase the total lift"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3687,
+      "text": "123.   When ice formed on A/C wing:",
+      "choices": [
+        "It’s no-go item",
+        "The ice forming is easier on the low altitude than the high altitude",
+        "Ice formed only on ground"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2703,
+      "text": "124.   On envelope V-N diagram, the top and the right boundaries means:",
+      "choices": [
+        "High instant angle limit, buffeting limit",
+        "Service loading limit, buffeting limit",
+        "Buffeting limit, service loading limit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.058,
+      "text": "125.   Buffeting is the intermittent application of forces to a part of an airplane. It is caused by",
+      "choices": [
+        "Incorrect rigging of flaps",
+        "An unsteady flow from turbulence",
+        "Incorrect rigging of ailerons"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6865,
+      "text": "126.   Excessive stability:",
+      "choices": [
+        "Makes the airplane more difficult to control",
+        "Is common design for modern aircraft",
+        "Is required statically but not dynamically"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9253,
+      "text": "127.   Stability means:",
+      "choices": [
+        "The aircraft will return to the position after the disturbance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7578,
+      "text": "128.   Magnus effect is demonstrated by:",
+      "choices": [
+        "Lift which is experienced by the table tennis ball on its tip top",
+        "Lift increase due to the camber",
+        "Upwash stream on the leading edge wing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.818,
+      "text": "129.   Magnus effect is similar to:",
+      "choices": [
+        "The motion of air around a table tennis moving in flight.",
+        "The airflow before LE of aircraft airfoil.",
+        "?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0962,
+      "text": "130.   About Reynolds number, which is correct:",
+      "choices": [
+        "Varies directly with the coordination from the LE of airfoil and viscosity",
+        "Not changed in laminar flow",
+        "Do not change from laminar flow to turbulent flow"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4531,
+      "text": "131.   The longitudinal margin of the airplane is:",
+      "choices": [
+        "CG & tail volume ratio",
+        "Distance between CP & CG",
+        "From –1 to a certain positive value"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9426,
+      "text": "132.   For airflow continuity function (area)x(velocity)=constant and Bernoulli",
+      "choices": [
+        "Airflow is compressible",
+        "It’s applicable for both subsonic and supersonic airflow",
+        "Should be frictionless for airflow tube"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.8853,
+      "text": "133.   A Dutch roll is normally a combination of:",
+      "choices": [
+        "Yaw and pitch",
+        "Yaw and roll",
+        "Pitch and roll"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5398,
+      "text": "134.   A Dutch Roll is:",
+      "choices": [
+        "A longitudinal and directional oscillation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.798,
+      "text": "135.   What kind of instability is caused by a vertical and longitudinal axis disturbance?",
+      "choices": [
+        "Mach trim",
+        "Dutch roll"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1323,
+      "text": "136.   The correction medium for Dutch roll is",
+      "choices": [
+        "Rudder",
+        "Ailerons",
+        "Both rudders and ailerons"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.285,
+      "text": "137.   Dutch Roll tendency can be suppressed by:",
+      "choices": [
+        "Roll Augmentation System",
+        "Yaw Damper System",
+        "Autopilot System"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2058,
+      "text": "138.   The Dutch roll mode can be caused by:",
+      "choices": [
+        "Too much dihedral angle and low wing design",
+        "High wing design and forward sweepback"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2612,
+      "text": "139.   Roll damping is due to:",
+      "choices": [
+        "Dihedral angle",
+        "Sweepback angle",
+        "The wing itself"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.5662,
+      "text": "140.   Sweepback is used to help:",
+      "choices": [
+        "Lateral stability",
+        "Yawing stability",
+        "Vertical stability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.952,
+      "text": "141.   Dihedral is:",
+      "choices": [
+        "An outward and upward angle of the wing to horizontal",
+        "An inward and upward angle",
+        "An outward and downward angle"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.631,
+      "text": "142.   If a dihedral wing is disturbed by a roll then sideslip, the lower wing will approach air:",
+      "choices": [
+        "At a lower AOA than the high wing",
+        "At a higher AOA than the high wing",
+        "At the same AOA as the high wing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1921,
+      "text": "143.   The correct dihedral angle can be determined by:",
+      "choices": [
+        "Using a steel tape to measure the distance of the wingtips and wing roots from the",
+        "Placing a straight edge and bubble protractor across the spars while the airplane is",
+        "Using a dihedral board and bubble level along the front spar of each wing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2454,
+      "text": "144.   The dihedral angle of a wing may be measured by placing a straight edge and",
+      "choices": [
+        "Front spar",
+        "Rear spar",
+        "Wing chord"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.369,
+      "text": "145.   Lateral dihedral is incorporated in an aircraft to provide:",
+      "choices": [
+        "Lateral stability about the longitudinal axis",
+        "Longitudinal stability about the lateral axis",
+        "Lateral stability about the normal axis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4712,
+      "text": "146.   Lateral dihedral, a rigging consideration on most airplanes of conventional",
+      "choices": [
+        "Longitudinal axis",
+        "Vertical axis",
+        "Lateral axis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5679,
+      "text": "147.   Adjustment of wing dihedral affects the aircraft about the:",
+      "choices": [
+        "Vertical axis",
+        "Lateral axis",
+        "Longitudinal axis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.7063,
+      "text": "148.   Lateral stability is stability",
+      "choices": [
+        "About the longitudinal axis",
+        "About the lateral axis",
+        "About the vertical"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.922,
+      "text": "149.   The most common factor to achieve lateral stability on modern aircraft is:",
+      "choices": [
+        "Wing dihedral"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.1873,
+      "text": "150.   The reason for lateral dihedral on aircraft is",
+      "choices": [
+        "To decrease the stalling speed",
+        "To give stability about the lateral axis",
+        "To give stability about the longitudinal axis"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4805,
+      "text": "151.   Longitudinal dihedral:",
+      "choices": [
+        "Increases the longitudinal stability of an aircraft",
+        "Decreases the longitudinal stability of an aircraft",
+        "Has no effect on the longitudinal stability of an aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.031,
+      "text": "152.   The angle between the chords of the mainplane and tailplane is known as the:",
+      "choices": [
+        "Angle of attack",
+        "Longitudinal dihedral",
+        "Rigger's angle of incidence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0432,
+      "text": "153.   An aircraft that has good longitudinal control is one that will have a minimum",
+      "choices": [
+        "Pitch",
+        "Yaw",
+        "Roll"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8894,
+      "text": "154.   The lateral axis of an aircraft is the straight line:",
+      "choices": [
+        "Passing through each wing tip",
+        "Passing through the center of gravity and parallel to a line joining each wing tip",
+        "Passing through the centre of pressure at right angles to the airflow"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.377,
+      "text": "155.   The normal axis is:",
+      "choices": [
+        "The axis at 90 degrees to the lateral axis",
+        "The axis at 90 degrees to lateral and longitudinal axis",
+        "The axis at 90 degrees to the longitudinal axis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9805,
+      "text": "156.   The normal axis of an aircraft is the straight line:",
+      "choices": [
+        "Perpendicular to the longitudinal and lateral axis and passes through the CG of the",
+        "Passing through the centre of pressure at right angles to the airflow",
+        "Passing through each wing tip"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2913,
+      "text": "157.   An aircraft yaws about the:",
+      "choices": [
+        "Lateral axis",
+        "Normal axis",
+        "Longitudinal axis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3,
+      "text": "158.   Movement of an airplane along the lateral axis is also movement:",
+      "choices": [
+        "Around or about the vertical axis controlled by the rudder",
+        "Around or about the longitudinal axis controlled by the elevators",
+        "Around or about the longitudinal axis controlled by the ailerons"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.7554,
+      "text": "159.   Stability about the axis which runs parallel to the line of flight is referred to as:",
+      "choices": [
+        "Longitudinal stability",
+        "Lateral stability",
+        "Directional stability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2156,
+      "text": "160.   After starting a pitching motion on an aircraft, the pitching increases. This is",
+      "choices": [
+        "Poor lateral stability",
+        "Good longitudinal stability",
+        "Poor longitudinal stability."
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.8748,
+      "text": "161.   An airplane that has a tendency to gradually increase a pitching moment that has",
+      "choices": [
+        "Poor longitudinal stability",
+        "Poor lateral stability",
+        "Poor directional stability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5657,
+      "text": "162.   The condition of \"pitch up\" is:",
+      "choices": [
+        "Due to rapid stall of the tail plane because of incorrect loading of the aircraft",
+        "A form of longitudinal instability about the pitching axis",
+        "Due to rough handling of the controls"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.583,
+      "text": "163.   Adjusting elevator trim tabs will affect the aircraft about which axis:",
+      "choices": [
+        "Longitudinal",
+        "Lateral",
+        "Vertical"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.291,
+      "text": "164.   Tabs on control surfaces should be checked to insure that they",
+      "choices": [
+        "Have no free play or unintentional serviceability",
+        "Are loose on the hinge to insure against binding",
+        "Always move in the same way as the control",
+        "Can be moved freely by hand"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.5588,
+      "text": "165.   Factors affecting the aileron hinge moment coefficient are:",
+      "choices": [
+        "Static pressure, aileron surface are",
+        "Total pressure, aileron chord length",
+        "Q-pressure, aileron deflection"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.9646,
+      "text": "166.   Oscillation - porpoising is about:",
+      "choices": [
+        "Lateral axis",
+        "Normal axis",
+        "Longitudinal axis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6892,
+      "text": "167.   Directional stability is provided by:",
+      "choices": [
+        "Elevator",
+        "Rudder",
+        "Fin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.094,
+      "text": "168.   The tail plane is used to control",
+      "choices": [
+        "Yawing",
+        "Pitching",
+        "Rolling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8828,
+      "text": "169.   The tail fin on a conventional aircraft is:",
+      "choices": [
+        "To assist in maintaining directional stability",
+        "To direct airflow over the rudder",
+        "To provide an attachment for the rudder only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.376,
+      "text": "170.   The purpose of the vertical fin is to provide:",
+      "choices": [
+        "Vertical stability",
+        "Directional stability",
+        "Lateral stability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5771,
+      "text": "171.   Movement of aircraft about its longitudinal axis is:",
+      "choices": [
+        "Roll",
+        "Pitch",
+        "Yaw"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6362,
+      "text": "172.   Movement about the normal axis is",
+      "choices": [
+        "Yawing",
+        "Pitching",
+        "Rolling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6738,
+      "text": "173.   Oscillation of an airplane about is vertical axis is known as",
+      "choices": [
+        "Pitching",
+        "Yawing",
+        "Rolling",
+        "Banking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.411,
+      "text": "174.   An airplane is controlled directionally about its vertical axis by",
+      "choices": [
+        "The rudder",
+        "The elevators",
+        "The ailerons"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.898,
+      "text": "175.   The elevators of a conventional airplane are used to provide rotation about the:",
+      "choices": [
+        "Longitudinal axis",
+        "Lateral axis",
+        "Vertical axis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.4385,
+      "text": "176.   Control surface fluttering may be eliminated by:",
+      "choices": [
+        "Aerodynamic balance",
+        "Mass balance fitting hydraulic damper",
+        "Fitting yaw damper."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.4375,
+      "text": "177.   Fluttering of a control surface can be due to:",
+      "choices": [
+        "Worn bearing on hinge of control surface",
+        "Excessive wear in trim tab",
+        "Stiff control surface"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5327,
+      "text": "178.   As the result of an accident, it is necessary to replace the fuselage fittings for the wing",
+      "choices": [
+        "Angle of attack will be re-established at this time",
+        "Angle of incidence is one of the factors to be re-established at this time",
+        "Aspect ratio of the wing will be controlled by the fuselage fittings."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5242,
+      "text": "179.   An aircraft turnbuckle of the barrel type is normally considered to be in safety when",
+      "choices": [
+        "The threads of the end fittings are not visible",
+        "Maximum of two threads are visible",
+        "The end fittings are served in until they touch in the centre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3645,
+      "text": "180.   When inspecting a control cable turnbuckle for proper installation, determine that",
+      "choices": [
+        "No more than four threads are exposed on either side of the turnbuckle barrel",
+        "Te terminal end threads are visible through the safety hole in the barrel",
+        "The safety wire ends are wrapped a minimum of four turns around the terminal"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5137,
+      "text": "181.   A satisfactory method of inspecting control cables for broken wires is to:",
+      "choices": [
+        "Place a piece of cloth around the cable and run it back and forth over the length of",
+        "Closely check the cable at all pulleys and fairleads with a 10-power magnifying glass",
+        "Remove the cable and check its entire length"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.444,
+      "text": "182.   The cable-operated control system of an all-metal aircraft, not incorporating a",
+      "choices": [
+        "Decrease when the aircraft structure and cables become cold",
+        "Increase when the aircraft structure and cables become cold",
+        "Be unaffected if tin-plated high carbon steel cable is installed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5986,
+      "text": "183.   How are changes in direction of a control cable accomplished?",
+      "choices": [
+        "Pulleys",
+        "Bell cranks",
+        "Fairleads"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5396,
+      "text": "184.   What is the smallest size cable that may be used in aircraft primary control systems?",
+      "choices": [
+        "1/4 inch",
+        "1/8 inch",
+        "5/16 inch"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3591,
+      "text": "185.   Correct tensioning of control cable is important:",
+      "choices": [
+        "Because correct friction is required to maintain movement of control",
+        "So that there is no droop",
+        "So that there is no extension and contraction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.623,
+      "text": "186.   The control cable terminals on most late model aircraft are swaged and a painted",
+      "choices": [
+        "Ascertain if the cable is safetied properly",
+        "Disclose twisting of the cable in the fitting",
+        "Detect slippage of the cable in the fitting"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.1777,
+      "text": "187.   If all instructions issued by the swaging tool manufacturer are followed when swaging",
+      "choices": [
+        "The full rated strength of the cable",
+        "80 percent of the full rated strength of the cable",
+        "50 percent of the full rated strength of the cable"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0417,
+      "text": "188.   What nondestructive checking method is normally used to ensure that the correct",
+      "choices": [
+        "Magnaflux the completed assembly",
+        "Measure the finished length of the terminal barrel and compare with the beginning",
+        "Use an after gauge to check the diameter of the swaged portion of the terminal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.2588,
+      "text": "189.   Which is an acceptable safety device for a castle nut when installed on",
+      "choices": [
+        "1. Fiber insert",
+        "2. Lockwasher",
+        "3. Cotter pin"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6106,
+      "text": "190.   When used in close proximity to magnetic compasses, cotter pins are made of",
+      "choices": [
+        "Corrosion resisting steel",
+        "Anodized aluminum alloy",
+        "Magnesium and titanium alloy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3467,
+      "text": "191.   When a fiber stop nut can be threaded on a bolt or stud through the fiber with only the",
+      "choices": [
+        "Torqued twice",
+        "Rejected",
+        "Reused once"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6245,
+      "text": "192.   After repairing or re-covering a rudder:",
+      "choices": [
+        "The surface should be rebalanced to its spanwise axis",
+        "The surface should be rebalanced in its normal flight position",
+        "The surface should be rebalanced to manufacturer's specifications"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.435,
+      "text": "193.   In a large aircraft, slack elevator cables would cause:",
+      "choices": [
+        "Tail heaviness",
+        "Nose heaviness",
+        "No effect"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.876,
+      "text": "194.   If an aircraft flew one wing heavy, how would you rectify the fault?",
+      "choices": [
+        "Trim high wing down",
+        "Trim low wing down",
+        "Trim low wing up"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.455,
+      "text": "195.   If a pilot reports that an airplane flies left wing heavy, this condition is corrected by:",
+      "choices": [
+        "Washing-in the right wing, or washing-out the left wing, or both",
+        "Washing-in the left wing, or washing-out the right wing, or both",
+        "Washing-in the right wing only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8298,
+      "text": "196.   Mass balance is used to reduce:",
+      "choices": [
+        "Vibration of horizontal tail planes",
+        "Flutter of the control surfaces",
+        "Control force required to move control column"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1597,
+      "text": "197.   Mass balance is to:",
+      "choices": [
+        "Assist the pilot in moving the control surface",
+        "To prevent control surface flutter",
+        "To balance the moving the control surface"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1814,
+      "text": "198.   Mass balances are fitted to control surfaces in order to:",
+      "choices": [
+        "Reduce the load on the control column",
+        "Reduce flutter at high speed",
+        "Use as an auxiliary surface to aid control movement"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.193,
+      "text": "199.   Mass balance is achieved by",
+      "choices": [
+        "Having weight forward of the hinge line",
+        "Having weight on hinge line",
+        "Having weight behind hinge line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2544,
+      "text": "200.   Static balance of control surface is obtained by means of",
+      "choices": [
+        "Tab devices",
+        "Hydraulic booster",
+        "Installing counterweights in the leading edge of control surface"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.0403,
+      "text": "201.   Why should a control surface with counterweights be statically balanced?",
+      "choices": [
+        "To hold the surface streamlined when on the ground",
+        "To make installation and rigging easier",
+        "To reduce the possibility of control surface flutter"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.8623,
+      "text": "202.   Why are counterweights incorporated in the leading edge of primary control surfaces?",
+      "choices": [
+        "To enhance rapid movement of the surfaces",
+        "To prevent rapid movement of surfaces during aerodynamic maneuvers",
+        "To prevent the surfaces from fluttering during flight"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.0288,
+      "text": "203.   Adding weight behind the control surface hinge line may produce",
+      "choices": [
+        "Flutter and vibration of the control surface",
+        "A dragging action on the control hinges",
+        "Excessive droop in the control surface"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.529,
+      "text": "204.   Aerodynamic balance is used to reduce:",
+      "choices": [
+        "Flutter of rudder",
+        "The pilot's control force",
+        "Vibration"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8145,
+      "text": "205.   Aerodynamic balancing of a control surface is",
+      "choices": [
+        "Obtained by adding weights to the leading edge",
+        "Obtained by the use of trim tabs",
+        "Carried out to reduce the loads that the pilot must apply to move the control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2207,
+      "text": "206.   Which of the following is aerodynamic balance:",
+      "choices": [
+        "Mass horn balance",
+        "A strip of cord on the control surface",
+        "Depleted Uranium"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0898,
+      "text": "207.   Which object has the least drag?",
+      "choices": [
+        "Flat plate",
+        "Airflow?"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7827,
+      "text": "208.   Induced drag is related to:",
+      "choices": [
+        "Lift",
+        "Wing shape",
+        "Wing surface roughness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8743,
+      "text": "209.   The induced drag of an aircraft is: -4",
+      "choices": [
+        "Proportional to v"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0515,
+      "text": "210.   Induced drag will reduce with",
+      "choices": [
+        "Increase of velocity and aspect ratio",
+        "Decrease of velocity and aspect ratio",
+        "Increase of velocity and decrease aspect ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.832,
+      "text": "211.   What happens to the total drag on an aircraft as its speed is increased above the",
+      "choices": [
+        "It first decrease and then increase",
+        "It increases and the decreases",
+        "It increases as the square of an airplane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8577,
+      "text": "212.   When the lift of an airfoil increases, the drag will:",
+      "choices": [
+        "Decrease.",
+        "Also increase",
+        "Increase while the lift is changing but will return to its original value."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2236,
+      "text": "213.   The drag which caused by the conjunction between wing and fuselage is:",
+      "choices": [
+        "Interference drag",
+        "Form drag",
+        "Induced drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2148,
+      "text": "214.   Profile drag of an aircraft is equal to:",
+      "choices": [
+        "Form drag plus skin friction drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.566,
+      "text": "215.   Profile drag on a smooth surface will result in:",
+      "choices": [
+        "A thin boundary layer",
+        "Increase of skin friction drag",
+        "Decrease of form drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6643,
+      "text": "216.   When gliding, forces acting an aircraft are:",
+      "choices": [
+        "Thrust, drag, weight, lift",
+        "Thrust, drag, lift",
+        "Lift, weight, drag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.9204,
+      "text": "217.   Lift is greater than weight, when:",
+      "choices": [
+        "Glide and climb.",
+        "Turn in level flight."
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7097,
+      "text": "218.   The method to make glide angle steepened without adverse effect is:",
+      "choices": [
+        "Increase AOA",
+        "Decrease AOA",
+        "Use air brake"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4934,
+      "text": "219.   Best glide at an airspeed is:",
+      "choices": [
+        "Best L/D ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9019,
+      "text": "220.   Glide ratio will be flatter if:",
+      "choices": [
+        "L/D ratio increases",
+        "Aircraft gliding speed increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7122,
+      "text": "221.   The forces acting on an aircraft in steady, level flight are:",
+      "choices": [
+        "Lift, drag, thrust, weight",
+        "Lift, drag, power, weight",
+        "Dynamic pressure, lift, drag"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7979,
+      "text": "222.   What is the wing load factor when the aircraft is in straight, level flight?",
+      "choices": [
+        "1g"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8403,
+      "text": "223.   Max limit load factor is 3.8 positive G means:",
+      "choices": [
+        "Wing loading is 3.8 times of the aircraft loading… during maneuvering flight",
+        "3.8 times the empty weight",
+        "3.8 times of the aircraft loading… cargo and fuel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0417,
+      "text": "224.   The lift force of an airfoil is said to act:",
+      "choices": [
+        "Vertically upwards regardless of aircraft attitude",
+        "Perpendicular to the relevant airflow",
+        "At right angles to the airfoil chord line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2556,
+      "text": "225.   To maintain a state of equilibrium during normal level flight of an aircraft, when",
+      "choices": [
+        "Thrust and drag must act in the same line",
+        "The line of drag must be below the line of thrust",
+        "The line of thrust must be below the line drag"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.245,
+      "text": "226.   During straight and level flight, if you reduce thrust to zero, this will result in aircraft:",
+      "choices": [
+        "Nose up",
+        "Nose down",
+        "Nose down and drag is reduced"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6467,
+      "text": "227.   If the altitude of an aircraft is held constant and thrust is increased the aircraft will",
+      "choices": [
+        "Increase its forward speed",
+        "Climb",
+        "Descend"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8562,
+      "text": "228.   In order to maintain the same speed during a level turn, the thrust should be",
+      "choices": [
+        "Increase",
+        "Same",
+        "Decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5916,
+      "text": "229.   The bank angle during a turn is dependent on the aircraft velocity and",
+      "choices": [
+        "Weight",
+        "Radius of turn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8398,
+      "text": "230.   As the bank angle increases in a level turn, what happens to the velocity?",
+      "choices": [
+        "Increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.131,
+      "text": "231.   In a steady horizontal turn",
+      "choices": [
+        "The entire loft force provides for centripetal acceleration",
+        "Lift force is equal to the weight of the aircraft",
+        "The tighter radius, the greater bank angle"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.294,
+      "text": "232.   The radius of turn depends on:",
+      "choices": [
+        "Velocity of aircraft",
+        "Mass of aircraft",
+        "Weight of aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8218,
+      "text": "233.   A skid when banking is due to:",
+      "choices": [
+        "Vertical fin disturbance",
+        "Keel surface disturbance",
+        "Wing surface disturbance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8848,
+      "text": "234.   When an aircraft is in a high-G turn, how is the stalling speed affected?",
+      "choices": [
+        "Stalling speed increases",
+        "Stalling speed decreases",
+        "Stalling speed remains unchanged"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4373,
+      "text": "235.   When the aircraft is banking, the pilot feels a heavy weight due to the:",
+      "choices": [
+        "Increase in vertical component of lift",
+        "Increase in horizontal component of lift",
+        "Load factor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.939,
+      "text": "236.   While banking, if you lose altitude, how should you compensate?",
+      "choices": [
+        "Increase AOA by pulling the control column",
+        "Decrease AOA by pushing the control column"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.1746,
+      "text": "237.   If you experience banking during sideslip, how can you bring the aircraft back to level?",
+      "choices": [
+        "Neutral stability",
+        "Wing dihedral",
+        "Washout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.278,
+      "text": "238.   Holding off bank means that:",
+      "choices": [
+        "The outboard aileron up and inboard aileron down when aircraft turning"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3154,
+      "text": "239.   When banking an aircraft, it should be done:",
+      "choices": [
+        "With same power",
+        "With increase in power",
+        "With decrease in power"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0776,
+      "text": "240.   When the aircraft speeds up in a turn of level flight:",
+      "choices": [
+        "The bank angle will increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.689,
+      "text": "241.   During a level turn, if the bank angle is 60 degrees, the wing should carries a load",
+      "choices": [
+        "Equal to the weight",
+        "Twice to the weight",
+        "Six times the weight"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.5496,
+      "text": "242.   In a coordinate turn, the total lift developed is equal to:",
+      "choices": [
+        "Weight",
+        "Sum of weight and centrifugal force",
+        "Centrifugal force"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8713,
+      "text": "243.   In some modern aircraft, when pilot moves the aileron for a turn at low speed:",
+      "choices": [
+        "Ailerons and spoilers only will move",
+        "Ailerons only will move",
+        "Ailerons, spoilers and rudder will move"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.4873,
+      "text": "244.   The service ceiling is reached at",
+      "choices": [
+        "The altitude at which the rate of climb is 100ft/min",
+        "95% of the absolute ceiling",
+        "The load-factor limit of the flight envelope"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.195,
+      "text": "245.   Downwash is inevitable to the production of lift, and this will be:",
+      "choices": [
+        "More than upwash",
+        "Same as upwash",
+        "Less than upwash"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6404,
+      "text": "246.   The word “downwash” is used to mean:",
+      "choices": [
+        "The downward deflection of air at the wing trailing edge",
+        "The curve of wing lower surface away from the chord line",
+        "The angle at which the air strikes the outer wing during a climbing turn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.348,
+      "text": "247.   Downwash on the tailplane will affect:",
+      "choices": [
+        "Stabilizer trim setting",
+        "Longitudinal stability",
+        "Pitch damping"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.92,
+      "text": "248.   Downwash on the tailplane of small aircraft:",
+      "choices": [
+        "Increases the longitudinal stability of the aircraft",
+        "Decreases the longitudinal stability of the aircraft",
+        "Has no effect on the longitudinal stability of the aircraft"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.134,
+      "text": "249.   Downwash of the main wing will cause:",
+      "choices": [
+        "Tail wing AOA increase",
+        "Tail wing AOA decrease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2375,
+      "text": "250.   Which statement is correct referring to an aircraft performing sideslip:",
+      "choices": [
+        "The AOA of upper wing increase",
+        "The AOA of lower wing increase",
+        "The AOA of lower wing decrease"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8271,
+      "text": "251.   If the AOA of a typical airfoil increase:",
+      "choices": [
+        "The CP moves forward (towards leading edge)",
+        "The CP remains unchanged",
+        "The CP moves rearward (towards trailing edge)"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0212,
+      "text": "252.   As the angle of attack of an airfoil increases, the center of pressure will",
+      "choices": [
+        "Move toward the trailing edge",
+        "Move toward the leading edge",
+        "Remain stationary because both lift and drag components increase proportionally to"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.239,
+      "text": "253.   Root to tip-chord ratio is known as the:",
+      "choices": [
+        "Taper ratio",
+        "Thickness/chord ratio",
+        "Aspect ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.569,
+      "text": "254.   The camber line of an airfoil is:",
+      "choices": [
+        "The medium line joining the leading edge and the trailing edge",
+        "The straight line joining the leading edge and the trailing edge",
+        "Line half way between the chord line and the horizontal datum line."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5603,
+      "text": "255.   For a cambered subsonic airfoil, center of pressure:",
+      "choices": [
+        "Moves to the rear of wing as AOA decreased",
+        "Moves afterward as AOA increased",
+        "Is at the same point of aerodynamic center"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9558,
+      "text": "256.   For airfoil with its camber increased:",
+      "choices": [
+        "CP move aft of airfoil",
+        "AOA decrease"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4106,
+      "text": "257.   The center of pressure (CP) is:",
+      "choices": [
+        "The point on the chord line through which the total resultant lift forces on the",
+        "The point of maximum pressure on the under surface of a mainplane",
+        "The point at which the four forces acting on as aircraft are said to act"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4683,
+      "text": "258.   The center of pressure of an airfoil is that point:",
+      "choices": [
+        "On the chord line of an airfoil at which the resultant of the aerodynamic forces act",
+        "On the upper surface of an airfoil at which the resultant of the negative pressure acts",
+        "On the chord line of an airfoil at which the higher differential pressure acts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.368,
+      "text": "259.   The center of gravity (CG) of an airfoil is always:",
+      "choices": [
+        "A point in the geometric centre of the airfoil",
+        "A point where the whole weight of the airfoil is said to be concentrated",
+        "A point on the chord of an airfoil at which the resultant of the aerodynamics forces"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3242,
+      "text": "260.   What is the relationship between the center of pressure and the center of gravity?",
+      "choices": [
+        "The CP is usually behind CG",
+        "The CP is usually in front of the CG",
+        "No particular relation to each other"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8284,
+      "text": "261.   The weight of a plane is considered as being concentrated at the CG; the resultant of",
+      "choices": [
+        "Point of pressure",
+        "Centre of pressure",
+        "Lift line",
+        "Iso-clinic line"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0754,
+      "text": "262.   If the center of lift is behind the CG, it will cause:",
+      "choices": [
+        "A nose heavy tendency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8406,
+      "text": "263.   An airplane's center of lift is usually located aft of its center of gravity:",
+      "choices": [
+        "So that the airplane will have a tail-heavy tendency",
+        "So that the airplane will have a nose-heavy tendency",
+        "To improve stability about the longitudinal axis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9585,
+      "text": "264.   A swept back wing has a tendency for:",
+      "choices": [
+        "The flow of air at wingtip to draw airflow from the wing tip to the root",
+        "The wing to stall when loaded and spill air over the wingtip",
+        "The drag caused by air currents to cause oscillation about a yawing axis",
+        "The boundary layer to drift towards the wing tip and react with the air flow at wing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.834,
+      "text": "265.   Increase in the angle of incidence towards the wing tip is known as:",
+      "choices": [
+        "Wash out",
+        "Wash in",
+        "Decalage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8938,
+      "text": "266.   Wash-in is",
+      "choices": [
+        "An increasing angle of incidence toward the wing tip",
+        "The effect of propeller wash on the fin",
+        "A decreasing angle of incidence towards the wing tip"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.695,
+      "text": "267.   \"Wash-in\" or \"Wash-out\" of a wing can be accomplished by increasing or decreasing the",
+      "choices": [
+        "Angle of incidence",
+        "Angle of dihedral",
+        "Angle of attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.9888,
+      "text": "268.   Nose up/down tendency can be canceled by:",
+      "choices": [
+        "Adjustment of the tailplane angle of incidence",
+        "Movement of the ailerons in conjunction with the spoilers",
+        "Mass balance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.99,
+      "text": "269.   When carrying out a symmetry check:",
+      "choices": [
+        "Aircraft must be in rigging position",
+        "Aircraft need not be in the rigging position",
+        "Aircraft must be leveled by jacking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.1816,
+      "text": "270.   Rigging and alignment checks should not be undertaken in the open; however, if",
+      "choices": [
+        "Obliquely into the wind.",
+        "Facing in any direction since it makes no difference if the wind is steady",
+        "With the nose into the wind"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.5288,
+      "text": "271.   Where would you find precise information to perform a symmetry alignment check for",
+      "choices": [
+        "Airworthiness Notice",
+        "Maintenance Schedule",
+        "Aircraft service or maintenance manual"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.126,
+      "text": "272.   Washing-in the left wing of a monoplane, for purposes of rigging correction after",
+      "choices": [
+        "Both drag and lift will increase due to AOA increase",
+        "Both drag and lift will increase due to AOA decrease",
+        "Lift decrease due to drag decrease."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3564,
+      "text": "273.   If the right wing of a monoplane is improperly rigged to a greater angle of",
+      "choices": [
+        "Airplane to be off balance both laterally and directionally",
+        "Airplane to pitch and roll about the lateral axis",
+        "Airplane to be out of lateral balance only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2917,
+      "text": "274.   If the travel of an airplane's controls is correct but the cables are rigged",
+      "choices": [
+        "The airplane will tend to fall off on one wing",
+        "The airplane will be heavy on the controls",
+        "The pilot will be unable to fly the airplane hands-off"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6814,
+      "text": "275.   Improper rigging of the elevator trim tab system will affect the balance of the",
+      "choices": [
+        "Lateral axis",
+        "Longitudinal axis",
+        "Vertical axis"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4429,
+      "text": "276.   An airplane should be rigged to fly hands-off at:",
+      "choices": [
+        "Cruising speed",
+        "Never-exceed speed",
+        "Landing speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.7434,
+      "text": "277.   Rigging angle of incidence is:",
+      "choices": [
+        "Angle between the chord line and horizontal when aircraft is in rigging position",
+        "Angle between chord and lateral axis",
+        "Angle between top surface of main plane and horizontal when aircraft in rigging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.903,
+      "text": "278.   The riggers angle of incidence is",
+      "choices": [
+        "The angle of the airfoil chord line to the airflow",
+        "The angle of formed between the chord lines of the mainplane and tailplane",
+        "The angle of the airfoil chord line to the fuselage datum line"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.471,
+      "text": "279.   The angle of incidence is that acute angle formed by:",
+      "choices": [
+        "The angular difference between the wing settings of the two wings of a biplane.",
+        "A line parallel to the wing chord and a line parallel to the longitudinal axis of the",
+        "A line parallel to the wing from root to tip and a line parallel to the lateral axis of the"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.555,
+      "text": "280.   The angle of incidence of an airplane:",
+      "choices": [
+        "Is changed by the pilot while ascending",
+        "Affects the dihedral of the wings",
+        "Does not change in flight"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.8523,
+      "text": "281.   The angle measured with the longitudinal axis that the wings set on the fuselage",
+      "choices": [
+        "Attach",
+        "Rigging",
+        "Dihedral",
+        "Incidence"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1791108921827.104,
+      "text": "282.   Angle of incidence may be measured by:",
+      "choices": [
+        "Having a straight edge from the front to rear spar and using a contractor protractor",
+        "Laying a spirit level across the wing hinge fittings",
+        "Laying a straight edge along the front spar and using a level protractor",
+        "Compassing the angular setting of the wing with that on the horizontal stability"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.727,
+      "text": "283.   Wash out of the wing means:",
+      "choices": [
+        "Decrease incidence angle from tip to root to prevent stall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4802,
+      "text": "284.   With an aircraft on the ground and QNH set on the millibar scale of the altimeter,",
+      "choices": [
+        "Zero",
+        "The airfield height",
+        "Off scale"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.502,
+      "text": "285.   If the altimeter millibar scale was set to 1013.25 and the barometric pressure at",
+      "choices": [
+        "Zero feet",
+        "Below zero feet (negative altitude)",
+        "Positive altitude"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7217,
+      "text": "286.   The millibar scale is used to measure:",
+      "choices": [
+        "Temperature",
+        "Pressure",
+        "Speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1216,
+      "text": "287.   QFE setting, aircraft on ground, altimeter will read:",
+      "choices": [
+        "Zero"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5603,
+      "text": "288.   In level flight, a vertical speed indicator will indicate:",
+      "choices": [
+        "Horizontal",
+        "Vertical up",
+        "Vertical down"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5386,
+      "text": "289.   A Vertical Speed Indicator is connected to:",
+      "choices": [
+        "Pitot pressure",
+        "Static pressure",
+        "Vacuum"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0964,
+      "text": "290.   The applied pressure to an Air Speed Indicator varies with the:",
+      "choices": [
+        "Square root of the speed",
+        "Square of the speed",
+        "Cube of the speed"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.7434,
+      "text": "291.   An air speed indicator is:",
+      "choices": [
+        "A differential pressure gauge"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2605,
+      "text": "292.   Speed of sound varies:",
+      "choices": [
+        "With density of air",
+        "With temperature when speed increase, altitude decrease",
+        "As the square of absolute temperature"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.6013,
+      "text": "293.   The speed of sound in air depends primarily upon:",
+      "choices": [
+        "Density of air",
+        "Pressure of air",
+        "The height above sea-level",
+        "The square root of the absolute temperature"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1791108921827.3533,
+      "text": "294.   The speed of sound in air at standard temperature and pressure is usually given as:",
+      "choices": [
+        "1200 feet/sec.",
+        "1018 feet/sec.",
+        "950 feet/sec.",
+        "1100 feet/sec."
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 1791108921827.9456,
+      "text": "295.   The IAS at which aircraft reaches speed of sound:",
+      "choices": [
+        "Depends upon ambient conditions",
+        "Will be the same as when aircraft is at sea level",
+        "Will not be effected by ambient conditions"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.775,
+      "text": "296.   The velocity of sound with an increase in altitude will:",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Remain constant"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.9956,
+      "text": "297.   The Machmeter is sensed in terms of a:",
+      "choices": [
+        "Pressure ratio",
+        "Temperature ratio",
+        "Length ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2148,
+      "text": "298.   Mach trim is used to control the:",
+      "choices": [
+        "Longitudinal stability of an aircraft",
+        "Lateral stability of an aircraft",
+        "Directional stability of an aircraft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.1125,
+      "text": "299.   The purpose of the Mach trim system is to compensate for transonic effects:",
+      "choices": [
+        "Nose down moments",
+        "Nose up moments",
+        "Change in stick forces."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.536,
+      "text": "300.   Mach trim system is used when the aircraft speed is:",
+      "choices": [
+        "Transonic",
+        "Sonic",
+        "Supersonic"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5227,
+      "text": "301.   \"Tuck Under\" will cause the nose of the aircraft:",
+      "choices": [
+        "Go up",
+        "Go down",
+        "No change"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.8792,
+      "text": "302.   Measurement of the movement of a tab from angular to linear is by",
+      "choices": [
+        "Radian method (53.7)",
+        "Square root",
+        "Symmetry"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.083,
+      "text": "303.   If the datum is selected at the midpoint of longitudinal axis, lowering of elevator will:",
+      "choices": [
+        "Decrease horizontal moment",
+        "Increase horizontal moment",
+        "Have no effect"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5435,
+      "text": "304.   Where is the buttock line or butt line of an aircraft?",
+      "choices": [
+        "A width measurement left of, and perpendicular to, the vertical centerline",
+        "A width measurement left or right of, and parallel to, the vertical centerline",
+        "A height measurement right of, and parallel to, the horizontal centerline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.262,
+      "text": "305.   Where is fuselage station No. 137 located?",
+      "choices": [
+        "137 inches aft of the zero or fixed reference line",
+        "137 centimeters aft of the nose or fixed reference line",
+        "137 inches forward of the empennage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2542,
+      "text": "306.   Proper wing twist in a sheet metal constructed wing can usually be checked by",
+      "choices": [
+        "Bubble level and special fixtures described by the manufacturer",
+        "Straightedge, tape measure and carpenter's square",
+        "Carpenter's square and prop protractor"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.432,
+      "text": "307.   Centre line of an aircraft can be obtained",
+      "choices": [
+        "By dropping plump lines from the sides of the fuselage",
+        "By taking the midpoint of the main undercarriage and the tailwheel",
+        "By joining the points from the nose to the rudder"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.3145,
+      "text": "308.   Chord line is defined as a line:",
+      "choices": [
+        "Which goes through the airfoil and touches the curvature",
+        "Is drawn in the center and measurements taken from it in both directions",
+        "From the center of the leading edge to the trailing edge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.388,
+      "text": "309.   The chord line of an airfoil is",
+      "choices": [
+        "Angle running from leading to trailing edge underneath the airfoil",
+        "A line tangential to the camber at the trailing edge",
+        "The straight line joining the leading edge to the trailing edge"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.1287,
+      "text": "310.   The chord of a wing is measured from:",
+      "choices": [
+        "Wing attachment point to the wingtip",
+        "Leading edge to trailing edge",
+        "Maximum upper camber to the base line"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.242,
+      "text": "311.   Mean Aerodynamic Chord is a line on:",
+      "choices": [
+        "About one-third span of wing",
+        "The mean line of wing and tailplane",
+        "Aircraft's centre plane"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.152,
+      "text": "312.   The physical factors concerning wing aspect ratio are:",
+      "choices": [
+        "Span and chord",
+        "Sweepback and lateral axis",
+        "Thickness and chord",
+        "Dihedral and angle of attack"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3857,
+      "text": "313.   Aspect Ratio is given by:",
+      "choices": [
+        "The square of the wing span divided by the wing chord",
+        "The square of the wing span divided by the wing area",
+        "The wing span divided by the wing area"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.0708,
+      "text": "314.   An aircraft with an aspect ratio of 8:1 is proportional to:",
+      "choices": [
+        "Wing span is 8 times wing chord",
+        "Mean chord is 8 times wing chord",
+        "Wing chord is 8 times wing span"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2825,
+      "text": "315.   An increase in aspect ratio will:",
+      "choices": [
+        "Increase stalling speed",
+        "Reduce induced drag",
+        "Increase the drag coefficient because of the greater trailing area"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.3955,
+      "text": "316.   The ratio of length to thickness of a streamlined shape is called:",
+      "choices": [
+        "Fineness ratio",
+        "Symmetry ratio",
+        "Drag ratio"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.4434,
+      "text": "317.   High speed vortex generators are used to:",
+      "choices": [
+        "Prevent flow separation",
+        "Raise the Mach of critical",
+        "Generate DC voltage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.266,
+      "text": "318.   Vortex generator will result in:",
+      "choices": [
+        "Transition point move aft",
+        "Transition point move forward"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6455,
+      "text": "319.   What is the direction of the left wing vortex, viewed from the rear of the aircraft?",
+      "choices": [
+        "Clockwise",
+        "Anti-clockwise"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.5208,
+      "text": "320.   Wing fence is used to:",
+      "choices": [
+        "Increase stalling angle at wing tip",
+        "Improve stalling at aircraft centre-line",
+        "Increase critical Mach number."
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.223,
+      "text": "321.   Transition point is the point:",
+      "choices": [
+        "Where the aircraft becomes airborne",
+        "Where the boundary layer speeds up",
+        "Where the boundary layer becomes turbulent and breaks from the surface"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.8762,
+      "text": "322.   Wing fences are used for:",
+      "choices": [
+        "To delay the break-up of boundary layer",
+        "To prevent wing tip stalling",
+        "To prevent instability"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.2458,
+      "text": "323.   Suction is used to:",
+      "choices": [
+        "Prevent wing tip stalling",
+        "Prevent boundary layer separation",
+        "Prevent stall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.1907,
+      "text": "324.   The layers of air between an aircraft surface (zero velocity) and the air moving at",
+      "choices": [
+        "Transition layer",
+        "Boundary layer",
+        "Separation layer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 1791108921827.215,
+      "text": "325.   The primary purpose of boundary layer control is",
+      "choices": [
+        "Energise the boundary layer and prevent separation from the surface",
+        "Decrease the maximum lift coefficient at high angles of attack, thus preventing stall",
+        "Slow the boundary layer down so that it follows the contours readily and therefore"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.6533,
+      "text": "326.   As the boundary layer goes from laminar to turbulent:",
+      "choices": [
+        "Increases in thickness",
+        "Decreases in thickness",
+        "Remains the same in thickness"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.0466,
+      "text": "327.   Wing loading is given by:",
+      "choices": [
+        "The all-up-weight of the aircraft divided by the wing area",
+        "The all-up-weight of the aircraft divided by the span",
+        "The all-up-weight of the aircraft multiplied by the wing area"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.2708,
+      "text": "328.   Wing loading of an aircraft is:",
+      "choices": [
+        "Independent with altitude",
+        "Decreases with density",
+        "Varies with dynamic loading due to air currents"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.896,
+      "text": "329.   What is the wing load factor when the aircraft is experiencing double weight?",
+      "choices": [
+        "2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.079,
+      "text": "330.   Load factor for a normal transportation category aircraft,",
+      "choices": [
+        "Positive 3.8 and negative 3.8x0.4",
+        "Positive 4.0 and negative 4.0x0.4",
+        "Positive 6.0 and negative 6.0x0.4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.8787,
+      "text": "331.   The maximum load factor of an aircraft before causing structural damage is called the:",
+      "choices": [
+        "Ultimate limit"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3206,
+      "text": "332.   At the throat of a Venturi tube through which a subsonic flow is passing, the velocity",
+      "choices": [
+        "Increase",
+        "Decrease",
+        "Remain constant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 1791108921827.3828,
+      "text": "333.   The velocity field around an airplane flying category airplane are set,",
+      "choices": [
+        "Is a point function of local temperature",
+        "Depends on Reynolds number but not Mach number",
+        "Can be illustrated by drawing streamlines"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 1791108921827.6494,
+      "text": "334.   The aircraft preparing for landing on the airport will float for some distance when",
+      "choices": [
+        "Airflow displaced by the air",
+        "The wing have residual life.",
+        "Down wash and induced drag decreased."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
